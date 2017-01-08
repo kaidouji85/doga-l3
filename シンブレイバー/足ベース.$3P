@@ -1,0 +1,51 @@
+/*							Parts Assembler
+                                  Version 2.04.100723(:
+Parts: 
+	P1\P116.suf
+	RB\RB07.suf
+	RB\RB16.suf
+	armor\armor08.suf
+	roarm\roarm04.suf
+	roarm\roarm12.suf
+Light: (   32   32  -89 ) ( 1.00 1.00 1.00)
+Info:
+	DisplayOffset: (   1.768  10.198  12.021 )
+	DisplayScale: 0.088388347648
+	MeshFlag: 1
+	MeshSpacing: 200
+	ShowStatus: 0
+	ShowAttr: 1
+	GridFlag: 1
+	GridSpacing: 20
+	RotSpacing: 3
+	SelectedOnly: 0
+	DispRelative: 0
+Palette:
+	0: atr "#01" { col ( rgb ( 0.000 0.700 0.150 ) ) amb ( 1.000 ) dif ( 0.000 ) opt ( emittion 0.050 2.600 ) }
+	1: atr "#02" { col ( rgb ( 0.400 0.400 0.450 ) ) amb ( 0.200 ) dif ( 0.800 ) ref ( 0.300 ) spc ( 0.900 1.000 0.650 ) }
+	2: atr noname { col ( rgb ( 0.850 0.850 0.800 ) ) amb ( 0.200 ) dif ( 0.800 ) ref ( 0.300 ) spc ( 0.900 1.000 0.650 ) }
+*/
+fram
+{
+	light pal( rgb ( 1.00 1.00 1.00 ) -49 -50  70 )
+	{	mov ( 4060.37 1.54945 -375.562 ) eye deg( 45 ) }
+	{	mov ( 160 -7.5786 0 ) target }
+	{	mov ( -76 180 -185 ) rotz ( 0 ) roty ( 30 ) rotx ( 0 )
+		scal ( 0.7 1 0.9 ) obj roarm12 /* "roarm\roarm12.suf" atr "noname" */
+	}
+	{	mov ( -76 180 -225 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
+		scal ( 0.4 0.4 0.4 ) obj P116 /* "P1\P116.suf" atr "noname" */
+	}
+	{	mov ( -56 182 -388 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
+		scal ( 1 1.1 0.8 ) obj roarm04 /* "roarm\roarm04.suf" atr "noname" */
+	}
+	{	mov ( 44 182 -288 ) rotz ( 0 ) roty ( -15 ) rotx ( 0 )
+		scal ( 0.7 0.5 0.5 ) obj armor08 /* "armor\armor08.suf" atr "noname" */
+	}
+	{	mov ( 124 186 -445 ) rotz ( 90 ) roty ( 0 ) rotx ( -108 )
+		scal ( 0.26069 0.4 0.5 ) obj rb07 /* "RB\RB07.suf" atr "#01" */
+	}
+	{	mov ( -80 200 -680 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
+		scal ( 0.8 1 0.8 ) obj rb16 /* "RB\RB16.suf" atr "noname" */
+	}
+}

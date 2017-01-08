@@ -1,0 +1,56 @@
+/*							Parts Assembler
+                                  Version 2.04.100723(:
+Parts: 
+	T1\T105.suf
+	robody\robody09.suf
+	robody\robody12.suf
+	robody\robody15.suf
+	roetc\roetc02.suf
+Light: (   32   32  -89 ) ( 1.00 1.00 1.00)
+Info:
+	DisplayOffset: (   3.536  20.396  24.042 )
+	DisplayScale: 0.176776695297
+	MeshFlag: 1
+	MeshSpacing: 200
+	ShowStatus: 0
+	ShowAttr: 1
+	GridFlag: 1
+	GridSpacing: 20
+	RotSpacing: 3
+	SelectedOnly: 0
+	DispRelative: 0
+Palette:
+	0: atr "#01" { col ( rgb ( 0.000 0.700 0.150 ) ) amb ( 1.000 ) dif ( 0.000 ) opt ( emittion 0.050 2.600 ) }
+	1: atr "#02" { col ( rgb ( 0.400 0.400 0.450 ) ) amb ( 0.200 ) dif ( 0.800 ) ref ( 0.300 ) spc ( 0.900 1.000 0.650 ) }
+	2: atr noname { col ( rgb ( 0.850 0.850 0.800 ) ) amb ( 0.200 ) dif ( 0.800 ) ref ( 0.300 ) spc ( 0.900 1.000 0.650 ) }
+*/
+fram
+{
+	light pal( rgb ( 1.00 1.00 1.00 )  34 -61 -70 )
+	{	mov ( 640.821 2095.32 423.632 ) eye deg( 45 ) }
+	{	mov ( 40 0 0 ) target }
+	{	mov ( -28.8 0 86.5 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
+		scal ( 0.63 0.72 0.72 ) obj robody15 /* "robody\robody15.suf" atr "noname" */
+	}
+	{	mov ( 35.0205 144 50.5 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
+		scal ( 0.9 0.81 0.9 ) obj roetc02 /* "roetc\roetc02.suf" atr "noname" */
+	}
+	{	mov ( 79.2 0 194.5 ) rotz ( 0 ) roty ( 18 ) rotx ( 0 )
+		scal ( 0.54 0.63 0.9 ) obj T105 /* "T1\T105.suf" atr "#01" */
+	}
+	{	mov ( 11.9293 0 209.05 ) rotz ( -0.534128 ) roty ( 14.0631 ) rotx ( -177.175 )
+		scal ( 0.755851 0.9 0.9 ) obj T105 /* "T1\T105.suf" atr "noname" */
+	}
+	{	mov ( 35.0205 -144 50.5 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
+		scal ( 0.9 -0.81 0.9 ) obj roetc02 /* "roetc\roetc02.suf" atr "noname" */
+	}
+	{	mov ( -32.4 180 235 ) rotz ( -81 ) roty ( -69 ) rotx ( -9 )
+		scal ( 0.27 0.45 0.45 ) obj robody12 /* "robody\robody12.suf" atr "#02" */
+	}
+	{	mov ( -32.4 -180 235 ) rotz ( 81 ) roty ( -69 ) rotx ( 9 )
+		scal ( 0.27 -0.45 0.45 ) obj robody12 /* "robody\robody12.suf" atr "#02" */
+	}
+	{	mov ( -20 0 340 ) rotz ( 0 ) roty ( 0 ) rotx ( -180 )
+		scal ( 0.6 0.45 0.8 ) obj robody09 /* "robody\robody09.suf" atr "#02" */
+	}
+}

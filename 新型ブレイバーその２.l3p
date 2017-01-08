@@ -1,0 +1,71 @@
+/*							Parts Assembler
+                                  Version 2.04.100723(:
+Parts: 
+	P1\P106.suf
+	P1\P114.suf
+	S1\S101.suf
+	T1\T101.suf
+	T1\T107.suf
+	armor\armor04.suf
+	nozzle\nozzle02.suf
+	nozzle\nozzle04.suf
+	rohead\rohead08.suf
+Light: (   32   32  -89 ) ( 1.00 1.00 1.00)
+Info:
+	DisplayOffset: (   0.000   0.530  -8.309 )
+	DisplayScale: 0.176776695297
+	MeshFlag: 1
+	MeshSpacing: 200
+	ShowStatus: 0
+	ShowAttr: 1
+	GridFlag: 0
+	GridSpacing: 20
+	RotSpacing: 3
+	SelectedOnly: 0
+	DispRelative: 0
+Palette:
+	0: atr "#01" { col ( rgb ( 0.000 0.700 0.150 ) ) amb ( 1.000 ) dif ( 0.000 ) opt ( emittion 0.050 4.000 ) }
+	1: atr noname { col ( 1.000 ) amb ( 0.200 ) dif ( 0.800 ) ref ( 0.300 ) spc ( 0.900 1.000 0.650 ) }
+*/
+fram
+{
+	light pal( rgb ( 1.00 1.00 1.00 )  -6 -70  70 )
+	{	mov ( 1314.44 1099.58 176.233 ) eye deg( 45 ) }
+	{	mov ( 15.4662 35.1922 202.564 ) target }
+	{	mov ( 0 0 0 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
+		scal ( 1 1 1 ) obj rohead08 /* "rohead\rohead08.suf" atr "noname" */
+	}
+	{	mov ( 25.4558 0 63.9932 ) rotz ( 0 ) roty ( 45.8418 ) rotx ( 0 )
+		scal ( 0.470001 0.685791 0.835282 ) obj T107 /* "T1\T107.suf" atr "noname" */
+	}
+	{	mov ( -2.82843 0 267.792 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
+		scal ( 0.771429 0.719843 0.685714 ) obj P114 /* "P1\P114.suf" atr "noname" */
+	}
+	{	mov ( 129.704 0 347.165 ) rotz ( 0 ) roty ( 41.6315 ) rotx ( 0 )
+		scal ( 0.471238 0.453333 0.41108 ) obj nozzle02 /* "nozzle\nozzle02.suf" atr "noname" */
+	}
+	{	mov ( 16.8087 177.019 104.812 ) rotz ( 65.5229 ) roty ( 12.8814 ) rotx ( 126.519 )
+		scal ( 0.48444 0.846144 0.810686 ) obj nozzle04 /* "nozzle\nozzle04.suf" atr "noname" */
+	}
+	{	mov ( -36 0 198.5 ) rotz ( 90 ) roty ( 0 ) rotx ( -83.2947 )
+		scal ( 0.6 0.5 0.6 ) obj armor04 /* "armor\armor04.suf" atr "noname" */
+	}
+	{	mov ( 250.787 0 148.115 ) rotz ( 0 ) roty ( -51.7472 ) rotx ( 0 )
+		scal ( 0.702027 0.547588 1 ) obj P106 /* "P1\P106.suf" atr "#01" */
+	}
+	{	mov ( 70 80 172 ) rotz ( -11.6661 ) roty ( 14.8281 ) rotx ( -92.8971 )
+		scal ( 0.121603 0.2 1 ) obj T101 /* "T1\T101.suf" atr "#01" */
+	}
+	{	mov ( 70 -80 172 ) rotz ( 11.6661 ) roty ( 14.8281 ) rotx ( 92.8971 )
+		scal ( 0.121603 -0.2 1 ) obj T101 /* "T1\T101.suf" atr "#01" */
+	}
+	{	mov ( 16.8087 -177.019 104.812 ) rotz ( -65.5229 ) roty ( 12.8814 ) rotx ( -126.519 )
+		scal ( 0.48444 -0.846144 0.810686 ) obj nozzle04 /* "nozzle\nozzle04.suf" atr "noname" */
+	}
+	{	mov ( -189.594 196.569 257.902 ) rotz ( 154.094 ) roty ( -37.1526 ) rotx ( 103.056 )
+		scal ( 0.324999 0.271417 0.8 ) obj S101 /* "S1\S101.suf" atr "noname" */
+	}
+	{	mov ( -189.594 -196.569 257.902 ) rotz ( -154.094 ) roty ( -37.1526 ) rotx ( -103.056 )
+		scal ( 0.324999 -0.271417 0.8 ) obj S101 /* "S1\S101.suf" atr "noname" */
+	}
+}

@@ -1,0 +1,64 @@
+/*							Parts Assembler
+                                  Version 2.04.100723(:
+Parts: 
+	RB\RB01.suf
+	S2\S205.suf
+	armor\armor04.suf
+	robody\robody02.suf
+	robody\robody08.suf
+	robody\robody12.suf
+	roetc\roetc01.suf
+	roetc\roetc02.suf
+Light: (   32   32  -89 ) ( 1.00 1.00 1.00)
+Info:
+	DisplayOffset: ( -124.627  51.807  80.610 )
+	DisplayScale: 0.176776695297
+	MeshFlag: 1
+	MeshSpacing: 200
+	ShowStatus: 0
+	ShowAttr: 1
+	GridFlag: 1
+	GridSpacing: 20
+	RotSpacing: 3
+	SelectedOnly: 0
+	DispRelative: 0
+Palette:
+	0: atr "#01" { col ( rgb ( 0.400 0.400 0.450 ) ) amb ( 0.200 ) dif ( 0.800 ) spc ( 0.700 1.000 0.000 ) }
+	1: atr noname { col ( rgb ( 0.680 0.510 0.200 ) ) amb ( 0.200 ) dif ( 0.800 ) ref ( 0.300 ) spc ( 0.900 1.000 0.650 ) }
+*/
+fram
+{
+	light pal( rgb ( 1.00 1.00 1.00 ) -43 -55 -70 )
+	{	mov ( 3053.76 378.042 45.0484 ) eye deg( 45 ) }
+	{	mov ( -20 0 -241.723 ) target }
+	{	mov ( 0 0 -201.504 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
+		scal ( 1.1 1.1 1.2 ) obj rb01 /* "RB\RB01.suf" atr "noname" */
+	}
+	{	mov ( 80 0 -100 ) rotz ( 0 ) roty ( 18 ) rotx ( 180 )
+		scal ( 1.1 1.8 0.8 ) obj roetc02 /* "roetc\roetc02.suf" atr "noname" */
+	}
+	{	mov ( 160 100 -280 ) rotz ( -21 ) roty ( 24 ) rotx ( -102 )
+		scal ( 0.5 -1.1 0.8 ) obj roetc01 /* "roetc\roetc01.suf" atr "noname" */
+	}
+	{	mov ( 160 -100 -280 ) rotz ( 21 ) roty ( 24 ) rotx ( 102 )
+		scal ( 0.5 1.1 0.8 ) obj roetc01 /* "roetc\roetc01.suf" atr "noname" */
+	}
+	{	mov ( -20 0 -120 ) rotz ( 90 ) roty ( 0 ) rotx ( -75 )
+		scal ( 0.8 0.6 0.6 ) obj armor04 /* "armor\armor04.suf" atr "noname" */
+	}
+	{	mov ( -40 0 -460 ) rotz ( 0 ) roty ( 12 ) rotx ( 0 )
+		scal ( 1.3 1 1 ) obj robody02 /* "robody\robody02.suf" atr "noname" */
+	}
+	{	mov ( -20 260 -480 ) rotz ( -90 ) roty ( -90 ) rotx ( 0 )
+		scal ( 0.3 0.5 0.4 ) obj robody12 /* "robody\robody12.suf" atr "#01" */
+	}
+	{	mov ( -20 -260 -480 ) rotz ( 90 ) roty ( -90 ) rotx ( 0 )
+		scal ( 0.3 -0.5 0.4 ) obj robody12 /* "robody\robody12.suf" atr "#01" */
+	}
+	{	mov ( 0 0 -700 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
+		scal ( 1 0.9 1 ) obj robody08 /* "robody\robody08.suf" atr "#01" */
+	}
+	{	mov ( 160 0 -660 ) rotz ( 0 ) roty ( 27 ) rotx ( 0 )
+		scal ( 0.4 0.4 0.4 ) obj S205 /* "S2\S205.suf" atr "noname" */
+	}
+}

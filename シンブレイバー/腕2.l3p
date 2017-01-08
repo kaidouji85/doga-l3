@@ -1,0 +1,39 @@
+/*							Parts Assembler
+                                  Version 2.04.100723(:
+Parts: 
+	P2\P211.suf
+	nozzle\nozzle04.suf
+	roarm\roarm02.suf
+Light: (   32   32  -89 ) ( 1.00 1.00 1.00)
+Info:
+	DisplayOffset: (   5.001  28.844  34.001 )
+	DisplayScale: 0.249999999999
+	MeshFlag: 1
+	MeshSpacing: 200
+	ShowStatus: 0
+	ShowAttr: 1
+	GridFlag: 1
+	GridSpacing: 20
+	RotSpacing: 3
+	SelectedOnly: 0
+	DispRelative: 0
+Palette:
+	0: atr "#01" { col ( rgb ( 0.000 0.700 0.150 ) ) amb ( 1.000 ) dif ( 0.000 ) opt ( emittion 0.050 2.600 ) }
+	1: atr "#02" { col ( rgb ( 0.400 0.400 0.450 ) ) amb ( 0.200 ) dif ( 0.800 ) ref ( 0.300 ) spc ( 0.900 1.000 0.650 ) }
+	2: atr noname { col ( rgb ( 0.850 0.850 0.800 ) ) amb ( 0.200 ) dif ( 0.800 ) ref ( 0.300 ) spc ( 0.900 1.000 0.650 ) }
+*/
+fram
+{
+	light pal( rgb ( 1.00 1.00 1.00 ) -54 -44  70 )
+	{	mov ( 3291.08 -329.263 -164.956 ) eye deg( 45 ) }
+	{	mov ( 160 -7.5786 0 ) target }
+	{	mov ( 20 6.54459 -221.11 ) rotz ( -180 ) roty ( 0 ) rotx ( 180 )
+		scal ( 0.533454 0.691875 0.352928 ) obj roarm02 /* "roarm\roarm02.suf" atr "noname" */
+	}
+	{	mov ( 1.4672 125.251 -79.0734 ) rotz ( 90 ) roty ( 0 ) rotx ( 0 )
+		scal ( 0.648648 0.602316 0.92664 ) obj nozzle04 /* "nozzle\nozzle04.suf" atr "#01" */
+	}
+	{	mov ( 1.4672 -4.47872 -171.737 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
+		scal ( 0.833976 0.741312 0.92664 ) obj P211 /* "P2\P211.suf" atr "noname" */
+	}
+}
