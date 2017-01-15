@@ -22,10 +22,10 @@ Palette:
 */
 fram
 {
-	light pal( rgb ( 1.00 1.00 1.00 )  65 -25 -70 )
-	{	mov ( -877.312 2362.89 108.448 ) eye deg( 45 ) }
+	light pal( rgb ( 1.00 1.00 1.00 )  46 -53  70 )
+	{	mov ( 330.063 2509.05 -586.975 ) eye deg( 45 ) }
 	{	mov ( 160 -7.5786 0 ) target }
-	{	mov ( 0 20 -140 ) rotz ( 90 ) roty ( 0 ) rotx ( 180 )
+	{	mov ( 0 -20 -140 ) rotz ( 90 ) roty ( 0 ) rotx ( 180 )
 		scal ( 0.3 0.4 0.3 ) obj roarm16 /* "roarm\roarm16.suf" atr "noname" */
 	}
 }
