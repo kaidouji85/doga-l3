@@ -7,7 +7,7 @@ Parts:
 	RB\RB13.suf
 	S2\S205.suf
 	armor\armor04.suf
-	armor\armor13.suf
+	armor\armor12.suf
 	roarm\roarm01.suf
 	roarm\roarm07.suf
 	robody\robody02.suf
@@ -21,13 +21,13 @@ Parts:
 	rohand\rohand06.suf
 Light: (   32   32  -89 ) ( 1.00 1.00 1.00)
 Info:
-	DisplayOffset: (  22.981   0.000 115.612 )
-	DisplayScale: 0.088388347649
+	DisplayOffset: (  45.962   0.000  74.000 )
+	DisplayScale: 0.176776695298
 	MeshFlag: 1
 	MeshSpacing: 200
 	ShowStatus: 0
 	ShowAttr: 1
-	GridFlag: 0
+	GridFlag: 1
 	GridSpacing: 20
 	RotSpacing: 3
 	SelectedOnly: 0
@@ -38,8 +38,8 @@ Palette:
 */
 fram
 {
-	light pal( rgb ( 1.00 1.00 1.00 )  -7 -70 -70 )
-	{	mov ( 2335.58 1908.3 502.364 ) eye deg( 45 ) }
+	light pal( rgb ( 1.00 1.00 1.00 ) -18 -68 -70 )
+	{	mov ( 2481.87 1445.13 256.84 ) eye deg( 45 ) }
 	{	mov ( -20 0 -241.723 ) target }
 	{	mov ( -50 0 535.496 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
 		scal ( 1.1 1.1 1.2 ) obj rb01 /* "RB\RB01.suf" atr "noname" */
@@ -101,14 +101,8 @@ fram
 	{	mov ( -50 -420 -203 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
 		scal ( 0.8 -0.7 0.7 ) obj rohand06 /* "rohand\rohand06.suf" atr "#01" */
 	}
-	{	mov ( -70.8 0 -93.7137 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
-		scal ( 1.1 0.66 0.77 ) obj roetc16 /* "roetc\roetc16.suf" atr "noname" */
-	}
-	{	mov ( -401.742 158.4 -247.408 ) rotz ( -90 ) roty ( 0 ) rotx ( -18 )
-		scal ( 0.594 0.297 0.693 ) obj armor13 /* "armor\armor13.suf" atr "noname" */
-	}
-	{	mov ( -401.742 -158.4 -247.408 ) rotz ( 90 ) roty ( 0 ) rotx ( 18 )
-		scal ( 0.594 -0.297 0.693 ) obj armor13 /* "armor\armor13.suf" atr "noname" */
+	{	mov ( -20 0 -100 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
+		scal ( 0.8 0.66 0.77 ) obj roetc16 /* "roetc\roetc16.suf" atr "noname" */
 	}
 	{	mov ( -48.8 176 -93.7137 ) rotz ( 0 ) roty ( 0 ) rotx ( -1.49315 )
 		scal ( 1.1 0.910314 0.448766 ) obj roarm01 /* "roarm\roarm01.suf" atr "#01" */
@@ -139,5 +133,8 @@ fram
 	}
 	{	mov ( 94.2 -176 -596.414 ) rotz ( 0 ) roty ( 6 ) rotx ( -177 )
 		scal ( 1.1 -1.1 1.1 ) obj roetc04 /* "roetc\roetc04.suf" atr "noname" */
+	}
+	{	mov ( -260 -20 -240 ) rotz ( -180 ) roty ( -18 ) rotx ( 0 )
+		scal ( 1.7 1.2 1.1 ) obj armor12 /* "armor\armor12.suf" atr "noname" */
 	}
 }
