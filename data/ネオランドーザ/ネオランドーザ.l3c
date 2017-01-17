@@ -3,7 +3,6 @@
 Parts: 
 	P1\P106.suf
 	P2\P205.suf
-	P3\P305.suf
 	RB\RB01.suf
 	RB\RB07.suf
 	RB\RB13.suf
@@ -43,9 +42,9 @@ Info:
 :)*/
 fram
 {
-	light pal( rgb ( 1.00 1.00 1.00 )   0 -70 -70 )
-	{	mov ( 2110.4 2143.09 -46.3321 ) eye deg( 45 ) }
-	{	mov ( -105.897 -20.5587 -83.6752 ) target }
+	light pal( rgb ( 1.00 1.00 1.00 )  -2 -70  70 )
+	{	mov ( 2033.16 1958.48 -81.3805 ) eye deg( 45 ) }
+	{	mov ( -107.371 -18.9385 -80.1818 ) target }
   { mov ( 0 0 0 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
     /* Unit */
     { obj "çò" (: "çò.l3p" :) }
