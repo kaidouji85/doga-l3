@@ -2,7 +2,6 @@
                                   Version 2.04.100723(:
 Parts: 
 	RB\RB01.suf
-	RB\RB07.suf
 	armor\armor04.suf
 	armor\armor12.suf
 	nozzle\nozzle15.suf
@@ -26,8 +25,8 @@ Palette:
 */
 fram
 {
-	light pal( rgb ( 1.00 1.00 1.00 ) -10 -69 -70 )
-	{	mov ( 1719.36 1208.18 27.1152 ) eye deg( 45 ) }
+	light pal( rgb ( 1.00 1.00 1.00 )  11 -69 -70 )
+	{	mov ( 1251.23 1661.91 118.041 ) eye deg( 45 ) }
 	{	mov ( 32.5505 -22.4897 -133.549 ) target }
 	{	mov ( -51.74 0 98.9414 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
 		scal ( 1.001 1.001 1.092 ) obj rb01 /* "RB\RB01.suf" atr "noname" */
@@ -42,15 +41,9 @@ fram
 		scal ( 0.728 0.546 0.546 ) obj armor04 /* "armor\armor04.suf" atr "noname" */
 	}
 	{	mov ( 178.49 -18.2 233.17 ) rotz ( 0 ) roty ( 12 ) rotx ( 0 )
-		scal ( 0.637 0.91 0.546 ) obj nozzle15 /* "nozzle\nozzle15.suf" atr "noname" */
+		scal ( 0.637 0.91 0.6 ) obj nozzle15 /* "nozzle\nozzle15.suf" atr "noname" */
 	}
 	{	mov ( 123.89 0 14.77 ) rotz ( 0 ) roty ( 24 ) rotx ( 0 )
 		scal ( 1.456 0.455 0.455 ) obj armor12 /* "armor\armor12.suf" atr "noname" */
-	}
-	{	mov ( -25.8316 188.257 230.779 ) rotz ( 177 ) roty ( 87 ) rotx ( -78 )
-		scal ( 0.273 0.546 0.364 ) obj rb07 /* "RB\RB07.suf" atr "noname" */
-	}
-	{	mov ( -25.8316 -188.257 230.779 ) rotz ( -177 ) roty ( 87 ) rotx ( 78 )
-		scal ( 0.273 -0.546 0.364 ) obj rb07 /* "RB\RB07.suf" atr "noname" */
 	}
 }
