@@ -3,13 +3,13 @@
 Parts: 
 	P2\P205.suf
 	RB\RB01.suf
+	RB\RB07.suf
 	RB\RB13.suf
 	S2\S205.suf
 	armor\armor04.suf
 	armor\armor11.suf
 	armor\armor12.suf
 	armor\armor14.suf
-	nozzle\nozzle13.suf
 	nozzle\nozzle15.suf
 	roarm\roarm01.suf
 	roarm\roarm04.suf
@@ -17,7 +17,6 @@ Parts:
 	robody\robody02.suf
 	robody\robody08.suf
 	robody\robody12.suf
-	robody\robody16.suf
 	roetc\roetc01.suf
 	roetc\roetc04.suf
 	roetc\roetc10.suf
@@ -25,13 +24,13 @@ Parts:
 	rohand\rohand06.suf
 Light: (   32   32  -89 ) ( 1.00 1.00 1.00)
 Info:
-	DisplayOffset: ( -80.610 -53.230 -67.882 )
-	DisplayScale: 0.250000000002
+	DisplayOffset: ( -114.000 -75.279 -300.000 )
+	DisplayScale: 0.353553390596
 	MeshFlag: 1
 	MeshSpacing: 200
 	ShowStatus: 0
 	ShowAttr: 1
-	GridFlag: 1
+	GridFlag: 0
 	GridSpacing: 20
 	RotSpacing: 3
 	SelectedOnly: 0
@@ -42,9 +41,9 @@ Palette:
 */
 fram
 {
-	light pal( rgb ( 1.00 1.00 1.00 )  -9 -70 -70 )
-	{	mov ( 2673.12 2189.42 422.693 ) eye deg( 45 ) }
-	{	mov ( -156.231 9.43355 -136.631 ) target }
+	light pal( rgb ( 1.00 1.00 1.00 ) -54 -44  70 )
+	{	mov ( 5757.56 -361.352 40.7728 ) eye deg( 45 ) }
+	{	mov ( 64.8784 225.533 753.594 ) target }
 	{	mov ( -53 0 592.496 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
 		scal ( 1.1 1.1 1.2 ) obj rb01 /* "RB\RB01.suf" atr "noname" */
 	}
@@ -159,19 +158,13 @@ fram
 	{	mov ( 140 0 500 ) rotz ( 0 ) roty ( 24 ) rotx ( 0 )
 		scal ( 1.6 0.5 0.5 ) obj armor12 /* "armor\armor12.suf" atr "noname" */
 	}
-	{	mov ( -80 -20 520 ) rotz ( 180 ) roty ( 57 ) rotx ( 0 )
-		scal ( 0.5 1 0.9 ) obj nozzle13 /* "nozzle\nozzle13.suf" atr "noname" */
+	{	mov ( -140 0 520 ) rotz ( 180 ) roty ( -15 ) rotx ( 0 )
+		scal ( 1.1 1.1 2 ) obj armor11 /* "armor\armor11.suf" atr "noname" */
 	}
-	{	mov ( -260 -160 640 ) rotz ( 0 ) roty ( 0 ) rotx ( 90 )
-		scal ( 0.5 -1 0.6 ) obj robody16 /* "robody\robody16.suf" atr "noname" */
+	{	mov ( -24.5292 206.876 737.373 ) rotz ( 177 ) roty ( 87 ) rotx ( -78 )
+		scal ( 0.3 0.6 0.4 ) obj rb07 /* "RB\RB07.suf" atr "noname" */
 	}
-	{	mov ( -60 0 800 ) rotz ( 180 ) roty ( 9 ) rotx ( 0 )
-		scal ( 1 1 1 ) obj armor11 /* "armor\armor11.suf" atr "noname" */
-	}
-	{	mov ( -260 160 640 ) rotz ( 0 ) roty ( 0 ) rotx ( -90 )
-		scal ( 0.5 1 0.6 ) obj robody16 /* "robody\robody16.suf" atr "noname" */
-	}
-	{	mov ( -80 20 760 ) rotz ( -180 ) roty ( -9 ) rotx ( 0 )
-		scal ( -1 0.9 1 ) obj armor11 /* "armor\armor11.suf" atr "noname" */
+	{	mov ( -24.5292 -206.876 737.373 ) rotz ( -177 ) roty ( 87 ) rotx ( 78 )
+		scal ( 0.3 -0.6 0.4 ) obj rb07 /* "RB\RB07.suf" atr "noname" */
 	}
 }
