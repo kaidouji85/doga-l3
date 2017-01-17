@@ -1,0 +1,30 @@
+/*							Parts Assembler
+                                  Version 2.04.100723(:
+Parts: 
+	rohand\rohand06.suf
+Light: (   32   32  -89 ) ( 1.00 1.00 1.00)
+Info:
+	DisplayOffset: ( -80.610 -53.230  10.000 )
+	DisplayScale: 0.250000000002
+	MeshFlag: 1
+	MeshSpacing: 200
+	ShowStatus: 0
+	ShowAttr: 1
+	GridFlag: 1
+	GridSpacing: 20
+	RotSpacing: 3
+	SelectedOnly: 0
+	DispRelative: 0
+Palette:
+	0: atr "#01" { col ( rgb ( 0.400 0.400 0.450 ) ) amb ( 0.200 ) dif ( 0.800 ) spc ( 0.700 1.000 0.000 ) }
+	1: atr noname { col ( rgb ( 0.680 0.510 0.200 ) ) amb ( 0.200 ) dif ( 0.800 ) ref ( 0.300 ) spc ( 0.900 1.000 0.650 ) }
+*/
+fram
+{
+	light pal( rgb ( 1.00 1.00 1.00 )  -4 -70 -70 )
+	{	mov ( 630.845 499.691 -121.074 ) eye deg( 45 ) }
+	{	mov ( 32.5505 -22.4897 -133.549 ) target }
+	{	mov ( 0 0 0 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
+		scal ( 0.8 0.7 0.7 ) obj rohand06 /* "rohand\rohand06.suf" atr "#01" */
+	}
+}

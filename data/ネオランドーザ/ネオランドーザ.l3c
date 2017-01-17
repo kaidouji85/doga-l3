@@ -1,0 +1,124 @@
+/*							Parts Assembler
+                                  Version 2.04.100723(:
+Parts: 
+	P1\P106.suf
+	P2\P205.suf
+	P3\P305.suf
+	RB\RB01.suf
+	RB\RB07.suf
+	RB\RB13.suf
+	S2\S205.suf
+	armor\armor04.suf
+	armor\armor11.suf
+	armor\armor12.suf
+	armor\armor14.suf
+	nozzle\nozzle04.suf
+	nozzle\nozzle15.suf
+	roarm\roarm01.suf
+	roarm\roarm04.suf
+	roarm\roarm05.suf
+	robody\robody02.suf
+	robody\robody08.suf
+	robody\robody12.suf
+	roetc\roetc01.suf
+	roetc\roetc04.suf
+	roetc\roetc10.suf
+	roetc\roetc16.suf
+	rohand\rohand06.suf
+Pose:
+0: "óßÇøÉ|Å[ÉY" ( labelled 17 ( unlabelled move ( 0 0 0 ) rot ( 0 10 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( 0 -15 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( 0 10 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( 31.2978 -5.16823 14.8285 ) ) ( unlabelled move ( 0 0 0 ) rot ( 0 15 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( 0 -15 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( 0 0 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( -20.8706 -5.075 -9.88569 ) ) ( unlabelled move ( 0 0 0 ) rot ( 0 15 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( 0 -15 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( 0 0 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( 28.5843 -2.67579 39.8695 ) ) ( unlabelled move ( 0 0 0 ) rot ( 0 0 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( -34.6218 7.41681 19.2628 ) ) ( unlabelled move ( 0 0 0 ) rot ( -18.268 -59.9514 -6.42375 ) ) ( unlabelled move ( 0 0 0 ) rot ( -3.85111 41.8393 -2.18933 ) ) ( unlabelled move ( 0 0 0 ) rot ( 13.351 12.1298 -7.25526 ) ) )
+Light: (   32   32  -89 ) ( 1.00 1.00 1.00)
+Info:
+	DisplayOffset: (  -0.000 -23.335 -30.495 )
+	DisplayScale: 0.088388347648
+	MeshFlag: 1
+	MeshSpacing: 200
+	ShowStatus: 1
+	ShowAttr: 1
+	GridFlag: 1
+	GridSpacing: 5
+	RotSpacing: 5
+	SelectedOnly: 0
+	DispRelative: 0
+:)*/
+fram
+{
+	light pal( rgb ( 1.00 1.00 1.00 )   0 -70 -70 )
+	{	mov ( 2110.4 2143.09 -46.3321 ) eye deg( 45 ) }
+	{	mov ( -105.897 -20.5587 -83.6752 ) target }
+  { mov ( 0 0 0 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
+    /* Unit */
+    { obj "çò" (: "çò.l3p" :) }
+    { mov ( 0 0 0 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
+      /* Unit Moveable */
+      { obj "ëÃ" (: "ëÃ.l3p" :) }
+      { mov ( 0 -10 530 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
+        /* Unit Moveable */
+        { obj "äÁ" (: "äÁ.l3p" :) }
+      }
+      { mov ( 0 430 345 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
+        /* Unit Moveable */
+        { obj "òr1" (: "òr1.l3p" :) }
+        { mov ( -90 0 -200 ) rotz ( 0 ) roty ( 15 ) rotx ( 0 )
+          /* Unit Moveable */
+          { obj "òr2" (: "òr2.l3p" :) }
+          { mov ( 127.352 -10 -276.459 ) rotz ( 0 ) roty ( -15 ) rotx ( 0 )
+            /* Unit Moveable */
+            { obj "éË" (: "éË.l3p" :) }
+          }
+        }
+        { mov ( -45 -30 50 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
+          /* Unit Moveable */
+          { obj "å®" (: "å®.l3p" :) }
+        }
+      }
+      { mov ( 0 -430 345 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
+        /* Unit Moveable */
+        { scal ( 1 -1 1 )
+          obj "òr1" (: "òr1.l3p" :) }
+        { mov ( -90 0 -200 ) rotz ( 0 ) roty ( 15 ) rotx ( 0 )
+          /* Unit Moveable */
+          { scal ( 1 -1 1 )
+            obj "òr2" (: "òr2.l3p" :) }
+          { mov ( 127.352 10 -276.459 ) rotz ( 0 ) roty ( -15 ) rotx ( 0 )
+            /* Unit Moveable */
+            { scal ( 1 -1 1 )
+              obj "éË" (: "éË.l3p" :) }
+          }
+        }
+        { mov ( -45 30 50 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
+          /* Unit Moveable */
+          { scal ( 1 -1 1 )
+            obj "å®" (: "å®.l3p" :) }
+        }
+      }
+    }
+    { mov ( 0 180 -95 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
+      /* Unit Moveable */
+      { obj "ïG" (: "ïG.l3p" :) }
+      { mov ( 0 20 -265 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
+        /* Unit Moveable */
+        { obj "ë´1" (: "ë´1.L3P" :) }
+        { mov ( 0 -5 -375 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
+          /* Unit Moveable */
+          { obj "ë´2" (: "ë´2.l3p" :) }
+        }
+      }
+    }
+    { mov ( 0 -180 -95 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
+      /* Unit Moveable */
+      { scal ( 1 -1 1 )
+        obj "ïG" (: "ïG.l3p" :) }
+      { mov ( 0 -20 -265 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
+        /* Unit Moveable */
+        { scal ( 1 -1 1 )
+          obj "ë´1" (: "ë´1.L3P" :) }
+        { mov ( 0 5 -375 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
+          /* Unit Moveable */
+          { scal ( 1 -1 1 )
+            obj "ë´2" (: "ë´2.l3p" :) }
+        }
+      }
+    }
+  }
+}

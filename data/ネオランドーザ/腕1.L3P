@@ -1,0 +1,34 @@
+/*							Parts Assembler
+                                  Version 2.04.100723(:
+Parts: 
+	P2\P205.suf
+	roarm\roarm01.suf
+Light: (   32   32  -89 ) ( 1.00 1.00 1.00)
+Info:
+	DisplayOffset: ( -40.305 -26.615  60.000 )
+	DisplayScale: 0.125000000001
+	MeshFlag: 1
+	MeshSpacing: 200
+	ShowStatus: 0
+	ShowAttr: 1
+	GridFlag: 1
+	GridSpacing: 20
+	RotSpacing: 3
+	SelectedOnly: 0
+	DispRelative: 0
+Palette:
+	0: atr "#01" { col ( rgb ( 0.400 0.400 0.450 ) ) amb ( 0.200 ) dif ( 0.800 ) spc ( 0.700 1.000 0.000 ) }
+	1: atr noname { col ( rgb ( 0.680 0.510 0.200 ) ) amb ( 0.200 ) dif ( 0.800 ) ref ( 0.300 ) spc ( 0.900 1.000 0.650 ) }
+*/
+fram
+{
+	light pal( rgb ( 1.00 1.00 1.00 )  41  56 -70 )
+	{	mov ( -1928.99 -319.632 -85.0634 ) eye deg( 45 ) }
+	{	mov ( 32.5505 -22.4897 -133.549 ) target }
+	{	mov ( -53 0 42 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
+		scal ( 1.2 1 1.1 ) obj P205 /* "P2\P205.suf" atr "#01" */
+	}
+	{	mov ( -53 0 0 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
+		scal ( 0.5 0.7 0.3 ) obj roarm01 /* "roarm\roarm01.suf" atr "#01" */
+	}
+}

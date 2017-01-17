@@ -1,0 +1,34 @@
+/*							Parts Assembler
+                                  Version 2.04.100723(:
+Parts: 
+	RB\RB13.suf
+	roetc\roetc04.suf
+Light: (   32   32  -89 ) ( 1.00 1.00 1.00)
+Info:
+	DisplayOffset: ( -57.000 -37.639  84.853 )
+	DisplayScale: 0.176776695298
+	MeshFlag: 1
+	MeshSpacing: 200
+	ShowStatus: 0
+	ShowAttr: 1
+	GridFlag: 1
+	GridSpacing: 20
+	RotSpacing: 3
+	SelectedOnly: 0
+	DispRelative: 0
+Palette:
+	0: atr "#01" { col ( rgb ( 0.400 0.400 0.450 ) ) amb ( 0.200 ) dif ( 0.800 ) spc ( 0.700 1.000 0.000 ) }
+	1: atr noname { col ( rgb ( 0.680 0.510 0.200 ) ) amb ( 0.200 ) dif ( 0.800 ) ref ( 0.300 ) spc ( 0.900 1.000 0.650 ) }
+*/
+fram
+{
+	light pal( rgb ( 1.00 1.00 1.00 )  38 -59  70 )
+	{	mov ( 1052.26 4822.2 -970.922 ) eye deg( 45 ) }
+	{	mov ( 32.5505 -22.4897 -133.549 ) target }
+	{	mov ( 20 -31.28 -500 ) rotz ( -180 ) roty ( 0 ) rotx ( 180 )
+		scal ( 1.716 2.244 0.7 ) obj rb13 /* "RB\RB13.suf" atr "noname" */
+	}
+	{	mov ( 117.44 -12.8 -251.297 ) rotz ( 0 ) roty ( 6 ) rotx ( 180 )
+		scal ( 1.32 1.32 1.32 ) obj roetc04 /* "roetc\roetc04.suf" atr "noname" */
+	}
+}

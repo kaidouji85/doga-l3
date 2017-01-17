@@ -1,0 +1,38 @@
+/*							Parts Assembler
+                                  Version 2.04.100723(:
+Parts: 
+	P1\P106.suf
+	roarm\roarm04.suf
+	roarm\roarm05.suf
+Light: (   32   32  -89 ) ( 1.00 1.00 1.00)
+Info:
+	DisplayOffset: ( -228.000 -150.557 339.411 )
+	DisplayScale: 0.707106781192
+	MeshFlag: 1
+	MeshSpacing: 200
+	ShowStatus: 0
+	ShowAttr: 1
+	GridFlag: 1
+	GridSpacing: 20
+	RotSpacing: 3
+	SelectedOnly: 0
+	DispRelative: 0
+Palette:
+	0: atr "#01" { col ( rgb ( 0.400 0.400 0.450 ) ) amb ( 0.200 ) dif ( 0.800 ) spc ( 0.700 1.000 0.000 ) }
+	1: atr noname { col ( rgb ( 0.680 0.510 0.200 ) ) amb ( 0.200 ) dif ( 0.800 ) ref ( 0.300 ) spc ( 0.900 1.000 0.650 ) }
+*/
+fram
+{
+	light pal( rgb ( 1.00 1.00 1.00 ) -47 -52 -70 )
+	{	mov ( 1890.59 62.3345 174.367 ) eye deg( 45 ) }
+	{	mov ( 32.5505 -22.4897 -133.549 ) target }
+	{	mov ( -212 1 151 ) rotz ( 0 ) roty ( -15 ) rotx ( 0 )
+		scal ( 1 1.6 0.9 ) obj roarm05 /* "roarm\roarm05.suf" atr "noname" */
+	}
+	{	mov ( 11 1 67 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
+		scal ( 1 1.2 0.8 ) obj roarm04 /* "roarm\roarm04.suf" atr "noname" */
+	}
+	{	mov ( -120 0 -380 ) rotz ( 0 ) roty ( -24 ) rotx ( 0 )
+		scal ( 1.9 1.5 1 ) obj P106 /* "P1\P106.suf" atr "#01" */
+	}
+}

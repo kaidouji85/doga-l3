@@ -1,0 +1,42 @@
+/*							Parts Assembler
+                                  Version 2.04.100723(:
+Parts: 
+	armor\armor11.suf
+	armor\armor14.suf
+	roetc\roetc04.suf
+	roetc\roetc10.suf
+Light: (   32   32  -89 ) ( 1.00 1.00 1.00)
+Info:
+	DisplayOffset: ( -80.610 -53.230 120.000 )
+	DisplayScale: 0.250000000002
+	MeshFlag: 1
+	MeshSpacing: 200
+	ShowStatus: 0
+	ShowAttr: 1
+	GridFlag: 1
+	GridSpacing: 20
+	RotSpacing: 3
+	SelectedOnly: 0
+	DispRelative: 0
+Palette:
+	0: atr "#01" { col ( rgb ( 0.400 0.400 0.450 ) ) amb ( 0.200 ) dif ( 0.800 ) spc ( 0.700 1.000 0.000 ) }
+	1: atr noname { col ( rgb ( 0.680 0.510 0.200 ) ) amb ( 0.200 ) dif ( 0.800 ) ref ( 0.300 ) spc ( 0.900 1.000 0.650 ) }
+*/
+fram
+{
+	light pal( rgb ( 1.00 1.00 1.00 ) -16 -68 -70 )
+	{	mov ( 1278.96 729.806 68.4662 ) eye deg( 45 ) }
+	{	mov ( 32.5505 -22.4897 -133.549 ) target }
+	{	mov ( -128.8 -12 -56.414 ) rotz ( 0 ) roty ( -48 ) rotx ( 0 )
+		scal ( 1.1 1.43 1.43 ) obj roetc04 /* "roetc\roetc04.suf" atr "#01" */
+	}
+	{	mov ( -124.4 10 -144.414 ) rotz ( 0 ) roty ( -90 ) rotx ( 0 )
+		scal ( 0.66 2.3 1.76 ) obj roetc10 /* "roetc\roetc10.suf" atr "#01" */
+	}
+	{	mov ( 117 -10 -336 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
+		scal ( 1 1 1.8 ) obj armor14 /* "armor\armor14.suf" atr "noname" */
+	}
+	{	mov ( -163 10 -356 ) rotz ( 177 ) roty ( 0 ) rotx ( 0 )
+		scal ( 1 1 0.8 ) obj armor11 /* "armor\armor11.suf" atr "noname" */
+	}
+}
