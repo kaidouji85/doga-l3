@@ -1,32 +1,14 @@
 /*							Parts Assembler
                                   Version 2.04.100723(:
 Parts: 
-	P2\P205.suf
-	RB\RB01.suf
-	RB\RB07.suf
-	RB\RB13.suf
 	S2\S205.suf
-	armor\armor04.suf
-	armor\armor11.suf
-	armor\armor12.suf
-	armor\armor14.suf
-	nozzle\nozzle04.suf
-	nozzle\nozzle15.suf
-	roarm\roarm01.suf
-	roarm\roarm04.suf
-	roarm\roarm05.suf
 	robody\robody02.suf
 	robody\robody08.suf
 	robody\robody12.suf
-	roetc\roetc01.suf
-	roetc\roetc04.suf
-	roetc\roetc10.suf
-	roetc\roetc16.suf
-	rohand\rohand06.suf
 Light: (   32   32  -89 ) ( 1.00 1.00 1.00)
 Info:
-	DisplayOffset: ( -40.305 -26.615  60.000 )
-	DisplayScale: 0.125000000001
+	DisplayOffset: ( -114.000 -75.279 -95.000 )
+	DisplayScale: 0.353553390596
 	MeshFlag: 1
 	MeshSpacing: 200
 	ShowStatus: 0
@@ -42,136 +24,22 @@ Palette:
 */
 fram
 {
-	light pal( rgb ( 1.00 1.00 1.00 ) -16 -68 -70 )
-	{	mov ( 4087.81 2425.14 523.717 ) eye deg( 45 ) }
+	light pal( rgb ( 1.00 1.00 1.00 )  -2 -70 -70 )
+	{	mov ( 2605.83 2344.92 227.792 ) eye deg( 45 ) }
 	{	mov ( 32.5505 -22.4897 -133.549 ) target }
-	{	mov ( -53 0 592.496 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
-		scal ( 1.1 1.1 1.2 ) obj rb01 /* "RB\RB01.suf" atr "noname" */
-	}
-	{	mov ( 107 100 514 ) rotz ( -21 ) roty ( 24 ) rotx ( -102 )
-		scal ( 0.5 -1.1 0.8 ) obj roetc01 /* "roetc\roetc01.suf" atr "noname" */
-	}
-	{	mov ( 107 -100 514 ) rotz ( 21 ) roty ( 24 ) rotx ( 102 )
-		scal ( 0.5 1.1 0.8 ) obj roetc01 /* "roetc\roetc01.suf" atr "noname" */
-	}
-	{	mov ( -73 0 674 ) rotz ( 90 ) roty ( 0 ) rotx ( -75 )
-		scal ( 0.8 0.6 0.6 ) obj armor04 /* "armor\armor04.suf" atr "noname" */
-	}
-	{	mov ( -93 0 334 ) rotz ( 0 ) roty ( 12 ) rotx ( 0 )
+	{	mov ( -40 0 377 ) rotz ( 0 ) roty ( 12 ) rotx ( 0 )
 		scal ( 1.3 1 1 ) obj robody02 /* "robody\robody02.suf" atr "noname" */
 	}
-	{	mov ( -73 260 314 ) rotz ( -90 ) roty ( -90 ) rotx ( 0 )
+	{	mov ( -20 260 357 ) rotz ( -90 ) roty ( -69 ) rotx ( 0 )
 		scal ( 0.3 0.5 0.4 ) obj robody12 /* "robody\robody12.suf" atr "#01" */
 	}
-	{	mov ( -73 -260 314 ) rotz ( 90 ) roty ( -90 ) rotx ( 0 )
+	{	mov ( -20 -260 357 ) rotz ( 90 ) roty ( -90 ) rotx ( 0 )
 		scal ( 0.3 -0.5 0.4 ) obj robody12 /* "robody\robody12.suf" atr "#01" */
 	}
-	{	mov ( -53 0 94 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
+	{	mov ( 0 0 137 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
 		scal ( 1 0.9 1 ) obj robody08 /* "robody\robody08.suf" atr "#01" */
 	}
-	{	mov ( 107 0 134 ) rotz ( 0 ) roty ( 27 ) rotx ( 0 )
+	{	mov ( 160 0 177 ) rotz ( 0 ) roty ( 27 ) rotx ( 0 )
 		scal ( 0.4 0.4 0.4 ) obj S205 /* "S2\S205.suf" atr "noname" */
-	}
-	{	mov ( -53 440 297 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
-		scal ( 1.2 1 1.1 ) obj P205 /* "P2\P205.suf" atr "#01" */
-	}
-	{	mov ( -53 440 354 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
-		scal ( 0.5 0.7 0.3 ) obj roarm01 /* "roarm\roarm01.suf" atr "#01" */
-	}
-	{	mov ( -23 420 -203 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
-		scal ( 0.8 0.7 0.7 ) obj rohand06 /* "rohand\rohand06.suf" atr "#01" */
-	}
-	{	mov ( -53 -440 354 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
-		scal ( 0.5 -0.7 0.3 ) obj roarm01 /* "roarm\roarm01.suf" atr "#01" */
-	}
-	{	mov ( -23 0 -43 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
-		scal ( 0.8 0.66 0.77 ) obj roetc16 /* "roetc\roetc16.suf" atr "noname" */
-	}
-	{	mov ( -51.8 176 -36.7137 ) rotz ( 0 ) roty ( 0 ) rotx ( -1.49315 )
-		scal ( 1.1 0.910314 0.448766 ) obj roarm01 /* "roarm\roarm01.suf" atr "#01" */
-	}
-	{	mov ( 3.2 160.6 -803.414 ) rotz ( -180 ) roty ( 0 ) rotx ( 180 )
-		scal ( 1.43 1.87 0.66 ) obj rb13 /* "RB\RB13.suf" atr "noname" */
-	}
-	{	mov ( -51.8 -176 -36.7137 ) rotz ( 0 ) roty ( 0 ) rotx ( 1.49315 )
-		scal ( 1.1 -0.910314 0.448766 ) obj roarm01 /* "roarm\roarm01.suf" atr "#01" */
-	}
-	{	mov ( -128.8 198 -803.414 ) rotz ( 0 ) roty ( -48 ) rotx ( 0 )
-		scal ( 1.1 1.43 1.43 ) obj roetc04 /* "roetc\roetc04.suf" atr "#01" */
-	}
-	{	mov ( -124.4 220 -891.414 ) rotz ( 0 ) roty ( -90 ) rotx ( 0 )
-		scal ( 0.66 2.3 1.76 ) obj roetc10 /* "roetc\roetc10.suf" atr "#01" */
-	}
-	{	mov ( 3.2 -160.6 -803.414 ) rotz ( 180 ) roty ( 0 ) rotx ( -180 )
-		scal ( 1.43 -1.87 0.66 ) obj rb13 /* "RB\RB13.suf" atr "noname" */
-	}
-	{	mov ( 91.2 176 -539.414 ) rotz ( 0 ) roty ( 6 ) rotx ( 177 )
-		scal ( 1.1 1.1 1.1 ) obj roetc04 /* "roetc\roetc04.suf" atr "noname" */
-	}
-	{	mov ( 91.2 -176 -539.414 ) rotz ( 0 ) roty ( 6 ) rotx ( -177 )
-		scal ( 1.1 -1.1 1.1 ) obj roetc04 /* "roetc\roetc04.suf" atr "noname" */
-	}
-	{	mov ( -263 -20 -183 ) rotz ( -180 ) roty ( -18 ) rotx ( 0 )
-		scal ( 1.7 1.2 1.1 ) obj armor12 /* "armor\armor12.suf" atr "noname" */
-	}
-	{	mov ( 117 200 -1083 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
-		scal ( 1 1 1.8 ) obj armor14 /* "armor\armor14.suf" atr "noname" */
-	}
-	{	mov ( -128.8 -198 -803.414 ) rotz ( 0 ) roty ( -48 ) rotx ( 0 )
-		scal ( 1.1 -1.43 1.43 ) obj roetc04 /* "roetc\roetc04.suf" atr "#01" */
-	}
-	{	mov ( 117 -200 -1083 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
-		scal ( 1 -1 1.8 ) obj armor14 /* "armor\armor14.suf" atr "noname" */
-	}
-	{	mov ( -163 220 -1103 ) rotz ( 177 ) roty ( 0 ) rotx ( 0 )
-		scal ( 1 1 0.8 ) obj armor11 /* "armor\armor11.suf" atr "noname" */
-	}
-	{	mov ( -124.4 -220 -891.414 ) rotz ( 0 ) roty ( -90 ) rotx ( 0 )
-		scal ( 0.66 -2.3 1.76 ) obj roetc10 /* "roetc\roetc10.suf" atr "#01" */
-	}
-	{	mov ( -163 -220 -1103 ) rotz ( -177 ) roty ( 0 ) rotx ( 0 )
-		scal ( 1 -1 0.8 ) obj armor11 /* "armor\armor11.suf" atr "noname" */
-	}
-	{	mov ( -383 440 257 ) rotz ( 0 ) roty ( -15 ) rotx ( 0 )
-		scal ( 1 1.6 1 ) obj roarm05 /* "roarm\roarm05.suf" atr "noname" */
-	}
-	{	mov ( -106 440 181 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
-		scal ( 1 0.9 0.8 ) obj roarm04 /* "roarm\roarm04.suf" atr "noname" */
-	}
-	{	mov ( -23 -420 -203 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
-		scal ( 0.8 -0.7 0.7 ) obj rohand06 /* "rohand\rohand06.suf" atr "#01" */
-	}
-	{	mov ( -383 -440 257 ) rotz ( 0 ) roty ( -15 ) rotx ( 0 )
-		scal ( 1 -1.6 1 ) obj roarm05 /* "roarm\roarm05.suf" atr "noname" */
-	}
-	{	mov ( -106 -440 181 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
-		scal ( 1 -0.9 0.8 ) obj roarm04 /* "roarm\roarm04.suf" atr "noname" */
-	}
-	{	mov ( 200 -20 740 ) rotz ( 0 ) roty ( 12 ) rotx ( 0 )
-		scal ( 0.7 1 0.6 ) obj nozzle15 /* "nozzle\nozzle15.suf" atr "noname" */
-	}
-	{	mov ( 140 0 500 ) rotz ( 0 ) roty ( 24 ) rotx ( 0 )
-		scal ( 1.6 0.5 0.5 ) obj armor12 /* "armor\armor12.suf" atr "noname" */
-	}
-	{	mov ( -140 0 520 ) rotz ( 180 ) roty ( -15 ) rotx ( 0 )
-		scal ( 1.1 1.1 2 ) obj armor11 /* "armor\armor11.suf" atr "noname" */
-	}
-	{	mov ( -24.5292 206.876 737.373 ) rotz ( 177 ) roty ( 87 ) rotx ( -78 )
-		scal ( 0.3 0.6 0.4 ) obj rb07 /* "RB\RB07.suf" atr "noname" */
-	}
-	{	mov ( -24.5292 -206.876 737.373 ) rotz ( -177 ) roty ( 87 ) rotx ( 78 )
-		scal ( 0.3 -0.6 0.4 ) obj rb07 /* "RB\RB07.suf" atr "noname" */
-	}
-	{	mov ( -20 380 400 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
-		scal ( 1 0.6 1 ) obj rb07 /* "RB\RB07.suf" atr "noname" */
-	}
-	{	mov ( -20 -380 400 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
-		scal ( 1 -0.6 1 ) obj rb07 /* "RB\RB07.suf" atr "noname" */
-	}
-	{	mov ( -20 560 560 ) rotz ( -84 ) roty ( -78 ) rotx ( -9 )
-		scal ( 1.3 1 1.1 ) obj nozzle04 /* "nozzle\nozzle04.suf" atr "#01" */
-	}
-	{	mov ( -20 -560 560 ) rotz ( 84 ) roty ( -78 ) rotx ( 9 )
-		scal ( 1.3 -1 1.1 ) obj nozzle04 /* "nozzle\nozzle04.suf" atr "#01" */
 	}
 }

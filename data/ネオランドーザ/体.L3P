@@ -24,22 +24,22 @@ Palette:
 */
 fram
 {
-	light pal( rgb ( 1.00 1.00 1.00 )  -2 -70 -70 )
-	{	mov ( 2605.83 2344.92 227.792 ) eye deg( 45 ) }
+	light pal( rgb ( 1.00 1.00 1.00 ) -59 -38 -70 )
+	{	mov ( 3454.21 -742.675 227.792 ) eye deg( 45 ) }
 	{	mov ( 32.5505 -22.4897 -133.549 ) target }
 	{	mov ( -40 0 377 ) rotz ( 0 ) roty ( 12 ) rotx ( 0 )
 		scal ( 1.3 1 1 ) obj robody02 /* "robody\robody02.suf" atr "noname" */
 	}
-	{	mov ( -20 260 357 ) rotz ( -90 ) roty ( -90 ) rotx ( 0 )
+	{	mov ( -20 260 357 ) rotz ( -90 ) roty ( -69 ) rotx ( 0 )
 		scal ( 0.3 0.5 0.4 ) obj robody12 /* "robody\robody12.suf" atr "#01" */
-	}
-	{	mov ( -20 -260 357 ) rotz ( 90 ) roty ( -90 ) rotx ( 0 )
-		scal ( 0.3 -0.5 0.4 ) obj robody12 /* "robody\robody12.suf" atr "#01" */
 	}
 	{	mov ( 0 0 137 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
 		scal ( 1 0.9 1 ) obj robody08 /* "robody\robody08.suf" atr "#01" */
 	}
 	{	mov ( 160 0 177 ) rotz ( 0 ) roty ( 27 ) rotx ( 0 )
 		scal ( 0.4 0.4 0.4 ) obj S205 /* "S2\S205.suf" atr "noname" */
+	}
+	{	mov ( -20 -260 357 ) rotz ( 90 ) roty ( -69 ) rotx ( 0 )
+		scal ( 0.3 -0.5 0.4 ) obj robody12 /* "robody\robody12.suf" atr "#01" */
 	}
 }

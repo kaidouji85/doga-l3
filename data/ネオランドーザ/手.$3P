@@ -22,7 +22,7 @@ Palette:
 fram
 {
 	light pal( rgb ( 1.00 1.00 1.00 )  -4 -70 -70 )
-	{	mov ( 3454.8 2964.39 -62.1924 ) eye deg( 45 ) }
+	{	mov ( 630.845 499.691 -121.074 ) eye deg( 45 ) }
 	{	mov ( 32.5505 -22.4897 -133.549 ) target }
 	{	mov ( 0 0 0 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
 		scal ( 0.8 0.7 0.7 ) obj rohand06 /* "rohand\rohand06.suf" atr "#01" */
