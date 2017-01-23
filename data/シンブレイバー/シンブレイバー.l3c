@@ -1,7 +1,8 @@
 /*							Parts Assembler
                                   Version 2.04.100723(:
 Parts: 
-	P1\P105.suf
+	EG\EG16.suf
+	P1\P103.suf
 	P1\P106.suf
 	P1\P114.suf
 	P2\P211.suf
@@ -32,8 +33,8 @@ Pose:
 0: "óßÇøÉ|Å[ÉY" ( labelled 17 ( unlabelled move ( 0 0 0 ) rot ( 0 10 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( 0 -25 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( 0 30 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( 26.8502 23.4993 26.9901 ) ) ( unlabelled move ( 0 0 0 ) rot ( -0.230018 -31.5771 0.813475 ) ) ( unlabelled move ( 0 0 0 ) rot ( 0 0 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( 0 0 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( -20 0 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( 2.31595 -15.635 0.10102 ) ) ( unlabelled move ( 0 0 0 ) rot ( 0 0 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( 0 0 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( 29.9888 6.29384 29.0709 ) ) ( unlabelled move ( 0 0 0 ) rot ( -1.72987 11.0444 -0.126966 ) ) ( unlabelled move ( 0 0 0 ) rot ( -40.814 -10.9147 25.0758 ) ) ( unlabelled move ( 0 0 0 ) rot ( -57.525 -62.6598 45.7521 ) ) ( unlabelled move ( 0 0 0 ) rot ( -14.4411 70.2988 -9.34343 ) ) ( unlabelled move ( 0 0 0 ) rot ( 30.3266 -1.81165 -6.83154 ) ) )
 Light: (   32   32  -89 ) ( 1.00 1.00 1.00)
 Info:
-	DisplayOffset: (  61.255   0.000   0.000 )
-	DisplayScale: 0.176776695297
+	DisplayOffset: (  30.626   0.000   0.000 )
+	DisplayScale: 0.088388347648
 	MeshFlag: 1
 	MeshSpacing: 200
 	ShowStatus: 1
@@ -46,9 +47,9 @@ Info:
 :)*/
 fram
 {
-	light pal( rgb ( 1.00 1.00 1.00 )  -7 -70  70 )
-	{	mov ( 1810.87 1510.46 -14.6891 ) eye deg( 45 ) }
-	{	mov ( -105 -41.14 10 ) target }
+	light pal( rgb ( 1.00 1.00 1.00 ) -12 -69  70 )
+	{	mov ( 1981.28 1400 -85 ) eye deg( 45 ) }
+	{	mov ( -89.1338 -42.4491 -84.0785 ) target }
   { mov ( 0 0 0 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
     /* Unit */
     { obj "çò" (: "çò.l3p" :) }
@@ -101,10 +102,12 @@ fram
       { obj "ïG" (: "ïG.l3p" :) }
       { mov ( -25 -30 -205 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
         /* Unit Moveable */
-        { obj "„¯" (: "„¯.l3p" :) }
-        { mov ( -25 25 -280 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
+        { scal ( 1.2 1.2 1.2 )
+          obj "„¯" (: "„¯.l3p" :) }
+        { mov ( -30 30 -336 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
           /* Unit Moveable */
-          { obj "ë´" (: "ë´.l3p" :) }
+          { scal ( 1.2 1.2 1.2 )
+            obj "ë´" (: "ë´.l3p" :) }
         }
       }
     }
@@ -114,11 +117,11 @@ fram
         obj "ïG" (: "ïG.l3p" :) }
       { mov ( -25 30 -205 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
         /* Unit Moveable */
-        { scal ( 1 -1 1 )
+        { scal ( 1.2 -1.2 1.2 )
           obj "„¯" (: "„¯.l3p" :) }
-        { mov ( -25 -25 -280 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
+        { mov ( -30 -30 -336 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
           /* Unit Moveable */
-          { scal ( 1 -1 1 )
+          { scal ( 1.2 -1.2 1.2 )
             obj "ë´" (: "ë´.l3p" :) }
         }
       }

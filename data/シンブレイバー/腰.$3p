@@ -30,9 +30,9 @@ fram
 		scal ( 1.05 0.85 0.95 ) obj nozzle16 /* "nozzle\nozzle16.suf" atr "noname" */
 	}
 	{	mov ( -40 120 -160 ) rotz ( 90 ) roty ( -66 ) rotx ( 180 )
-		scal ( 0.2 0.3 0.4 ) obj robody12 /* "robody\robody12.suf" atr "#02" */
+		scal ( 0.2 0.3 0.2 ) obj robody12 /* "robody\robody12.suf" atr "#02" */
 	}
 	{	mov ( -40 -120 -160 ) rotz ( -90 ) roty ( -66 ) rotx ( -180 )
-		scal ( 0.2 -0.3 0.4 ) obj robody12 /* "robody\robody12.suf" atr "#02" */
+		scal ( 0.2 -0.3 0.2 ) obj robody12 /* "robody\robody12.suf" atr "#02" */
 	}
 }
