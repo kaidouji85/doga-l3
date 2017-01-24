@@ -26,10 +26,10 @@ fram
 	light pal( rgb ( 1.00 1.00 1.00 ) -52 -47 -70 )
 	{	mov ( 3287.78 -94.9157 -54.2074 ) eye deg( 45 ) }
 	{	mov ( -22.6971 65.5194 -134.737 ) target }
-	{	mov ( 107 35 -138 ) rotz ( 0 ) roty ( -39 ) rotx ( 0 )
+	{	mov ( 107 15 -137 ) rotz ( 0 ) roty ( -39 ) rotx ( 0 )
 		scal ( 1 -1.5 1 ) obj roetc04 /* "roetc\roetc04.suf" atr "noname" */
 	}
-	{	mov ( -179 35 -158 ) rotz ( -180 ) roty ( 0 ) rotx ( -180 )
+	{	mov ( -179 15 -157 ) rotz ( -180 ) roty ( 0 ) rotx ( -180 )
 		scal ( 0.7 -2.5 1 ) obj roetc10 /* "roetc\roetc10.suf" atr "noname" */
 	}
 }

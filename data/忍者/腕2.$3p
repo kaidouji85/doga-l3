@@ -1,6 +1,7 @@
 /*							Parts Assembler
                                   Version 2.04.100723(:
 Parts: 
+	nozzle\nozzle14.suf
 	roarm\roarm02.suf
 Light: (   32   32  -89 ) ( 1.00 1.00 1.00)
 Info:
@@ -27,5 +28,8 @@ fram
 	{	mov ( -22.6971 65.5194 -134.737 ) target }
 	{	mov ( 0 0 -360 ) rotz ( 180 ) roty ( 0 ) rotx ( 180 )
 		scal ( 1 0.8 0.5 ) obj roarm02 /* "roarm\roarm02.suf" atr "noname" */
+	}
+	{	mov ( 0 60 -380 ) rotz ( 90 ) roty ( 66 ) rotx ( 0 )
+		scal ( 1 1.4 1 ) obj nozzle14 /* "nozzle\nozzle14.suf" atr "#02" */
 	}
 }

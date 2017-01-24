@@ -1,11 +1,13 @@
 /*							Parts Assembler
                                   Version 2.04.100723(:
 Parts: 
-	roarm\roarm02.suf
+	armor\armor03.suf
+	mecha\planeetc\PLEG04.suf
+	nozzle\nozzle15.suf
 Light: (   32   32  -89 ) ( 1.00 1.00 1.00)
 Info:
-	DisplayOffset: ( 164.164   0.000 104.000 )
-	DisplayScale: 0.250000000000
+	DisplayOffset: ( 232.163   0.000   3.000 )
+	DisplayScale: 0.353553390593
 	MeshFlag: 1
 	MeshSpacing: 200
 	ShowStatus: 0
@@ -22,10 +24,16 @@ Palette:
 */
 fram
 {
-	light pal( rgb ( 1.00 1.00 1.00 )  69 -11  70 )
-	{	mov ( -1406.62 1989.65 -752.471 ) eye deg( 45 ) }
+	light pal( rgb ( 1.00 1.00 1.00 ) -40 -58 -70 )
+	{	mov ( 1754.47 386.098 131.665 ) eye deg( 45 ) }
 	{	mov ( -22.6971 65.5194 -134.737 ) target }
-	{	mov ( 0 0 -360 ) rotz ( 180 ) roty ( 0 ) rotx ( 180 )
-		scal ( 1 0.8 0.5 ) obj roarm02 /* "roarm\roarm02.suf" atr "noname" */
+	{	mov ( 0 -40 -80 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
+		scal ( 0.6 0.5 0.7 ) obj armor03 /* "armor\armor03.suf" atr "noname" */
+	}
+	{	mov ( 140 80 -20 ) rotz ( 0 ) roty ( 0 ) rotx ( -60 )
+		scal ( 0.4 1 1 ) obj PLEG04 /* "mecha\planeetc\PLEG04.suf" atr "#02" */
+	}
+	{	mov ( -20 140 120 ) rotz ( 90 ) roty ( -24 ) rotx ( 180 )
+		scal ( 0.8 0.8 0.6 ) obj nozzle15 /* "nozzle\nozzle15.suf" atr "#02" */
 	}
 }

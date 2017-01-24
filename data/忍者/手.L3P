@@ -1,7 +1,7 @@
 /*							Parts Assembler
                                   Version 2.04.100723(:
 Parts: 
-	roarm\roarm02.suf
+	rohand\rohand06.suf
 Light: (   32   32  -89 ) ( 1.00 1.00 1.00)
 Info:
 	DisplayOffset: ( 164.164   0.000 104.000 )
@@ -22,10 +22,10 @@ Palette:
 */
 fram
 {
-	light pal( rgb ( 1.00 1.00 1.00 )  69 -11  70 )
-	{	mov ( -1406.62 1989.65 -752.471 ) eye deg( 45 ) }
+	light pal( rgb ( 1.00 1.00 1.00 ) -52 -47 -70 )
+	{	mov ( 2980 -80 -61.6943 ) eye deg( 45 ) }
 	{	mov ( -22.6971 65.5194 -134.737 ) target }
-	{	mov ( 0 0 -360 ) rotz ( 180 ) roty ( 0 ) rotx ( 180 )
-		scal ( 1 0.8 0.5 ) obj roarm02 /* "roarm\roarm02.suf" atr "noname" */
+	{	mov ( 0 -20 0 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
+		scal ( 0.8 1 0.7 ) obj rohand06 /* "rohand\rohand06.suf" atr "noname" */
 	}
 }
