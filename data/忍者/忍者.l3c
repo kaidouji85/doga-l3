@@ -1,0 +1,117 @@
+/*							Parts Assembler
+                                  Version 2.04.100723(:
+Parts: 
+	P1\P114.suf
+	P2\P211.suf
+	P4\P405.suf
+	RB\RB07.suf
+	S2\S205.suf
+	T1\T101.suf
+	armor\armor03.suf
+	armor\armor04.suf
+	nozzle\nozzle04.suf
+	nozzle\nozzle10.suf
+	nozzle\nozzle15.suf
+	nozzle\nozzle16.suf
+	roarm\roarm01.suf
+	roarm\roarm02.suf
+	roarm\roarm04.suf
+	roarm\roarm16.suf
+	robody\robody06.suf
+	robody\robody08.suf
+	robody\robody10.suf
+	robody\robody12.suf
+	robody\robody16.suf
+	roetc\roetc04.suf
+	roetc\roetc09.suf
+	roetc\roetc10.suf
+	rohand\rohand06.suf
+	rohead\rohead08.suf
+Pose:
+0: "óßÇøÉ|Å[ÉY" ( labelled 15 ( unlabelled move ( 0 0 0 ) rot ( 0 10 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( 0 -20 0 ) ) ( unlabelled move ( -37.9128 -20 103.55 ) rot ( 37.2294 27.5049 42.9214 ) ) ( unlabelled move ( 0 0 0 ) rot ( -1.09594 -44.4737 2.68019 ) ) ( unlabelled move ( 0 0 0 ) rot ( 0 0 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( 0 20 0 ) ) ( unlabelled move ( 11.3554 55 64.3998 ) rot ( -9.50438 -20.8615 -23.0587 ) ) ( unlabelled move ( 0 0 0 ) rot ( -2.86051 -25.9894 -0.911711 ) ) ( unlabelled move ( 0 0 0 ) rot ( 0 0 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( 30.769 5.90451 24.2297 ) ) ( unlabelled move ( 0 0 0 ) rot ( 0 0 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( -36.0376 11.9043 40.8692 ) ) ( unlabelled move ( 0 0 0 ) rot ( -49.4907 -52.8395 42.1778 ) ) ( unlabelled move ( 0 0 0 ) rot ( -4.97155 70.0686 -3.6445 ) ) ( unlabelled move ( 0 0 0 ) rot ( 33.1572 -2.27044 -24.7167 ) ) )
+Light: (   32   32  -89 ) ( 1.00 1.00 1.00)
+Info:
+	DisplayOffset: (  -0.000  -0.000  61.518 )
+	DisplayScale: 0.176776695297
+	MeshFlag: 1
+	MeshSpacing: 200
+	ShowStatus: 1
+	ShowAttr: 1
+	GridFlag: 1
+	GridSpacing: 5
+	RotSpacing: 5
+	SelectedOnly: 0
+	DispRelative: 0
+:)*/
+fram
+{
+	light pal( rgb ( 1.00 1.00 1.00 ) -10 -69 -70 )
+	{	mov ( 2495.11 1855.07 79.4485 ) eye deg( 45 ) }
+	{	mov ( 0 0 0 ) target }
+  { mov ( 0 0 0 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
+    /* Unit */
+    { obj "çò" (: "çò.l3p" :) }
+    { mov ( 0 0 0 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
+      /* Unit Moveable */
+      { obj "ëÃ" (: "ëÃ.l3p" :) }
+      { mov ( 0 435 355 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
+        /* Unit Moveable */
+        { obj "òr1" (: "òr1.l3p" :) }
+        { mov ( 5 -5 -260 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
+          /* Unit Moveable */
+          { obj "òr2" (: "òr2.l3p" :) }
+        }
+        { mov ( 0 -60 40 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
+          /* Unit Moveable */
+          { obj "å®" (: "å®.l3p" :) }
+        }
+      }
+      { mov ( 0 -5 450 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
+        /* Unit Moveable */
+        { obj "ì™" (: "ì™.l3p" :) }
+      }
+      { mov ( 0 -435 355 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
+        /* Unit Moveable */
+        { scal ( 1 -1 1 )
+          obj "òr1" (: "òr1.l3p" :) }
+        { mov ( 5 5 -260 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
+          /* Unit Moveable */
+          { scal ( 1 -1 1 )
+            obj "òr2" (: "òr2.l3p" :) }
+        }
+        { mov ( 0 60 40 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
+          /* Unit Moveable */
+          { scal ( 1 -1 1 )
+            obj "å®" (: "å®.l3p" :) }
+        }
+      }
+    }
+    { mov ( 0 155 -150 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
+      /* Unit Moveable */
+      { obj "ë´1" (: "ë´1.l3p" :) }
+      { mov ( 0 45 -270 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
+        /* Unit Moveable */
+        { obj "ë´2" (: "ë´2.l3p" :) }
+        { mov ( 5 -5 -410 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
+          /* Unit Moveable */
+          { obj "ë´3" (: "ë´3.l3p" :) }
+        }
+      }
+    }
+    { mov ( 0 -155 -150 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
+      /* Unit Moveable */
+      { scal ( 1 -1 1 )
+        obj "ë´1" (: "ë´1.l3p" :) }
+      { mov ( 0 -45 -270 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
+        /* Unit Moveable */
+        { scal ( 1 -1 1 )
+          obj "ë´2" (: "ë´2.l3p" :) }
+        { mov ( 5 5 -410 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
+          /* Unit Moveable */
+          { scal ( 1 -1 1 )
+            obj "ë´3" (: "ë´3.l3p" :) }
+        }
+      }
+    }
+  }
+}

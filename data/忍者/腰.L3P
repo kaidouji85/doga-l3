@@ -1,0 +1,31 @@
+/*							Parts Assembler
+                                  Version 2.04.100723(:
+Parts: 
+	nozzle\nozzle16.suf
+Light: (   32   32  -89 ) ( 1.00 1.00 1.00)
+Info:
+	DisplayOffset: ( 164.164   0.000 104.000 )
+	DisplayScale: 0.250000000000
+	MeshFlag: 1
+	MeshSpacing: 200
+	ShowStatus: 0
+	ShowAttr: 1
+	GridFlag: 1
+	GridSpacing: 20
+	RotSpacing: 3
+	SelectedOnly: 0
+	DispRelative: 0
+Palette:
+	0: atr "#01" { col ( rgb ( 1.000 0.150 0.750 ) ) amb ( 1.000 ) dif ( 0.000 ) opt ( emittion 0.000 2.000 ) }
+	1: atr "#02" { col ( rgb ( 0.850 0.850 0.800 ) ) amb ( 0.200 ) dif ( 0.800 ) ref ( 0.300 ) spc ( 0.900 1.000 0.650 ) }
+	2: atr noname { col ( rgb ( 0.400 0.400 0.450 ) ) amb ( 0.200 ) dif ( 0.800 ) ref ( 0.300 ) spc ( 0.900 1.000 0.650 ) }
+*/
+fram
+{
+	light pal( rgb ( 1.00 1.00 1.00 ) -52 -47 -70 )
+	{	mov ( 2184.56 -41.4507 -81.0439 ) eye deg( 45 ) }
+	{	mov ( -22.6971 65.5194 -134.737 ) target }
+	{	mov ( 0 0 -240 ) rotz ( -180 ) roty ( -90 ) rotx ( 0 )
+		scal ( 1 1 1 ) obj nozzle16 /* "nozzle\nozzle16.suf" atr "noname" */
+	}
+}

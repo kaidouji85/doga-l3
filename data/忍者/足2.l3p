@@ -1,0 +1,35 @@
+/*							Parts Assembler
+                                  Version 2.04.100723(:
+Parts: 
+	nozzle\nozzle04.suf
+	roarm\roarm04.suf
+Light: (   32   32  -89 ) ( 1.00 1.00 1.00)
+Info:
+	DisplayOffset: ( 116.081   0.000  73.539 )
+	DisplayScale: 0.176776695297
+	MeshFlag: 1
+	MeshSpacing: 200
+	ShowStatus: 0
+	ShowAttr: 1
+	GridFlag: 1
+	GridSpacing: 20
+	RotSpacing: 3
+	SelectedOnly: 0
+	DispRelative: 0
+Palette:
+	0: atr "#01" { col ( rgb ( 1.000 0.150 0.750 ) ) amb ( 1.000 ) dif ( 0.000 ) opt ( emittion 0.000 2.000 ) }
+	1: atr "#02" { col ( rgb ( 0.850 0.850 0.800 ) ) amb ( 0.200 ) dif ( 0.800 ) ref ( 0.300 ) spc ( 0.900 1.000 0.650 ) }
+	2: atr noname { col ( rgb ( 0.400 0.400 0.450 ) ) amb ( 0.200 ) dif ( 0.800 ) ref ( 0.300 ) spc ( 0.900 1.000 0.650 ) }
+*/
+fram
+{
+	light pal( rgb ( 1.00 1.00 1.00 ) -52 -47 -70 )
+	{	mov ( 3287.78 -94.9157 -54.2074 ) eye deg( 45 ) }
+	{	mov ( -22.6971 65.5194 -134.737 ) target }
+	{	mov ( 0 0 40 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
+		scal ( 1.4 -1.5 1.2 ) obj roarm04 /* "roarm\roarm04.suf" atr "noname" */
+	}
+	{	mov ( 225 0 -80 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
+		scal ( 1 -1.4 1.4 ) obj nozzle04 /* "nozzle\nozzle04.suf" atr "noname" */
+	}
+}
