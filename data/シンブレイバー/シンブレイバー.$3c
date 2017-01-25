@@ -32,8 +32,8 @@ Pose:
 0: "óßÇøÉ|Å[ÉY" ( labelled 17 ( unlabelled move ( 0 0 0 ) rot ( 0 10 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( 0 -25 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( 0 30 0 ) ) ( unlabelled move ( -10.6712 0 13.5197 ) rot ( 26.8502 23.4993 26.9901 ) ) ( unlabelled move ( 0 0 0 ) rot ( -0.230018 -31.5771 0.813475 ) ) ( unlabelled move ( 0 0 0 ) rot ( 0 0 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( 0 0 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( -20 0 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( 2.31595 -15.635 0.10102 ) ) ( unlabelled move ( 0 0 0 ) rot ( 0 0 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( 0 0 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( 29.9888 6.29384 29.0709 ) ) ( unlabelled move ( 0 0 0 ) rot ( -1.72987 11.0444 -0.126966 ) ) ( unlabelled move ( 0 0 0 ) rot ( -40.814 -10.9147 25.0758 ) ) ( unlabelled move ( 0 0 0 ) rot ( -57.525 -62.6598 45.7521 ) ) ( unlabelled move ( 0 0 0 ) rot ( -27.4297 76.0576 -23.5716 ) ) ( unlabelled move ( 0 0 0 ) rot ( 30.9382 -6.09824 -9.37495 ) ) )
 Light: (   32   32  -89 ) ( 1.00 1.00 1.00)
 Info:
-	DisplayOffset: (  61.252 -10.500  73.893 )
-	DisplayScale: 0.176776695296
+	DisplayOffset: (  30.626  -5.250  36.947 )
+	DisplayScale: 0.088388347648
 	MeshFlag: 1
 	MeshSpacing: 200
 	ShowStatus: 1
@@ -46,8 +46,8 @@ Info:
 :)*/
 fram
 {
-	light pal( rgb ( 1.00 1.00 1.00 )   0 -70 -70 )
-	{	mov ( 1695 1800 -53.3181 ) eye deg( 45 ) }
+	light pal( rgb ( 1.00 1.00 1.00 )  -8 -70 -70 )
+	{	mov ( 2058.84 1662.93 -50.6996 ) eye deg( 45 ) }
 	{	mov ( -107.67 -15.6623 -78.5306 ) target }
   { mov ( 0 0 0 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
     /* Unit */
