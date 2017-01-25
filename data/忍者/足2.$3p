@@ -5,8 +5,8 @@ Parts:
 	robody\robody12.suf
 Light: (   32   32  -89 ) ( 1.00 1.00 1.00)
 Info:
-	DisplayOffset: ( 164.163   0.000 104.000 )
-	DisplayScale: 0.250000000000
+	DisplayOffset: ( 232.162   0.000 147.078 )
+	DisplayScale: 0.353553390593
 	MeshFlag: 1
 	MeshSpacing: 200
 	ShowStatus: 0
@@ -26,10 +26,10 @@ fram
 	light pal( rgb ( 1.00 1.00 1.00 ) -65 -25 -70 )
 	{	mov ( 3009.65 -1270.29 -25.2876 ) eye deg( 45 ) }
 	{	mov ( -22.6971 65.5194 -134.737 ) target }
-	{	mov ( 0 0 40 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
-		scal ( 1.1 -1.5 1 ) obj roarm04 /* "roarm\roarm04.suf" atr "noname" */
+	{	mov ( -4.16 0 49.76 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
+		scal ( 1.056 -1.44 0.96 ) obj roarm04 /* "roarm\roarm04.suf" atr "noname" */
 	}
-	{	mov ( 140 0 -20 ) rotz ( 0 ) roty ( -18 ) rotx ( 180 )
-		scal ( 0.5 0.8 0.8 ) obj robody12 /* "robody\robody12.suf" atr "#02" */
+	{	mov ( 130.24 0 -7.84 ) rotz ( 0 ) roty ( -18 ) rotx ( 180 )
+		scal ( 0.48 0.768 0.768 ) obj robody12 /* "robody\robody12.suf" atr "#02" */
 	}
 }
