@@ -21,7 +21,6 @@ Parts:
 	roarm\roarm01.suf
 	roarm\roarm02.suf
 	roarm\roarm04.suf
-	roarm\roarm10.suf
 	roarm\roarm16.suf
 	robody\robody09.suf
 	robody\robody12.suf
@@ -30,11 +29,11 @@ Parts:
 	rohand\rohand06.suf
 	rohead\rohead08.suf
 Pose:
-0: "óßÇøÉ|Å[ÉY" ( labelled 17 ( unlabelled move ( 0 0 0 ) rot ( 0 10 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( 0 -25 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( 0 30 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( 26.8502 23.4993 26.9901 ) ) ( unlabelled move ( 0 0 0 ) rot ( -0.230018 -31.5771 0.813475 ) ) ( unlabelled move ( 0 0 0 ) rot ( 0 0 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( 0 0 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( -20 0 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( 2.31595 -15.635 0.10102 ) ) ( unlabelled move ( 0 0 0 ) rot ( 0 0 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( 0 0 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( 29.9888 6.29384 29.0709 ) ) ( unlabelled move ( 0 0 0 ) rot ( -1.72987 11.0444 -0.126966 ) ) ( unlabelled move ( 0 0 0 ) rot ( -40.814 -10.9147 25.0758 ) ) ( unlabelled move ( 0 0 0 ) rot ( -57.525 -62.6598 45.7521 ) ) ( unlabelled move ( 0 0 0 ) rot ( -14.4411 70.2988 -9.34343 ) ) ( unlabelled move ( 0 0 0 ) rot ( 30.3266 -1.81165 -6.83154 ) ) )
+0: "óßÇøÉ|Å[ÉY" ( labelled 17 ( unlabelled move ( 0 0 0 ) rot ( 0 10 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( 0 -25 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( 0 30 0 ) ) ( unlabelled move ( -10.6712 0 13.5197 ) rot ( 26.8502 23.4993 26.9901 ) ) ( unlabelled move ( 0 0 0 ) rot ( -0.230018 -31.5771 0.813475 ) ) ( unlabelled move ( 0 0 0 ) rot ( 0 0 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( 0 0 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( -20 0 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( 2.31595 -15.635 0.10102 ) ) ( unlabelled move ( 0 0 0 ) rot ( 0 0 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( 0 0 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( 29.9888 6.29384 29.0709 ) ) ( unlabelled move ( 0 0 0 ) rot ( -1.72987 11.0444 -0.126966 ) ) ( unlabelled move ( 0 0 0 ) rot ( -40.814 -10.9147 25.0758 ) ) ( unlabelled move ( 0 0 0 ) rot ( -57.525 -62.6598 45.7521 ) ) ( unlabelled move ( 0 0 0 ) rot ( -27.4297 76.0576 -23.5716 ) ) ( unlabelled move ( 0 0 0 ) rot ( 30.9382 -6.09824 -9.37495 ) ) )
 Light: (   32   32  -89 ) ( 1.00 1.00 1.00)
 Info:
-	DisplayOffset: (  30.626   0.000   0.000 )
-	DisplayScale: 0.088388347648
+	DisplayOffset: (  61.252 -10.500  73.893 )
+	DisplayScale: 0.176776695296
 	MeshFlag: 1
 	MeshSpacing: 200
 	ShowStatus: 1
@@ -47,9 +46,9 @@ Info:
 :)*/
 fram
 {
-	light pal( rgb ( 1.00 1.00 1.00 )  -2 -70 -70 )
-	{	mov ( 1758.9 1687.94 -74.2746 ) eye deg( 45 ) }
-	{	mov ( -89.1338 -42.4491 -84.0785 ) target }
+	light pal( rgb ( 1.00 1.00 1.00 )   0 -70 -70 )
+	{	mov ( 1695 1800 -53.3181 ) eye deg( 45 ) }
+	{	mov ( -107.67 -15.6623 -78.5306 ) target }
   { mov ( 0 0 0 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
     /* Unit */
     { obj "çò" (: "çò.l3p" :) }
@@ -100,7 +99,7 @@ fram
     { mov ( -25 175 -190 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
       /* Unit Moveable */
       { obj "ïG" (: "ïG.l3p" :) }
-      { mov ( -25 -30 -205 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
+      { mov ( -25 0 -205 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
         /* Unit Moveable */
         { scal ( 1.2 1.2 1.2 )
           obj "„¯" (: "„¯.l3p" :) }
@@ -115,7 +114,7 @@ fram
       /* Unit Moveable */
       { scal ( 1 -1 1 )
         obj "ïG" (: "ïG.l3p" :) }
-      { mov ( -25 30 -205 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
+      { mov ( -25 0 -205 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
         /* Unit Moveable */
         { scal ( 1.2 -1.2 1.2 )
           obj "„¯" (: "„¯.l3p" :) }

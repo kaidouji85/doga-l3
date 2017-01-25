@@ -1,7 +1,6 @@
 /*							Parts Assembler
                                   Version 2.04.100723(:
 Parts: 
-	roarm\roarm10.suf
 	roarm\roarm16.suf
 Light: (   32   32  -89 ) ( 1.00 1.00 1.00)
 Info:
@@ -23,13 +22,10 @@ Palette:
 */
 fram
 {
-	light pal( rgb ( 1.00 1.00 1.00 )  -3  70  70 )
-	{	mov ( -1562.82 -1929.99 -207.698 ) eye deg( 45 ) }
+	light pal( rgb ( 1.00 1.00 1.00 ) -70  -2  70 )
+	{	mov ( 1697.31 -1434.44 -224.153 ) eye deg( 45 ) }
 	{	mov ( 160 -7.5786 0 ) target }
-	{	mov ( 0 -20 -140 ) rotz ( 90 ) roty ( 0 ) rotx ( 180 )
-		scal ( 0.3 0.4 0.3 ) obj roarm16 /* "roarm\roarm16.suf" atr "noname" */
-	}
-	{	mov ( 20 -60 -80 ) rotz ( 0 ) roty ( -18 ) rotx ( 0 )
-		scal ( 0.8 0.6 0.7 ) obj roarm10 /* "roarm\roarm10.suf" atr "#02" */
+	{	mov ( 0 0 0 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
+		scal ( 0.4 0.4 0.35 ) obj roarm16 /* "roarm\roarm16.suf" atr "noname" */
 	}
 }
