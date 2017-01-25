@@ -1,17 +1,17 @@
 /*							Parts Assembler
                                   Version 2.04.100723(:
 Parts: 
-	P1\P114.suf
 	P4\P405.suf
 	T1\T101.suf
 	armor\armor04.suf
+	armor\armor11.suf
 	nozzle\nozzle10.suf
 	roetc\roetc04.suf
 	rohead\rohead08.suf
 Light: (   32   32  -89 ) ( 1.00 1.00 1.00)
 Info:
-	DisplayOffset: ( 102.500  24.042 -94.000 )
-	DisplayScale: 0.353553390593
+	DisplayOffset: (  51.250  12.021 -47.000 )
+	DisplayScale: 0.176776695297
 	MeshFlag: 1
 	MeshSpacing: 200
 	ShowStatus: 0
@@ -28,14 +28,11 @@ Palette:
 */
 fram
 {
-	light pal( rgb ( 1.00 1.00 1.00 )  -3 -70  70 )
-	{	mov ( 731.734 773.331 -136.696 ) eye deg( 45 ) }
+	light pal( rgb ( 1.00 1.00 1.00 )   6 -70  70 )
+	{	mov ( 581.335 859.865 -0.187048 ) eye deg( 45 ) }
 	{	mov ( -177.884 -52.1629 126.531 ) target }
 	{	mov ( -18 0 -54 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
 		scal ( 1 1.00095 1 ) obj rohead08 /* "rohead\rohead08.suf" atr "noname" */
-	}
-	{	mov ( -18 0 186 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
-		scal ( 1 0.8 1 ) obj P114 /* "P1\P114.suf" atr "noname" */
 	}
 	{	mov ( -158 180 126 ) rotz ( -9 ) roty ( -42 ) rotx ( -3 )
 		scal ( 0.7 -0.6 0.8 ) obj roetc04 /* "roetc\roetc04.suf" atr "noname" */
@@ -60,5 +57,11 @@ fram
 	}
 	{	mov ( -158 -180 126 ) rotz ( 9 ) roty ( -42 ) rotx ( 3 )
 		scal ( 0.7 0.6 0.8 ) obj roetc04 /* "roetc\roetc04.suf" atr "noname" */
+	}
+	{	mov ( -20 0 180 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
+		scal ( 0.7 0.6 1 ) obj armor11 /* "armor\armor11.suf" atr "noname" */
+	}
+	{	mov ( 0 0 180 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
+		scal ( -0.8 0.6 1 ) obj armor11 /* "armor\armor11.suf" atr "noname" */
 	}
 }

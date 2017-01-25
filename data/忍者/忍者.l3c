@@ -1,12 +1,12 @@
 /*							Parts Assembler
                                   Version 2.04.100723(:
 Parts: 
-	P1\P114.suf
 	P2\P211.suf
 	P4\P405.suf
 	T1\T101.suf
 	armor\armor03.suf
 	armor\armor04.suf
+	armor\armor11.suf
 	armor\armor14.suf
 	mecha\planeetc\PLEG04.suf
 	nozzle\nozzle10.suf
@@ -27,11 +27,11 @@ Parts:
 	rohand\rohand06.suf
 	rohead\rohead08.suf
 Pose:
-0: "立ちポーズ" ( labelled 17 ( unlabelled move ( 0 0 0 ) rot ( 0 10 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( 0 -20 0 ) ) ( unlabelled move ( -23.2292 0 60.3437 ) rot ( 29.8129 28.9936 27.0028 ) ) ( unlabelled move ( 0 0 0 ) rot ( 0.91432 -44.4931 -2.23504 ) ) ( unlabelled move ( 0 0 0 ) rot ( 0 0 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( 0 0 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( 0 25 0 ) ) ( unlabelled move ( -86.3615 0 -9.75849 ) rot ( -12.6184 -10.3236 -14.3126 ) ) ( unlabelled move ( 0 0 0 ) rot ( 2.1251 -15.5652 1.49784 ) ) ( unlabelled move ( 0 0 0 ) rot ( 0 0 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( 0 0 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( 36.5789 5.58205 19.3866 ) ) ( unlabelled move ( 0 0 0 ) rot ( 0 0 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( -42.238 1.92185 24.7444 ) ) ( unlabelled move ( 0 0 0 ) rot ( -30.9226 -19.9603 5.23939 ) ) ( unlabelled move ( 0 0 0 ) rot ( -8.44533 29.3683 -13.0943 ) ) ( unlabelled move ( 0 0 0 ) rot ( 36.2198 0.633424 -17.9531 ) ) )
+0: "立ちポーズ" ( labelled 17 ( unlabelled move ( 0 0 0 ) rot ( 0 10 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( 0 -20 0 ) ) ( unlabelled move ( -18.888 -30 84.9639 ) rot ( 29.8129 28.9936 27.0028 ) ) ( unlabelled move ( 0 0 0 ) rot ( 0.91432 -44.4931 -2.23504 ) ) ( unlabelled move ( 0 0 0 ) rot ( 0 0 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( 0 0 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( 0 25 0 ) ) ( unlabelled move ( -86.3615 0 -9.75849 ) rot ( -12.5845 4.66107 -14.9923 ) ) ( unlabelled move ( 0 0 0 ) rot ( 2.0695 -30.3359 -1.09955 ) ) ( unlabelled move ( 0 0 0 ) rot ( 0 0 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( 0 0 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( 36.5789 5.58205 19.3866 ) ) ( unlabelled move ( 0 0 0 ) rot ( 0 0 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( -42.238 1.92185 24.7444 ) ) ( unlabelled move ( 0 0 0 ) rot ( -41.9921 -29.8361 10.8425 ) ) ( unlabelled move ( 0 0 0 ) rot ( -10.5452 40.0778 -15.592 ) ) ( unlabelled move ( 0 0 0 ) rot ( 39.904 5.84718 -14.6966 ) ) )
 Light: (   32   32  -89 ) ( 1.00 1.00 1.00)
 Info:
-	DisplayOffset: (  -0.000  -0.000  43.500 )
-	DisplayScale: 0.125000000000
+	DisplayOffset: (  -0.000  -0.000  30.759 )
+	DisplayScale: 0.088388347648
 	MeshFlag: 1
 	MeshSpacing: 200
 	ShowStatus: 1
@@ -44,9 +44,9 @@ Info:
 :)*/
 fram
 {
-	light pal( rgb ( 1.00 1.00 1.00 )  -4 -70  70 )
-	{	mov ( 1832.66 1841.77 -174.613 ) eye deg( 45 ) }
-	{	mov ( -130.829 100.989 -157.795 ) target }
+	light pal( rgb ( 1.00 1.00 1.00 )  -9 -70  70 )
+	{	mov ( 2020 1692.57 -155 ) eye deg( 45 ) }
+	{	mov ( -105.992 72.8477 -154.058 ) target }
   { mov ( 0 0 0 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
     /* Unit */
     { obj "腰" (: "腰.l3p" :) }
