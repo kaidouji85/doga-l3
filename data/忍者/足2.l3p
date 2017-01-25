@@ -26,10 +26,10 @@ fram
 	light pal( rgb ( 1.00 1.00 1.00 ) -65 -25 -70 )
 	{	mov ( 3009.65 -1270.29 -25.2876 ) eye deg( 45 ) }
 	{	mov ( -22.6971 65.5194 -134.737 ) target }
-	{	mov ( 0 0 40 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
-		scal ( 1.1 -1.5 1 ) obj roarm04 /* "roarm\roarm04.suf" atr "noname" */
+	{	mov ( -9.2 0 71.2 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
+		scal ( 1.32 -1.8 1.2 ) obj roarm04 /* "roarm\roarm04.suf" atr "noname" */
 	}
-	{	mov ( 140 0 -20 ) rotz ( 0 ) roty ( -18 ) rotx ( 180 )
-		scal ( 0.5 0.8 0.8 ) obj robody12 /* "robody\robody12.suf" atr "#02" */
+	{	mov ( 158.8 0 -0.8 ) rotz ( 0 ) roty ( -18 ) rotx ( 180 )
+		scal ( 0.6 0.96 0.96 ) obj robody12 /* "robody\robody12.suf" atr "#02" */
 	}
 }

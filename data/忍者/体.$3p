@@ -28,8 +28,8 @@ Palette:
 */
 fram
 {
-	light pal( rgb ( 1.00 1.00 1.00 ) -39 -58 -70 )
-	{	mov ( 2757.57 592.135 257.506 ) eye deg( 45 ) }
+	light pal( rgb ( 1.00 1.00 1.00 ) -29 -64 -70 )
+	{	mov ( 1565.1 650.515 114.889 ) eye deg( 45 ) }
 	{	mov ( -22.6971 65.5194 -134.737 ) target }
 	{	mov ( -33.92 0 42.1 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
 		scal ( 0.462 0.539 0.77 ) obj robody06 /* "robody\robody06.suf" atr "noname" */
@@ -38,13 +38,13 @@ fram
 		scal ( 0.77 0.77 0.6 ) obj nozzle15 /* "nozzle\nozzle15.suf" atr "noname" */
 	}
 	{	mov ( -33.92 200.2 242.3 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
-		scal ( 0.77 0.77 0.847 ) obj roetc09 /* "roetc\roetc09.suf" atr "noname" */
+		scal ( 0.77 0.77 0.847 ) obj roetc09 /* "roetc\roetc09.suf" atr "#02" */
 	}
 	{	mov ( -3.12 200.2 211.5 ) rotz ( -90 ) roty ( 0 ) rotx ( 180 )
 		scal ( 0.154 0.77 0.385 ) obj robody16 /* "robody\robody16.suf" atr "noname" */
 	}
 	{	mov ( -33.92 -200.2 242.3 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
-		scal ( 0.77 -0.77 0.847 ) obj roetc09 /* "roetc\roetc09.suf" atr "noname" */
+		scal ( 0.77 -0.77 0.847 ) obj roetc09 /* "roetc\roetc09.suf" atr "#02" */
 	}
 	{	mov ( -3.12 -200.2 211.5 ) rotz ( 90 ) roty ( 0 ) rotx ( -180 )
 		scal ( 0.154 -0.77 0.385 ) obj robody16 /* "robody\robody16.suf" atr "noname" */

@@ -6,8 +6,8 @@ Parts:
 	nozzle\nozzle15.suf
 Light: (   32   32  -89 ) ( 1.00 1.00 1.00)
 Info:
-	DisplayOffset: ( 232.163   0.000   3.000 )
-	DisplayScale: 0.353553390593
+	DisplayOffset: ( 164.164 -40.305 -50.205 )
+	DisplayScale: 0.250000000000
 	MeshFlag: 1
 	MeshSpacing: 200
 	ShowStatus: 0
@@ -24,8 +24,8 @@ Palette:
 */
 fram
 {
-	light pal( rgb ( 1.00 1.00 1.00 ) -40 -58 -70 )
-	{	mov ( 1754.47 386.098 131.665 ) eye deg( 45 ) }
+	light pal( rgb ( 1.00 1.00 1.00 ) -48 -51 -70 )
+	{	mov ( 1799 136.313 -42.6445 ) eye deg( 45 ) }
 	{	mov ( -22.6971 65.5194 -134.737 ) target }
 	{	mov ( 0 -40 -80 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
 		scal ( 0.6 0.5 0.7 ) obj armor03 /* "armor\armor03.suf" atr "noname" */
@@ -33,7 +33,7 @@ fram
 	{	mov ( 140 80 -20 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
 		scal ( 0.4 1 1 ) obj PLEG04 /* "mecha\planeetc\PLEG04.suf" atr "#02" */
 	}
-	{	mov ( -20 140 120 ) rotz ( 90 ) roty ( -24 ) rotx ( 180 )
-		scal ( 0.8 0.8 0.6 ) obj nozzle15 /* "nozzle\nozzle15.suf" atr "#02" */
+	{	mov ( 40 220 100 ) rotz ( -90 ) roty ( 3 ) rotx ( 180 )
+		scal ( -0.8 0.9 0.6 ) obj nozzle15 /* "nozzle\nozzle15.suf" atr "#02" */
 	}
 }
