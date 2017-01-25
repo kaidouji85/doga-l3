@@ -3,7 +3,6 @@
 Parts: 
 	P1\P114.suf
 	P4\P405.suf
-	S1\S102.suf
 	T1\T101.suf
 	armor\armor04.suf
 	nozzle\nozzle10.suf
@@ -23,17 +22,17 @@ Info:
 	SelectedOnly: 0
 	DispRelative: 0
 Palette:
-	0: atr "#01" { col ( rgb ( 1.000 0.150 0.750 ) ) amb ( 1.000 ) dif ( 0.000 ) opt ( emittion 0.000 2.000 ) }
+	0: atr "#01" { col ( rgb ( 0.900 0.100 0.150 ) ) amb ( 1.000 ) dif ( 0.000 ) opt ( emittion 0.000 2.000 ) }
 	1: atr "#02" { col ( rgb ( 0.850 0.850 0.800 ) ) amb ( 0.200 ) dif ( 0.800 ) ref ( 0.300 ) spc ( 0.900 1.000 0.650 ) }
 	2: atr noname { col ( rgb ( 0.400 0.400 0.450 ) ) amb ( 0.200 ) dif ( 0.800 ) ref ( 0.300 ) spc ( 0.900 1.000 0.650 ) }
 */
 fram
 {
-	light pal( rgb ( 1.00 1.00 1.00 ) -13 -69  70 )
-	{	mov ( 861.975 641.974 4.04954 ) eye deg( 45 ) }
+	light pal( rgb ( 1.00 1.00 1.00 )  -3 -70  70 )
+	{	mov ( 731.734 773.331 -136.696 ) eye deg( 45 ) }
 	{	mov ( -177.884 -52.1629 126.531 ) target }
 	{	mov ( -18 0 -54 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
-		scal ( 1 1.00095 1 ) obj rohead08 /* "rohead\rohead08.suf" atr "#02" */
+		scal ( 1 1.00095 1 ) obj rohead08 /* "rohead\rohead08.suf" atr "noname" */
 	}
 	{	mov ( -18 0 186 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
 		scal ( 1 0.8 1 ) obj P114 /* "P1\P114.suf" atr "noname" */
@@ -54,18 +53,12 @@ fram
 		scal ( 0.130362 0.268731 0.920354 ) obj T101 /* "T1\T101.suf" atr "#01" */
 	}
 	{	mov ( 162 0 226 ) rotz ( 177 ) roty ( -63 ) rotx ( 3 )
-		scal ( 0.5 0.6 1.1 ) obj nozzle10 /* "nozzle\nozzle10.suf" atr "noname" */
+		scal ( 0.5 0.6 1.1 ) obj nozzle10 /* "nozzle\nozzle10.suf" atr "#02" */
 	}
 	{	mov ( 49.4166 -96.491 113.59 ) rotz ( 22.9951 ) roty ( -1.26998 ) rotx ( 92.3386 )
 		scal ( 0.130362 -0.268731 0.920354 ) obj T101 /* "T1\T101.suf" atr "#01" */
 	}
 	{	mov ( -158 -180 126 ) rotz ( 9 ) roty ( -42 ) rotx ( 3 )
 		scal ( 0.7 0.6 0.8 ) obj roetc04 /* "roetc\roetc04.suf" atr "noname" */
-	}
-	{	mov ( -260 220 220 ) rotz ( 168 ) roty ( -36 ) rotx ( 96 )
-		scal ( 0.4 0.3 0.5 ) obj S102 /* "S1\S102.suf" atr "noname" */
-	}
-	{	mov ( -260 -220 220 ) rotz ( -168 ) roty ( -36 ) rotx ( -96 )
-		scal ( 0.4 -0.3 0.5 ) obj S102 /* "S1\S102.suf" atr "noname" */
 	}
 }

@@ -4,13 +4,11 @@ Parts:
 	P1\P114.suf
 	P2\P211.suf
 	P4\P405.suf
-	S1\S102.suf
 	T1\T101.suf
 	armor\armor03.suf
 	armor\armor04.suf
 	armor\armor14.suf
 	mecha\planeetc\PLEG04.suf
-	nozzle\nozzle04.suf
 	nozzle\nozzle10.suf
 	nozzle\nozzle15.suf
 	nozzle\nozzle16.suf
@@ -29,11 +27,11 @@ Parts:
 	rohand\rohand06.suf
 	rohead\rohead08.suf
 Pose:
-0: "立ちポーズ" ( labelled 15 ( unlabelled move ( 0 0 0 ) rot ( 0 10 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( 0 -20 0 ) ) ( unlabelled move ( -37.9128 -20 103.55 ) rot ( 37.2294 27.5049 42.9214 ) ) ( unlabelled move ( 0 0 0 ) rot ( -1.09594 -44.4737 2.68019 ) ) ( unlabelled move ( 0 0 0 ) rot ( 0 0 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( 0 20 0 ) ) ( unlabelled move ( 11.3554 55 64.3998 ) rot ( -9.50438 -20.8615 -23.0587 ) ) ( unlabelled move ( 0 0 0 ) rot ( -2.86051 -25.9894 -0.911711 ) ) ( unlabelled move ( 0 0 0 ) rot ( 0 0 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( 30.769 5.90451 24.2297 ) ) ( unlabelled move ( 0 0 0 ) rot ( 0 0 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( -36.0376 11.9043 40.8692 ) ) ( unlabelled move ( 0 0 0 ) rot ( -49.4907 -52.8395 42.1778 ) ) ( unlabelled move ( 0 0 0 ) rot ( -4.97155 70.0686 -3.6445 ) ) ( unlabelled move ( 0 0 0 ) rot ( 33.1572 -2.27044 -24.7167 ) ) )
+0: "立ちポーズ" ( labelled 17 ( unlabelled move ( 0 0 0 ) rot ( 0 10 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( 0 -20 0 ) ) ( unlabelled move ( -23.2292 0 60.3437 ) rot ( 29.8129 28.9936 27.0028 ) ) ( unlabelled move ( 0 0 0 ) rot ( 0.91432 -44.4931 -2.23504 ) ) ( unlabelled move ( 0 0 0 ) rot ( 0 0 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( 0 0 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( 0 25 0 ) ) ( unlabelled move ( -86.3615 0 -9.75849 ) rot ( -12.6184 -10.3236 -14.3126 ) ) ( unlabelled move ( 0 0 0 ) rot ( 2.1251 -15.5652 1.49784 ) ) ( unlabelled move ( 0 0 0 ) rot ( 0 0 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( 0 0 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( 36.5789 5.58205 19.3866 ) ) ( unlabelled move ( 0 0 0 ) rot ( 0 0 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( -42.238 1.92185 24.7444 ) ) ( unlabelled move ( 0 0 0 ) rot ( -30.9226 -19.9603 5.23939 ) ) ( unlabelled move ( 0 0 0 ) rot ( -8.44533 29.3683 -13.0943 ) ) ( unlabelled move ( 0 0 0 ) rot ( 36.2198 0.633424 -17.9531 ) ) )
 Light: (   32   32  -89 ) ( 1.00 1.00 1.00)
 Info:
-	DisplayOffset: (  -0.000  -0.000  87.000 )
-	DisplayScale: 0.250000000000
+	DisplayOffset: (  -0.000  -0.000  43.500 )
+	DisplayScale: 0.125000000000
 	MeshFlag: 1
 	MeshSpacing: 200
 	ShowStatus: 1
@@ -46,9 +44,9 @@ Info:
 :)*/
 fram
 {
-	light pal( rgb ( 1.00 1.00 1.00 ) -66 -24 -70 )
-	{	mov ( 2873.94 -1264.45 498.275 ) eye deg( 45 ) }
-	{	mov ( -71.0911 69.6057 -275.76 ) target }
+	light pal( rgb ( 1.00 1.00 1.00 )  -4 -70  70 )
+	{	mov ( 1946.37 1942.59 -175.587 ) eye deg( 45 ) }
+	{	mov ( -130.829 100.989 -157.795 ) target }
   { mov ( 0 0 0 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
     /* Unit */
     { obj "腰" (: "腰.l3p" :) }
@@ -101,10 +99,12 @@ fram
       { obj "足1" (: "足1.l3p" :) }
       { mov ( 0 45 -270 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
         /* Unit Moveable */
-        { obj "足2" (: "足2.l3p" :) }
-        { mov ( 5 -10 -340 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
+        { scal ( 1.1 1.1 1.1 )
+          obj "足2" (: "足2.l3p" :) }
+        { mov ( 5.5 -11 -374 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
           /* Unit Moveable */
-          { obj "足3" (: "足3.l3p" :) }
+          { scal ( 1.1 1.1 1.1 )
+            obj "足3" (: "足3.l3p" :) }
         }
       }
     }
@@ -114,11 +114,11 @@ fram
         obj "足1" (: "足1.l3p" :) }
       { mov ( 0 -45 -270 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
         /* Unit Moveable */
-        { scal ( 1 -1 1 )
+        { scal ( 1.1 -1.1 1.1 )
           obj "足2" (: "足2.l3p" :) }
-        { mov ( 5 10 -340 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
+        { mov ( 5.5 11 -374 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
           /* Unit Moveable */
-          { scal ( 1 -1 1 )
+          { scal ( 1.1 -1.1 1.1 )
             obj "足3" (: "足3.l3p" :) }
         }
       }

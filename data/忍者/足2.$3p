@@ -1,12 +1,12 @@
 /*							Parts Assembler
                                   Version 2.04.100723(:
 Parts: 
-	nozzle\nozzle04.suf
 	roarm\roarm04.suf
+	robody\robody12.suf
 Light: (   32   32  -89 ) ( 1.00 1.00 1.00)
 Info:
-	DisplayOffset: ( 116.081   0.000  73.539 )
-	DisplayScale: 0.176776695297
+	DisplayOffset: ( 164.163   0.000 104.000 )
+	DisplayScale: 0.250000000000
 	MeshFlag: 1
 	MeshSpacing: 200
 	ShowStatus: 0
@@ -23,13 +23,13 @@ Palette:
 */
 fram
 {
-	light pal( rgb ( 1.00 1.00 1.00 ) -52 -47 -70 )
-	{	mov ( 3287.78 -94.9157 -54.2074 ) eye deg( 45 ) }
+	light pal( rgb ( 1.00 1.00 1.00 ) -65 -25 -70 )
+	{	mov ( 3009.65 -1270.29 -25.2876 ) eye deg( 45 ) }
 	{	mov ( -22.6971 65.5194 -134.737 ) target }
 	{	mov ( 0 0 40 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
-		scal ( 1.4 -1.5 1.2 ) obj roarm04 /* "roarm\roarm04.suf" atr "noname" */
+		scal ( 1.1 -1.5 1 ) obj roarm04 /* "roarm\roarm04.suf" atr "noname" */
 	}
-	{	mov ( 225 0 -80 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
-		scal ( 1 -1.4 1.4 ) obj nozzle04 /* "nozzle\nozzle04.suf" atr "noname" */
+	{	mov ( 140 0 -20 ) rotz ( 0 ) roty ( -18 ) rotx ( 180 )
+		scal ( 0.5 0.8 0.8 ) obj robody12 /* "robody\robody12.suf" atr "#02" */
 	}
 }
