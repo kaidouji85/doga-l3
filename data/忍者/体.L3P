@@ -10,8 +10,8 @@ Parts:
 	roetc\roetc09.suf
 Light: (   32   32  -89 ) ( 1.00 1.00 1.00)
 Info:
-	DisplayOffset: ( 164.164   0.000 104.000 )
-	DisplayScale: 0.250000000000
+	DisplayOffset: (  41.041   0.000  26.000 )
+	DisplayScale: 0.062500000000
 	MeshFlag: 1
 	MeshSpacing: 200
 	ShowStatus: 0
@@ -28,9 +28,9 @@ Palette:
 */
 fram
 {
-	light pal( rgb ( 1.00 1.00 1.00 )  -5 -70 -70 )
-	{	mov ( 1435.51 1298.91 96.1058 ) eye deg( 45 ) }
-	{	mov ( -22.6971 65.5194 -134.737 ) target }
+	light pal( rgb ( 1.00 1.00 1.00 ) -51 -48  70 )
+	{	mov ( 1570.35 -16.1 20 ) eye deg( 45 ) }
+	{	mov ( 0 20 20 ) target }
 	{	mov ( -33.92 -5.95263 42.2159 ) rotz ( 0 ) roty ( 0 ) rotx ( -2.23117 )
 		scal ( 0.5 0.6 0.77 ) obj robody06 /* "robody\robody06.suf" atr "noname" */
 	}
@@ -63,5 +63,8 @@ fram
 	}
 	{	mov ( 20 280 276 ) rotz ( -90 ) roty ( -69 ) rotx ( 0 )
 		scal ( 0.2 0.3 0.5 ) obj robody12 /* "robody\robody12.suf" atr "noname" */
+	}
+	{	mov ( 20 -280 276 ) rotz ( 90 ) roty ( -69 ) rotx ( 0 )
+		scal ( 0.2 -0.3 0.5 ) obj robody12 /* "robody\robody12.suf" atr "noname" */
 	}
 }
