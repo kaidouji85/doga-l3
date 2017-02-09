@@ -10,8 +10,8 @@ Parts:
 Light: (   32   32  -89 ) ( 1.00 1.00 1.00)
 BackGround: rgb ( 0.0000 0.0000 0.0000 )
 Info:
-	DisplayOffset: (  31.113 -16.263   4.243 )
-	DisplayScale: 0.176776695297
+	DisplayOffset: (  44.000 -22.999   6.001 )
+	DisplayScale: 0.250000000000
 	MeshFlag: 1
 	MeshSpacing: 200
 	ShowStatus: 0
@@ -22,17 +22,17 @@ Info:
 	SelectedOnly: 0
 	DispRelative: 0
 Palette:
-	0: atr "#01" { col ( rgb ( 0.000 0.700 0.150 ) ) amb ( 1.000 ) dif ( 0.000 ) opt ( emittion 0.050 4.000 ) }
-	1: atr "#02" { col ( rgb ( 0.260 0.200 0.630 ) ) amb ( 0.200 ) dif ( 0.800 ) ref ( 0.300 ) spc ( 0.900 1.000 0.650 ) }
+	0: atr "#01" { col ( rgb ( 0.040 0.420 0.270 ) ) amb ( 1.000 ) dif ( 0.000 ) opt ( emittion 0.050 4.000 ) }
+	1: atr "#02" { col ( rgb ( 0.150 0.480 0.610 ) ) amb ( 0.200 ) dif ( 0.800 ) ref ( 0.300 ) spc ( 0.900 1.000 0.650 ) }
 	2: atr "#04" { col ( rgb ( 0.850 0.850 0.800 ) ) amb ( 0.200 ) dif ( 0.800 ) ref ( 0.300 ) spc ( 0.900 1.000 0.650 ) }
 */
 fram
 {
-	light pal( rgb ( 1.00 1.00 1.00 )  -5 -70 -70 )
-	{	mov ( 676.795 586.795 0.959996 ) eye deg( 45 ) }
+	light pal( rgb ( 1.00 1.00 1.00 ) -12 -69 -70 )
+	{	mov ( 736.751 504.954 24.3468 ) eye deg( 45 ) }
 	{	mov ( 0 0 0 ) target }
 	{	mov ( -140 0 99 ) rotz ( 0 ) roty ( -68.1796 ) rotx ( 0 )
-		scal ( 1 4.97405 0.487087 ) obj W207 /* "W2\W207.suf" atr "#04" */
+		scal ( 1 4.97405 0.487087 ) obj W207 /* "W2\W207.suf" atr "#02" */
 	}
 	{	mov ( 10 0 69 ) rotz ( 0 ) roty ( 75 ) rotx ( 0 )
 		scal ( 0.6 0.4 0.7 ) obj P114 /* "P1\P114.suf" atr "#01" */
