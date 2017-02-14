@@ -22,11 +22,12 @@ Parts:
 	robody\robody16.suf
 	rohand\rohand06.suf
 Pose:
+0: "óßÇøÉ|Å[ÉY" ( labelled 17 ( unlabelled move ( 0 0 0 ) rot ( 0 20 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( 0 -30 0 ) ) ( unlabelled move ( -44.3332 -100 44.8759 ) rot ( 31.4664 7.64427 40.4325 ) ) ( unlabelled move ( 0 0 0 ) rot ( 0.741977 -31.5998 -0.774517 ) ) ( unlabelled move ( 0 0 0 ) rot ( 0 0 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( -12.5048 -0.568449 0.369257 ) ) ( unlabelled move ( 0 0 0 ) rot ( 0 25 0 ) ) ( unlabelled move ( 4.33641 40 -24.6314 ) rot ( -12.6709 -15.3183 -14.0761 ) ) ( unlabelled move ( 0 0 0 ) rot ( 0.627584 -19.6835 -3.61644 ) ) ( unlabelled move ( 0 0 0 ) rot ( 0 0 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( 0 0 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( 26.5851 -4.40025 19.9821 ) ) ( unlabelled move ( 0 0 0 ) rot ( 0 0 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( -35.3357 8.11378 36.1692 ) ) ( unlabelled move ( 0 0 0 ) rot ( -30 -40 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( 1.59941 26.6914 -1.32113 ) ) ( unlabelled move ( 0 0 0 ) rot ( 26.0085 -2.17924 -2.12029 ) ) )
 Light: (   32   32  -89 ) ( 1.00 1.00 1.00)
 BackGround: rgb ( 0.0000 0.0000 0.0000 )
 Info:
-	DisplayOffset: (   3.536  14.142  12.374 )
-	DisplayScale: 0.088388347648
+	DisplayOffset: (   5.000  52.000  17.500 )
+	DisplayScale: 0.125000000000
 	MeshFlag: 1
 	MeshSpacing: 200
 	ShowStatus: 1
@@ -39,9 +40,9 @@ Info:
 :)*/
 fram
 {
-	light pal( rgb ( 1.00 1.00 1.00 ) -16 -68 -70 )
-	{	mov ( 2378.72 1436.39 152.728 ) eye deg( 45 ) }
-	{	mov ( 40.3052 -1.53094 -140.053 ) target }
+	light pal( rgb ( 1.00 1.00 1.00 ) -67 -19 -70 )
+	{	mov ( 2378.48 -1335.79 -69.4461 ) eye deg( 45 ) }
+	{	mov ( -60 0 -110.924 ) target }
   { mov ( 0 0 0 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
     /* Unit */
     { obj "çò" (: "çò.l3p" :) }
