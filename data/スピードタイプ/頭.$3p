@@ -1,0 +1,61 @@
+/*							Parts Assembler
+                                  Version 2.04.100723(:
+Parts: 
+	P1\P114.suf
+	T1\T105.suf
+	W2\W207.suf
+	armor\armor11.suf
+	armor\armor12.suf
+	nozzle\nozzle04.suf
+Light: (   32   32  -89 ) ( 1.00 1.00 1.00)
+BackGround: rgb ( 0.0000 0.0000 0.0000 )
+Info:
+	DisplayOffset: (   0.000 -88.000  52.000 )
+	DisplayScale: 0.250000000000
+	MeshFlag: 1
+	MeshSpacing: 200
+	ShowStatus: 0
+	ShowAttr: 1
+	GridFlag: 1
+	GridSpacing: 10
+	RotSpacing: 5
+	SelectedOnly: 0
+	DispRelative: 0
+Palette:
+	0: atr "#01" { col ( rgb ( 0.050 0.490 0.140 ) ) amb ( 1.000 ) dif ( 0.000 ) opt ( emittion 0.050 4.000 ) }
+	1: atr "#02" { col ( rgb ( 0.150 0.480 0.610 ) ) amb ( 0.200 ) dif ( 0.800 ) ref ( 0.300 ) spc ( 0.900 1.000 0.650 ) }
+	2: atr "#04" { col ( rgb ( 0.200 0.320 0.380 ) ) amb ( 0.200 ) dif ( 0.800 ) ref ( 0.300 ) spc ( 0.900 1.000 0.650 ) }
+*/
+fram
+{
+	light pal( rgb ( 1.00 1.00 1.00 ) -20 -67 -70 )
+	{	mov ( 1037.49 545.778 147.679 ) eye deg( 45 ) }
+	{	mov ( 10 0.669469 0 ) target }
+	{	mov ( -123 20 103 ) rotz ( 0 ) roty ( -68.1796 ) rotx ( 0 )
+		scal ( 1 4.97405 0.487087 ) obj W207 /* "W2\W207.suf" atr "#02" */
+	}
+	{	mov ( 27 20 73 ) rotz ( 0 ) roty ( 75 ) rotx ( 0 )
+		scal ( 0.6 0.4 0.7 ) obj P114 /* "P1\P114.suf" atr "#01" */
+	}
+	{	mov ( 27 20 127.624 ) rotz ( 180 ) roty ( -85 ) rotx ( 180 )
+		scal ( 1 1 1 ) obj nozzle04 /* "nozzle\nozzle04.suf" atr "#02" */
+	}
+	{	mov ( 7 20 164 ) rotz ( 0 ) roty ( 8.12725 ) rotx ( 0 )
+		scal ( 0.457352 0.442131 0.9 ) obj T105 /* "T1\T105.suf" atr "#01" */
+	}
+	{	mov ( 17 20 73 ) rotz ( 180 ) roty ( 0 ) rotx ( 0 )
+		scal ( 0.7 0.5 0.6 ) obj armor11 /* "armor\armor11.suf" atr "#02" */
+	}
+	{	mov ( -113 20 4 ) rotz ( -180 ) roty ( -30 ) rotx ( 0 )
+		scal ( 1.2 0.5 0.5 ) obj armor12 /* "armor\armor12.suf" atr "#02" */
+	}
+	{	mov ( -23 150 54 ) rotz ( 75 ) roty ( 5 ) rotx ( 120 )
+		scal ( 0.5 0.8 0.7 ) obj nozzle04 /* "nozzle\nozzle04.suf" atr "#02" */
+	}
+	{	mov ( 27 20 164 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
+		scal ( -0.4 0.5 1 ) obj T105 /* "T1\T105.suf" atr "#02" */
+	}
+	{	mov ( -23 -110 54 ) rotz ( -75 ) roty ( 5 ) rotx ( -120 )
+		scal ( 0.5 -0.8 0.7 ) obj nozzle04 /* "nozzle\nozzle04.suf" atr "#02" */
+	}
+}

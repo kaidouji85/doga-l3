@@ -1,0 +1,120 @@
+/*							Parts Assembler
+                                  Version 2.04.100723(:
+Parts: 
+	P1\P114.suf
+	P2\P211.suf
+	RB\RB06.suf
+	RB\RB11.suf
+	RB\RB16.suf
+	T1\T105.suf
+	W2\W207.suf
+	armor\armor03.suf
+	armor\armor11.suf
+	armor\armor12.suf
+	nozzle\nozzle04.suf
+	roarm\roarm01.suf
+	roarm\roarm03.suf
+	roarm\roarm16.suf
+	robody\robody10.suf
+	robody\robody12.suf
+	robody\robody13.suf
+	robody\robody15.suf
+	robody\robody16.suf
+	rohand\rohand06.suf
+Pose:
+Light: (   32   32  -89 ) ( 1.00 1.00 1.00)
+BackGround: rgb ( 0.0000 0.0000 0.0000 )
+Info:
+	DisplayOffset: (   3.536  14.142  12.374 )
+	DisplayScale: 0.088388347648
+	MeshFlag: 1
+	MeshSpacing: 200
+	ShowStatus: 1
+	ShowAttr: 1
+	GridFlag: 1
+	GridSpacing: 20
+	RotSpacing: 5
+	SelectedOnly: 0
+	DispRelative: 0
+:)*/
+fram
+{
+	light pal( rgb ( 1.00 1.00 1.00 ) -16 -68 -70 )
+	{	mov ( 2378.72 1436.39 152.728 ) eye deg( 45 ) }
+	{	mov ( 40.3052 -1.53094 -140.053 ) target }
+  { mov ( 0 0 0 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
+    /* Unit */
+    { obj "çò" (: "çò.l3p" :) }
+    { mov ( 0 0 0 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
+      /* Unit Moveable */
+      { obj "ëÃ" (: "ëÃ.l3p" :) }
+      { mov ( -60 360 400 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
+        /* Unit Moveable */
+        { obj "òr1" (: "òr1.L3P" :) }
+        { mov ( -20 0 -260 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
+          /* Unit Moveable */
+          { obj "òr2" (: "òr2.l3p" :) }
+          { mov ( 0 0 -280 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
+            /* Unit Moveable */
+            { obj "éË" (: "éË.l3p" :) }
+          }
+        }
+        { mov ( -20 -80 -40 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
+          /* Unit Moveable */
+          { obj "å®" (: "å®.l3p" :) }
+        }
+      }
+      { mov ( 0 0 460 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
+        /* Unit Moveable */
+        { obj "ì™" (: "ì™.l3p" :) }
+      }
+      { mov ( -60 -360 400 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
+        /* Unit Moveable */
+        { scal ( 1 -1 1 )
+          obj "òr1" (: "òr1.L3P" :) }
+        { mov ( -20 0 -260 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
+          /* Unit Moveable */
+          { scal ( 1 -1 1 )
+            obj "òr2" (: "òr2.l3p" :) }
+          { mov ( 0 0 -280 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
+            /* Unit Moveable */
+            { scal ( 1 -1 1 )
+              obj "éË" (: "éË.l3p" :) }
+          }
+        }
+        { mov ( -20 80 -40 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
+          /* Unit Moveable */
+          { scal ( 1 -1 1 )
+            obj "å®" (: "å®.l3p" :) }
+        }
+      }
+    }
+    { mov ( -40 160 -140 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
+      /* Unit Moveable */
+      { obj "ë´1" (: "ë´1.l3p" :) }
+      { mov ( 0 0 -220 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
+        /* Unit Moveable */
+        { obj "ë´2" (: "ë´2.l3p" :) }
+        { mov ( 20 20 -300 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
+          /* Unit Moveable */
+          { obj "ë´3" (: "ë´3.l3p" :) }
+        }
+      }
+    }
+    { mov ( -40 -160 -140 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
+      /* Unit Moveable */
+      { scal ( 1 -1 1 )
+        obj "ë´1" (: "ë´1.l3p" :) }
+      { mov ( 0 0 -220 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
+        /* Unit Moveable */
+        { scal ( 1 -1 1 )
+          obj "ë´2" (: "ë´2.l3p" :) }
+        { mov ( 20 -20 -300 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
+          /* Unit Moveable */
+          { scal ( 1 -1 1 )
+            obj "ë´3" (: "ë´3.l3p" :) }
+        }
+      }
+    }
+  }
+}
