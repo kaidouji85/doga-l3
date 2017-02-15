@@ -20,12 +20,14 @@ Parts:
 	robody\robody13.suf
 	robody\robody15.suf
 	robody\robody16.suf
+	roetc\roetc01.suf
+	roetc\roetc02.suf
 	rohand\rohand06.suf
 Light: (   32   32  -89 ) ( 1.00 1.00 1.00)
 BackGround: rgb ( 0.0000 0.0000 0.0000 )
 Info:
-	DisplayOffset: (   0.000 -11.000  25.875 )
-	DisplayScale: 0.031250000000
+	DisplayOffset: (   0.000 -62.225 -22.627 )
+	DisplayScale: 0.176776695297
 	MeshFlag: 1
 	MeshSpacing: 200
 	ShowStatus: 0
@@ -42,8 +44,8 @@ Palette:
 */
 fram
 {
-	light pal( rgb ( 1.00 1.00 1.00 ) -49 -50 -70 )
-	{	mov ( 2843.48 9.86934 -44.307 ) eye deg( 45 ) }
+	light pal( rgb ( 1.00 1.00 1.00 )  -5 -70 -70 )
+	{	mov ( 2414.87 1974 397.546 ) eye deg( 45 ) }
 	{	mov ( 120.148 0.669469 -49.3703 ) target }
 	{	mov ( -40 0 654 ) rotz ( 0 ) roty ( -68.1796 ) rotx ( 0 )
 		scal ( 1 4.97405 0.487087 ) obj W207 /* "W2\W207.suf" atr "#02" */
@@ -90,7 +92,7 @@ fram
 	{	mov ( 110 -160 315 ) rotz ( -180 ) roty ( -10 ) rotx ( -90 )
 		scal ( 0.4 -0.4 0.3 ) obj robody16 /* "robody\robody16.suf" atr "#04" */
 	}
-	{	mov ( 30 210 425 ) rotz ( -90 ) roty ( -70 ) rotx ( 0 )
+	{	mov ( 30 200 425 ) rotz ( -90 ) roty ( -70 ) rotx ( 0 )
 		scal ( 0.2 0.2 0.4 ) obj robody12 /* "robody\robody12.suf" atr "#04" */
 	}
 	{	mov ( 30 370 465 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
@@ -155,5 +157,17 @@ fram
 	}
 	{	mov ( 29 -100 -5 ) rotz ( 0 ) roty ( 0 ) rotx ( 120 )
 		scal ( 0.2 -0.4 0.3 ) obj robody12 /* "robody\robody12.suf" atr "#04" */
+	}
+	{	mov ( -227 130 313 ) rotz ( 0 ) roty ( -50 ) rotx ( -180 )
+		scal ( 1 1 1 ) obj roetc01 /* "roetc\roetc01.suf" atr "#02" */
+	}
+	{	mov ( -217 140 243 ) rotz ( -180 ) roty ( 0 ) rotx ( 0 )
+		scal ( 1 1.6 1 ) obj roetc02 /* "roetc\roetc02.suf" atr "#02" */
+	}
+	{	mov ( -227 -130 313 ) rotz ( 0 ) roty ( -50 ) rotx ( 180 )
+		scal ( 1 -1 1 ) obj roetc01 /* "roetc\roetc01.suf" atr "#02" */
+	}
+	{	mov ( -217 -140 243 ) rotz ( 180 ) roty ( 0 ) rotx ( 0 )
+		scal ( 1 -1.6 1 ) obj roetc02 /* "roetc\roetc02.suf" atr "#02" */
 	}
 }
