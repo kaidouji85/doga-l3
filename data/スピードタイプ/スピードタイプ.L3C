@@ -24,12 +24,12 @@ Parts:
 	roetc\roetc02.suf
 	rohand\rohand06.suf
 Pose:
-0: "立ちポーズ" ( labelled 19 ( unlabelled move ( 0 0 0 ) rot ( 0 0 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( 0 -20 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( 20.1469 9.33294 14.9696 ) ) ( unlabelled move ( 0 0 0 ) rot ( 0 0 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( 0 0 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( 0 0 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( 0 35 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( -11.7349 -10.0656 -4.39655 ) ) ( unlabelled move ( 0 0 0 ) rot ( 0 0 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( 0 0 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( 0 0 0 ) ) ( unlabelled move ( 53.5694 20 137.51 ) rot ( -8.74472 18.0578 -26.3922 ) ) ( unlabelled move ( 0 0 0 ) rot ( 0 0 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( 25 20 25 ) ) ( unlabelled move ( 0 0 0 ) rot ( 0 0 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( -31.4557 -3.27552 35.3998 ) ) ( unlabelled move ( 0 0 0 ) rot ( -10 -20 -15 ) ) ( unlabelled move ( 0 0 0 ) rot ( 0 0 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( 8.82232 20.5287 -1.6317 ) ) )
+0: "立ちポーズ" ( labelled 19 ( unlabelled move ( 0 0 0 ) rot ( 0 0 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( 0 -20 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( 20.1469 9.33294 14.9696 ) ) ( unlabelled move ( 0 0 0 ) rot ( 0 0 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( 0 0 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( 0 0 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( 0 35 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( -11.7349 -10.0656 -4.39655 ) ) ( unlabelled move ( 0 0 0 ) rot ( 0 0 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( 0 0 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( 0 0 0 ) ) ( unlabelled move ( -30.1738 20 82.8555 ) rot ( -7.09597 18.7472 -21.1728 ) ) ( unlabelled move ( 26.2078 -60 62.3343 ) rot ( 11.792 16.2701 36.6915 ) ) ( unlabelled move ( 0 0 0 ) rot ( 25 20 25 ) ) ( unlabelled move ( 0 0 0 ) rot ( 0 0 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( -31.4557 -3.27552 35.3998 ) ) ( unlabelled move ( 0 0 0 ) rot ( -10 -20 -15 ) ) ( unlabelled move ( 0 0 0 ) rot ( 0 0 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( 8.82232 20.5287 -1.6317 ) ) )
 Light: (   32   32  -89 ) ( 1.00 1.00 1.00)
 BackGround: rgb ( 0.0000 0.0000 0.0000 )
 Info:
-	DisplayOffset: (   3.536  -5.250 -35.250 )
-	DisplayScale: 0.088388347648
+	DisplayOffset: (   5.001  26.393 -48.719 )
+	DisplayScale: 0.125000000000
 	MeshFlag: 1
 	MeshSpacing: 200
 	ShowStatus: 1
@@ -42,8 +42,8 @@ Info:
 :)*/
 fram
 {
-	light pal( rgb ( 1.00 1.00 1.00 )   6 -70 -70 )
-	{	mov ( 1800 2252.3 -60 ) eye deg( 45 ) }
+	light pal( rgb ( 1.00 1.00 1.00 )  -2 -70  70 )
+	{	mov ( 1878.52 1831.75 -118.316 ) eye deg( 45 ) }
 	{	mov ( -60 0 -110.924 ) target }
   { mov ( 0 0 0 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
     /* Unit */
