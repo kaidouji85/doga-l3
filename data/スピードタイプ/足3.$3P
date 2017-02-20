@@ -1,13 +1,14 @@
 /*							Parts Assembler
                                   Version 2.04.100723(:
 Parts: 
-	nozzle\nozzle04.suf
-	roarm\roarm03.suf
+	armor\armor11.suf
+	mecha\tire\TIRE04.suf
+	robody\robody15.suf
 Light: (   32   32  -89 ) ( 1.00 1.00 1.00)
 BackGround: rgb ( 0.0000 0.0000 0.0000 )
 Info:
-	DisplayOffset: (   0.000   2.000  34.000 )
-	DisplayScale: 0.250000000000
+	DisplayOffset: (  56.000   0.000  68.000 )
+	DisplayScale: 0.500000000000
 	MeshFlag: 1
 	MeshSpacing: 200
 	ShowStatus: 0
@@ -20,17 +21,21 @@ Info:
 Palette:
 	0: atr "#01" { col ( rgb ( 0.050 0.490 0.140 ) ) amb ( 1.000 ) dif ( 0.000 ) opt ( emittion 0.050 4.000 ) }
 	1: atr "#02" { col ( rgb ( 0.150 0.480 0.610 ) ) amb ( 0.200 ) dif ( 0.800 ) ref ( 0.300 ) spc ( 0.900 1.000 0.650 ) }
-	2: atr "#04" { col ( rgb ( 0.200 0.320 0.380 ) ) amb ( 0.200 ) dif ( 0.800 ) ref ( 0.300 ) spc ( 0.900 1.000 0.650 ) }
+	2: atr "#03" { col ( rgb ( 0.850 0.850 0.800 ) ) amb ( 0.200 ) dif ( 0.800 ) ref ( 0.300 ) spc ( 0.900 1.000 0.650 ) }
+	3: atr "#04" { col ( rgb ( 0.200 0.320 0.380 ) ) amb ( 0.200 ) dif ( 0.800 ) ref ( 0.300 ) spc ( 0.900 1.000 0.650 ) }
 */
 fram
 {
-	light pal( rgb ( 1.00 1.00 1.00 )  40 -57 -70 )
-	{	mov ( 582.799 2677.34 145.652 ) eye deg( 45 ) }
+	light pal( rgb ( 1.00 1.00 1.00 )  19 -68  70 )
+	{	mov ( 648.087 941.197 -276.532 ) eye deg( 45 ) }
 	{	mov ( 120.148 0.669469 -49.3703 ) target }
-	{	mov ( 189 0 38 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
-		scal ( 1 1 1 ) obj nozzle04 /* "nozzle\nozzle04.suf" atr "#04" */
+	{	mov ( 110 0 -80 ) rotz ( 0 ) roty ( 20 ) rotx ( 0 )
+		scal ( 0.6 0.4 0.4 ) obj robody15 /* "robody\robody15.suf" atr "#02" */
 	}
-	{	mov ( 8 0 -203 ) rotz ( 180 ) roty ( 0 ) rotx ( 0 )
-		scal ( 1.2 1.5 1.1 ) obj roarm03 /* "roarm\roarm03.suf" atr "#02" */
+	{	mov ( -200 0 -90 ) rotz ( 180 ) roty ( 0 ) rotx ( 0 )
+		scal ( 1.2 2.5 1.2 ) obj TIRE04 /* "mecha\tire\TIRE04.suf" atr "#02" */
+	}
+	{	mov ( 120 0 -250 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
+		scal ( 1.1 0.5 0.4 ) obj armor11 /* "armor\armor11.suf" atr "#04" */
 	}
 }

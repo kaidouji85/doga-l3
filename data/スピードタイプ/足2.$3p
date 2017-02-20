@@ -25,16 +25,16 @@ Palette:
 */
 fram
 {
-	light pal( rgb ( 1.00 1.00 1.00 )  43 -55 -70 )
-	{	mov ( 294.209 1458.99 43.199 ) eye deg( 45 ) }
+	light pal( rgb ( 1.00 1.00 1.00 )  54 -44  70 )
+	{	mov ( -19.1698 1398.04 -489.276 ) eye deg( 45 ) }
 	{	mov ( 120.148 0.669469 -49.3703 ) target }
-	{	mov ( 110 0 80 ) rotz ( 0 ) roty ( -30 ) rotx ( 0 )
+	{	mov ( 177.68 0 84.8 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
 		scal ( 0.96 0.96 0.96 ) obj nozzle04 /* "nozzle\nozzle04.suf" atr "#04" */
 	}
-	{	mov ( -3.76 0 -143.68 ) rotz ( 0 ) roty ( -35 ) rotx ( 0 )
+	{	mov ( -3.76 0 -143.68 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
 		scal ( 1.152 1.44 0.864 ) obj roarm03 /* "roarm\roarm03.suf" atr "#02" */
 	}
-	{	mov ( 40 -30 -174 ) rotz ( 0 ) roty ( 70 ) rotx ( 0 )
+	{	mov ( 40 -30 -174 ) rotz ( 0 ) roty ( 25 ) rotx ( 0 )
 		scal ( 0.8 0.9 1 ) obj roarm13 /* "roarm\roarm13.suf" atr "#04" */
 	}
 }
