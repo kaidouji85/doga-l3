@@ -25,13 +25,13 @@ Parts:
 	robody\robody16.suf
 	rohand\rohand06.suf
 Pose:
-0: "立ちポーズ" ( labelled 19 ( unlabelled move ( 0 0 0 ) rot ( 0 0 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( 0 -20 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( 20.1469 9.33294 14.9696 ) ) ( unlabelled move ( 0 0 0 ) rot ( 0 0 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( 0 0 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( 0 0 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( 0 35 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( -11.7349 -10.0656 -4.39655 ) ) ( unlabelled move ( 0 0 0 ) rot ( 0 0 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( 0 0 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( 0 0 0 ) ) ( unlabelled move ( -30.1738 20 82.8555 ) rot ( -7.09597 18.7472 -21.1728 ) ) ( unlabelled move ( 26.2078 -60 62.3343 ) rot ( 11.792 16.2701 36.6915 ) ) ( unlabelled move ( 0 0 0 ) rot ( 25 20 25 ) ) ( unlabelled move ( 0 0 0 ) rot ( 0 0 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( -31.4557 -3.27552 35.3998 ) ) ( unlabelled move ( 0 0 0 ) rot ( -10 -20 -15 ) ) ( unlabelled move ( 0 0 0 ) rot ( 0 0 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( 8.82232 20.5287 -1.6317 ) ) )
-1: "ローラーダッシュ" ( labelled 17 ( unlabelled move ( 0 0 0 ) rot ( 0 5 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( 0 15 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( 36.2526 -24.6732 10.9742 ) ) ( unlabelled move ( 0 0 0 ) rot ( 1.40006 -55.9408 -2.63608 ) ) ( unlabelled move ( 0 0 0 ) rot ( 0 0 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( 0 0 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( 0 15 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( -32.9168 -34.9121 -5.89248 ) ) ( unlabelled move ( 0 0 0 ) rot ( -0.117742 -69.3844 0.365354 ) ) ( unlabelled move ( 0 0 0 ) rot ( 0 0 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( 0 0 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( 53.4591 -34.0507 -36.8359 ) ) ( unlabelled move ( 0 0 0 ) rot ( -2.15831 55.4922 0.277496 ) ) ( unlabelled move ( 0 0 0 ) rot ( -39.809 -10.8675 2.59297 ) ) ( unlabelled move ( 0 0 0 ) rot ( -53.4591 -34.0507 36.8359 ) ) ( unlabelled move ( 0 0 0 ) rot ( 2.65479 59.0387 6.25153 ) ) ( unlabelled move ( 0 0 0 ) rot ( 45.2278 -14.1195 -7.14885 ) ) )
+0: "立ちポーズ" ( labelled 17 ( unlabelled move ( 0 0 0 ) rot ( 0 0 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( 0 -15 -15 ) ) ( unlabelled move ( 0 0 0 ) rot ( 21.5767 34.9353 5.73353 ) ) ( unlabelled move ( 0 0 0 ) rot ( 0.377663 -42.603 -0.96856 ) ) ( unlabelled move ( 0 0 0 ) rot ( 0 0 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( 0 0 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( 0 30 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( -17.3826 -10.2074 9.20165 ) ) ( unlabelled move ( 0 0 0 ) rot ( 0.870977 -21.5711 -0.193936 ) ) ( unlabelled move ( 0 0 0 ) rot ( 0 0 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( 0 0 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( 35 25 20 ) ) ( unlabelled move ( 0 0 0 ) rot ( 0 0 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( -41.9009 -4.09151 34.564 ) ) ( unlabelled move ( 0 0 0 ) rot ( -40 -35 25 ) ) ( unlabelled move ( 0 0 0 ) rot ( -1.67672 60.0194 0.411173 ) ) ( unlabelled move ( 0 0 0 ) rot ( 37.5804 -3.2295 -20.853 ) ) )
+1: "ローラーダッシュ" ( labelled 17 ( unlabelled move ( 0 0 0 ) rot ( 0 5 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( 0 -5 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( 90 35 55 ) ) ( unlabelled move ( 0 0 0 ) rot ( 1.40006 -55.9408 -2.63608 ) ) ( unlabelled move ( 0 0 0 ) rot ( 0 0 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( 0 0 -20 ) ) ( unlabelled move ( 0 0 0 ) rot ( 0 15 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( -85 45 -45 ) ) ( unlabelled move ( 0 0 0 ) rot ( -0.117742 -69.3844 0.365354 ) ) ( unlabelled move ( 0 0 0 ) rot ( 0 0 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( 0 0 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( 40 0 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( -2.15831 55.4922 0.277496 ) ) ( unlabelled move ( 0 0 0 ) rot ( -56.6675 -35.3817 29.8525 ) ) ( unlabelled move ( 0 0 0 ) rot ( -53.4591 -34.0507 36.8359 ) ) ( unlabelled move ( 0 0 0 ) rot ( 2.65479 59.0387 6.25153 ) ) ( unlabelled move ( 0 0 0 ) rot ( 45.2278 -14.1195 -7.14885 ) ) )
 Light: (   32   32  -89 ) ( 1.00 1.00 1.00)
 BackGround: rgb ( 0.0000 0.0000 0.0000 )
 Info:
-	DisplayOffset: (   7.073  37.326  74.246 )
-	DisplayScale: 0.176776695297
+	DisplayOffset: (  10.003  52.787   1.414 )
+	DisplayScale: 0.250000000000
 	MeshFlag: 1
 	MeshSpacing: 200
 	ShowStatus: 1
@@ -44,9 +44,9 @@ Info:
 :)*/
 fram
 {
-	light pal( rgb ( 1.00 1.00 1.00 ) -19 -67  70 )
-	{	mov ( 2669.37 1447.23 -194.487 ) eye deg( 45 ) }
-	{	mov ( 82.3993 13.6143 -182.01 ) target }
+	light pal( rgb ( 1.00 1.00 1.00 )  -7 -70 -70 )
+	{	mov ( 2136.32 1760.1 249.329 ) eye deg( 45 ) }
+	{	mov ( -82.38 -30.0034 -153.634 ) target }
   { mov ( 0 0 0 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
     /* Unit */
     { obj "腰" (: "腰.l3p" :) }
