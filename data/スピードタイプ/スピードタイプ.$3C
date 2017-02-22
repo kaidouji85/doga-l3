@@ -3,18 +3,21 @@
 Parts: 
 	P1\P114.suf
 	P2\P211.suf
+	P3\P305.suf
 	RB\RB06.suf
+	RB\RB07.suf
 	RB\RB11.suf
 	T1\T105.suf
 	W2\W207.suf
 	armor\armor03.suf
 	armor\armor11.suf
 	armor\armor12.suf
+	armor\armor14.suf
 	mecha\tire\TIRE04.suf
 	nozzle\nozzle04.suf
+	nozzle\nozzle12.suf
+	nozzle\nozzle15.suf
 	roarm\roarm01.suf
-	roarm\roarm03.suf
-	roarm\roarm13.suf
 	roarm\roarm16.suf
 	robody\robody10.suf
 	robody\robody12.suf
@@ -27,8 +30,8 @@ Pose:
 Light: (   32   32  -89 ) ( 1.00 1.00 1.00)
 BackGround: rgb ( 0.0000 0.0000 0.0000 )
 Info:
-	DisplayOffset: (  14.145  74.651  98.000 )
-	DisplayScale: 0.353553390593
+	DisplayOffset: (   7.073  37.326  49.000 )
+	DisplayScale: 0.176776695297
 	MeshFlag: 1
 	MeshSpacing: 200
 	ShowStatus: 1
@@ -41,8 +44,8 @@ Info:
 :)*/
 fram
 {
-	light pal( rgb ( 1.00 1.00 1.00 ) -34 -61  70 )
-	{	mov ( 1961.83 556.063 -718.496 ) eye deg( 45 ) }
+	light pal( rgb ( 1.00 1.00 1.00 )  43 -55  70 )
+	{	mov ( 265.514 2803.83 -616.708 ) eye deg( 45 ) }
 	{	mov ( -60 0 -110.924 ) target }
   { mov ( 0 0 0 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
     /* Unit */
