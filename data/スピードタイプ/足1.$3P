@@ -1,13 +1,12 @@
 /*							Parts Assembler
                                   Version 2.04.100723(:
 Parts: 
-	RB\RB06.suf
-	robody\robody12.suf
+	roarm\roarm16.suf
 Light: (   32   32  -89 ) ( 1.00 1.00 1.00)
 BackGround: rgb ( 0.0000 0.0000 0.0000 )
 Info:
-	DisplayOffset: (   0.000   4.000  68.000 )
-	DisplayScale: 0.500000000000
+	DisplayOffset: (   0.000   2.000  34.000 )
+	DisplayScale: 0.250000000000
 	MeshFlag: 1
 	MeshSpacing: 200
 	ShowStatus: 0
@@ -24,16 +23,10 @@ Palette:
 */
 fram
 {
-	light pal( rgb ( 1.00 1.00 1.00 ) -49 -50 -70 )
-	{	mov ( 2843.48 9.86934 -44.307 ) eye deg( 45 ) }
+	light pal( rgb ( 1.00 1.00 1.00 )  40 -57 -70 )
+	{	mov ( 582.799 2677.34 145.652 ) eye deg( 45 ) }
 	{	mov ( 120.148 0.669469 -49.3703 ) target }
-	{	mov ( -6 0 -1 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
-		scal ( 0.4 0.6 0.6 ) obj rb06 /* "RB\RB06.suf" atr "#04" */
-	}
-	{	mov ( -57 100 -111 ) rotz ( 0 ) roty ( 0 ) rotx ( -120 )
-		scal ( 0.2 0.4 0.3 ) obj robody12 /* "robody\robody12.suf" atr "#04" */
-	}
-	{	mov ( -57 -100 -111 ) rotz ( 0 ) roty ( 0 ) rotx ( 120 )
-		scal ( 0.2 -0.4 0.3 ) obj robody12 /* "robody\robody12.suf" atr "#04" */
+	{	mov ( 0 -10 -140 ) rotz ( 90 ) roty ( 0 ) rotx ( -180 )
+		scal ( 0.4 0.4 0.3 ) obj roarm16 /* "roarm\roarm16.suf" atr "#02" */
 	}
 }

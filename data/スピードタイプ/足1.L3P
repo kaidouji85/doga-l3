@@ -5,13 +5,13 @@ Parts:
 Light: (   32   32  -89 ) ( 1.00 1.00 1.00)
 BackGround: rgb ( 0.0000 0.0000 0.0000 )
 Info:
-	DisplayOffset: (   0.000   2.000  34.000 )
-	DisplayScale: 0.250000000000
+	DisplayOffset: (   0.000   0.707  12.021 )
+	DisplayScale: 0.088388347648
 	MeshFlag: 1
 	MeshSpacing: 200
 	ShowStatus: 0
 	ShowAttr: 1
-	GridFlag: 1
+	GridFlag: 0
 	GridSpacing: 10
 	RotSpacing: 5
 	SelectedOnly: 0
@@ -26,7 +26,7 @@ fram
 	light pal( rgb ( 1.00 1.00 1.00 )  40 -57 -70 )
 	{	mov ( 582.799 2677.34 145.652 ) eye deg( 45 ) }
 	{	mov ( 120.148 0.669469 -49.3703 ) target }
-	{	mov ( 0 -10 -140 ) rotz ( 90 ) roty ( 0 ) rotx ( -180 )
-		scal ( 0.4 0.4 0.3 ) obj roarm16 /* "roarm\roarm16.suf" atr "#02" */
+	{	mov ( 0 -10 -117.373 ) rotz ( 90 ) roty ( 0 ) rotx ( -180 )
+		scal ( 0.4 0.4 0.259872 ) obj roarm16 /* "roarm\roarm16.suf" atr "#02" */
 	}
 }

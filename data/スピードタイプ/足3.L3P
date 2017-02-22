@@ -8,8 +8,8 @@ Parts:
 Light: (   32   32  -89 ) ( 1.00 1.00 1.00)
 BackGround: rgb ( 0.0000 0.0000 0.0000 )
 Info:
-	DisplayOffset: (  98.995   0.000  49.000 )
-	DisplayScale: 0.353553390593
+	DisplayOffset: ( 140.000   0.000  69.296 )
+	DisplayScale: 0.500000000000
 	MeshFlag: 1
 	MeshSpacing: 200
 	ShowStatus: 0
@@ -26,22 +26,22 @@ Palette:
 */
 fram
 {
-	light pal( rgb ( 1.00 1.00 1.00 )  -8 -70 -70 )
-	{	mov ( 1327.29 933.444 140.645 ) eye deg( 45 ) }
+	light pal( rgb ( 1.00 1.00 1.00 )   4 -70 -70 )
+	{	mov ( 1353.53 1404.29 -29.8027 ) eye deg( 45 ) }
 	{	mov ( 120.148 0.669469 -49.3703 ) target }
-	{	mov ( -10.3 -6 -109.2 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
-		scal ( -1.62 -1.71 1.62 ) obj TIRE04 /* "mecha\tire\TIRE04.suf" atr "#04" */
-	}
 	{	mov ( 219 -15 -324.1 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
 		scal ( 0.72 0.9 1.71 ) obj armor14 /* "armor\armor14.suf" atr "#04" */
 	}
 	{	mov ( -301.1 -6 -176.5 ) rotz ( 90 ) roty ( 0 ) rotx ( 180 )
-		scal ( 0.72 0.45 0.99 ) obj rb07 /* "RB\RB07.suf" atr "#02" */
+		scal ( 0.5 0.45 0.99 ) obj rb07 /* "RB\RB07.suf" atr "#02" */
 	}
-	{	mov ( -139.1 -15 -329.5 ) rotz ( -180 ) roty ( 0 ) rotx ( 0 )
-		scal ( 0.72 0.9 1.71 ) obj armor14 /* "armor\armor14.suf" atr "#04" */
+	{	mov ( -150 0 -329.5 ) rotz ( -180 ) roty ( 0 ) rotx ( 0 )
+		scal ( 0.72 0.7 1.71 ) obj armor14 /* "armor\armor14.suf" atr "#04" */
 	}
 	{	mov ( 228 -10.5 -171.1 ) rotz ( -180 ) roty ( -30 ) rotx ( 0 )
 		scal ( 1.17 0.9 0.9 ) obj nozzle12 /* "nozzle\nozzle12.suf" atr "#02" */
+	}
+	{	mov ( 0 -6.93911 -120 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
+		scal ( -1.52464 -1.60934 1.52464 ) obj TIRE04 /* "mecha\tire\TIRE04.suf" atr "#04" */
 	}
 }

@@ -1,20 +1,20 @@
 /*							Parts Assembler
                                   Version 2.04.100723(:
 Parts: 
-	P3\P305.suf
 	RB\RB11.suf
+	mecha\tire\TIRE04.suf
 	nozzle\nozzle04.suf
 	nozzle\nozzle15.suf
 Light: (   32   32  -89 ) ( 1.00 1.00 1.00)
 BackGround: rgb ( 0.0000 0.0000 0.0000 )
 Info:
-	DisplayOffset: (   0.000   0.000  69.296 )
-	DisplayScale: 0.250000000001
+	DisplayOffset: (   0.000 -141.000  97.999 )
+	DisplayScale: 0.353553390595
 	MeshFlag: 1
 	MeshSpacing: 200
 	ShowStatus: 0
 	ShowAttr: 1
-	GridFlag: 1
+	GridFlag: 0
 	GridSpacing: 10
 	RotSpacing: 5
 	SelectedOnly: 0
@@ -26,22 +26,22 @@ Palette:
 */
 fram
 {
-	light pal( rgb ( 1.00 1.00 1.00 )  61  35  70 )
-	{	mov ( -2633.85 610.7 -921.44 ) eye deg( 45 ) }
-	{	mov ( -127.349 -51.8413 -812.783 ) target }
-	{	mov ( -12 11 16 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
-		scal ( 1.2 1 0.8 ) obj rb11 /* "RB\RB11.suf" atr "#02" */
+	light pal( rgb ( 1.00 1.00 1.00 ) -10 -69  70 )
+	{	mov ( 1047.48 766.482 -400.862 ) eye deg( 45 ) }
+	{	mov ( 33.643 10.9673 -214.157 ) target }
+	{	mov ( 1.29702 2.47226 15.2842 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
+		scal ( 1.31759 0.941137 0.658796 ) obj rb11 /* "RB\RB11.suf" atr "#02" */
 	}
-	{	mov ( 190 6 -230 ) rotz ( 0 ) roty ( 30 ) rotx ( 0 )
-		scal ( 0.8 1 0.9 ) obj nozzle15 /* "nozzle\nozzle15.suf" atr "#02" */
+	{	mov ( 180.113 2.47226 -169.179 ) rotz ( 0 ) roty ( 30 ) rotx ( 0 )
+		scal ( 0.752909 0.941137 0.752909 ) obj nozzle15 /* "nozzle\nozzle15.suf" atr "#02" */
 	}
-	{	mov ( 0 170 -304 ) rotz ( 90 ) roty ( 0 ) rotx ( 0 )
-		scal ( 1.2 1.6 1.3 ) obj nozzle04 /* "nozzle\nozzle04.suf" atr "#02" */
+	{	mov ( 1.29702 162.466 -206.824 ) rotz ( 90 ) roty ( 0 ) rotx ( 0 )
+		scal ( 1.12936 1.50582 1.03525 ) obj nozzle04 /* "nozzle\nozzle04.suf" atr "#02" */
 	}
-	{	mov ( -12 1 117 ) rotz ( 90 ) roty ( 90 ) rotx ( 0 )
-		scal ( 0.4 0.5 1.4 ) obj P305 /* "P3\P305.suf" atr "#04" */
+	{	mov ( 1.29702 -119.876 -206.824 ) rotz ( -90 ) roty ( 0 ) rotx ( 0 )
+		scal ( 0.752909 -1.50582 0.847023 ) obj nozzle04 /* "nozzle\nozzle04.suf" atr "#02" */
 	}
-	{	mov ( 0 -170 -304 ) rotz ( -90 ) roty ( 0 ) rotx ( 0 )
-		scal ( 1.2 -1.6 1.3 ) obj nozzle04 /* "nozzle\nozzle04.suf" atr "#02" */
+	{	mov ( 1.29702 -6.93911 -404.463 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
+		scal ( -1.52464 -1.60934 1.52464 ) obj TIRE04 /* "mecha\tire\TIRE04.suf" atr "#04" */
 	}
 }

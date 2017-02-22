@@ -3,7 +3,6 @@
 Parts: 
 	P1\P114.suf
 	P2\P211.suf
-	P3\P305.suf
 	RB\RB06.suf
 	RB\RB07.suf
 	RB\RB11.suf
@@ -30,8 +29,8 @@ Pose:
 Light: (   32   32  -89 ) ( 1.00 1.00 1.00)
 BackGround: rgb ( 0.0000 0.0000 0.0000 )
 Info:
-	DisplayOffset: (   7.073  37.326  49.000 )
-	DisplayScale: 0.176776695297
+	DisplayOffset: (  14.146  74.652 148.492 )
+	DisplayScale: 0.353553390594
 	MeshFlag: 1
 	MeshSpacing: 200
 	ShowStatus: 1
@@ -44,9 +43,9 @@ Info:
 :)*/
 fram
 {
-	light pal( rgb ( 1.00 1.00 1.00 )  43 -55  70 )
-	{	mov ( 265.514 2803.83 -616.708 ) eye deg( 45 ) }
-	{	mov ( -60 0 -110.924 ) target }
+	light pal( rgb ( 1.00 1.00 1.00 )  41 -57  70 )
+	{	mov ( 494.559 2834 -336.86 ) eye deg( 45 ) }
+	{	mov ( 20 0 -249.484 ) target }
   { mov ( 0 0 0 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
     /* Unit */
     { obj "çò" (: "çò.l3p" :) }
@@ -97,12 +96,14 @@ fram
     { mov ( -40 160 -140 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
       /* Unit Moveable */
       { obj "ë´1" (: "ë´1.l3p" :) }
-      { mov ( 0 0 -120 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
+      { mov ( 0 -5.65685 -222.627 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
         /* Unit Moveable */
-        { obj "ë´2" (: "ë´2.l3p" :) }
-        { mov ( 20 20 -360 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
+        { scal ( 1.0222 1.0222 1.0222 )
+          obj "ë´2" (: "ë´2.l3p" :) }
+        { mov ( 20.444 20.444 -265.772 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
           /* Unit Moveable */
-          { obj "ë´3" (: "ë´3.l3p" :) }
+          { scal ( 1.0222 1.0222 1.0222 )
+            obj "ë´3" (: "ë´3.l3p" :) }
         }
       }
     }
@@ -110,13 +111,13 @@ fram
       /* Unit Moveable */
       { scal ( 1 -1 1 )
         obj "ë´1" (: "ë´1.l3p" :) }
-      { mov ( 0 0 -120 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
+      { mov ( 0 5.65685 -222.627 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
         /* Unit Moveable */
-        { scal ( 1 -1 1 )
+        { scal ( 1.0222 -1.0222 1.0222 )
           obj "ë´2" (: "ë´2.l3p" :) }
-        { mov ( 20 -20 -360 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
+        { mov ( 20.444 -20.444 -265.772 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
           /* Unit Moveable */
-          { scal ( 1 -1 1 )
+          { scal ( 1.0222 -1.0222 1.0222 )
             obj "ë´3" (: "ë´3.l3p" :) }
         }
       }
