@@ -5,18 +5,19 @@ Parts:
 	フェンス.SUF
 	ライト.SUF
 	校舎.SUF
+	木.SUF
 	木セット.SUF
 Light: (   32   32  -89 ) ( 1.00 1.00 1.00)
 BackGround: rgb ( 0.0000 0.0000 0.0000 )
 Info:
-	DisplayOffset: (   0.000  23.000 -17.875 )
+	DisplayOffset: ( -118.750 -75.000   0.250 )
 	DisplayScale: 0.062500000000
 	MeshFlag: 1
 	MeshSpacing: 200
 	ShowStatus: 0
 	ShowAttr: 1
 	GridFlag: 1
-	GridSpacing: 10
+	GridSpacing: 20
 	RotSpacing: 5
 	SelectedOnly: 0
 	DispRelative: 0
@@ -28,37 +29,25 @@ Palette:
 */
 fram
 {
-	light pal( rgb ( 1.00 1.00 1.00 ) -49 -50 -70 )
-	{	mov ( 4594.5 38.5 1184.69 ) eye deg( 45 ) }
-	{	mov ( -70 10 410.746 ) target }
+	light pal( rgb ( 1.00 1.00 1.00 ) -3.00 -2.00 -4.00 )
+	{	mov ( 4380 0 600 ) eye deg( 45 ) }
+	{	mov ( 120 0 620 ) target }
 	{	mov ( 0 0 0 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
-		scal ( 22.6 21.6 0.24 ) obj P103 /* "P1\P103.suf" atr "#01" */
+		scal ( 22.6 17 0.24 ) obj P103 /* "P1\P103.suf" atr "#01" */
 	}
 	{	mov ( -1000 0 0 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
 		scal ( 1 1 1 ) obj "校舎" /* "校舎.SUF" atr "#01" */
 	}
-	{	mov ( 2111 793 0 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
+	{	mov ( 2107 1191 0 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
 		scal ( 1 1 1 ) obj "フェンス" /* "フェンス.SUF" atr "#01" */
 	}
-	{	mov ( 2111 -7 0 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
+	{	mov ( 2107 391 0 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
 		scal ( 1 1 1 ) obj "フェンス" /* "フェンス.SUF" atr "#01" */
 	}
-	{	mov ( 2111 -807 0 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
+	{	mov ( 2107 -409 0 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
 		scal ( 1 1 1 ) obj "フェンス" /* "フェンス.SUF" atr "#01" */
 	}
-	{	mov ( 1610 -1383 0 ) rotz ( -90 ) roty ( 0 ) rotx ( 0 )
-		scal ( 1 -1 1 ) obj "フェンス" /* "フェンス.SUF" atr "#01" */
-	}
-	{	mov ( 799 -1390 0 ) rotz ( -90 ) roty ( 0 ) rotx ( 0 )
-		scal ( 1 -1 1 ) obj "フェンス" /* "フェンス.SUF" atr "#01" */
-	}
-	{	mov ( 10 -1383 0 ) rotz ( -90 ) roty ( 0 ) rotx ( 0 )
-		scal ( 1 -1 1 ) obj "フェンス" /* "フェンス.SUF" atr "#01" */
-	}
-	{	mov ( -801 -1390 0 ) rotz ( -90 ) roty ( 0 ) rotx ( 0 )
-		scal ( 1 -1 1 ) obj "フェンス" /* "フェンス.SUF" atr "#01" */
-	}
-	{	mov ( -1601 -1390 0 ) rotz ( -90 ) roty ( 0 ) rotx ( 0 )
+	{	mov ( 1700 -1640 0 ) rotz ( 90 ) roty ( 0 ) rotx ( 0 )
 		scal ( 1 -1 1 ) obj "フェンス" /* "フェンス.SUF" atr "#01" */
 	}
 	{	mov ( 1910 -520 0 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
@@ -67,40 +56,64 @@ fram
 	{	mov ( 1910 500 7 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
 		scal ( 1 1 1 ) obj "木セット" /* "木セット.SUF" atr "#02" */
 	}
-	{	mov ( 1540 -1170 0 ) rotz ( -90 ) roty ( 0 ) rotx ( 0 )
+	{	mov ( 1751 -1499 0 ) rotz ( -90 ) roty ( 0 ) rotx ( 0 )
+		scal ( 1 1 1 ) obj "ライト" /* "ライト.SUF" atr "noname" */
+	}
+	{	mov ( 1031 -1499 0 ) rotz ( -90 ) roty ( 0 ) rotx ( 0 )
+		scal ( 1 1 1 ) obj "ライト" /* "ライト.SUF" atr "noname" */
+	}
+	{	mov ( 250 -1500 -10 ) rotz ( -90 ) roty ( 0 ) rotx ( 0 )
+		scal ( 1 1 1 ) obj "ライト" /* "ライト.SUF" atr "noname" */
+	}
+	{	mov ( 2106 -1240 10 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
+		scal ( 1 1 1 ) obj "フェンス" /* "フェンス.SUF" atr "#01" */
+	}
+	{	mov ( 900 -1640 0 ) rotz ( 90 ) roty ( 0 ) rotx ( 0 )
+		scal ( 1 -1 1 ) obj "フェンス" /* "フェンス.SUF" atr "#01" */
+	}
+	{	mov ( 55 -1640 9 ) rotz ( 90 ) roty ( 0 ) rotx ( 0 )
+		scal ( 1 -1 1 ) obj "フェンス" /* "フェンス.SUF" atr "#01" */
+	}
+	{	mov ( -745 -1640 9 ) rotz ( 90 ) roty ( 0 ) rotx ( 0 )
+		scal ( 1 -1 1 ) obj "フェンス" /* "フェンス.SUF" atr "#01" */
+	}
+	{	mov ( 1545 -1417 0 ) rotz ( -90 ) roty ( 0 ) rotx ( 0 )
 		scal ( 1 -1 1 ) obj "木セット" /* "木セット.SUF" atr "#02" */
 	}
-	{	mov ( 491 -1174 0 ) rotz ( -90 ) roty ( 0 ) rotx ( 0 )
+	{	mov ( 496 -1421 0 ) rotz ( -90 ) roty ( 0 ) rotx ( 0 )
 		scal ( 1 -1 1 ) obj "木セット" /* "木セット.SUF" atr "#02" */
 	}
-	{	mov ( 1501 1301 0 ) rotz ( -90 ) roty ( 0 ) rotx ( 0 )
-		scal ( 1 1 1 ) obj "ライト" /* "ライト.SUF" atr "noname" */
+	{	mov ( 1751 1499 0 ) rotz ( 90 ) roty ( 0 ) rotx ( 0 )
+		scal ( 1 -1 1 ) obj "ライト" /* "ライト.SUF" atr "noname" */
 	}
-	{	mov ( 781 1301 0 ) rotz ( -90 ) roty ( 0 ) rotx ( 0 )
-		scal ( 1 1 1 ) obj "ライト" /* "ライト.SUF" atr "noname" */
+	{	mov ( 1031 1499 0 ) rotz ( 90 ) roty ( 0 ) rotx ( 0 )
+		scal ( 1 -1 1 ) obj "ライト" /* "ライト.SUF" atr "noname" */
 	}
-	{	mov ( 1540 1170 0 ) rotz ( 90 ) roty ( 0 ) rotx ( 0 )
+	{	mov ( 250 1500 -10 ) rotz ( 90 ) roty ( 0 ) rotx ( 0 )
+		scal ( 1 -1 1 ) obj "ライト" /* "ライト.SUF" atr "noname" */
+	}
+	{	mov ( 1545 1417 0 ) rotz ( 90 ) roty ( 0 ) rotx ( 0 )
 		scal ( 1 1 1 ) obj "木セット" /* "木セット.SUF" atr "#02" */
 	}
-	{	mov ( 491 1174 0 ) rotz ( 90 ) roty ( 0 ) rotx ( 0 )
+	{	mov ( 496 1421 0 ) rotz ( 90 ) roty ( 0 ) rotx ( 0 )
 		scal ( 1 1 1 ) obj "木セット" /* "木セット.SUF" atr "#02" */
 	}
-	{	mov ( 1610 1383 0 ) rotz ( 90 ) roty ( 0 ) rotx ( 0 )
+	{	mov ( 1700 1600 0 ) rotz ( -90 ) roty ( 0 ) rotx ( 0 )
 		scal ( 1 1 1 ) obj "フェンス" /* "フェンス.SUF" atr "#01" */
 	}
-	{	mov ( 799 1390 0 ) rotz ( 90 ) roty ( 0 ) rotx ( 0 )
+	{	mov ( 900 1600 0 ) rotz ( -90 ) roty ( 0 ) rotx ( 0 )
 		scal ( 1 1 1 ) obj "フェンス" /* "フェンス.SUF" atr "#01" */
 	}
-	{	mov ( 10 1383 0 ) rotz ( 90 ) roty ( 0 ) rotx ( 0 )
+	{	mov ( 55 1600 9 ) rotz ( -90 ) roty ( 0 ) rotx ( 0 )
 		scal ( 1 1 1 ) obj "フェンス" /* "フェンス.SUF" atr "#01" */
 	}
-	{	mov ( -801 1390 0 ) rotz ( 90 ) roty ( 0 ) rotx ( 0 )
+	{	mov ( -745 1600 9 ) rotz ( -90 ) roty ( 0 ) rotx ( 0 )
 		scal ( 1 1 1 ) obj "フェンス" /* "フェンス.SUF" atr "#01" */
 	}
-	{	mov ( -1601 1390 0 ) rotz ( 90 ) roty ( 0 ) rotx ( 0 )
-		scal ( 1 1 1 ) obj "フェンス" /* "フェンス.SUF" atr "#01" */
+	{	mov ( 1900 -1200 -4 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
+		scal ( 1 1 1 ) obj "木" /* "木.SUF" atr "#02" */
 	}
-	{	mov ( 0 1300 -10 ) rotz ( -90 ) roty ( 0 ) rotx ( 0 )
-		scal ( 1 1 1 ) obj "ライト" /* "ライト.SUF" atr "noname" */
+	{	mov ( 1900 1200 -4 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
+		scal ( 1 -1 1 ) obj "木" /* "木.SUF" atr "#02" */
 	}
 }

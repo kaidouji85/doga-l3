@@ -21,7 +21,7 @@ Info:
 Motion: 0
 	Mechanic: CAMERA
 	Bezier:
-		( 3208.24 -1944.67 668.443 )
+		( 3276.12 -1944.67 510.051 )
 	Angle:
 		  1 45
 	CameraRotation:
@@ -30,7 +30,7 @@ Motion: 0
 	Mechanic: TARGET
 	Frame: 1 100
 	Bezier:
-		( 73.3726 -15.946 344.353 )
+		( 163.882 -15.946 480.118 )
 	Position:
 Motion: 0
 	Mechanic: LIGHT-Parallel-
