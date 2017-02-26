@@ -1,0 +1,18 @@
+atr "_BodyM_フェンス_noname"
+{
+	col ( rgb ( 0.050 0.450 0.140 ) )
+	amb ( 0.200 )
+	dif ( 0.800 )
+	ref ( 0.300 )
+	spc ( 0.900 1.000 0.650 )
+}
+atr "_BodyM_フェンス_#02"
+{
+	col ( rgb ( 0.050 0.450 0.140 ) )
+	amb ( 0.200 )
+	dif ( 0.800 )
+	ref ( 0.300 )
+	spc ( 0.900 1.000 0.650 )
+	tramap ( "C:\Program Files\DOGACGA\common\atr\MESH1.PIC" 1.000 0.000 )
+	mapsize ( 0 0 255 255 )
+}
