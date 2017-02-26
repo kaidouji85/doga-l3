@@ -2,13 +2,13 @@
                                   Version 2.04.100723 (:
 Frame: 1 100
 Mechanic:
-	イメージボード
+	学校フィールド
 	C:\work\doga\data\シンブレイバー\シンブレイバー
 	C:\work\doga\data\ネオランドーザ\ネオランドーザ
 BackGround: rgb ( 0.0000 0.0000 0.0000 )
 Info:
 	DisplayOffset: (   0.000   0.000   0.000 )
-	DisplayScale: 0.062500000000
+	DisplayScale: 0.125000000000
 	MeshFlag: 1
 	MeshSpacing: 500
 	ShowStatus: 1
@@ -21,7 +21,7 @@ Info:
 Motion: 0
 	Mechanic: CAMERA
 	Bezier:
-		( 4756.76 257.304 2029.54 )
+		( 4979.54 -19.03 875.001 )
 	Angle:
 		  1 45
 	CameraRotation:
@@ -48,7 +48,7 @@ Motion: 0
 	Parameter:
 		  1 ( 1 1 ( 255 255 255 ) ( 0 0 0 ) )
 Motion: 0
-	Mechanic: "イメージボード.l3p"
+	Mechanic: "学校フィールド.l3p"
 	Frame: 1 100
 	Bezier:
 		( 0 0 0 )
