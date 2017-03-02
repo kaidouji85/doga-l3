@@ -31,7 +31,7 @@ fram
 	{	mov ( -23.5309 168.827 663.162 ) eye deg( 45 ) }
 	{	mov ( 160 -7.5786 0 ) target }
 	{	mov ( -7.7966 0 74.7212 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
-		scal ( 1.28412 1.34363 1.28412 ) obj roarm04 /* "roarm\roarm04.suf" atr "noname" */
+		scal ( 1.28412 1.85251 1.13301 ) obj roarm04 /* "roarm\roarm04.suf" atr "noname" */
 	}
 	{	mov ( 116.763 0 232.668 ) rotz ( 0 ) roty ( -15 ) rotx ( 0 )
 		scal ( 0.898885 0.64206 0.706267 ) obj armor08 /* "armor\armor08.suf" atr "noname" */
@@ -46,6 +46,6 @@ fram
 		scal ( 1.7029 0.945433 1.28412 ) obj P106 /* "P1\P106.suf" atr "#02" */
 	}
 	{	mov ( -13.7283 0.757281 56.5444 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
-		scal ( 1.60375 1.50773 1.28412 ) obj P103 /* "P1\P103.suf" atr "#02" */
+		scal ( 1.62422 1.90023 1.28412 ) obj P103 /* "P1\P103.suf" atr "#02" */
 	}
 }
