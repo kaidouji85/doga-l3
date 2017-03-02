@@ -4,8 +4,8 @@ Parts:
 	RB\RB16.suf
 Light: (   32   32  -89 ) ( 1.00 1.00 1.00)
 Info:
-	DisplayOffset: (   3.536  20.396  24.042 )
-	DisplayScale: 0.176776695296
+	DisplayOffset: (   5.001  28.844  34.001 )
+	DisplayScale: 0.249999999999
 	MeshFlag: 1
 	MeshSpacing: 200
 	ShowStatus: 0
@@ -23,9 +23,9 @@ Palette:
 fram
 {
 	light pal( rgb ( 1.00 1.00 1.00 )  66 -24  70 )
-	{	mov ( -1476.43 3480.43 -714.073 ) eye deg( 45 ) }
+	{	mov ( -1558.25 3654.83 -749.777 ) eye deg( 45 ) }
 	{	mov ( 160 -7.5786 0 ) target }
 	{	mov ( 0 0 0 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
-		scal ( 0.8 1 0.8 ) obj rb16 /* "RB\RB16.suf" atr "noname" */
+		scal ( 1.1 1.1 1.1 ) obj rb16 /* "RB\RB16.suf" atr "noname" */
 	}
 }

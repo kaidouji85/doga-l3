@@ -1,16 +1,18 @@
 /*							Parts Assembler
                                   Version 2.04.100723(:
 Parts: 
-	roarm\roarm16.suf
+	RB\RB07.suf
+	armor\armor08.suf
+	roarm\roarm10.suf
 Light: (   32   32  -89 ) ( 1.00 1.00 1.00)
 Info:
-	DisplayOffset: (  20.002 115.378 136.002 )
-	DisplayScale: 0.999999999996
+	DisplayOffset: (   2.500  14.422  17.000 )
+	DisplayScale: 0.125000000000
 	MeshFlag: 1
 	MeshSpacing: 200
 	ShowStatus: 0
 	ShowAttr: 1
-	GridFlag: 0
+	GridFlag: 1
 	GridSpacing: 20
 	RotSpacing: 3
 	SelectedOnly: 0
@@ -22,10 +24,16 @@ Palette:
 */
 fram
 {
-	light pal( rgb ( 1.00 1.00 1.00 ) -70  -2  70 )
-	{	mov ( 1697.31 -1434.44 -224.153 ) eye deg( 45 ) }
+	light pal( rgb ( 1.00 1.00 1.00 )  60 -36 -70 )
+	{	mov ( -795.007 3929.69 106.092 ) eye deg( 45 ) }
 	{	mov ( 160 -7.5786 0 ) target }
-	{	mov ( 0 0 0 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
-		scal ( 0.4 0.354616 0.188973 ) obj roarm16 /* "roarm\roarm16.suf" atr "noname" */
+	{	mov ( 92.5859 0 86.5425 ) rotz ( 0 ) roty ( 6 ) rotx ( 0 )
+		scal ( 0.7 0.5 0.55 ) obj armor08 /* "armor\armor08.suf" atr "noname" */
+	}
+	{	mov ( 132.942 0 -143.178 ) rotz ( 90 ) roty ( 0 ) rotx ( -87 )
+		scal ( 0.269002 0.4 0.5 ) obj rb07 /* "RB\RB07.suf" atr "#01" */
+	}
+	{	mov ( -62.1198 -60 -30.9771 ) rotz ( 0 ) roty ( -24 ) rotx ( 0 )
+		scal ( 1.1 1 1 ) obj roarm10 /* "roarm\roarm10.suf" atr "#02" */
 	}
 }

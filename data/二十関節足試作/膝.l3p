@@ -1,10 +1,11 @@
 /*							Parts Assembler
                                   Version 2.04.100723(:
 Parts: 
-	roarm\roarm16.suf
+	P1\P103.suf
+	roarm\roarm04.suf
 Light: (   32   32  -89 ) ( 1.00 1.00 1.00)
 Info:
-	DisplayOffset: (  20.002 115.378 136.002 )
+	DisplayOffset: (  20.004 115.376 -97.999 )
 	DisplayScale: 0.999999999996
 	MeshFlag: 1
 	MeshSpacing: 200
@@ -22,10 +23,13 @@ Palette:
 */
 fram
 {
-	light pal( rgb ( 1.00 1.00 1.00 ) -70  -2  70 )
-	{	mov ( 1697.31 -1434.44 -224.153 ) eye deg( 45 ) }
+	light pal( rgb ( 1.00 1.00 1.00 )   2 -70 -70 )
+	{	mov ( 1629.55 1548.28 716.086 ) eye deg( 45 ) }
 	{	mov ( 160 -7.5786 0 ) target }
-	{	mov ( 0 0 0 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
-		scal ( 0.4 0.354616 0.188973 ) obj roarm16 /* "roarm\roarm16.suf" atr "noname" */
+	{	mov ( 3 0 57 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
+		scal ( 1 1.3 1 ) obj roarm04 /* "roarm\roarm04.suf" atr "noname" */
+	}
+	{	mov ( -1.61927 0.589727 42.845 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
+		scal ( 1.24891 1.42378 1 ) obj P103 /* "P1\P103.suf" atr "#02" */
 	}
 }

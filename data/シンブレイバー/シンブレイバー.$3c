@@ -9,6 +9,7 @@ Parts:
 	RB\RB07.suf
 	RB\RB16.suf
 	S1\S101.suf
+	S2\S205.suf
 	T1\T101.suf
 	T1\T105.suf
 	T1\T107.suf
@@ -21,6 +22,7 @@ Parts:
 	roarm\roarm01.suf
 	roarm\roarm02.suf
 	roarm\roarm04.suf
+	roarm\roarm10.suf
 	roarm\roarm16.suf
 	robody\robody09.suf
 	robody\robody12.suf
@@ -29,11 +31,11 @@ Parts:
 	rohand\rohand06.suf
 	rohead\rohead08.suf
 Pose:
-0: "立ちポーズ" ( labelled 17 ( unlabelled move ( 0 0 0 ) rot ( 0 10 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( 0 -25 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( 0 30 0 ) ) ( unlabelled move ( -10.6712 0 13.5197 ) rot ( 26.8502 23.4993 26.9901 ) ) ( unlabelled move ( 0 0 0 ) rot ( -0.230018 -31.5771 0.813475 ) ) ( unlabelled move ( 0 0 0 ) rot ( 0 0 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( 0 0 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( -20 0 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( 2.31595 -15.635 0.10102 ) ) ( unlabelled move ( 0 0 0 ) rot ( 0 0 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( 0 0 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( 29.9888 6.29384 29.0709 ) ) ( unlabelled move ( 0 0 0 ) rot ( -1.72987 11.0444 -0.126966 ) ) ( unlabelled move ( 0 0 0 ) rot ( -40.814 -10.9147 25.0758 ) ) ( unlabelled move ( 0 0 0 ) rot ( -57.525 -62.6598 45.7521 ) ) ( unlabelled move ( 0 0 0 ) rot ( -27.4297 76.0576 -23.5716 ) ) ( unlabelled move ( 0 0 0 ) rot ( 30.9382 -6.09824 -9.37495 ) ) )
+0: "立ちポーズ" ( labelled 19 ( unlabelled move ( 0 0 0 ) rot ( 0 15 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( 0 -30 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( 0 30 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( 33.7074 -0.0545069 -4.82922 ) ) ( unlabelled move ( 0 0 0 ) rot ( 0 0 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( 0 0 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( 0 0 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( -28.8586 -5.47681 -14.142 ) ) ( unlabelled move ( 0 0 0 ) rot ( 0 0 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( 0 0 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( 0 0 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( 26.0491 17.4189 31.3729 ) ) ( unlabelled move ( 0 0 0 ) rot ( 0 0 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( 0 0 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( -43.7483 -10.877 34.0361 ) ) ( unlabelled move ( 0 0 0 ) rot ( -45.9034 -49.3603 18.9972 ) ) ( unlabelled move ( 0 0 0 ) rot ( 1.71403 26.8364 1.54461 ) ) ( unlabelled move ( 0 0 0 ) rot ( -9.48622 28.7461 4.63286 ) ) ( unlabelled move ( 0 0 0 ) rot ( 44.6934 -1.84882 -18.635 ) ) )
 Light: (   32   32  -89 ) ( 1.00 1.00 1.00)
 Info:
-	DisplayOffset: (  30.626  -5.250  36.947 )
-	DisplayScale: 0.088388347648
+	DisplayOffset: (  21.656   8.500 -12.500 )
+	DisplayScale: 0.062500000000
 	MeshFlag: 1
 	MeshSpacing: 200
 	ShowStatus: 1
@@ -46,9 +48,9 @@ Info:
 :)*/
 fram
 {
-	light pal( rgb ( 1.00 1.00 1.00 )  -8 -70 -70 )
-	{	mov ( 2058.84 1662.93 -50.6996 ) eye deg( 45 ) }
-	{	mov ( -107.67 -15.6623 -78.5306 ) target }
+	light pal( rgb ( 1.00 1.00 1.00 ) -12 -69 -70 )
+	{	mov ( 2132.38 1556.39 -121.377 ) eye deg( 45 ) }
+	{	mov ( -99.4297 -5.41316 -130.422 ) target }
   { mov ( 0 0 0 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
     /* Unit */
     { obj "腰" (: "腰.l3p" :) }
@@ -96,32 +98,39 @@ fram
         }
       }
     }
-    { mov ( -25 175 -190 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
+    { mov ( 0 165 -215 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
       /* Unit Moveable */
-      { obj "膝" (: "膝.l3p" :) }
-      { mov ( -25 0 -205 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
+      { obj "足の付け根" (: "足の付け根.l3p" :) }
+      { mov ( 0 15 -70 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
         /* Unit Moveable */
-        { scal ( 1.2 1.2 1.2 )
-          obj "脛" (: "脛.l3p" :) }
-        { mov ( -30 30 -336 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
+        { obj "足関節" (: "足関節.l3p" :) }
+        { mov ( 0 -5 -175 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
           /* Unit Moveable */
-          { scal ( 1.2 1.2 1.2 )
-            obj "足" (: "足.l3p" :) }
+          { obj "脛" (: "脛.l3p" :) }
+          { mov ( -25 10 -385 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
+            /* Unit Moveable */
+            { obj "足" (: "足.l3p" :) }
+          }
         }
       }
     }
-    { mov ( -25 -175 -190 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
+    { mov ( 0 -165 -215 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
       /* Unit Moveable */
       { scal ( 1 -1 1 )
-        obj "膝" (: "膝.l3p" :) }
-      { mov ( -25 0 -205 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
+        obj "足の付け根" (: "足の付け根.l3p" :) }
+      { mov ( 0 -15 -70 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
         /* Unit Moveable */
-        { scal ( 1.2 -1.2 1.2 )
-          obj "脛" (: "脛.l3p" :) }
-        { mov ( -30 -30 -336 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
+        { scal ( 1 -1 1 )
+          obj "足関節" (: "足関節.l3p" :) }
+        { mov ( 0 5 -175 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
           /* Unit Moveable */
-          { scal ( 1.2 -1.2 1.2 )
-            obj "足" (: "足.l3p" :) }
+          { scal ( 1 -1 1 )
+            obj "脛" (: "脛.l3p" :) }
+          { mov ( -25 -10 -385 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
+            /* Unit Moveable */
+            { scal ( 1 -1 1 )
+              obj "足" (: "足.l3p" :) }
+          }
         }
       }
     }

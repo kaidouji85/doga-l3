@@ -1,16 +1,16 @@
 /*							Parts Assembler
                                   Version 2.04.100723(:
 Parts: 
-	roarm\roarm16.suf
+	RB\RB16.suf
 Light: (   32   32  -89 ) ( 1.00 1.00 1.00)
 Info:
-	DisplayOffset: (  20.002 115.378 136.002 )
-	DisplayScale: 0.999999999996
+	DisplayOffset: (   5.001  28.844  34.001 )
+	DisplayScale: 0.249999999999
 	MeshFlag: 1
 	MeshSpacing: 200
 	ShowStatus: 0
 	ShowAttr: 1
-	GridFlag: 0
+	GridFlag: 1
 	GridSpacing: 20
 	RotSpacing: 3
 	SelectedOnly: 0
@@ -22,10 +22,10 @@ Palette:
 */
 fram
 {
-	light pal( rgb ( 1.00 1.00 1.00 ) -70  -2  70 )
-	{	mov ( 1697.31 -1434.44 -224.153 ) eye deg( 45 ) }
+	light pal( rgb ( 1.00 1.00 1.00 )  66 -24  70 )
+	{	mov ( -1558.25 3654.83 -749.777 ) eye deg( 45 ) }
 	{	mov ( 160 -7.5786 0 ) target }
 	{	mov ( 0 0 0 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
-		scal ( 0.4 0.354616 0.188973 ) obj roarm16 /* "roarm\roarm16.suf" atr "noname" */
+		scal ( 0.9 1 1.1 ) obj rb16 /* "RB\RB16.suf" atr "noname" */
 	}
 }

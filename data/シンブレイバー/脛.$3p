@@ -2,14 +2,15 @@
                                   Version 2.04.100723(:
 Parts: 
 	EG\EG16.suf
-	P1\P105.suf
+	P1\P103.suf
+	P1\P106.suf
 	RB\RB07.suf
 	armor\armor08.suf
 	roarm\roarm04.suf
 Light: (   32   32  -89 ) ( 1.00 1.00 1.00)
 Info:
-	DisplayOffset: (  14.145  81.583 -69.296 )
-	DisplayScale: 0.707106781184
+	DisplayOffset: (   2.501  14.422 -12.250 )
+	DisplayScale: 0.125000000000
 	MeshFlag: 1
 	MeshSpacing: 200
 	ShowStatus: 0
@@ -26,25 +27,25 @@ Palette:
 */
 fram
 {
-	light pal( rgb ( 1.00 1.00 1.00 )   7 -70 -70 )
-	{	mov ( 470.47 377.659 461.383 ) eye deg( 45 ) }
+	light pal( rgb ( 1.00 1.00 1.00 )  70   1 -70 )
+	{	mov ( -23.5309 168.827 663.162 ) eye deg( 45 ) }
 	{	mov ( 160 -7.5786 0 ) target }
-	{	mov ( 3 0 57 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
-		scal ( 1 1.3 1 ) obj roarm04 /* "roarm\roarm04.suf" atr "noname" */
+	{	mov ( -7.7966 0 74.7212 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
+		scal ( 1.28412 1.34363 1.28412 ) obj roarm04 /* "roarm\roarm04.suf" atr "noname" */
 	}
-	{	mov ( 100 0 180 ) rotz ( 0 ) roty ( -15 ) rotx ( 0 )
-		scal ( 0.7 0.5 0.55 ) obj armor08 /* "armor\armor08.suf" atr "noname" */
+	{	mov ( 116.763 0 232.668 ) rotz ( 0 ) roty ( -15 ) rotx ( 0 )
+		scal ( 0.898885 0.64206 0.706267 ) obj armor08 /* "armor\armor08.suf" atr "noname" */
 	}
-	{	mov ( 180 0 20 ) rotz ( 90 ) roty ( 0 ) rotx ( -108 )
-		scal ( 0.269002 0.4 0.5 ) obj rb07 /* "RB\RB07.suf" atr "#01" */
+	{	mov ( 219.493 0 27.2087 ) rotz ( 90 ) roty ( 0 ) rotx ( -108 )
+		scal ( 0.345431 0.513648 0.64206 ) obj rb07 /* "RB\RB07.suf" atr "#01" */
 	}
-	{	mov ( 0 0 40 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
-		scal ( 0.7 1.7 1 ) obj P105 /* "P1\P105.suf" atr "#02" */
+	{	mov ( 199.699 2.56824 219.697 ) rotz ( -90 ) roty ( 0 ) rotx ( 19.5883 )
+		scal ( 0.117397 0.166612 0.316005 ) obj EG16 /* "EG\EG16.suf" atr "#02" */
 	}
-	{	mov ( 0 0 40 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
-		scal ( -0.7 1.7 1 ) obj P105 /* "P1\P105.suf" atr "#02" */
+	{	mov ( 229.618 -2.87476 -101.449 ) rotz ( 180 ) roty ( -74.3956 ) rotx ( 180 )
+		scal ( 1.7029 0.945433 1.28412 ) obj P106 /* "P1\P106.suf" atr "#02" */
 	}
-	{	mov ( 145.858 0 169.899 ) rotz ( -90 ) roty ( 0 ) rotx ( 19.5883 )
-		scal ( 0.091422 0.139199 0.246087 ) obj EG16 /* "EG\EG16.suf" atr "#02" */
+	{	mov ( -13.7283 0.757281 56.5444 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
+		scal ( 1.60375 1.50773 1.28412 ) obj P103 /* "P1\P103.suf" atr "#02" */
 	}
 }
