@@ -29,9 +29,9 @@ Palette:
 */
 fram
 {
-	light pal( rgb ( 1.00 1.00 1.00 ) -50 -49 -70 )
-	{	mov ( 5562.71 -43.9898 727.695 ) eye deg( 45 ) }
-	{	mov ( 20 0 410.746 ) target }
+	light pal( rgb ( 1.00 1.00 1.00 ) -3.00 -2.00 -4.00 )
+	{	mov ( 4380 0 600 ) eye deg( 45 ) }
+	{	mov ( 120 0 620 ) target }
 	{	mov ( 0 0 0 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
 		scal ( 22.6 17 0.24 ) obj P103 /* "P1\P103.suf" atr "#01" */
 	}
