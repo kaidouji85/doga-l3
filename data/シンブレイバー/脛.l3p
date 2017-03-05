@@ -27,8 +27,8 @@ Palette:
 */
 fram
 {
-	light pal( rgb ( 1.00 1.00 1.00 )  70   1 -70 )
-	{	mov ( -23.5309 168.827 663.162 ) eye deg( 45 ) }
+	light pal( rgb ( 1.00 1.00 1.00 ) -49 -50 -70 )
+	{	mov ( 1497.98 14.3526 4.4273 ) eye deg( 45 ) }
 	{	mov ( 160 -7.5786 0 ) target }
 	{	mov ( -7.7966 0 74.7212 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
 		scal ( 1.28412 1.50893 1.13301 ) obj roarm04 /* "roarm\roarm04.suf" atr "noname" */

@@ -13,4 +13,6 @@ atr "_BodyM_çZé…_#02"
 	amb ( 0.200 )
 	dif ( 0.800 )
 	spc ( 0.700 1.000 0.000 )
+	colormap ( "C:\Program Files\DOGACGA\common\atr\YOGORE.PIC" 0.630 1.000 )
+	mapsize ( 0 0 255 255 )
 }
