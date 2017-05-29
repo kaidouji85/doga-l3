@@ -9,10 +9,10 @@ atr "_BodyM_çZé…_#03"
 }
 atr "_BodyM_çZé…_#02"
 {
-	col ( rgb ( 0.400 0.400 0.450 ) )
+	col ( 1.000 )
 	amb ( 0.200 )
 	dif ( 0.800 )
 	spc ( 0.700 1.000 0.000 )
-	colormap ( "C:\Program Files\DOGACGA\common\atr\YOGORE.PIC" 0.630 1.000 )
+	colormap ( "C:\work\doga\data\äwçZ\concrete.png" )
 	mapsize ( 0 0 255 255 )
 }
