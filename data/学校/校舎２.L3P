@@ -1,0 +1,1163 @@
+/*							Parts Assembler
+                                  Version 2.04.100723(:
+Parts: 
+	P2\P205.suf
+	P2\P214.suf
+	P2\P215.suf
+	P3\P305.suf
+Light: (   32   32  -89 ) ( 1.00 1.00 1.00)
+BackGround: rgb ( 0.0000 0.0000 0.0000 )
+Info:
+	DisplayOffset: (   0.000  12.000 -14.999 )
+	DisplayScale: 0.062500000000
+	MeshFlag: 1
+	MeshSpacing: 200
+	ShowStatus: 0
+	ShowAttr: 1
+	GridFlag: 0
+	GridSpacing: 20
+	RotSpacing: 5
+	SelectedOnly: 0
+	DispRelative: 0
+Palette:
+	0: atr "#01" { col ( rgb ( 0.400 0.400 0.450 ) ) amb ( 0.200 ) dif ( 0.800 ) spc ( 0.700 1.000 0.000 ) colormap ( YOGORE.PIC ) mapsize ( 0 0 4 4 ) }
+	1: atr "ÉKÉâÉX" { col ( rgb ( 0.000 0.710 0.960 ) ) amb ( 0.150 ) dif ( 0.800 ) tra ( 0.150 ) ref ( 0.280 ) spc ( 0.800 1.200 0.000 ) }
+	2: atr "ÉtÉåÅ[ÉÄ" { col ( rgb ( 0.180 0.180 0.200 ) ) amb ( 0.200 ) dif ( 0.800 ) spc ( 0.700 1.000 0.000 ) colormap ( YOGORE.PIC ) mapsize ( 0 0 4 4 ) }
+	3: atr "ï∂éöî’" { col ( 1.000 ) amb ( 1.000 ) dif ( 0.000 ) colormap ( YOGORE.PIC ) mapsize ( 0 0 4 4 ) }
+	4: atr "ï«" { col ( 1.000 ) amb ( 0.200 ) dif ( 0.800 ) spc ( 0.700 1.000 0.000 ) colormap ( YOGORE.PIC ) mapsize ( 0 0 10 10 ) }
+	5: atr "ï«ÇQ" { col ( rgb ( 0.650 0.650 0.700 ) ) amb ( 0.200 ) dif ( 0.800 ) spc ( 0.700 1.000 0.000 ) colormap ( YOGORE.PIC ) mapsize ( 0 0 4 4 ) }
+*/
+fram
+{
+	light pal( rgb ( 1.00 1.00 1.00 ) -16 -68 -70 )
+	{	mov ( 3711.87 2306.8 1223.52 ) eye deg( 45 ) }
+	{	mov ( 0 20 264.001 ) target }
+	{	mov ( -29.2 -718.4 -427.4 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
+		scal ( 8.78 2.94 0.32 ) obj P205 /* "P2\P205.suf" atr "ï«" */
+	}
+	{	mov ( 818.8 -1014.4 -299.4 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
+		scal ( 0.5 0.52 2.78 ) obj P205 /* "P2\P205.suf" atr "ï«" */
+	}
+	{	mov ( 754.8 -718.4 -299.4 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
+		scal ( 0.12 2.7 2.42 ) obj P205 /* "P2\P205.suf" atr "ÉKÉâÉX" */
+	}
+	{	mov ( -29.2 -718.4 -83.4 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
+		scal ( 8.78 2.94 -0.32 ) obj P205 /* "P2\P205.suf" atr "ï«" */
+	}
+	{	mov ( -31.2 -231.6 -427.4 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
+		scal ( 8.78 2.94 0.32 ) obj P205 /* "P2\P205.suf" atr "ï«ÇQ" */
+	}
+	{	mov ( 816.8 -435.6 -299.4 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
+		scal ( 0.5 0.52 2.78 ) obj P205 /* "P2\P205.suf" atr "ï«" */
+	}
+	{	mov ( 752.8 -231.6 -299.4 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
+		scal ( 0.12 2.7 2.42 ) obj P205 /* "P2\P205.suf" atr "#01" */
+	}
+	{	mov ( -31.2 -231.6 -83.4 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
+		scal ( 8.78 2.94 -0.32 ) obj P205 /* "P2\P205.suf" atr "ï«" */
+	}
+	{	mov ( -29.2 -1910.4 -427.4 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
+		scal ( 8.78 3.38 0.32 ) obj P205 /* "P2\P205.suf" atr "ï«" */
+	}
+	{	mov ( 818.8 -2206.4 -299.4 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
+		scal ( 0.5 0.52 2.78 ) obj P205 /* "P2\P205.suf" atr "ï«" */
+	}
+	{	mov ( 754.8 -1910.4 -299.4 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
+		scal ( 0.12 2.7 2.42 ) obj P205 /* "P2\P205.suf" atr "ÉKÉâÉX" */
+	}
+	{	mov ( -29.2 -1910.4 -83.4 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
+		scal ( 8.78 2.94 -0.32 ) obj P205 /* "P2\P205.suf" atr "ï«" */
+	}
+	{	mov ( -31.2 -1331.6 -427.4 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
+		scal ( 8.78 2.94 0.32 ) obj P205 /* "P2\P205.suf" atr "ï«" */
+	}
+	{	mov ( 816.8 -1627.6 -299.4 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
+		scal ( 0.5 0.52 2.78 ) obj P205 /* "P2\P205.suf" atr "ï«" */
+	}
+	{	mov ( 752.8 -1331.6 -299.4 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
+		scal ( 0.12 2.7 2.42 ) obj P205 /* "P2\P205.suf" atr "ÉKÉâÉX" */
+	}
+	{	mov ( -31.2 -1331.6 -83.4 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
+		scal ( 8.78 2.94 -0.32 ) obj P205 /* "P2\P205.suf" atr "ï«" */
+	}
+	{	mov ( -40 0 -507.4 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
+		scal ( 8.18 22 0.72 ) obj P205 /* "P2\P205.suf" atr "#01" */
+	}
+	{	mov ( -29.2 -718.4 85.4 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
+		scal ( 8.78 2.94 0.32 ) obj P205 /* "P2\P205.suf" atr "ï«" */
+	}
+	{	mov ( 818.8 -1014.4 213.4 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
+		scal ( 0.5 0.52 2.78 ) obj P205 /* "P2\P205.suf" atr "ï«" */
+	}
+	{	mov ( 754.8 -718.4 213.4 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
+		scal ( 0.12 2.7 2.42 ) obj P205 /* "P2\P205.suf" atr "ÉKÉâÉX" */
+	}
+	{	mov ( -29.2 -718.4 429.4 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
+		scal ( 8.78 2.94 -0.32 ) obj P205 /* "P2\P205.suf" atr "ï«" */
+	}
+	{	mov ( -31.2 -231.6 85.4 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
+		scal ( 8.78 2.94 0.32 ) obj P205 /* "P2\P205.suf" atr "ï«" */
+	}
+	{	mov ( 816.8 -435.6 213.4 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
+		scal ( 0.5 0.52 2.78 ) obj P205 /* "P2\P205.suf" atr "ï«" */
+	}
+	{	mov ( 752.8 -231.6 213.4 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
+		scal ( 0.12 2.7 2.42 ) obj P205 /* "P2\P205.suf" atr "ï«" */
+	}
+	{	mov ( -31.2 -231.6 429.4 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
+		scal ( 8.78 2.94 -0.32 ) obj P205 /* "P2\P205.suf" atr "ï«" */
+	}
+	{	mov ( -29.2 -1910.4 85.4 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
+		scal ( 8.78 3.46 0.32 ) obj P205 /* "P2\P205.suf" atr "ï«" */
+	}
+	{	mov ( 818.8 -2206.4 213.4 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
+		scal ( 0.5 0.52 2.78 ) obj P205 /* "P2\P205.suf" atr "ï«" */
+	}
+	{	mov ( 754.8 -1910.4 213.4 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
+		scal ( 0.12 2.7 2.42 ) obj P205 /* "P2\P205.suf" atr "ÉKÉâÉX" */
+	}
+	{	mov ( -29.2 -1910.4 429.4 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
+		scal ( 8.78 3.3 -0.32 ) obj P205 /* "P2\P205.suf" atr "ï«" */
+	}
+	{	mov ( -31.2 -1331.6 85.4 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
+		scal ( 8.78 2.94 0.32 ) obj P205 /* "P2\P205.suf" atr "ï«" */
+	}
+	{	mov ( 816.8 -1627.6 213.4 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
+		scal ( 0.5 0.52 2.78 ) obj P205 /* "P2\P205.suf" atr "ï«" */
+	}
+	{	mov ( 752.8 -1331.6 213.4 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
+		scal ( 0.12 2.7 2.42 ) obj P205 /* "P2\P205.suf" atr "ÉKÉâÉX" */
+	}
+	{	mov ( -31.2 -1331.6 429.4 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
+		scal ( 8.78 2.94 -0.32 ) obj P205 /* "P2\P205.suf" atr "ï«" */
+	}
+	{	mov ( -40 0 5.4 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
+		scal ( 8.18 22.1 0.72 ) obj P205 /* "P2\P205.suf" atr "#01" */
+	}
+	{	mov ( -29.2 -718.4 1072.5 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
+		scal ( 8.78 2.94 0.32 ) obj P205 /* "P2\P205.suf" atr "ï«" */
+	}
+	{	mov ( 818.8 -1014.4 1200.5 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
+		scal ( 0.5 0.52 2.4 ) obj P205 /* "P2\P205.suf" atr "ï«" */
+	}
+	{	mov ( 754.8 -718.4 1200.5 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
+		scal ( 0.12 2.7 2.42 ) obj P205 /* "P2\P205.suf" atr "ÉKÉâÉX" */
+	}
+	{	mov ( -29.2 -718.4 1416.5 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
+		scal ( 8.78 2.94 -0.32 ) obj P205 /* "P2\P205.suf" atr "ï«" */
+	}
+	{	mov ( -31.2 -231.6 1072.5 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
+		scal ( 8.78 2.94 0.32 ) obj P205 /* "P2\P205.suf" atr "ï«" */
+	}
+	{	mov ( 816.8 -435.6 1200.5 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
+		scal ( 0.5 0.52 2.4 ) obj P205 /* "P2\P205.suf" atr "ï«" */
+	}
+	{	mov ( 752.8 -231.6 1200.5 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
+		scal ( 0.12 2.7 2.42 ) obj P205 /* "P2\P205.suf" atr "ï«" */
+	}
+	{	mov ( -31.2 -231.6 1416.5 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
+		scal ( 8.78 2.94 -0.32 ) obj P205 /* "P2\P205.suf" atr "ï«" */
+	}
+	{	mov ( -29.2 -1910.4 1072.5 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
+		scal ( 8.78 3.46 0.32 ) obj P205 /* "P2\P205.suf" atr "ï«" */
+	}
+	{	mov ( 818.8 -2206.4 1200.5 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
+		scal ( 0.5 0.52 2.4 ) obj P205 /* "P2\P205.suf" atr "ï«" */
+	}
+	{	mov ( 754.8 -1910.4 1200.5 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
+		scal ( 0.12 2.7 2.42 ) obj P205 /* "P2\P205.suf" atr "ÉKÉâÉX" */
+	}
+	{	mov ( -29.2 -1910.4 1416.5 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
+		scal ( 8.78 2.94 -0.32 ) obj P205 /* "P2\P205.suf" atr "ï«" */
+	}
+	{	mov ( -31.2 -1331.6 1072.5 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
+		scal ( 8.78 2.94 0.32 ) obj P205 /* "P2\P205.suf" atr "ï«" */
+	}
+	{	mov ( 816.8 -1627.6 1200.5 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
+		scal ( 0.5 0.52 2.4 ) obj P205 /* "P2\P205.suf" atr "ï«" */
+	}
+	{	mov ( 752.8 -1331.6 1200.5 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
+		scal ( 0.12 2.7 2.42 ) obj P205 /* "P2\P205.suf" atr "ÉKÉâÉX" */
+	}
+	{	mov ( -31.2 -1331.6 1416.5 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
+		scal ( 8.78 3.2 -0.32 ) obj P205 /* "P2\P205.suf" atr "ï«" */
+	}
+	{	mov ( -44 -16 501.8 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
+		scal ( 8.18 22.25 0.72 ) obj P205 /* "P2\P205.suf" atr "#01" */
+	}
+	{	mov ( -850 -1014.4 -299.4 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
+		scal ( -0.5 0.52 2.78 ) obj P205 /* "P2\P205.suf" atr "ï«" */
+	}
+	{	mov ( -786 -718.4 -299.4 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
+		scal ( -0.12 2.7 2.42 ) obj P205 /* "P2\P205.suf" atr "ÉKÉâÉX" */
+	}
+	{	mov ( -848 -435.6 -299.4 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
+		scal ( -0.5 0.52 2.78 ) obj P205 /* "P2\P205.suf" atr "ï«" */
+	}
+	{	mov ( -784 -231.6 -299.4 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
+		scal ( -0.12 2.7 2.42 ) obj P205 /* "P2\P205.suf" atr "ï«" */
+	}
+	{	mov ( -850 -2206.4 -299.4 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
+		scal ( -0.5 0.52 2.78 ) obj P205 /* "P2\P205.suf" atr "ï«" */
+	}
+	{	mov ( -786 -1910.4 -299.4 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
+		scal ( -0.12 2.7 2.42 ) obj P205 /* "P2\P205.suf" atr "ÉKÉâÉX" */
+	}
+	{	mov ( -848 -1627.6 -299.4 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
+		scal ( -0.5 0.52 2.78 ) obj P205 /* "P2\P205.suf" atr "ï«" */
+	}
+	{	mov ( -784 -1331.6 -299.4 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
+		scal ( -0.12 2.7 2.42 ) obj P205 /* "P2\P205.suf" atr "ÉKÉâÉX" */
+	}
+	{	mov ( -850 -1014.4 213.4 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
+		scal ( -0.5 0.52 2.78 ) obj P205 /* "P2\P205.suf" atr "ï«" */
+	}
+	{	mov ( -786 -718.4 213.4 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
+		scal ( -0.12 2.7 2.42 ) obj P205 /* "P2\P205.suf" atr "ÉKÉâÉX" */
+	}
+	{	mov ( -848 -435.6 213.4 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
+		scal ( -0.5 0.52 2.78 ) obj P205 /* "P2\P205.suf" atr "ï«" */
+	}
+	{	mov ( -784 -231.6 213.4 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
+		scal ( -0.12 2.7 2.42 ) obj P205 /* "P2\P205.suf" atr "ï«" */
+	}
+	{	mov ( -850 -2206.4 213.4 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
+		scal ( -0.5 0.52 2.78 ) obj P205 /* "P2\P205.suf" atr "ï«" */
+	}
+	{	mov ( -786 -1910.4 213.4 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
+		scal ( -0.12 2.7 2.42 ) obj P205 /* "P2\P205.suf" atr "ÉKÉâÉX" */
+	}
+	{	mov ( -848 -1627.6 213.4 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
+		scal ( -0.5 0.52 2.78 ) obj P205 /* "P2\P205.suf" atr "ï«" */
+	}
+	{	mov ( -784 -1331.6 213.4 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
+		scal ( -0.12 2.7 2.42 ) obj P205 /* "P2\P205.suf" atr "ÉKÉâÉX" */
+	}
+	{	mov ( -786 -718.4 1200.5 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
+		scal ( -0.12 2.7 2.42 ) obj P205 /* "P2\P205.suf" atr "ÉKÉâÉX" */
+	}
+	{	mov ( -784 -231.6 1200.5 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
+		scal ( -0.12 2.7 2.42 ) obj P205 /* "P2\P205.suf" atr "ï«" */
+	}
+	{	mov ( -786 -1910.4 1200.5 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
+		scal ( -0.12 2.7 2.42 ) obj P205 /* "P2\P205.suf" atr "ÉKÉâÉX" */
+	}
+	{	mov ( -784 -1331.6 1200.5 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
+		scal ( -0.12 2.7 2.42 ) obj P205 /* "P2\P205.suf" atr "ÉKÉâÉX" */
+	}
+	{	mov ( -31.2 231.6 -427.4 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
+		scal ( 8.78 -2.94 0.32 ) obj P205 /* "P2\P205.suf" atr "ï«ÇQ" */
+	}
+	{	mov ( 752.8 231.6 -299.4 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
+		scal ( 0.12 -2.7 2.42 ) obj P205 /* "P2\P205.suf" atr "#01" */
+	}
+	{	mov ( -31.2 231.6 -83.4 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
+		scal ( 8.78 -2.94 -0.32 ) obj P205 /* "P2\P205.suf" atr "ï«" */
+	}
+	{	mov ( -31.2 231.6 85.4 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
+		scal ( 8.78 -2.94 0.32 ) obj P205 /* "P2\P205.suf" atr "ï«" */
+	}
+	{	mov ( 752.8 231.6 213.4 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
+		scal ( 0.12 -2.7 2.42 ) obj P205 /* "P2\P205.suf" atr "ï«" */
+	}
+	{	mov ( -31.2 231.6 429.4 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
+		scal ( 8.78 -2.94 -0.32 ) obj P205 /* "P2\P205.suf" atr "ï«" */
+	}
+	{	mov ( -31.2 231.6 1072.5 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
+		scal ( 8.78 -2.94 0.32 ) obj P205 /* "P2\P205.suf" atr "ï«" */
+	}
+	{	mov ( 752.8 231.6 1200.5 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
+		scal ( 0.12 -2.7 2.42 ) obj P205 /* "P2\P205.suf" atr "ï«" */
+	}
+	{	mov ( -31.2 231.6 1416.5 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
+		scal ( 8.78 -2.94 -0.32 ) obj P205 /* "P2\P205.suf" atr "ï«" */
+	}
+	{	mov ( -784 231.6 -299.4 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
+		scal ( -0.12 -2.7 2.42 ) obj P205 /* "P2\P205.suf" atr "ï«" */
+	}
+	{	mov ( -784 231.6 213.4 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
+		scal ( -0.12 -2.7 2.42 ) obj P205 /* "P2\P205.suf" atr "ï«" */
+	}
+	{	mov ( -784 231.6 1200.5 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
+		scal ( -0.12 -2.7 2.42 ) obj P205 /* "P2\P205.suf" atr "ï«" */
+	}
+	{	mov ( -1.6 -2148 156.6 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
+		scal ( 8.42714 0.24 7.42 ) obj P205 /* "P2\P205.suf" atr "ï«" */
+	}
+	{	mov ( 1016 0 -34 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
+		scal ( 3.45 3.675 0.275 ) obj P205 /* "P2\P205.suf" atr "ï«" */
+	}
+	{	mov ( 1220 -300 -304 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
+		scal ( 0.275 0.275 2.425 ) obj P205 /* "P2\P205.suf" atr "ï«" */
+	}
+	{	mov ( 756 0 -504 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
+		scal ( 1.25 3.65 0.5 ) obj P205 /* "P2\P205.suf" atr "ï«" */
+	}
+	{	mov ( 756 0 -104 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
+		scal ( 1.25 3.725 0.5 ) obj P205 /* "P2\P205.suf" atr "ï«" */
+	}
+	{	mov ( 826 -170 -304 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
+		scal ( 0.075 1.675 2 ) obj P205 /* "P2\P205.suf" atr "ÉKÉâÉX" */
+	}
+	{	mov ( 826 0 -264 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
+		scal ( 0.25 0.15 2.325 ) obj P205 /* "P2\P205.suf" atr "ï«ÇQ" */
+	}
+	{	mov ( 826 -360 -284 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
+		scal ( 0.25 0.15 2.325 ) obj P205 /* "P2\P205.suf" atr "ï«" */
+	}
+	{	mov ( 826 170 -304 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
+		scal ( 0.075 -1.675 2 ) obj P205 /* "P2\P205.suf" atr "ÉKÉâÉX" */
+	}
+	{	mov ( 936 0 -534 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
+		scal ( 3.45 3.65 0.2 ) obj P205 /* "P2\P205.suf" atr "ï«ÇQ" */
+	}
+	{	mov ( 826 -180 -334 ) rotz ( 0 ) roty ( 0 ) rotx ( -90 )
+		scal ( 0.25 0.075 1.7 ) obj P205 /* "P2\P205.suf" atr "ï«ÇQ" */
+	}
+	{	mov ( 826 -180 -284 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
+		scal ( 0.25 0.075 1.975 ) obj P205 /* "P2\P205.suf" atr "ï«ÇQ" */
+	}
+	{	mov ( 826 180 -284 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
+		scal ( 0.25 -0.075 1.975 ) obj P205 /* "P2\P205.suf" atr "ï«ÇQ" */
+	}
+	{	mov ( 826 180 -334 ) rotz ( 0 ) roty ( 0 ) rotx ( 90 )
+		scal ( 0.25 -0.075 1.7 ) obj P205 /* "P2\P205.suf" atr "ï«ÇQ" */
+	}
+	{	mov ( -29.2 718.4 -427.4 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
+		scal ( 8.78 -2.94 0.32 ) obj P205 /* "P2\P205.suf" atr "ï«" */
+	}
+	{	mov ( 818.8 1014.4 -299.4 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
+		scal ( 0.5 -0.52 2.78 ) obj P205 /* "P2\P205.suf" atr "ï«" */
+	}
+	{	mov ( 754.8 718.4 -299.4 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
+		scal ( 0.12 -2.7 2.42 ) obj P205 /* "P2\P205.suf" atr "ÉKÉâÉX" */
+	}
+	{	mov ( -29.2 718.4 -83.4 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
+		scal ( 8.78 -2.94 -0.32 ) obj P205 /* "P2\P205.suf" atr "ï«" */
+	}
+	{	mov ( 816.8 435.6 -299.4 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
+		scal ( 0.5 -0.52 2.78 ) obj P205 /* "P2\P205.suf" atr "ï«" */
+	}
+	{	mov ( -29.2 1910.4 -427.4 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
+		scal ( 8.78 -3.38 0.32 ) obj P205 /* "P2\P205.suf" atr "ï«" */
+	}
+	{	mov ( 818.8 2206.4 -299.4 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
+		scal ( 0.5 -0.52 2.78 ) obj P205 /* "P2\P205.suf" atr "ï«" */
+	}
+	{	mov ( 754.8 1910.4 -299.4 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
+		scal ( 0.12 -2.7 2.42 ) obj P205 /* "P2\P205.suf" atr "ÉKÉâÉX" */
+	}
+	{	mov ( -29.2 1910.4 -83.4 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
+		scal ( 8.78 -3.75 -0.32 ) obj P205 /* "P2\P205.suf" atr "ï«" */
+	}
+	{	mov ( -31.2 1331.6 -427.4 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
+		scal ( 8.78 -2.94 0.32 ) obj P205 /* "P2\P205.suf" atr "ï«" */
+	}
+	{	mov ( 816.8 1627.6 -299.4 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
+		scal ( 0.5 -0.52 2.78 ) obj P205 /* "P2\P205.suf" atr "ï«" */
+	}
+	{	mov ( 752.8 1331.6 -299.4 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
+		scal ( 0.12 -2.7 2.42 ) obj P205 /* "P2\P205.suf" atr "ÉKÉâÉX" */
+	}
+	{	mov ( -31.2 1331.6 -83.4 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
+		scal ( 8.78 -2.94 -0.32 ) obj P205 /* "P2\P205.suf" atr "ï«" */
+	}
+	{	mov ( -29.2 718.4 85.4 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
+		scal ( 8.78 -2.94 0.32 ) obj P205 /* "P2\P205.suf" atr "ï«" */
+	}
+	{	mov ( 818.8 1014.4 213.4 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
+		scal ( 0.5 -0.52 2.78 ) obj P205 /* "P2\P205.suf" atr "ï«" */
+	}
+	{	mov ( 754.8 718.4 213.4 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
+		scal ( 0.12 -2.7 2.42 ) obj P205 /* "P2\P205.suf" atr "ÉKÉâÉX" */
+	}
+	{	mov ( -29.2 718.4 429.4 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
+		scal ( 8.78 -2.94 -0.32 ) obj P205 /* "P2\P205.suf" atr "ï«" */
+	}
+	{	mov ( 816.8 435.6 213.4 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
+		scal ( 0.5 -0.52 2.78 ) obj P205 /* "P2\P205.suf" atr "ï«" */
+	}
+	{	mov ( -29.2 1910.4 85.4 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
+		scal ( 8.78 -3.46 0.32 ) obj P205 /* "P2\P205.suf" atr "ï«" */
+	}
+	{	mov ( 818.8 2206.4 213.4 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
+		scal ( 0.5 -0.52 2.78 ) obj P205 /* "P2\P205.suf" atr "ï«" */
+	}
+	{	mov ( 754.8 1910.4 213.4 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
+		scal ( 0.12 -2.7 2.42 ) obj P205 /* "P2\P205.suf" atr "ÉKÉâÉX" */
+	}
+	{	mov ( -29.2 1910.4 429.4 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
+		scal ( 8.78 -3.3 -0.32 ) obj P205 /* "P2\P205.suf" atr "ï«" */
+	}
+	{	mov ( -31.2 1331.6 85.4 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
+		scal ( 8.78 -2.94 0.32 ) obj P205 /* "P2\P205.suf" atr "ï«" */
+	}
+	{	mov ( 816.8 1627.6 213.4 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
+		scal ( 0.5 -0.52 2.78 ) obj P205 /* "P2\P205.suf" atr "ï«" */
+	}
+	{	mov ( 752.8 1331.6 213.4 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
+		scal ( 0.12 -2.7 2.42 ) obj P205 /* "P2\P205.suf" atr "ÉKÉâÉX" */
+	}
+	{	mov ( -31.2 1331.6 429.4 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
+		scal ( 8.78 -2.94 -0.32 ) obj P205 /* "P2\P205.suf" atr "ï«" */
+	}
+	{	mov ( -29.2 718.4 1072.5 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
+		scal ( 8.78 -2.94 0.32 ) obj P205 /* "P2\P205.suf" atr "ï«" */
+	}
+	{	mov ( 754.8 718.4 1200.5 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
+		scal ( 0.12 -2.7 2.42 ) obj P205 /* "P2\P205.suf" atr "ÉKÉâÉX" */
+	}
+	{	mov ( -29.2 718.4 1416.5 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
+		scal ( 8.78 -2.94 -0.32 ) obj P205 /* "P2\P205.suf" atr "ï«" */
+	}
+	{	mov ( -29.2 1910.4 1072.5 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
+		scal ( 8.78 -3.46 0.32 ) obj P205 /* "P2\P205.suf" atr "ï«" */
+	}
+	{	mov ( 754.8 1910.4 1200.5 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
+		scal ( 0.12 -2.7 2.42 ) obj P205 /* "P2\P205.suf" atr "ÉKÉâÉX" */
+	}
+	{	mov ( -29.2 1910.4 1416.5 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
+		scal ( 8.78 -2.94 -0.32 ) obj P205 /* "P2\P205.suf" atr "ï«" */
+	}
+	{	mov ( -31.2 1331.6 1072.5 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
+		scal ( 8.78 -2.94 0.32 ) obj P205 /* "P2\P205.suf" atr "ï«" */
+	}
+	{	mov ( 752.8 1331.6 1200.5 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
+		scal ( 0.12 -2.7 2.42 ) obj P205 /* "P2\P205.suf" atr "ÉKÉâÉX" */
+	}
+	{	mov ( -31.2 1331.6 1416.5 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
+		scal ( 8.78 -2.94 -0.32 ) obj P205 /* "P2\P205.suf" atr "ï«" */
+	}
+	{	mov ( -850 1014.4 -299.4 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
+		scal ( -0.5 -0.52 2.78 ) obj P205 /* "P2\P205.suf" atr "ï«" */
+	}
+	{	mov ( -786 718.4 -299.4 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
+		scal ( -0.12 -2.7 2.42 ) obj P205 /* "P2\P205.suf" atr "ÉKÉâÉX" */
+	}
+	{	mov ( -848 435.6 -299.4 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
+		scal ( -0.5 -0.52 2.78 ) obj P205 /* "P2\P205.suf" atr "ï«" */
+	}
+	{	mov ( -850 2206.4 -299.4 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
+		scal ( -0.5 -0.52 2.78 ) obj P205 /* "P2\P205.suf" atr "ï«" */
+	}
+	{	mov ( -786 1910.4 -299.4 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
+		scal ( -0.12 -2.7 2.42 ) obj P205 /* "P2\P205.suf" atr "ÉKÉâÉX" */
+	}
+	{	mov ( -848 1627.6 -299.4 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
+		scal ( -0.5 -0.52 2.78 ) obj P205 /* "P2\P205.suf" atr "ï«" */
+	}
+	{	mov ( -784 1331.6 -299.4 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
+		scal ( -0.12 -2.7 2.42 ) obj P205 /* "P2\P205.suf" atr "ÉKÉâÉX" */
+	}
+	{	mov ( -850 1014.4 213.4 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
+		scal ( -0.5 -0.52 2.78 ) obj P205 /* "P2\P205.suf" atr "ï«" */
+	}
+	{	mov ( -786 718.4 213.4 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
+		scal ( -0.12 -2.7 2.42 ) obj P205 /* "P2\P205.suf" atr "ÉKÉâÉX" */
+	}
+	{	mov ( -848 435.6 213.4 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
+		scal ( -0.5 -0.52 2.78 ) obj P205 /* "P2\P205.suf" atr "ï«" */
+	}
+	{	mov ( -850 2206.4 213.4 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
+		scal ( -0.5 -0.52 2.78 ) obj P205 /* "P2\P205.suf" atr "ï«" */
+	}
+	{	mov ( -786 1910.4 213.4 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
+		scal ( -0.12 -2.7 2.42 ) obj P205 /* "P2\P205.suf" atr "ÉKÉâÉX" */
+	}
+	{	mov ( -848 1627.6 213.4 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
+		scal ( -0.5 -0.52 2.78 ) obj P205 /* "P2\P205.suf" atr "ï«" */
+	}
+	{	mov ( -784 1331.6 213.4 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
+		scal ( -0.12 -2.7 2.42 ) obj P205 /* "P2\P205.suf" atr "ÉKÉâÉX" */
+	}
+	{	mov ( -786 718.4 1200.5 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
+		scal ( -0.12 -2.7 2.42 ) obj P205 /* "P2\P205.suf" atr "ÉKÉâÉX" */
+	}
+	{	mov ( -786 1910.4 1200.5 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
+		scal ( -0.12 -2.7 2.42 ) obj P205 /* "P2\P205.suf" atr "ÉKÉâÉX" */
+	}
+	{	mov ( -784 1331.6 1200.5 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
+		scal ( -0.12 -2.7 2.42 ) obj P205 /* "P2\P205.suf" atr "ÉKÉâÉX" */
+	}
+	{	mov ( 826 360 -284 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
+		scal ( 0.25 -0.15 2.325 ) obj P205 /* "P2\P205.suf" atr "ï«" */
+	}
+	{	mov ( 1220 300 -304 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
+		scal ( 0.275 -0.275 2.425 ) obj P205 /* "P2\P205.suf" atr "ï«" */
+	}
+	{	mov ( 0 2180 180 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
+		scal ( 8.14 -0.05 7.15 ) obj P205 /* "P2\P205.suf" atr "ï«" */
+	}
+	{	mov ( 1020 0 120 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
+		scal ( 1.65 3.65 0.9 ) obj P205 /* "P2\P205.suf" atr "ï«" */
+	}
+	{	mov ( 1020 0 420 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
+		scal ( 1.75 3.7 0.5 ) obj P205 /* "P2\P205.suf" atr "ï«" */
+	}
+	{	mov ( 1125 -160 260 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
+		scal ( 0.075 1.55 1.2 ) obj P205 /* "P2\P205.suf" atr "ÉKÉâÉX" */
+	}
+	{	mov ( 1125 -24 266.5 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
+		scal ( 0.25 0.15 1.2 ) obj P205 /* "P2\P205.suf" atr "ï«" */
+	}
+	{	mov ( 1125 -204 196.5 ) rotz ( 0 ) roty ( 0 ) rotx ( -90 )
+		scal ( 0.25 0.075 1.7 ) obj P205 /* "P2\P205.suf" atr "ï«" */
+	}
+	{	mov ( 1125 156 196.5 ) rotz ( 0 ) roty ( 0 ) rotx ( 90 )
+		scal ( 0.25 -0.075 1.7 ) obj P205 /* "P2\P205.suf" atr "ï«" */
+	}
+	{	mov ( 1125 156 296.5 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
+		scal ( 0.25 -0.075 1.525 ) obj P205 /* "P2\P205.suf" atr "ï«" */
+	}
+	{	mov ( 980 316 300 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
+		scal ( 1.8 -0.15 1.55 ) obj P205 /* "P2\P205.suf" atr "ï«" */
+	}
+	{	mov ( 1000 0 60 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
+		scal ( 1.5 3.3 0.95 ) obj P205 /* "P2\P205.suf" atr "#01" */
+	}
+	{	mov ( 980 -316 300 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
+		scal ( 1.8 0.15 1.55 ) obj P205 /* "P2\P205.suf" atr "ï«" */
+	}
+	{	mov ( 1125 140 260 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
+		scal ( 0.075 -1.8 1.2 ) obj P205 /* "P2\P205.suf" atr "ÉKÉâÉX" */
+	}
+	{	mov ( 1020 2 1101.7 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
+		scal ( 1.65 3.65 0.9 ) obj P205 /* "P2\P205.suf" atr "ï«" */
+	}
+	{	mov ( 1020 2 1401.7 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
+		scal ( 1.75 3.7 0.5 ) obj P205 /* "P2\P205.suf" atr "ï«" */
+	}
+	{	mov ( 1125 -158 1241.7 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
+		scal ( 0.075 1.55 1.2 ) obj P205 /* "P2\P205.suf" atr "ÉKÉâÉX" */
+	}
+	{	mov ( 1125 -22 1248.2 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
+		scal ( 0.25 0.15 1.2 ) obj P205 /* "P2\P205.suf" atr "ï«" */
+	}
+	{	mov ( 1125 -202 1178.2 ) rotz ( 0 ) roty ( 0 ) rotx ( -90 )
+		scal ( 0.25 0.075 1.7 ) obj P205 /* "P2\P205.suf" atr "ï«" */
+	}
+	{	mov ( 1125 158 1178.2 ) rotz ( 0 ) roty ( 0 ) rotx ( 90 )
+		scal ( 0.25 -0.075 1.7 ) obj P205 /* "P2\P205.suf" atr "ï«" */
+	}
+	{	mov ( 1125 158 1278.2 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
+		scal ( 0.25 -0.075 1.525 ) obj P205 /* "P2\P205.suf" atr "ï«" */
+	}
+	{	mov ( 980 318 1281.7 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
+		scal ( 1.8 -0.15 1.55 ) obj P205 /* "P2\P205.suf" atr "ï«" */
+	}
+	{	mov ( 980 -314 1281.7 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
+		scal ( 1.8 0.15 1.55 ) obj P205 /* "P2\P205.suf" atr "ï«" */
+	}
+	{	mov ( 1125 140 1250.7 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
+		scal ( 0.075 -1.7 1.2 ) obj P205 /* "P2\P205.suf" atr "ÉKÉâÉX" */
+	}
+	{	mov ( 1000 0 1010.7 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
+		scal ( 1.5 3.3 0.95 ) obj P205 /* "P2\P205.suf" atr "#01" */
+	}
+	{	mov ( 1125 -156 296.5 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
+		scal ( 0.25 0.075 1.525 ) obj P205 /* "P2\P205.suf" atr "ï«" */
+	}
+	{	mov ( 1125 -158 1278.2 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
+		scal ( 0.25 0.075 1.525 ) obj P205 /* "P2\P205.suf" atr "ï«" */
+	}
+	{	mov ( 800 -1300 -380 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
+		scal ( -0.05 8.7 0.45 ) obj P205 /* "P2\P205.suf" atr "ï«ÇQ" */
+	}
+	{	mov ( 760 -1320 -180 ) rotz ( 0 ) roty ( 0 ) rotx ( -90 )
+		scal ( 0.25 0.075 8.3 ) obj P205 /* "P2\P205.suf" atr "ï«ÇQ" */
+	}
+	{	mov ( 760 -720 -220 ) rotz ( 0 ) roty ( 0 ) rotx ( 180 )
+		scal ( 0.25 0.075 1.45 ) obj P205 /* "P2\P205.suf" atr "ï«ÇQ" */
+	}
+	{	mov ( 760 -1320 -221 ) rotz ( 0 ) roty ( 0 ) rotx ( 180 )
+		scal ( 0.25 0.075 1.45 ) obj P205 /* "P2\P205.suf" atr "ï«ÇQ" */
+	}
+	{	mov ( 760 -1920 -220 ) rotz ( 0 ) roty ( 0 ) rotx ( 180 )
+		scal ( 0.25 0.075 1.45 ) obj P205 /* "P2\P205.suf" atr "ï«ÇQ" */
+	}
+	{	mov ( 760 -1320 320 ) rotz ( 0 ) roty ( 0 ) rotx ( -90 )
+		scal ( 0.25 0.075 8.3 ) obj P205 /* "P2\P205.suf" atr "ï«ÇQ" */
+	}
+	{	mov ( 760 -1320 1290.7 ) rotz ( 0 ) roty ( 0 ) rotx ( -90 )
+		scal ( 0.25 0.075 8.3 ) obj P205 /* "P2\P205.suf" atr "ï«ÇQ" */
+	}
+	{	mov ( 760 -1320 260 ) rotz ( 0 ) roty ( 0 ) rotx ( 180 )
+		scal ( 0.25 0.075 1.45 ) obj P205 /* "P2\P205.suf" atr "ï«ÇQ" */
+	}
+	{	mov ( 760 -720 260 ) rotz ( 0 ) roty ( 0 ) rotx ( 180 )
+		scal ( 0.25 0.075 1.7 ) obj P205 /* "P2\P205.suf" atr "ï«ÇQ" */
+	}
+	{	mov ( 760 -1920 260 ) rotz ( 0 ) roty ( 0 ) rotx ( 180 )
+		scal ( 0.25 0.075 1.45 ) obj P205 /* "P2\P205.suf" atr "ï«ÇQ" */
+	}
+	{	mov ( 760 -1320 1230.7 ) rotz ( 0 ) roty ( 0 ) rotx ( 180 )
+		scal ( 0.25 0.075 1.45 ) obj P205 /* "P2\P205.suf" atr "ï«ÇQ" */
+	}
+	{	mov ( 760 -1920 1250.7 ) rotz ( 0 ) roty ( 0 ) rotx ( 180 )
+		scal ( 0.25 0.075 1.45 ) obj P205 /* "P2\P205.suf" atr "ï«ÇQ" */
+	}
+	{	mov ( 760 -720 1210.7 ) rotz ( 0 ) roty ( 0 ) rotx ( 180 )
+		scal ( 0.25 0.075 1.7 ) obj P205 /* "P2\P205.suf" atr "ï«ÇQ" */
+	}
+	{	mov ( 780 -500 -240 ) rotz ( 0 ) roty ( 0 ) rotx ( 90 )
+		scal ( -0.05 1.7 0.25 ) obj P205 /* "P2\P205.suf" atr "ï«ÇQ" */
+	}
+	{	mov ( 780 -940 -240 ) rotz ( 0 ) roty ( 0 ) rotx ( 90 )
+		scal ( -0.05 1.7 0.25 ) obj P205 /* "P2\P205.suf" atr "ï«ÇQ" */
+	}
+	{	mov ( 760 1320 -180 ) rotz ( 0 ) roty ( 0 ) rotx ( 90 )
+		scal ( 0.25 -0.075 8.3 ) obj P205 /* "P2\P205.suf" atr "ï«ÇQ" */
+	}
+	{	mov ( 760 1320 320 ) rotz ( 0 ) roty ( 0 ) rotx ( 90 )
+		scal ( 0.25 -0.075 8.3 ) obj P205 /* "P2\P205.suf" atr "ï«ÇQ" */
+	}
+	{	mov ( 760 1320 1290.7 ) rotz ( 0 ) roty ( 0 ) rotx ( 90 )
+		scal ( 0.25 -0.075 8.3 ) obj P205 /* "P2\P205.suf" atr "ï«ÇQ" */
+	}
+	{	mov ( 760 720 -220 ) rotz ( 0 ) roty ( 0 ) rotx ( -180 )
+		scal ( 0.25 -0.075 1.45 ) obj P205 /* "P2\P205.suf" atr "ï«ÇQ" */
+	}
+	{	mov ( 800 1300 -380 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
+		scal ( -0.05 -8.7 0.45 ) obj P205 /* "P2\P205.suf" atr "ï«ÇQ" */
+	}
+	{	mov ( 780 940 -240 ) rotz ( 0 ) roty ( 0 ) rotx ( -90 )
+		scal ( -0.05 -1.7 0.25 ) obj P205 /* "P2\P205.suf" atr "ï«ÇQ" */
+	}
+	{	mov ( 780 500 -240 ) rotz ( 0 ) roty ( 0 ) rotx ( -90 )
+		scal ( -0.05 -1.7 0.25 ) obj P205 /* "P2\P205.suf" atr "ï«ÇQ" */
+	}
+	{	mov ( 760 1320 -221 ) rotz ( 0 ) roty ( 0 ) rotx ( -180 )
+		scal ( 0.25 -0.075 1.45 ) obj P205 /* "P2\P205.suf" atr "ï«ÇQ" */
+	}
+	{	mov ( 760 1920 -220 ) rotz ( 0 ) roty ( 0 ) rotx ( -180 )
+		scal ( 0.25 -0.075 1.45 ) obj P205 /* "P2\P205.suf" atr "ï«ÇQ" */
+	}
+	{	mov ( 760 720 260 ) rotz ( 0 ) roty ( 0 ) rotx ( -180 )
+		scal ( 0.25 -0.075 1.7 ) obj P205 /* "P2\P205.suf" atr "ï«ÇQ" */
+	}
+	{	mov ( 760 1320 260 ) rotz ( 0 ) roty ( 0 ) rotx ( -180 )
+		scal ( 0.25 -0.075 1.45 ) obj P205 /* "P2\P205.suf" atr "ï«ÇQ" */
+	}
+	{	mov ( 760 1920 260 ) rotz ( 0 ) roty ( 0 ) rotx ( -180 )
+		scal ( 0.25 -0.075 1.45 ) obj P205 /* "P2\P205.suf" atr "ï«ÇQ" */
+	}
+	{	mov ( 760 720 1210.7 ) rotz ( 0 ) roty ( 0 ) rotx ( -180 )
+		scal ( 0.25 -0.075 1.7 ) obj P205 /* "P2\P205.suf" atr "ï«ÇQ" */
+	}
+	{	mov ( 760 1320 1230.7 ) rotz ( 0 ) roty ( 0 ) rotx ( -180 )
+		scal ( 0.25 -0.075 1.45 ) obj P205 /* "P2\P205.suf" atr "ï«ÇQ" */
+	}
+	{	mov ( 760 1920 1250.7 ) rotz ( 0 ) roty ( 0 ) rotx ( -180 )
+		scal ( 0.25 -0.075 1.45 ) obj P205 /* "P2\P205.suf" atr "ï«ÇQ" */
+	}
+	{	mov ( 780 -940 260 ) rotz ( 0 ) roty ( 0 ) rotx ( 90 )
+		scal ( -0.05 1.7 0.25 ) obj P205 /* "P2\P205.suf" atr "ï«ÇQ" */
+	}
+	{	mov ( 800 -1340 140 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
+		scal ( -0.05 8.7 0.45 ) obj P205 /* "P2\P205.suf" atr "ï«ÇQ" */
+	}
+	{	mov ( 780 -500 260 ) rotz ( 0 ) roty ( 0 ) rotx ( 90 )
+		scal ( -0.05 1.7 0.25 ) obj P205 /* "P2\P205.suf" atr "ï«ÇQ" */
+	}
+	{	mov ( 800 1340 140 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
+		scal ( -0.05 -8.7 0.45 ) obj P205 /* "P2\P205.suf" atr "ï«ÇQ" */
+	}
+	{	mov ( 780 -940 1230.7 ) rotz ( 0 ) roty ( 0 ) rotx ( 90 )
+		scal ( -0.05 1.7 0.25 ) obj P205 /* "P2\P205.suf" atr "ï«ÇQ" */
+	}
+	{	mov ( 780 -500 1214.57 ) rotz ( 0 ) roty ( 0 ) rotx ( 90 )
+		scal ( -0.05 1.7 0.25 ) obj P205 /* "P2\P205.suf" atr "ï«ÇQ" */
+	}
+	{	mov ( 780 940 260 ) rotz ( 0 ) roty ( 0 ) rotx ( -90 )
+		scal ( -0.05 -1.7 0.25 ) obj P205 /* "P2\P205.suf" atr "ï«ÇQ" */
+	}
+	{	mov ( 780 500 260 ) rotz ( 0 ) roty ( 0 ) rotx ( -90 )
+		scal ( -0.05 -1.7 0.25 ) obj P205 /* "P2\P205.suf" atr "ï«ÇQ" */
+	}
+	{	mov ( 780 940 1230.7 ) rotz ( 0 ) roty ( 0 ) rotx ( -90 )
+		scal ( -0.05 -1.7 0.25 ) obj P205 /* "P2\P205.suf" atr "ï«ÇQ" */
+	}
+	{	mov ( 780 500 1214.57 ) rotz ( 0 ) roty ( 0 ) rotx ( -90 )
+		scal ( -0.05 -1.7 0.25 ) obj P205 /* "P2\P205.suf" atr "ï«ÇQ" */
+	}
+	{	mov ( 800 -1300 1110.7 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
+		scal ( -0.05 8.7 0.45 ) obj P205 /* "P2\P205.suf" atr "ï«ÇQ" */
+	}
+	{	mov ( 780 -1080 -260 ) rotz ( 0 ) roty ( 0 ) rotx ( 90 )
+		scal ( -0.05 1.7 0.25 ) obj P205 /* "P2\P205.suf" atr "ï«ÇQ" */
+	}
+	{	mov ( 780 -1560 -280 ) rotz ( 0 ) roty ( 0 ) rotx ( 90 )
+		scal ( -0.05 1.7 0.25 ) obj P205 /* "P2\P205.suf" atr "ï«ÇQ" */
+	}
+	{	mov ( 780 -1080 240 ) rotz ( 0 ) roty ( 0 ) rotx ( 90 )
+		scal ( -0.05 1.7 0.25 ) obj P205 /* "P2\P205.suf" atr "ï«ÇQ" */
+	}
+	{	mov ( 780 -1560 240 ) rotz ( 0 ) roty ( 0 ) rotx ( 90 )
+		scal ( -0.05 1.7 0.25 ) obj P205 /* "P2\P205.suf" atr "ï«ÇQ" */
+	}
+	{	mov ( 800 1300 1110.7 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
+		scal ( -0.05 -8.7 0.45 ) obj P205 /* "P2\P205.suf" atr "ï«ÇQ" */
+	}
+	{	mov ( 780 -1080 1230.7 ) rotz ( 0 ) roty ( 0 ) rotx ( 90 )
+		scal ( -0.05 1.7 0.25 ) obj P205 /* "P2\P205.suf" atr "ï«ÇQ" */
+	}
+	{	mov ( 780 -1560 1230.7 ) rotz ( 0 ) roty ( 0 ) rotx ( 90 )
+		scal ( -0.05 1.7 0.25 ) obj P205 /* "P2\P205.suf" atr "ï«ÇQ" */
+	}
+	{	mov ( 780 1080 240 ) rotz ( 0 ) roty ( 0 ) rotx ( -90 )
+		scal ( -0.05 -1.7 0.25 ) obj P205 /* "P2\P205.suf" atr "ï«ÇQ" */
+	}
+	{	mov ( 780 1560 240 ) rotz ( 0 ) roty ( 0 ) rotx ( -90 )
+		scal ( -0.05 -1.7 0.25 ) obj P205 /* "P2\P205.suf" atr "ï«ÇQ" */
+	}
+	{	mov ( 780 1560 1230.7 ) rotz ( 0 ) roty ( 0 ) rotx ( -90 )
+		scal ( -0.05 -1.7 0.25 ) obj P205 /* "P2\P205.suf" atr "ï«ÇQ" */
+	}
+	{	mov ( 780 1080 1230.7 ) rotz ( 0 ) roty ( 0 ) rotx ( -90 )
+		scal ( -0.05 -1.7 0.25 ) obj P205 /* "P2\P205.suf" atr "ï«ÇQ" */
+	}
+	{	mov ( 780 -1700 -240 ) rotz ( 0 ) roty ( 0 ) rotx ( 90 )
+		scal ( -0.05 1.7 0.25 ) obj P205 /* "P2\P205.suf" atr "ï«ÇQ" */
+	}
+	{	mov ( 780 -2120 -260 ) rotz ( 0 ) roty ( 0 ) rotx ( 90 )
+		scal ( -0.05 1.7 0.25 ) obj P205 /* "P2\P205.suf" atr "ï«ÇQ" */
+	}
+	{	mov ( 780 -1700 240 ) rotz ( 0 ) roty ( 0 ) rotx ( 90 )
+		scal ( -0.05 1.7 0.25 ) obj P205 /* "P2\P205.suf" atr "ï«ÇQ" */
+	}
+	{	mov ( 780 -1700 1250.7 ) rotz ( 0 ) roty ( 0 ) rotx ( 90 )
+		scal ( -0.05 1.7 0.25 ) obj P205 /* "P2\P205.suf" atr "ï«ÇQ" */
+	}
+	{	mov ( 780 -2120 240 ) rotz ( 0 ) roty ( 0 ) rotx ( 90 )
+		scal ( -0.05 1.7 0.25 ) obj P205 /* "P2\P205.suf" atr "ï«ÇQ" */
+	}
+	{	mov ( 780 -2120 1230.7 ) rotz ( 0 ) roty ( 0 ) rotx ( 90 )
+		scal ( -0.05 1.7 0.25 ) obj P205 /* "P2\P205.suf" atr "ï«ÇQ" */
+	}
+	{	mov ( 780 1700 -240 ) rotz ( 0 ) roty ( 0 ) rotx ( -90 )
+		scal ( -0.05 -1.7 0.25 ) obj P205 /* "P2\P205.suf" atr "ï«ÇQ" */
+	}
+	{	mov ( 780 1700 240 ) rotz ( 0 ) roty ( 0 ) rotx ( -90 )
+		scal ( -0.05 -1.7 0.25 ) obj P205 /* "P2\P205.suf" atr "ï«ÇQ" */
+	}
+	{	mov ( 780 1700 1250.7 ) rotz ( 0 ) roty ( 0 ) rotx ( -90 )
+		scal ( -0.05 -1.7 0.25 ) obj P205 /* "P2\P205.suf" atr "ï«ÇQ" */
+	}
+	{	mov ( 780 2120 -260 ) rotz ( 0 ) roty ( 0 ) rotx ( -90 )
+		scal ( -0.05 -1.7 0.25 ) obj P205 /* "P2\P205.suf" atr "ï«ÇQ" */
+	}
+	{	mov ( 780 2120 240 ) rotz ( 0 ) roty ( 0 ) rotx ( -90 )
+		scal ( -0.05 -1.7 0.25 ) obj P205 /* "P2\P205.suf" atr "ï«ÇQ" */
+	}
+	{	mov ( 780 2120 1230.7 ) rotz ( 0 ) roty ( 0 ) rotx ( -90 )
+		scal ( -0.05 -1.7 0.25 ) obj P205 /* "P2\P205.suf" atr "ï«ÇQ" */
+	}
+	{	mov ( 816.8 435.6 1200.5 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
+		scal ( 0.5 -0.52 2.4 ) obj P205 /* "P2\P205.suf" atr "ï«" */
+	}
+	{	mov ( 818.8 1014.4 1200.5 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
+		scal ( 0.5 -0.52 2.4 ) obj P205 /* "P2\P205.suf" atr "ï«" */
+	}
+	{	mov ( 816.8 1627.6 1200.5 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
+		scal ( 0.5 -0.52 2.4 ) obj P205 /* "P2\P205.suf" atr "ï«" */
+	}
+	{	mov ( 818.8 2206.4 1200.5 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
+		scal ( 0.5 -0.52 2.4 ) obj P205 /* "P2\P205.suf" atr "ï«" */
+	}
+	{	mov ( -818.8 -1014.4 1200.5 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
+		scal ( -0.5 0.52 2.4 ) obj P205 /* "P2\P205.suf" atr "ï«" */
+	}
+	{	mov ( -816.8 -435.6 1200.5 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
+		scal ( -0.5 0.52 2.4 ) obj P205 /* "P2\P205.suf" atr "ï«" */
+	}
+	{	mov ( -818.8 -2206.4 1200.5 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
+		scal ( -0.5 0.52 2.4 ) obj P205 /* "P2\P205.suf" atr "ï«" */
+	}
+	{	mov ( -816.8 -1627.6 1200.5 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
+		scal ( -0.5 0.52 2.4 ) obj P205 /* "P2\P205.suf" atr "ï«" */
+	}
+	{	mov ( -818.8 1014.4 1200.5 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
+		scal ( -0.5 -0.52 2.4 ) obj P205 /* "P2\P205.suf" atr "ï«" */
+	}
+	{	mov ( -816.8 435.6 1200.5 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
+		scal ( -0.5 -0.52 2.4 ) obj P205 /* "P2\P205.suf" atr "ï«" */
+	}
+	{	mov ( -818.8 2206.4 1200.5 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
+		scal ( -0.5 -0.52 2.4 ) obj P205 /* "P2\P205.suf" atr "ï«" */
+	}
+	{	mov ( -816.8 1627.6 1200.5 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
+		scal ( -0.5 -0.52 2.4 ) obj P205 /* "P2\P205.suf" atr "ï«" */
+	}
+	{	mov ( 1193.25 12 1090.7 ) rotz ( 0 ) roty ( 90 ) rotx ( 0 )
+		scal ( 0.27 0.27 0.049221 ) obj P215 /* "P2\P215.suf" atr "ï∂éöî’" */
+	}
+	{	mov ( 1202.25 12 1090.7 ) rotz ( 180 ) roty ( -90 ) rotx ( 0 )
+		scal ( 0.121494 -0.0225 0.0834363 ) obj P305 /* "P3\P305.suf" atr "ÉtÉåÅ[ÉÄ" */
+	}
+	{	mov ( 1193.25 12 1090.7 ) rotz ( 0 ) roty ( 90 ) rotx ( 0 )
+		scal ( 0.315 0.315 0.0225 ) obj P215 /* "P2\P215.suf" atr "ÉtÉåÅ[ÉÄ" */
+	}
+	{	mov ( 1202.25 12 1090.7 ) rotz ( 90 ) roty ( 0 ) rotx ( 90 )
+		scal ( 0.100328 -0.0225 0.0834363 ) obj P305 /* "P3\P305.suf" atr "ÉtÉåÅ[ÉÄ" */
+	}
+	{	mov ( 1193.25 12 1090.7 ) rotz ( 0 ) roty ( 90 ) rotx ( 0 )
+		scal ( 0.045 0.045 0.0675 ) obj P214 /* "P2\P214.suf" atr "ÉtÉåÅ[ÉÄ" */
+	}
+	{	mov ( -29.2 -718.4 583.203 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
+		scal ( 8.78 2.94 0.32 ) obj P205 /* "P2\P205.suf" atr "ï«" */
+	}
+	{	mov ( 818.8 -1014.4 711.203 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
+		scal ( 0.5 0.52 2.78 ) obj P205 /* "P2\P205.suf" atr "ï«" */
+	}
+	{	mov ( 754.8 -718.4 711.203 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
+		scal ( 0.12 2.7 2.42 ) obj P205 /* "P2\P205.suf" atr "ÉKÉâÉX" */
+	}
+	{	mov ( -29.2 -718.4 927.203 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
+		scal ( 8.78 2.94 -0.32 ) obj P205 /* "P2\P205.suf" atr "ï«" */
+	}
+	{	mov ( -31.2 -231.6 583.203 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
+		scal ( 8.78 2.94 0.32 ) obj P205 /* "P2\P205.suf" atr "ï«" */
+	}
+	{	mov ( 816.8 -435.6 711.203 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
+		scal ( 0.5 0.52 2.78 ) obj P205 /* "P2\P205.suf" atr "ï«" */
+	}
+	{	mov ( 752.8 -231.6 711.203 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
+		scal ( 0.12 2.7 2.42 ) obj P205 /* "P2\P205.suf" atr "ï«" */
+	}
+	{	mov ( -31.2 -231.6 927.203 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
+		scal ( 8.78 2.94 -0.32 ) obj P205 /* "P2\P205.suf" atr "ï«" */
+	}
+	{	mov ( -29.2 -1910.4 583.203 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
+		scal ( 8.78 3.46 0.32 ) obj P205 /* "P2\P205.suf" atr "ï«" */
+	}
+	{	mov ( 818.8 -2206.4 711.203 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
+		scal ( 0.5 0.52 2.78 ) obj P205 /* "P2\P205.suf" atr "ï«" */
+	}
+	{	mov ( 754.8 -1910.4 711.203 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
+		scal ( 0.12 2.7 2.42 ) obj P205 /* "P2\P205.suf" atr "ÉKÉâÉX" */
+	}
+	{	mov ( -29.2 -1910.4 927.203 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
+		scal ( 8.78 3.3 -0.32 ) obj P205 /* "P2\P205.suf" atr "ï«" */
+	}
+	{	mov ( -31.2 -1331.6 583.203 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
+		scal ( 8.78 2.94 0.32 ) obj P205 /* "P2\P205.suf" atr "ï«" */
+	}
+	{	mov ( 816.8 -1627.6 711.203 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
+		scal ( 0.5 0.52 2.78 ) obj P205 /* "P2\P205.suf" atr "ï«" */
+	}
+	{	mov ( 752.8 -1331.6 711.203 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
+		scal ( 0.12 2.7 2.42 ) obj P205 /* "P2\P205.suf" atr "ÉKÉâÉX" */
+	}
+	{	mov ( -31.2 -1331.6 927.203 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
+		scal ( 8.78 2.94 -0.32 ) obj P205 /* "P2\P205.suf" atr "ï«" */
+	}
+	{	mov ( -40 0 503.203 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
+		scal ( 8.18 22.1 0.72 ) obj P205 /* "P2\P205.suf" atr "#01" */
+	}
+	{	mov ( -44 -16 999.603 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
+		scal ( 8.18 22.25 0.72 ) obj P205 /* "P2\P205.suf" atr "#01" */
+	}
+	{	mov ( -850 -1014.4 711.203 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
+		scal ( -0.5 0.52 2.78 ) obj P205 /* "P2\P205.suf" atr "ï«" */
+	}
+	{	mov ( -786 -718.4 711.203 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
+		scal ( -0.12 2.7 2.42 ) obj P205 /* "P2\P205.suf" atr "ÉKÉâÉX" */
+	}
+	{	mov ( -848 -435.6 711.203 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
+		scal ( -0.5 0.52 2.78 ) obj P205 /* "P2\P205.suf" atr "ï«" */
+	}
+	{	mov ( -784 -231.6 711.203 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
+		scal ( -0.12 2.7 2.42 ) obj P205 /* "P2\P205.suf" atr "ï«" */
+	}
+	{	mov ( -850 -2206.4 711.203 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
+		scal ( -0.5 0.52 2.78 ) obj P205 /* "P2\P205.suf" atr "ï«" */
+	}
+	{	mov ( -786 -1910.4 711.203 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
+		scal ( -0.12 2.7 2.42 ) obj P205 /* "P2\P205.suf" atr "ÉKÉâÉX" */
+	}
+	{	mov ( -848 -1627.6 711.203 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
+		scal ( -0.5 0.52 2.78 ) obj P205 /* "P2\P205.suf" atr "ï«" */
+	}
+	{	mov ( -784 -1331.6 711.203 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
+		scal ( -0.12 2.7 2.42 ) obj P205 /* "P2\P205.suf" atr "ÉKÉâÉX" */
+	}
+	{	mov ( -31.2 231.6 583.203 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
+		scal ( 8.78 -2.94 0.32 ) obj P205 /* "P2\P205.suf" atr "ï«" */
+	}
+	{	mov ( 752.8 231.6 711.203 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
+		scal ( 0.12 -2.7 2.42 ) obj P205 /* "P2\P205.suf" atr "ï«" */
+	}
+	{	mov ( -31.2 231.6 927.203 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
+		scal ( 8.78 -2.94 -0.32 ) obj P205 /* "P2\P205.suf" atr "ï«" */
+	}
+	{	mov ( -784 231.6 711.203 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
+		scal ( -0.12 -2.7 2.42 ) obj P205 /* "P2\P205.suf" atr "ï«" */
+	}
+	{	mov ( -1.6 -2148 654.403 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
+		scal ( 8.23128 0.24 7.42 ) obj P205 /* "P2\P205.suf" atr "ï«" */
+	}
+	{	mov ( -29.2 1910.4 414.403 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
+		scal ( 8.78 -3.75 -0.32 ) obj P205 /* "P2\P205.suf" atr "ï«" */
+	}
+	{	mov ( -29.2 718.4 583.203 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
+		scal ( 8.78 -2.94 0.32 ) obj P205 /* "P2\P205.suf" atr "ï«" */
+	}
+	{	mov ( 818.8 1014.4 711.203 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
+		scal ( 0.5 -0.52 2.78 ) obj P205 /* "P2\P205.suf" atr "ï«" */
+	}
+	{	mov ( 754.8 718.4 711.203 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
+		scal ( 0.12 -2.7 2.42 ) obj P205 /* "P2\P205.suf" atr "ÉKÉâÉX" */
+	}
+	{	mov ( -29.2 718.4 927.203 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
+		scal ( 8.78 -2.94 -0.32 ) obj P205 /* "P2\P205.suf" atr "ï«" */
+	}
+	{	mov ( 816.8 435.6 711.203 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
+		scal ( 0.5 -0.52 2.78 ) obj P205 /* "P2\P205.suf" atr "ï«" */
+	}
+	{	mov ( -29.2 1910.4 583.203 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
+		scal ( 8.78 -3.46 0.32 ) obj P205 /* "P2\P205.suf" atr "ï«" */
+	}
+	{	mov ( 818.8 2206.4 711.203 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
+		scal ( 0.5 -0.52 2.78 ) obj P205 /* "P2\P205.suf" atr "ï«" */
+	}
+	{	mov ( 754.8 1910.4 711.203 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
+		scal ( 0.12 -2.7 2.42 ) obj P205 /* "P2\P205.suf" atr "ÉKÉâÉX" */
+	}
+	{	mov ( -29.2 1910.4 927.203 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
+		scal ( 8.78 -3.3 -0.32 ) obj P205 /* "P2\P205.suf" atr "ï«" */
+	}
+	{	mov ( -31.2 1331.6 583.203 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
+		scal ( 8.78 -2.94 0.32 ) obj P205 /* "P2\P205.suf" atr "ï«" */
+	}
+	{	mov ( 816.8 1627.6 711.203 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
+		scal ( 0.5 -0.52 2.78 ) obj P205 /* "P2\P205.suf" atr "ï«" */
+	}
+	{	mov ( 752.8 1331.6 711.203 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
+		scal ( 0.12 -2.7 2.42 ) obj P205 /* "P2\P205.suf" atr "ÉKÉâÉX" */
+	}
+	{	mov ( -31.2 1331.6 927.203 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
+		scal ( 8.78 -2.94 -0.32 ) obj P205 /* "P2\P205.suf" atr "ï«" */
+	}
+	{	mov ( -850 1014.4 711.203 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
+		scal ( -0.5 -0.52 2.78 ) obj P205 /* "P2\P205.suf" atr "ï«" */
+	}
+	{	mov ( -786 718.4 711.203 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
+		scal ( -0.12 -2.7 2.42 ) obj P205 /* "P2\P205.suf" atr "ÉKÉâÉX" */
+	}
+	{	mov ( -848 435.6 711.203 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
+		scal ( -0.5 -0.52 2.78 ) obj P205 /* "P2\P205.suf" atr "ï«" */
+	}
+	{	mov ( -850 2206.4 711.203 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
+		scal ( -0.5 -0.52 2.78 ) obj P205 /* "P2\P205.suf" atr "ï«" */
+	}
+	{	mov ( -786 1910.4 711.203 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
+		scal ( -0.12 -2.7 2.42 ) obj P205 /* "P2\P205.suf" atr "ÉKÉâÉX" */
+	}
+	{	mov ( -848 1627.6 711.203 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
+		scal ( -0.5 -0.52 2.78 ) obj P205 /* "P2\P205.suf" atr "ï«" */
+	}
+	{	mov ( -784 1331.6 711.203 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
+		scal ( -0.12 -2.7 2.42 ) obj P205 /* "P2\P205.suf" atr "ÉKÉâÉX" */
+	}
+	{	mov ( 0 2180 677.803 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
+		scal ( 8.14 -0.05 7.15 ) obj P205 /* "P2\P205.suf" atr "ï«" */
+	}
+	{	mov ( 1020 0 617.803 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
+		scal ( 1.65 3.65 0.9 ) obj P205 /* "P2\P205.suf" atr "ï«" */
+	}
+	{	mov ( 1020 0 917.803 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
+		scal ( 1.75 3.7 0.5 ) obj P205 /* "P2\P205.suf" atr "ï«" */
+	}
+	{	mov ( 1125 -160 757.803 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
+		scal ( 0.075 1.55 1.2 ) obj P205 /* "P2\P205.suf" atr "ÉKÉâÉX" */
+	}
+	{	mov ( 1125 -24 764.303 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
+		scal ( 0.25 0.15 1.2 ) obj P205 /* "P2\P205.suf" atr "ï«" */
+	}
+	{	mov ( 1125 -204 694.303 ) rotz ( 0 ) roty ( 0 ) rotx ( -90 )
+		scal ( 0.25 0.075 1.7 ) obj P205 /* "P2\P205.suf" atr "ï«" */
+	}
+	{	mov ( 1125 156 694.303 ) rotz ( 0 ) roty ( 0 ) rotx ( 90 )
+		scal ( 0.25 -0.075 1.7 ) obj P205 /* "P2\P205.suf" atr "ï«" */
+	}
+	{	mov ( 1125 156 794.303 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
+		scal ( 0.25 -0.075 1.525 ) obj P205 /* "P2\P205.suf" atr "ï«" */
+	}
+	{	mov ( 980 316 797.803 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
+		scal ( 1.8 -0.15 1.55 ) obj P205 /* "P2\P205.suf" atr "ï«" */
+	}
+	{	mov ( 1000 0 557.803 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
+		scal ( 1.5 3.3 0.95 ) obj P205 /* "P2\P205.suf" atr "#01" */
+	}
+	{	mov ( 980 -316 797.803 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
+		scal ( 1.8 0.15 1.55 ) obj P205 /* "P2\P205.suf" atr "ï«" */
+	}
+	{	mov ( 1125 140 757.803 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
+		scal ( 0.075 -1.8 1.2 ) obj P205 /* "P2\P205.suf" atr "ÉKÉâÉX" */
+	}
+	{	mov ( 1125 -156 794.303 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
+		scal ( 0.25 0.075 1.525 ) obj P205 /* "P2\P205.suf" atr "ï«" */
+	}
+	{	mov ( 760 -1320 817.803 ) rotz ( 0 ) roty ( 0 ) rotx ( -90 )
+		scal ( 0.25 0.075 8.3 ) obj P205 /* "P2\P205.suf" atr "ï«ÇQ" */
+	}
+	{	mov ( 760 -1320 757.803 ) rotz ( 0 ) roty ( 0 ) rotx ( 180 )
+		scal ( 0.25 0.075 1.45 ) obj P205 /* "P2\P205.suf" atr "ï«ÇQ" */
+	}
+	{	mov ( 760 -720 757.803 ) rotz ( 0 ) roty ( 0 ) rotx ( 180 )
+		scal ( 0.25 0.075 1.7 ) obj P205 /* "P2\P205.suf" atr "ï«ÇQ" */
+	}
+	{	mov ( 760 -1920 757.803 ) rotz ( 0 ) roty ( 0 ) rotx ( 180 )
+		scal ( 0.25 0.075 1.45 ) obj P205 /* "P2\P205.suf" atr "ï«ÇQ" */
+	}
+	{	mov ( 760 1320 817.803 ) rotz ( 0 ) roty ( 0 ) rotx ( 90 )
+		scal ( 0.25 -0.075 8.3 ) obj P205 /* "P2\P205.suf" atr "ï«ÇQ" */
+	}
+	{	mov ( 760 720 757.803 ) rotz ( 0 ) roty ( 0 ) rotx ( -180 )
+		scal ( 0.25 -0.075 1.7 ) obj P205 /* "P2\P205.suf" atr "ï«ÇQ" */
+	}
+	{	mov ( 760 1320 757.803 ) rotz ( 0 ) roty ( 0 ) rotx ( -180 )
+		scal ( 0.25 -0.075 1.45 ) obj P205 /* "P2\P205.suf" atr "ï«ÇQ" */
+	}
+	{	mov ( 760 1920 757.803 ) rotz ( 0 ) roty ( 0 ) rotx ( -180 )
+		scal ( 0.25 -0.075 1.45 ) obj P205 /* "P2\P205.suf" atr "ï«ÇQ" */
+	}
+	{	mov ( 780 -940 757.803 ) rotz ( 0 ) roty ( 0 ) rotx ( 90 )
+		scal ( -0.05 1.7 0.25 ) obj P205 /* "P2\P205.suf" atr "ï«ÇQ" */
+	}
+	{	mov ( 800 -1340 637.803 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
+		scal ( -0.05 8.7 0.45 ) obj P205 /* "P2\P205.suf" atr "ï«ÇQ" */
+	}
+	{	mov ( 780 -500 757.803 ) rotz ( 0 ) roty ( 0 ) rotx ( 90 )
+		scal ( -0.05 1.7 0.25 ) obj P205 /* "P2\P205.suf" atr "ï«ÇQ" */
+	}
+	{	mov ( 800 1340 637.803 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
+		scal ( -0.05 -8.7 0.45 ) obj P205 /* "P2\P205.suf" atr "ï«ÇQ" */
+	}
+	{	mov ( 780 940 757.803 ) rotz ( 0 ) roty ( 0 ) rotx ( -90 )
+		scal ( -0.05 -1.7 0.25 ) obj P205 /* "P2\P205.suf" atr "ï«ÇQ" */
+	}
+	{	mov ( 780 500 757.803 ) rotz ( 0 ) roty ( 0 ) rotx ( -90 )
+		scal ( -0.05 -1.7 0.25 ) obj P205 /* "P2\P205.suf" atr "ï«ÇQ" */
+	}
+	{	mov ( 780 -1080 737.803 ) rotz ( 0 ) roty ( 0 ) rotx ( 90 )
+		scal ( -0.05 1.7 0.25 ) obj P205 /* "P2\P205.suf" atr "ï«ÇQ" */
+	}
+	{	mov ( 780 -1560 737.803 ) rotz ( 0 ) roty ( 0 ) rotx ( 90 )
+		scal ( -0.05 1.7 0.25 ) obj P205 /* "P2\P205.suf" atr "ï«ÇQ" */
+	}
+	{	mov ( 780 1080 737.803 ) rotz ( 0 ) roty ( 0 ) rotx ( -90 )
+		scal ( -0.05 -1.7 0.25 ) obj P205 /* "P2\P205.suf" atr "ï«ÇQ" */
+	}
+	{	mov ( 780 1560 737.803 ) rotz ( 0 ) roty ( 0 ) rotx ( -90 )
+		scal ( -0.05 -1.7 0.25 ) obj P205 /* "P2\P205.suf" atr "ï«ÇQ" */
+	}
+	{	mov ( 780 -1700 737.803 ) rotz ( 0 ) roty ( 0 ) rotx ( 90 )
+		scal ( -0.05 1.7 0.25 ) obj P205 /* "P2\P205.suf" atr "ï«ÇQ" */
+	}
+	{	mov ( 780 -2120 737.803 ) rotz ( 0 ) roty ( 0 ) rotx ( 90 )
+		scal ( -0.05 1.7 0.25 ) obj P205 /* "P2\P205.suf" atr "ï«ÇQ" */
+	}
+	{	mov ( 780 1700 737.803 ) rotz ( 0 ) roty ( 0 ) rotx ( -90 )
+		scal ( -0.05 -1.7 0.25 ) obj P205 /* "P2\P205.suf" atr "ï«ÇQ" */
+	}
+	{	mov ( 780 2120 737.803 ) rotz ( 0 ) roty ( 0 ) rotx ( -90 )
+		scal ( -0.05 -1.7 0.25 ) obj P205 /* "P2\P205.suf" atr "ï«ÇQ" */
+	}
+	{	mov ( -808 -720 1210.7 ) rotz ( 0 ) roty ( 0 ) rotx ( 180 )
+		scal ( -0.25 0.075 1.7 ) obj P205 /* "P2\P205.suf" atr "ï«ÇQ" */
+	}
+	{	mov ( -792 -1320 1290.7 ) rotz ( 0 ) roty ( 0 ) rotx ( -90 )
+		scal ( -0.25 0.075 8.3 ) obj P205 /* "P2\P205.suf" atr "ï«ÇQ" */
+	}
+	{	mov ( -776 1320 1290.7 ) rotz ( 0 ) roty ( 0 ) rotx ( 90 )
+		scal ( -0.25 -0.075 8.3 ) obj P205 /* "P2\P205.suf" atr "ï«ÇQ" */
+	}
+	{	mov ( -808 -1334.24 1237.51 ) rotz ( 0 ) roty ( 0 ) rotx ( 180 )
+		scal ( -0.25 0.075 1.7 ) obj P205 /* "P2\P205.suf" atr "ï«ÇQ" */
+	}
+	{	mov ( -808 1334.24 1237.51 ) rotz ( 0 ) roty ( 0 ) rotx ( -180 )
+		scal ( -0.25 -0.075 1.7 ) obj P205 /* "P2\P205.suf" atr "ï«ÇQ" */
+	}
+	{	mov ( -808 -1899.59 1228.03 ) rotz ( 0 ) roty ( 0 ) rotx ( 180 )
+		scal ( -0.25 0.075 1.7 ) obj P205 /* "P2\P205.suf" atr "ï«ÇQ" */
+	}
+	{	mov ( -808 1899.59 1228.03 ) rotz ( 0 ) roty ( 0 ) rotx ( -180 )
+		scal ( -0.25 -0.075 1.7 ) obj P205 /* "P2\P205.suf" atr "ï«ÇQ" */
+	}
+	{	mov ( -808 720 1210.7 ) rotz ( 0 ) roty ( 0 ) rotx ( -180 )
+		scal ( -0.25 -0.075 1.7 ) obj P205 /* "P2\P205.suf" atr "ï«ÇQ" */
+	}
+	{	mov ( -808 -704 730.7 ) rotz ( 0 ) roty ( 0 ) rotx ( 180 )
+		scal ( -0.25 0.075 1.7 ) obj P205 /* "P2\P205.suf" atr "ï«ÇQ" */
+	}
+	{	mov ( -792 -1304 810.7 ) rotz ( 0 ) roty ( 0 ) rotx ( -90 )
+		scal ( -0.25 0.075 8.3 ) obj P205 /* "P2\P205.suf" atr "ï«ÇQ" */
+	}
+	{	mov ( -808 -1318.24 757.512 ) rotz ( 0 ) roty ( 0 ) rotx ( 180 )
+		scal ( -0.25 0.075 1.7 ) obj P205 /* "P2\P205.suf" atr "ï«ÇQ" */
+	}
+	{	mov ( -808 -1883.59 748.03 ) rotz ( 0 ) roty ( 0 ) rotx ( 180 )
+		scal ( -0.25 0.075 1.7 ) obj P205 /* "P2\P205.suf" atr "ï«ÇQ" */
+	}
+	{	mov ( -808 -704 218.7 ) rotz ( 0 ) roty ( 0 ) rotx ( 180 )
+		scal ( -0.25 0.075 1.7 ) obj P205 /* "P2\P205.suf" atr "ï«ÇQ" */
+	}
+	{	mov ( -792 -1304 298.7 ) rotz ( 0 ) roty ( 0 ) rotx ( -90 )
+		scal ( -0.25 0.075 8.3 ) obj P205 /* "P2\P205.suf" atr "ï«ÇQ" */
+	}
+	{	mov ( -808 -1318.24 245.512 ) rotz ( 0 ) roty ( 0 ) rotx ( 180 )
+		scal ( -0.25 0.075 1.7 ) obj P205 /* "P2\P205.suf" atr "ï«ÇQ" */
+	}
+	{	mov ( -808 -1883.59 236.03 ) rotz ( 0 ) roty ( 0 ) rotx ( 180 )
+		scal ( -0.25 0.075 1.7 ) obj P205 /* "P2\P205.suf" atr "ï«ÇQ" */
+	}
+	{	mov ( -808 -704 -293.3 ) rotz ( 0 ) roty ( 0 ) rotx ( 180 )
+		scal ( -0.25 0.075 1.7 ) obj P205 /* "P2\P205.suf" atr "ï«ÇQ" */
+	}
+	{	mov ( -792 -1304 -213.3 ) rotz ( 0 ) roty ( 0 ) rotx ( -90 )
+		scal ( -0.25 0.075 8.3 ) obj P205 /* "P2\P205.suf" atr "ï«ÇQ" */
+	}
+	{	mov ( -808 -1318.24 -266.488 ) rotz ( 0 ) roty ( 0 ) rotx ( 180 )
+		scal ( -0.25 0.075 1.7 ) obj P205 /* "P2\P205.suf" atr "ï«ÇQ" */
+	}
+	{	mov ( -808 -1883.59 -275.97 ) rotz ( 0 ) roty ( 0 ) rotx ( 180 )
+		scal ( -0.25 0.075 1.7 ) obj P205 /* "P2\P205.suf" atr "ï«ÇQ" */
+	}
+	{	mov ( -792 1304 810.7 ) rotz ( 0 ) roty ( 0 ) rotx ( 90 )
+		scal ( -0.25 -0.075 8.3 ) obj P205 /* "P2\P205.suf" atr "ï«ÇQ" */
+	}
+	{	mov ( -808 704 730.7 ) rotz ( 0 ) roty ( 0 ) rotx ( -180 )
+		scal ( -0.25 -0.075 1.7 ) obj P205 /* "P2\P205.suf" atr "ï«ÇQ" */
+	}
+	{	mov ( -808 1318.24 757.512 ) rotz ( 0 ) roty ( 0 ) rotx ( -180 )
+		scal ( -0.25 -0.075 1.7 ) obj P205 /* "P2\P205.suf" atr "ï«ÇQ" */
+	}
+	{	mov ( -808 1883.59 748.03 ) rotz ( 0 ) roty ( 0 ) rotx ( -180 )
+		scal ( -0.25 -0.075 1.7 ) obj P205 /* "P2\P205.suf" atr "ï«ÇQ" */
+	}
+	{	mov ( -792 1304 298.7 ) rotz ( 0 ) roty ( 0 ) rotx ( 90 )
+		scal ( -0.25 -0.075 8.3 ) obj P205 /* "P2\P205.suf" atr "ï«ÇQ" */
+	}
+	{	mov ( -808 704 218.7 ) rotz ( 0 ) roty ( 0 ) rotx ( -180 )
+		scal ( -0.25 -0.075 1.7 ) obj P205 /* "P2\P205.suf" atr "ï«ÇQ" */
+	}
+	{	mov ( -808 1318.24 245.512 ) rotz ( 0 ) roty ( 0 ) rotx ( -180 )
+		scal ( -0.25 -0.075 1.7 ) obj P205 /* "P2\P205.suf" atr "ï«ÇQ" */
+	}
+	{	mov ( -808 1883.59 236.03 ) rotz ( 0 ) roty ( 0 ) rotx ( -180 )
+		scal ( -0.25 -0.075 1.7 ) obj P205 /* "P2\P205.suf" atr "ï«ÇQ" */
+	}
+	{	mov ( -792 1304 -213.3 ) rotz ( 0 ) roty ( 0 ) rotx ( 90 )
+		scal ( -0.25 -0.075 8.3 ) obj P205 /* "P2\P205.suf" atr "ï«ÇQ" */
+	}
+	{	mov ( -808 704 -293.3 ) rotz ( 0 ) roty ( 0 ) rotx ( -180 )
+		scal ( -0.25 -0.075 1.7 ) obj P205 /* "P2\P205.suf" atr "ï«ÇQ" */
+	}
+	{	mov ( -808 1318.24 -266.488 ) rotz ( 0 ) roty ( 0 ) rotx ( -180 )
+		scal ( -0.25 -0.075 1.7 ) obj P205 /* "P2\P205.suf" atr "ï«ÇQ" */
+	}
+	{	mov ( -808 1883.59 -275.97 ) rotz ( 0 ) roty ( 0 ) rotx ( -180 )
+		scal ( -0.25 -0.075 1.7 ) obj P205 /* "P2\P205.suf" atr "ï«ÇQ" */
+	}
+}

@@ -1,0 +1,53 @@
+atr "_BodyM_çZé…ÇR_ï«"
+{
+	col ( 1.000 )
+	amb ( 0.200 )
+	dif ( 0.800 )
+	spc ( 0.700 1.000 0.000 )
+	colormap ( "C:\Program Files\DOGACGA\common\atr\YOGORE.PIC" )
+	mapsize ( 0 0 2550 2550 )
+}
+atr "_BodyM_çZé…ÇR_ÉKÉâÉX"
+{
+	col ( rgb ( 0.000 0.710 0.960 ) )
+	amb ( 0.150 )
+	dif ( 0.800 )
+	tra ( 0.150 )
+	ref ( 0.280 )
+	spc ( 0.800 1.200 0.000 )
+}
+atr "_BodyM_çZé…ÇR_ï«ÇQ"
+{
+	col ( rgb ( 0.650 0.650 0.700 ) )
+	amb ( 0.200 )
+	dif ( 0.800 )
+	spc ( 0.700 1.000 0.000 )
+	colormap ( "C:\Program Files\DOGACGA\common\atr\YOGORE.PIC" )
+	mapsize ( 0 0 1020 1020 )
+}
+atr "_BodyM_çZé…ÇR_#01"
+{
+	col ( rgb ( 0.400 0.400 0.450 ) )
+	amb ( 0.200 )
+	dif ( 0.800 )
+	spc ( 0.700 1.000 0.000 )
+	colormap ( "C:\Program Files\DOGACGA\common\atr\YOGORE.PIC" )
+	mapsize ( 0 0 1020 1020 )
+}
+atr "_BodyM_çZé…ÇR_ï∂éöî’"
+{
+	col ( 1.000 )
+	amb ( 1.000 )
+	dif ( 0.000 )
+	colormap ( "C:\Program Files\DOGACGA\common\atr\YOGORE.PIC" )
+	mapsize ( 0 0 1020 1020 )
+}
+atr "_BodyM_çZé…ÇR_ÉtÉåÅ[ÉÄ"
+{
+	col ( rgb ( 0.180 0.180 0.200 ) )
+	amb ( 0.200 )
+	dif ( 0.800 )
+	spc ( 0.700 1.000 0.000 )
+	colormap ( "C:\Program Files\DOGACGA\common\atr\YOGORE.PIC" )
+	mapsize ( 0 0 1020 1020 )
+}

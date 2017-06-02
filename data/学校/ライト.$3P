@@ -6,65 +6,45 @@ Parts:
 Light: (   32   32  -89 ) ( 1.00 1.00 1.00)
 BackGround: rgb ( 0.0000 0.0000 0.0000 )
 Info:
-	DisplayOffset: (  40.000  -8.000 -130.108 )
-	DisplayScale: 0.353553390592
+	DisplayOffset: ( 268.569 -16.314 -114.000 )
+	DisplayScale: 0.499999999998
 	MeshFlag: 1
 	MeshSpacing: 200
 	ShowStatus: 0
 	ShowAttr: 1
-	GridFlag: 1
+	GridFlag: 0
 	GridSpacing: 20
 	RotSpacing: 5
 	SelectedOnly: 0
 	DispRelative: 0
 Palette:
-	0: atr "#01" { col ( rgb ( 0.780 0.620 0.310 ) ) amb ( 0.200 ) dif ( 0.800 ) spc ( 0.700 1.000 0.000 ) colormap ( "L3\object\butubutu_bump.png" 0.610 1.000 ) mapsize ( 0 0 1 1 ) }
-	1: atr "#02" { col ( rgb ( 0.050 0.450 0.140 ) ) amb ( 0.200 ) dif ( 0.800 ) ref ( 0.300 ) spc ( 0.900 1.000 0.650 ) tramap ( MESH1.PIC 1.000 0.000 ) mapsize ( 0 0 1 1 ) }
-	2: atr "#03" { col ( rgb ( 0.650 0.650 0.700 ) ) amb ( 0.200 ) dif ( 0.800 ) spc ( 0.700 1.000 0.000 ) }
-	3: atr noname { col ( rgb ( 0.050 0.450 0.140 ) ) amb ( 0.200 ) dif ( 0.800 ) ref ( 0.300 ) spc ( 0.900 1.000 0.650 ) }
+	0: atr "#01" { col ( rgb ( 0.400 0.400 0.450 ) ) amb ( 0.200 ) dif ( 0.800 ) spc ( 0.700 1.000 0.000 ) colormap ( YOGORE.PIC 0.760 1.000 ) mapsize ( 0 0 1 1 ) }
+	1: atr "#03" { col ( rgb ( 0.400 0.400 0.450 ) ) amb ( 0.200 ) dif ( 0.800 ) spc ( 0.700 1.000 0.000 ) colormap ( YOGORE.PIC 0.560 1.000 ) mapsize ( 0 0 1 1 ) }
 */
 fram
 {
-	light pal( rgb ( 1.00 1.00 1.00 ) -51 -48 -70 )
-	{	mov ( 1187.94 -13.3128 365.811 ) eye deg( 45 ) }
+	light pal( rgb ( 1.00 1.00 1.00 ) -66 -23 -70 )
+	{	mov ( 1001.78 -462.876 302.677 ) eye deg( 45 ) }
 	{	mov ( -6.53424 15.0053 295.704 ) target }
-	{	mov ( 40 0 480 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
+	{	mov ( 34 0 358 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
 		scal ( 0.3 0.5 0.5 ) obj RLYLT /* "mecha\carracing\RLYLT.suf" atr "#03" */
 	}
-	{	mov ( -8 0 0 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
-		scal ( 0.1 0.1 2.3 ) obj P215 /* "P2\P215.suf" atr "#03" */
+	{	mov ( -1.63604 1.41421 0 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
+		scal ( 0.0565206 0.0571177 1.73696 ) obj P215 /* "P2\P215.suf" atr "#01" */
 	}
-	{	mov ( 40 60 480 ) rotz ( 20 ) roty ( 0 ) rotx ( 0 )
+	{	mov ( 34 60 358 ) rotz ( 20 ) roty ( 0 ) rotx ( 0 )
 		scal ( 0.3 0.5 0.5 ) obj RLYLT /* "mecha\carracing\RLYLT.suf" atr "#03" */
 	}
-	{	mov ( 40 -60 480 ) rotz ( -20 ) roty ( 0 ) rotx ( 0 )
+	{	mov ( 34 -60 358 ) rotz ( -20 ) roty ( 0 ) rotx ( 0 )
 		scal ( 0.3 -0.5 0.5 ) obj RLYLT /* "mecha\carracing\RLYLT.suf" atr "#03" */
 	}
-	{	mov ( 38 0 541 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
+	{	mov ( 32 0 419 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
 		scal ( 0.3 0.5 0.5 ) obj RLYLT /* "mecha\carracing\RLYLT.suf" atr "#03" */
 	}
-	{	mov ( 38 60 541 ) rotz ( 20 ) roty ( 0 ) rotx ( 0 )
+	{	mov ( 32 60 419 ) rotz ( 20 ) roty ( 0 ) rotx ( 0 )
 		scal ( 0.3 0.5 0.5 ) obj RLYLT /* "mecha\carracing\RLYLT.suf" atr "#03" */
 	}
-	{	mov ( 38 -60 541 ) rotz ( -20 ) roty ( 0 ) rotx ( 0 )
+	{	mov ( 32 -60 419 ) rotz ( -20 ) roty ( 0 ) rotx ( 0 )
 		scal ( 0.3 -0.5 0.5 ) obj RLYLT /* "mecha\carracing\RLYLT.suf" atr "#03" */
-	}
-	{	mov ( -40 0 480 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
-		scal ( -0.3 0.5 0.5 ) obj RLYLT /* "mecha\carracing\RLYLT.suf" atr "#03" */
-	}
-	{	mov ( -40 60 480 ) rotz ( -20 ) roty ( 0 ) rotx ( 0 )
-		scal ( -0.3 0.5 0.5 ) obj RLYLT /* "mecha\carracing\RLYLT.suf" atr "#03" */
-	}
-	{	mov ( -40 -60 480 ) rotz ( 20 ) roty ( 0 ) rotx ( 0 )
-		scal ( -0.3 -0.5 0.5 ) obj RLYLT /* "mecha\carracing\RLYLT.suf" atr "#03" */
-	}
-	{	mov ( -38 0 541 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
-		scal ( -0.3 0.5 0.5 ) obj RLYLT /* "mecha\carracing\RLYLT.suf" atr "#03" */
-	}
-	{	mov ( -38 60 541 ) rotz ( -20 ) roty ( 0 ) rotx ( 0 )
-		scal ( -0.3 0.5 0.5 ) obj RLYLT /* "mecha\carracing\RLYLT.suf" atr "#03" */
-	}
-	{	mov ( -38 -60 541 ) rotz ( 20 ) roty ( 0 ) rotx ( 0 )
-		scal ( -0.3 -0.5 0.5 ) obj RLYLT /* "mecha\carracing\RLYLT.suf" atr "#03" */
 	}
 }

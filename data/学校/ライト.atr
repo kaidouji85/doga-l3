@@ -1,21 +1,34 @@
-atr "_BodyM_学校フィールド_#03"
+atr "_BodyM_ライト_#03"
 {
-	col ( rgb ( 0.650 0.650 0.700 ) )
+	col ( rgb ( 0.400 0.400 0.450 ) )
 	amb ( 0.200 )
 	dif ( 0.800 )
 	spc ( 0.700 1.000 0.000 )
+	colormap ( "C:\Program Files\DOGACGA\common\atr\YOGORE.PIC" 0.560 1.000 )
+	mapsize ( 0 0 255 255 )
 }
-atr "_BodyD_学校フィールド_#03"
+atr "_BodyD_ライト_#03"
 {
-	col ( rgb ( 0.4225 0.4225 0.455 ) )
+	col ( rgb ( 0.260 0.260 0.2925 ) )
 	amb ( 0.200 )
 	dif ( 0.800 )
 	spc ( 0.700 1.000 0.000 )
+	colormap ( "C:\Program Files\DOGACGA\common\atr\YOGORE.PIC" 0.560 1.000 )
+	mapsize ( 0 0 255 255 )
 }
-atr "_Glass_学校フィールド_#03"
+atr "_Glass_ライト_#03"
 {
 	col ( rgb ( 0.200 0.450 0.800 ) )
 	amb ( 0.150 )
 	dif ( 0.850 )
 	spc ( 0.900 0.150 0.000 )
+}
+atr "_BodyM_ライト_#01"
+{
+	col ( rgb ( 0.400 0.400 0.450 ) )
+	amb ( 0.200 )
+	dif ( 0.800 )
+	spc ( 0.700 1.000 0.000 )
+	colormap ( "C:\Program Files\DOGACGA\common\atr\YOGORE.PIC" 0.760 1.000 )
+	mapsize ( 0 0 255 255 )
 }
