@@ -1,0 +1,53 @@
+/*							Parts Assembler
+                                  Version 2.04.100723(:
+Parts: 
+	F1\F116.suf
+	P1\P114.suf
+	armor\armor04.suf
+	mecha\sfship\S106.suf
+	roetc\roetc04.suf
+	rohead\rohead08.suf
+Light: (   32   32  -89 ) ( 1.00 1.00 1.00)
+Info:
+	DisplayOffset: (  18.179  96.380  35.301 )
+	DisplayScale: 0.707106781186
+	MeshFlag: 1
+	MeshSpacing: 200
+	ShowStatus: 0
+	ShowAttr: 1
+	GridFlag: 1
+	GridSpacing: 20
+	RotSpacing: 3
+	SelectedOnly: 0
+	DispRelative: 0
+Palette:
+	0: atr "#01" { col ( rgb ( 0.300 0.200 0.950 ) ) amb ( 0.200 ) dif ( 0.800 ) spc ( 0.700 1.000 0.000 ) }
+	1: atr noname { col ( 1.000 ) amb ( 0.200 ) dif ( 0.800 ) spc ( 0.700 1.000 0.000 ) }
+*/
+fram
+{
+	light pal( rgb ( 1.00 1.00 1.00 ) -13 -69  70 )
+	{	mov ( 897.472 603.803 85.3072 ) eye deg( 45 ) }
+	{	mov ( -0.150816 -4.61927 180.871 ) target }
+	{	mov ( 20 0 -20 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
+		scal ( 1 1 1 ) obj rohead08 /* "rohead\rohead08.suf" atr "#01" */
+	}
+	{	mov ( 191.319 0 199.592 ) rotz ( 0 ) roty ( -0.615814 ) rotx ( 0 )
+		scal ( 0.2 0.500826 1.13737 ) obj S106 /* "mecha\sfship\S106.suf" atr "#01" */
+	}
+	{	mov ( -20 0 180 ) rotz ( 90 ) roty ( 0 ) rotx ( -66 )
+		scal ( 0.5 0.5 0.5 ) obj armor04 /* "armor\armor04.suf" atr "#01" */
+	}
+	{	mov ( 16 0 218 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
+		scal ( 0.8 0.6 1 ) obj P114 /* "P1\P114.suf" atr "#01" */
+	}
+	{	mov ( -87.9959 146.88 160.672 ) rotz ( -2.04328 ) roty ( -31.4543 ) rotx ( -4.3886 )
+		scal ( 0.647564 0.601789 0.607843 ) obj roetc04 /* "roetc\roetc04.suf" atr "#01" */
+	}
+	{	mov ( -87.9959 -146.88 160.672 ) rotz ( 2.04328 ) roty ( -31.4543 ) rotx ( 4.3886 )
+		scal ( 0.647564 -0.601789 0.607843 ) obj roetc04 /* "roetc\roetc04.suf" atr "#01" */
+	}
+	{	mov ( 180 -0.376738 80 ) rotz ( -180 ) roty ( -90 ) rotx ( 0 )
+		scal ( 0.3 0.3 0.7 ) obj F116 /* "F1\F116.suf" atr "noname" */
+	}
+}
