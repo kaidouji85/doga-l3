@@ -1,0 +1,124 @@
+/*							Parts Assembler
+                                  Version 2.04.100723(:
+Parts: 
+	F1\F116.suf
+	P1\P114.suf
+	P2\P214.suf
+	RB\RB06.suf
+	RB\RB07.suf
+	RB\RB09.suf
+	S1\S101.suf
+	T1\T101.suf
+	T1\T105.suf
+	TK\TK05.suf
+	W1\W103.suf
+	armor\armor03.suf
+	armor\armor04.suf
+	mecha\sfship\S106.suf
+	nozzle\nozzle12.suf
+	roarm\roarm01.suf
+	roarm\roarm08.suf
+	roarm\roarm16.suf
+	robody\robody08.suf
+	robody\robody12.suf
+	roetc\roetc03.suf
+	roetc\roetc04.suf
+	roetc\roetc10.suf
+	rohand\rohand06.suf
+	rohead\rohead08.suf
+Pose:
+Light: (   32   32  -89 ) ( 1.00 1.00 1.00)
+Info:
+	DisplayOffset: (  -0.000 127.279 -106.066 )
+	DisplayScale: 0.353553390593
+	MeshFlag: 1
+	MeshSpacing: 200
+	ShowStatus: 1
+	ShowAttr: 1
+	GridFlag: 1
+	GridSpacing: 20
+	RotSpacing: 5
+	SelectedOnly: 0
+	DispRelative: 0
+:)*/
+fram
+{
+	light pal( rgb ( 1.00 1.00 1.00 ) -16 -68  70 )
+	{	mov ( 2490.49 1604.77 -486.038 ) eye deg( 45 ) }
+	{	mov ( -12.0097 93.3735 -279.748 ) target }
+  { mov ( 0 0 0 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
+    /* Unit */
+    { obj "腰" (: "腰.l3p" :) }
+    { mov ( 0 0 0 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
+      /* Unit Moveable */
+      { obj "胴体" (: "胴体.l3p" :) }
+      { mov ( 0 0 420 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
+        /* Unit Moveable */
+        { obj "頭" (: "頭.l3p" :) }
+      }
+      { mov ( 0 360 300 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
+        /* Unit Moveable */
+        { obj "肩" (: "肩.l3p" :) }
+        { mov ( 0 -40 0 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
+          /* Unit Moveable */
+          { obj "肩アーマ" (: "肩アーマ.l3p" :) }
+        }
+        { mov ( 0 0 -160 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
+          /* Unit Moveable */
+          { obj "腕" (: "腕.l3p" :) }
+          { mov ( 0 -40 -240 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
+            /* Unit Moveable */
+            { obj "手" (: "手.l3p" :) }
+          }
+        }
+      }
+      { mov ( 0 -360 300 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
+        /* Unit Moveable */
+        { scal ( 1 -1 1 )
+          obj "肩" (: "肩.l3p" :) }
+        { mov ( 0 40 0 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
+          /* Unit Moveable */
+          { scal ( 1 -1 1 )
+            obj "肩アーマ" (: "肩アーマ.l3p" :) }
+        }
+        { mov ( 0 0 -160 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
+          /* Unit Moveable */
+          { scal ( 1 -1 1 )
+            obj "腕" (: "腕.l3p" :) }
+          { mov ( 0 40 -240 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
+            /* Unit Moveable */
+            { scal ( 1 -1 1 )
+              obj "手" (: "手.l3p" :) }
+          }
+        }
+      }
+    }
+    { mov ( 0 -140 -140 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
+      /* Unit Moveable */
+      { obj "腿" (: "腿.L3P" :) }
+      { mov ( 0 -40 -240 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
+        /* Unit Moveable */
+        { obj "脛" (: "脛.l3p" :) }
+        { mov ( 0 0 -540 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
+          /* Unit Moveable */
+          { obj "つま先" (: "つま先.l3p" :) }
+        }
+      }
+    }
+    { mov ( 0 140 -140 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
+      /* Unit Moveable */
+      { scal ( 1 -1 1 )
+        obj "腿" (: "腿.L3P" :) }
+      { mov ( 0 40 -240 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
+        /* Unit Moveable */
+        { scal ( 1 -1 1 )
+          obj "脛" (: "脛.l3p" :) }
+        { mov ( 0 0 -540 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
+          /* Unit Moveable */
+          { scal ( 1 -1 1 )
+            obj "つま先" (: "つま先.l3p" :) }
+        }
+      }
+    }
+  }
+}
