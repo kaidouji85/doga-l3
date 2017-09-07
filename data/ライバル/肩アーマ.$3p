@@ -18,23 +18,23 @@ Info:
 	SelectedOnly: 0
 	DispRelative: 0
 Palette:
-	0: atr "#01" { col ( rgb ( 0.300 0.200 0.950 ) ) amb ( 0.200 ) dif ( 0.800 ) ref ( 0.300 ) spc ( 0.900 1.000 0.650 ) }
-	1: atr "#02" { col ( rgb ( 0.000 0.700 0.150 ) ) amb ( 1.000 ) dif ( 0.000 ) opt ( emittion 0.050 4.000 ) }
-	2: atr "#04" { col ( rgb ( 0.850 0.850 0.800 ) ) amb ( 0.200 ) dif ( 0.800 ) ref ( 0.300 ) spc ( 0.900 1.000 0.650 ) }
+	0: atr "#01" { col ( rgb ( 0.130 0.110 0.490 ) ) amb ( 0.200 ) dif ( 0.800 ) ref ( 0.300 ) spc ( 0.900 1.000 0.650 ) }
+	1: atr "#02" { col ( rgb ( 0.900 0.100 0.150 ) ) amb ( 1.000 ) dif ( 0.000 ) opt ( emittion 0.050 4.000 ) }
+	2: atr "#04" { col ( rgb ( 0.400 0.390 0.680 ) ) amb ( 0.200 ) dif ( 0.800 ) ref ( 0.300 ) spc ( 0.900 1.000 0.650 ) }
 	3: atr noname { col ( rgb ( 0.900 0.100 0.150 ) ) amb ( 0.200 ) dif ( 0.800 ) ref ( 0.300 ) spc ( 0.900 1.000 0.650 ) }
 */
 fram
 {
 	light pal( rgb ( 1.00 1.00 1.00 ) -53 -45 -70 )
-	{	mov ( 2716.96 -144.83 -77.1913 ) eye deg( 45 ) }
-	{	mov ( -132.417 78.9158 -421.624 ) target }
-	{	mov ( 0 209.201 136.716 ) rotz ( 90 ) roty ( -12 ) rotx ( 0 )
-		scal ( 0.237424 0.5 0.853265 ) obj S106 /* "mecha\sfship\S106.suf" atr "#04" */
+	{	mov ( 687.813 77.6827 145.371 ) eye deg( 45 ) }
+	{	mov ( 3.57432 131.412 62.6597 ) target }
+	{	mov ( 0 204.381 131.044 ) rotz ( 90 ) roty ( -12 ) rotx ( 0 )
+		scal ( 0.213682 0.45 0.767939 ) obj S106 /* "mecha\sfship\S106.suf" atr "#04" */
 	}
-	{	mov ( 0 -51 -35 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
-		scal ( 0.7 0.3 0.5 ) obj armor03 /* "armor\armor03.suf" atr "#01" */
+	{	mov ( 0 -29.8 -23.5 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
+		scal ( 0.63 0.27 0.45 ) obj armor03 /* "armor\armor03.suf" atr "#01" */
 	}
-	{	mov ( 0 209 185 ) rotz ( -90 ) roty ( 27 ) rotx ( 0 )
-		scal ( 0.6 0.9 0.8 ) obj nozzle12 /* "nozzle\nozzle12.suf" atr "#01" */
+	{	mov ( 0 204.2 174.5 ) rotz ( -90 ) roty ( 27 ) rotx ( 0 )
+		scal ( 0.54 0.81 0.72 ) obj nozzle12 /* "nozzle\nozzle12.suf" atr "#01" */
 	}
 }

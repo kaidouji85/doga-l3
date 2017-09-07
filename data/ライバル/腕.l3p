@@ -6,21 +6,21 @@ Parts:
 	armor\armor04.suf
 Light: (   32   32  -89 ) ( 1.00 1.00 1.00)
 Info:
-	DisplayOffset: (   8.662 -31.113  21.379 )
-	DisplayScale: 0.088388347648
+	DisplayOffset: (  34.648 -124.452  85.516 )
+	DisplayScale: 0.353553390592
 	MeshFlag: 1
 	MeshSpacing: 200
 	ShowStatus: 0
 	ShowAttr: 1
-	GridFlag: 1
+	GridFlag: 0
 	GridSpacing: 20
 	RotSpacing: 10
 	SelectedOnly: 0
 	DispRelative: 0
 Palette:
-	0: atr "#01" { col ( rgb ( 0.240 0.210 0.510 ) ) amb ( 0.200 ) dif ( 0.800 ) ref ( 0.300 ) spc ( 0.900 1.000 0.650 ) }
-	1: atr "#02" { col ( rgb ( 0.000 0.700 0.150 ) ) amb ( 1.000 ) dif ( 0.000 ) opt ( emittion 0.050 4.000 ) }
-	2: atr "#04" { col ( rgb ( 0.600 0.600 0.700 ) ) amb ( 0.200 ) dif ( 0.800 ) ref ( 0.300 ) spc ( 0.900 1.000 0.650 ) }
+	0: atr "#01" { col ( rgb ( 0.130 0.110 0.490 ) ) amb ( 0.200 ) dif ( 0.800 ) ref ( 0.300 ) spc ( 0.900 1.000 0.650 ) }
+	1: atr "#02" { col ( rgb ( 0.900 0.100 0.150 ) ) amb ( 1.000 ) dif ( 0.000 ) opt ( emittion 0.050 4.000 ) }
+	2: atr "#04" { col ( rgb ( 0.400 0.390 0.680 ) ) amb ( 0.200 ) dif ( 0.800 ) ref ( 0.300 ) spc ( 0.900 1.000 0.650 ) }
 	3: atr noname { col ( rgb ( 0.900 0.100 0.150 ) ) amb ( 0.200 ) dif ( 0.800 ) ref ( 0.300 ) spc ( 0.900 1.000 0.650 ) }
 */
 fram
@@ -28,13 +28,13 @@ fram
 	light pal( rgb ( 1.00 1.00 1.00 ) -52 -47  70 )
 	{	mov ( 1080 -20 -176.421 ) eye deg( 45 ) }
 	{	mov ( 5.49685 34.2448 -162.097 ) target }
-	{	mov ( 0 10 -313 ) rotz ( -180 ) roty ( 0 ) rotx ( 100 )
-		scal ( 0.4 0.729729 0.5 ) obj armor04 /* "armor\armor04.suf" atr "#01" */
+	{	mov ( 0 24.2647 -265.013 ) rotz ( -180 ) roty ( 0 ) rotx ( 100 )
+		scal ( 0.364157 0.66434 0.455197 ) obj armor04 /* "armor\armor04.suf" atr "#01" */
 	}
-	{	mov ( 0 190 -53 ) rotz ( 90 ) roty ( -30 ) rotx ( 90 )
-		scal ( 0.231023 0.218193 1.7 ) obj W103 /* "W1\W103.suf" atr "noname" */
+	{	mov ( 0 188.135 -28.3112 ) rotz ( 90 ) roty ( -30 ) rotx ( 90 )
+		scal ( 0.210321 0.198641 1.54767 ) obj W103 /* "W1\W103.suf" atr "noname" */
 	}
-	{	mov ( 0 -10 -13 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
-		scal ( 0.9 0.8 0.5 ) obj rb09 /* "RB\RB09.suf" atr "#01" */
+	{	mov ( 0 6.0568 8.10451 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
+		scal ( 0.973056 0.902052 0.508016 ) obj rb09 /* "RB\RB09.suf" atr "#01" */
 	}
 }

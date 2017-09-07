@@ -27,16 +27,16 @@ Parts:
 	rohand\rohand06.suf
 	rohead\rohead08.suf
 Pose:
-0: "立ち" ( labelled 17 ( unlabelled move ( 0 0 0 ) rot ( 0 15 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( 0 -35 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( 0 40 0 ) ) ( unlabelled move ( -0.652501 0 -1.79273 ) rot ( 25 0 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( 0 0 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( 0 0 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( 0 0 0 ) ) ( unlabelled move ( 6.1879 20 17.0011 ) rot ( -20 0 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( 0 0 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( 0 0 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( 0 0 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( 15 -5 20 ) ) ( unlabelled move ( 0 0 0 ) rot ( 0 0 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( -21.4715 -5.02292 12.3866 ) ) ( unlabelled move ( 0 0 0 ) rot ( -20 -10 -25 ) ) ( unlabelled move ( 0 0 0 ) rot ( 0 0 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( 26.3555 -3.0956 -1.92509 ) ) )
+0: "立ち" ( labelled 17 ( unlabelled move ( 0 0 0 ) rot ( 0 15 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( 0 -25 0 ) ) ( unlabelled move ( 13.8438 0 44.0381 ) rot ( 0 40.9512 0 ) ) ( unlabelled move ( 4.2644 0 24.1846 ) rot ( 26.9921 29.8361 10.8425 ) ) ( unlabelled move ( 0 0 0 ) rot ( -21.3922 -18.0577 8.7447 ) ) ( unlabelled move ( 0 0 0 ) rot ( 0 0 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( 0 0 0 ) ) ( unlabelled move ( 0.791434 20 4.48843 ) rot ( -25.8705 -5.03671 -4.84798 ) ) ( unlabelled move ( 0 0 0 ) rot ( 9.58723 15.6947 1.78426 ) ) ( unlabelled move ( 0 0 0 ) rot ( 0 0 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( 0 0 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( 22.3693 -12.9525 30.8675 ) ) ( unlabelled move ( 0 0 0 ) rot ( 1.83739 5.44443 19.8881 ) ) ( unlabelled move ( 0 0 0 ) rot ( -27.234 14.0009 15.2519 ) ) ( unlabelled move ( 0 0 0 ) rot ( -16.6496 -39.734 -11.8089 ) ) ( unlabelled move ( 0 0 0 ) rot ( -9.14726 9.74812 -16.5291 ) ) ( unlabelled move ( 0 0 0 ) rot ( 8.72408 26.7017 -24.3641 ) ) )
 Light: (   32   32  -89 ) ( 1.00 1.00 1.00)
 Info:
-	DisplayOffset: (   8.907 -21.882  -6.448 )
+	DisplayOffset: (   8.200 -108.000   0.000 )
 	DisplayScale: 0.088388347648
 	MeshFlag: 1
 	MeshSpacing: 200
 	ShowStatus: 1
 	ShowAttr: 1
-	GridFlag: 1
+	GridFlag: 0
 	GridSpacing: 20
 	RotSpacing: 5
 	SelectedOnly: 0
@@ -44,49 +44,49 @@ Info:
 :)*/
 fram
 {
-	light pal( rgb ( 1.00 1.00 1.00 ) -11 -69  70 )
-	{	mov ( 2080 1547.14 -180 ) eye deg( 45 ) }
-	{	mov ( -20 30.5331 -180 ) target }
+	light pal( rgb ( 1.00 1.00 1.00 ) -13 -69 -70 )
+	{	mov ( 1963.54 1410.99 -112.72 ) eye deg( 45 ) }
+	{	mov ( -77.1581 26.1965 -116.383 ) target }
   { mov ( 0 0 0 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
     /* Unit */
     { obj "腰" (: "腰.l3p" :) }
     { mov ( 0 0 0 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
       /* Unit Moveable */
       { obj "胴体" (: "胴体.l3p" :) }
-      { mov ( 0 0 420 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
+      { mov ( 0 0 380 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
         /* Unit Moveable */
         { obj "頭" (: "頭.l3p" :) }
       }
-      { mov ( 0 360 300 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
+      { mov ( 0 260 300 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
         /* Unit Moveable */
         { obj "肩" (: "肩.l3p" :) }
-        { mov ( 0 -40 0 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
+        { mov ( 0 0 -20 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
           /* Unit Moveable */
           { obj "肩アーマ" (: "肩アーマ.l3p" :) }
         }
-        { mov ( 0 0 -160 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
+        { mov ( 0 0 -240 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
           /* Unit Moveable */
           { obj "腕" (: "腕.l3p" :) }
-          { mov ( 0 -40 -240 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
+          { mov ( 0 -20 -200 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
             /* Unit Moveable */
             { obj "手" (: "手.l3p" :) }
           }
         }
       }
-      { mov ( 0 -360 300 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
+      { mov ( 0 -260 300 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
         /* Unit Moveable */
         { scal ( 1 -1 1 )
           obj "肩" (: "肩.l3p" :) }
-        { mov ( 0 40 0 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
+        { mov ( 0 0 -20 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
           /* Unit Moveable */
           { scal ( 1 -1 1 )
             obj "肩アーマ" (: "肩アーマ.l3p" :) }
         }
-        { mov ( 0 0 -160 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
+        { mov ( 0 0 -240 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
           /* Unit Moveable */
           { scal ( 1 -1 1 )
             obj "腕" (: "腕.l3p" :) }
-          { mov ( 0 40 -240 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
+          { mov ( 0 20 -200 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
             /* Unit Moveable */
             { scal ( 1 -1 1 )
               obj "手" (: "手.l3p" :) }

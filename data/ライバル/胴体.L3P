@@ -21,21 +21,21 @@ Info:
 	SelectedOnly: 0
 	DispRelative: 0
 Palette:
-	0: atr "#01" { col ( rgb ( 0.240 0.210 0.510 ) ) amb ( 0.200 ) dif ( 0.800 ) ref ( 0.300 ) spc ( 0.900 1.000 0.650 ) }
-	1: atr "#02" { col ( rgb ( 0.000 0.700 0.150 ) ) amb ( 1.000 ) dif ( 0.000 ) opt ( emittion 0.050 4.000 ) }
-	2: atr "#04" { col ( rgb ( 0.600 0.600 0.700 ) ) amb ( 0.200 ) dif ( 0.800 ) ref ( 0.300 ) spc ( 0.900 1.000 0.650 ) }
+	0: atr "#01" { col ( rgb ( 0.130 0.110 0.490 ) ) amb ( 0.200 ) dif ( 0.800 ) ref ( 0.300 ) spc ( 0.900 1.000 0.650 ) }
+	1: atr "#02" { col ( rgb ( 0.900 0.100 0.150 ) ) amb ( 1.000 ) dif ( 0.000 ) opt ( emittion 0.050 4.000 ) }
+	2: atr "#04" { col ( rgb ( 0.400 0.390 0.680 ) ) amb ( 0.200 ) dif ( 0.800 ) ref ( 0.300 ) spc ( 0.900 1.000 0.650 ) }
 	3: atr noname { col ( rgb ( 0.900 0.100 0.150 ) ) amb ( 0.200 ) dif ( 0.800 ) ref ( 0.300 ) spc ( 0.900 1.000 0.650 ) }
 */
 fram
 {
-	light pal( rgb ( 1.00 1.00 1.00 ) -46 -53  70 )
-	{	mov ( 832.475 56.8138 156.659 ) eye deg( 45 ) }
+	light pal( rgb ( 1.00 1.00 1.00 )  19 -67  70 )
+	{	mov ( 340.487 578.174 112.722 ) eye deg( 45 ) }
 	{	mov ( 20 0 169.129 ) target }
 	{	mov ( 109.112 0 194.168 ) rotz ( 0 ) roty ( -39 ) rotx ( 0 )
 		scal ( 0.445282 1.04998 0.498349 ) obj roetc04 /* "roetc\roetc04.suf" atr "#01" */
 	}
-	{	mov ( -11.2094 0 141.034 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
-		scal ( 0.85349 0.663825 1.04315 ) obj robody08 /* "robody\robody08.suf" atr "#01" */
+	{	mov ( -12.6236 0 94.365 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
+		scal ( 0.85349 0.663825 1.13241 ) obj robody08 /* "robody\robody08.suf" atr "#01" */
 	}
 	{	mov ( 83.6228 0 197.933 ) rotz ( 0 ) roty ( 90 ) rotx ( 0 )
 		scal ( 0.568993 0.568993 1.13799 ) obj T105 /* "T1\T105.suf" atr "noname" */
@@ -52,16 +52,16 @@ fram
 	{	mov ( -143.974 56.8993 254.832 ) rotz ( -180 ) roty ( 0 ) rotx ( -180 )
 		scal ( 0.284497 -0.379329 0.474161 ) obj robody12 /* "robody\robody12.suf" atr "#04" */
 	}
-	{	mov ( -11.2094 170.698 254.832 ) rotz ( 90 ) roty ( 63 ) rotx ( 0 )
-		scal ( 0.284497 0.379329 0.379329 ) obj robody12 /* "robody\robody12.suf" atr "#04" */
-	}
-	{	mov ( -11.2094 -170.698 254.832 ) rotz ( -90 ) roty ( 63 ) rotx ( 0 )
-		scal ( 0.284497 -0.379329 0.379329 ) obj robody12 /* "robody\robody12.suf" atr "#04" */
+	{	mov ( -15.452 160.799 271.803 ) rotz ( 90 ) roty ( 89.9285 ) rotx ( 0 )
+		scal ( 0.149125 0.267656 0.379329 ) obj robody12 /* "robody\robody12.suf" atr "#04" */
 	}
 	{	mov ( -11.2094 -136.176 238.694 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
 		scal ( 0.606926 -0.623401 0.682792 ) obj roetc10 /* "roetc\roetc10.suf" atr "#04" */
 	}
 	{	mov ( 2.25678 -136.176 314.749 ) rotz ( -90 ) roty ( 0 ) rotx ( 180 )
 		scal ( 0.199453 -0.284497 0.379329 ) obj rb07 /* "RB\RB07.suf" atr "#04" */
+	}
+	{	mov ( -15.452 -160.799 271.803 ) rotz ( -90 ) roty ( 89.9285 ) rotx ( 0 )
+		scal ( 0.149125 -0.267656 0.379329 ) obj robody12 /* "robody\robody12.suf" atr "#04" */
 	}
 }
