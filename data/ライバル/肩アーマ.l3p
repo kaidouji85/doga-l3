@@ -31,8 +31,8 @@ fram
 	{	mov ( 0 203.714 127.82 ) rotz ( 90 ) roty ( -12 ) rotx ( 0 )
 		scal ( 0.211687 0.445801 0.760773 ) obj S106 /* "mecha\sfship\S106.suf" atr "#04" */
 	}
-	{	mov ( 0 -28.2824 -25.2826 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
-		scal ( 0.624122 0.26748 0.445801 ) obj armor03 /* "armor\armor03.suf" atr "#01" */
+	{	mov ( 0 -48.6297 -30.0224 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
+		scal ( 0.624122 0.330505 0.461815 ) obj armor03 /* "armor\armor03.suf" atr "#01" */
 	}
 	{	mov ( 0 203.534 170.87 ) rotz ( -90 ) roty ( 27 ) rotx ( 0 )
 		scal ( 0.534961 0.802441 0.713282 ) obj nozzle12 /* "nozzle\nozzle12.suf" atr "#01" */

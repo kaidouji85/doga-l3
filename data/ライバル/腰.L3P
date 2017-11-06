@@ -28,7 +28,7 @@ fram
 	{	mov ( 756.455 -41.7018 -67.1325 ) eye deg( 45 ) }
 	{	mov ( 10.2889 -0.0913086 -93.7151 ) target }
 	{	mov ( 0 0 -1 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
-		scal ( 0.6 0.6 0.5 ) obj rb06 /* "RB\RB06.suf" atr "#01" */
+		scal ( 0.6 0.7 0.6 ) obj rb06 /* "RB\RB06.suf" atr "#01" */
 	}
 	{	mov ( 0 -80 -81 ) rotz ( -90 ) roty ( -50 ) rotx ( -180 )
 		scal ( 0.2 0.4 0.4 ) obj robody12 /* "robody\robody12.suf" atr "#04" */

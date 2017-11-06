@@ -6,8 +6,8 @@ Parts:
 	nozzle\nozzle12.suf
 Light: (   32   32  -89 ) ( 1.00 1.00 1.00)
 Info:
-	DisplayOffset: (  34.648 -124.451  85.517 )
-	DisplayScale: 0.353553390592
+	DisplayOffset: ( 138.592 -497.804 342.068 )
+	DisplayScale: 1.414213562368
 	MeshFlag: 1
 	MeshSpacing: 200
 	ShowStatus: 0
@@ -28,13 +28,13 @@ fram
 	light pal( rgb ( 1.00 1.00 1.00 ) -53 -45 -70 )
 	{	mov ( 687.813 77.6827 145.371 ) eye deg( 45 ) }
 	{	mov ( 3.57432 131.412 62.6597 ) target }
-	{	mov ( 0 201.458 125.249 ) rotz ( 90 ) roty ( -12 ) rotx ( 0 )
-		scal ( 0.200764 0.422797 0.721516 ) obj S106 /* "mecha\sfship\S106.suf" atr "#04" */
+	{	mov ( 0 203.714 127.82 ) rotz ( 90 ) roty ( -12 ) rotx ( 0 )
+		scal ( 0.211687 0.445801 0.760773 ) obj S106 /* "mecha\sfship\S106.suf" atr "#04" */
 	}
-	{	mov ( 0 -18.5667 -19.953 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
-		scal ( 0.591916 0.253678 0.422797 ) obj armor03 /* "armor\armor03.suf" atr "#01" */
+	{	mov ( 0 -27.0062 -33.9454 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
+		scal ( 0.624122 0.330505 0.461815 ) obj armor03 /* "armor\armor03.suf" atr "#01" */
 	}
-	{	mov ( 0 201.288 166.078 ) rotz ( -90 ) roty ( 27 ) rotx ( 0 )
-		scal ( 0.507356 0.761034 0.676475 ) obj nozzle12 /* "nozzle\nozzle12.suf" atr "#01" */
+	{	mov ( 0 203.534 170.87 ) rotz ( -90 ) roty ( 27 ) rotx ( 0 )
+		scal ( 0.534961 0.802441 0.713282 ) obj nozzle12 /* "nozzle\nozzle12.suf" atr "#01" */
 	}
 }
