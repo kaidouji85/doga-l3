@@ -31,15 +31,16 @@ Pose:
 1: "óßÇøÇQ" ( labelled 17 ( unlabelled move ( 0 0 0 ) rot ( 0 0 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( 0 -10 15 ) ) ( unlabelled move ( 48.8095 -14.1421 37.8728 ) rot ( -8.32247 10.6642 -56.1375 ) ) ( unlabelled move ( 11.2103 0 63.5769 ) rot ( 37.2503 39.8293 11.2928 ) ) ( unlabelled move ( 0 0 0 ) rot ( -15 0 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( -1.30054 -39.8417 2.43787 ) ) ( unlabelled move ( 0 0 0 ) rot ( 0 0 0 ) ) ( unlabelled move ( 0.791432 0 4.48843 ) rot ( -37.576 -0.333866 -14.7671 ) ) ( unlabelled move ( 0 0 0 ) rot ( 20 0 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( 0 0 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( 0 0 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( 20 -30 5 ) ) ( unlabelled move ( 0 0 0 ) rot ( -4.86029 70.5247 -5.36346 ) ) ( unlabelled move ( 0 0 0 ) rot ( 0 0 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( -30 0 -15 ) ) ( unlabelled move ( 0 0 0 ) rot ( 0 0 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( 0 0 0 ) ) )
 2: "óßÇøÇR" ( labelled 17 ( unlabelled move ( 0 0 0 ) rot ( 0 15 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( 0 -40 0 ) ) ( unlabelled move ( 10.316 0 39.5027 ) rot ( 0 21.8712 0 ) ) ( unlabelled move ( 3.94574 0 9.5256 ) rot ( 47.4671 12.0828 32.6699 ) ) ( unlabelled move ( 0 0 0 ) rot ( -22.9362 0 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( -64.9176 -20.6589 87.2784 ) ) ( unlabelled move ( 0 0 0 ) rot ( 0 0 0 ) ) ( unlabelled move ( -23.2172 0 29.0303 ) rot ( -40.2314 6.36458 -25.5414 ) ) ( unlabelled move ( 0 0 0 ) rot ( 20.713 0 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( 58.2659 9.92544 -94.9989 ) ) ( unlabelled move ( 0 0 0 ) rot ( 0 0 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( 11.9267 -22.8593 32.3014 ) ) ( unlabelled move ( 0 0 0 ) rot ( 0 0 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( -0.0735908 13.2213 3.09913 ) ) ( unlabelled move ( 0 0 0 ) rot ( -7.46962 -33.4212 -28.412 ) ) ( unlabelled move ( 0 0 0 ) rot ( -1.51261 10.8774 -2.23487 ) ) ( unlabelled move ( 0 0 0 ) rot ( 15.9825 8.31038 7.48848 ) ) )
 3: "óßÇøÇS" ( labelled 17 ( unlabelled move ( 0 0 0 ) rot ( 0 15 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( 0 -28.9457 0 ) ) ( unlabelled move ( 10.316 0 39.5027 ) rot ( 0 18.9457 0 ) ) ( unlabelled move ( 3.94574 0 9.5256 ) rot ( 47.4671 12.0828 32.6699 ) ) ( unlabelled move ( 0 0 0 ) rot ( -22.9362 0 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( -64.9176 -20.6589 87.2784 ) ) ( unlabelled move ( 0 0 0 ) rot ( 0 0 0 ) ) ( unlabelled move ( -23.2172 0 29.0303 ) rot ( -46.3164 23.8891 -5.3865 ) ) ( unlabelled move ( 0 0 0 ) rot ( 30 0 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( 58.2659 9.92544 -94.9989 ) ) ( unlabelled move ( 0 0 0 ) rot ( 0 0 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( 11.9267 -22.8593 32.3014 ) ) ( unlabelled move ( 0 0 0 ) rot ( 0 0 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( -0.0735908 13.2213 3.09913 ) ) ( unlabelled move ( 0 0 0 ) rot ( -7.46962 -33.4212 -28.412 ) ) ( unlabelled move ( 0 0 0 ) rot ( -1.51261 10.8774 -2.23487 ) ) ( unlabelled move ( 0 0 0 ) rot ( 15.9825 8.31038 7.48848 ) ) )
+4: "òrëg" ( labelled 17 ( unlabelled move ( 0 0 0 ) rot ( 0 10 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( 0 -20 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( 0 34.5373 0 ) ) ( unlabelled move ( 40 40 -20 ) rot ( -1.61902 -41.1279 -25.257 ) ) ( unlabelled move ( 0 0 0 ) rot ( 30 0 0 ) ) ( unlabelled move ( 62.6927 -43.9962 -22.7547 ) rot ( -70.8718 -26.346 12.1 ) ) ( unlabelled move ( 0 0 0 ) rot ( -0.0373708 -0.0645298 -64.8477 ) ) ( unlabelled move ( 0 -40 -60 ) rot ( 9.50438 -20.8615 23.0587 ) ) ( unlabelled move ( 37.7282 31.8585 27.9811 ) rot ( -22.4881 0.282868 4.32055 ) ) ( unlabelled move ( 43.6776 85.1965 2.81894 ) rot ( 25 -55 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( -2.83603 2.02994 7.88741 ) ) ( unlabelled move ( 0 0 0 ) rot ( 12.3374 -14.6506 15.456 ) ) ( unlabelled move ( 0 0 0 ) rot ( 0 0 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( 0 0 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( -12.3374 -14.6506 -15.456 ) ) ( unlabelled move ( 0 0 0 ) rot ( 0 0 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( 0 0 0 ) ) )
 Light: (   32   32  -89 ) ( 1.00 1.00 1.00)
 Info:
-	DisplayOffset: (   0.000   0.707  24.001 )
-	DisplayScale: 0.125000000000
+	DisplayOffset: (   0.000   0.354   0.000 )
+	DisplayScale: 0.062500000000
 	MeshFlag: 1
 	MeshSpacing: 200
 	ShowStatus: 1
 	ShowAttr: 1
-	GridFlag: 1
+	GridFlag: 0
 	GridSpacing: 20
 	RotSpacing: 5
 	SelectedOnly: 0
@@ -47,9 +48,9 @@ Info:
 :)*/
 fram
 {
-	light pal( rgb ( 1.00 1.00 1.00 ) -12 -69 -70 )
-	{	mov ( 2030.46 1525.82 -181.56 ) eye deg( 45 ) }
-	{	mov ( -50.8082 74.3054 -211.204 ) target }
+	light pal( rgb ( 1.00 1.00 1.00 ) -18 -68 -70 )
+	{	mov ( 2209.23 1306.24 -239.755 ) eye deg( 45 ) }
+	{	mov ( -14.8177 27.9737 -241.233 ) target }
   { mov ( 0 0 0 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
     /* Unit */
     { obj "çò" (: "çò.l3p" :) }
