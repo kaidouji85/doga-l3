@@ -24,9 +24,10 @@ Parts:
 	rohand\rohand06.suf
 Pose:
 0: "立ちポーズ" ( labelled 17 ( unlabelled move ( 0 0 0 ) rot ( 0 10 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( -0.922598 -19.9603 5.23939 ) ) ( unlabelled move ( 0 0 0 ) rot ( 0 20 0 ) ) ( unlabelled move ( 2.65106 -32.0168 31.166 ) rot ( 37.576 -0.333892 14.7671 ) ) ( unlabelled move ( 0 0 0 ) rot ( -0.446578 -24.3889 0.975517 ) ) ( unlabelled move ( 0 0 0 ) rot ( 0 0 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( 0 0 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( -23.4637 -10.573 -19.0834 ) ) ( unlabelled move ( 0 0 0 ) rot ( 0.00775777 -21.7545 0.410906 ) ) ( unlabelled move ( 0 0 0 ) rot ( 0 0 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( 0 0 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( 38.5336 -7.64427 40.4325 ) ) ( unlabelled move ( 0 0 0 ) rot ( 0 0 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( -40.8934 20.7048 22.2077 ) ) ( unlabelled move ( 0 0 0 ) rot ( -53.5438 -47.901 40.9495 ) ) ( unlabelled move ( 0 0 0 ) rot ( -2.01936 57.8714 -6.3394 ) ) ( unlabelled move ( 0 0 0 ) rot ( 27.6961 13.0005 -33.1228 ) ) )
+1: "アイコン用パンチ" ( labelled 17 ( unlabelled move ( 0 0 0 ) rot ( 0 0 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( 0 0 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( 0 15 -25 ) ) ( unlabelled move ( 0 0 0 ) rot ( 30 0 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( -177.165 -87.5006 177.835 ) ) ( unlabelled move ( 0 0 0 ) rot ( 0 0 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( 0 0 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( 0 -90 -30 ) ) ( unlabelled move ( 0 0 0 ) rot ( 0.529645 -0.373291 54.4704 ) ) ( unlabelled move ( 0 0 0 ) rot ( 0 0 0 ) ) ( unlabelled move ( 40 82.5833 -115.622 ) rot ( 180 85 180 ) ) ( unlabelled move ( 0 0 0 ) rot ( 40 0 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( 0 0 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( 0 0 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( -30 -20 -35 ) ) ( unlabelled move ( 0 0 0 ) rot ( 0 0 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( 0 0 0 ) ) )
 Light: (   32   32  -89 ) ( 1.00 1.00 1.00)
 Info:
-	DisplayOffset: (   0.000 -40.072   0.000 )
+	DisplayOffset: (   0.000  68.000   0.000 )
 	DisplayScale: 0.125000000000
 	MeshFlag: 1
 	MeshSpacing: 200
@@ -40,9 +41,9 @@ Info:
 :)*/
 fram
 {
-	light pal( rgb ( 1.00 1.00 1.00 )  -2 -70  70 )
-	{	mov ( 2058.25 1965 0 ) eye deg( 45 ) }
-	{	mov ( -65 -3.89094 0 ) target }
+	light pal( rgb ( 1.00 1.00 1.00 ) -70  -9  70 )
+	{	mov ( 2074.28 -1517.15 140.408 ) eye deg( 45 ) }
+	{	mov ( 76.0779 -0.286237 233.789 ) target }
   { mov ( 0 0 0 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
     /* Unit */
     { obj "腰" (: "腰.l3p" :) }
