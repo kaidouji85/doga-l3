@@ -2,15 +2,15 @@
                                   Version 2.04.100723(:
 Parts: 
 	EG\EG16.suf
-	P1\P103.suf
 	P1\P106.suf
 	RB\RB07.suf
 	armor\armor08.suf
+	mecha\sfetc\SL01.suf
 	roarm\roarm04.suf
 Light: (   32   32  -89 ) ( 1.00 1.00 1.00)
 Info:
-	DisplayOffset: (   2.501  14.422 -12.250 )
-	DisplayScale: 0.125000000000
+	DisplayOffset: (  14.148  81.583 -69.296 )
+	DisplayScale: 0.707106781186
 	MeshFlag: 1
 	MeshSpacing: 200
 	ShowStatus: 0
@@ -27,25 +27,28 @@ Palette:
 */
 fram
 {
-	light pal( rgb ( 1.00 1.00 1.00 ) -49 -50 -70 )
-	{	mov ( 1497.98 14.3526 4.4273 ) eye deg( 45 ) }
-	{	mov ( 160 -7.5786 0 ) target }
-	{	mov ( -7.7966 0 74.7212 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
-		scal ( 1.28412 1.50893 1.13301 ) obj roarm04 /* "roarm\roarm04.suf" atr "noname" */
+	light pal( rgb ( 1.00 1.00 1.00 )  13 -69 -70 )
+	{	mov ( 508.795 1056.69 -9.16489 ) eye deg( 45 ) }
+	{	mov ( -179.649 38.3653 -66.908 ) target }
+	{	mov ( 59.9609 0 216.98 ) rotz ( 0 ) roty ( -15 ) rotx ( 0 )
+		scal ( 0.898885 0.64206 0.71607 ) obj armor08 /* "armor\armor08.suf" atr "noname" */
 	}
-	{	mov ( 116.763 0 232.668 ) rotz ( 0 ) roty ( -15 ) rotx ( 0 )
-		scal ( 0.898885 0.64206 0.706267 ) obj armor08 /* "armor\armor08.suf" atr "noname" */
+	{	mov ( 192.573 0 37.3601 ) rotz ( 90 ) roty ( 0 ) rotx ( -108 )
+		scal ( 0.345431 0.513648 0.608678 ) obj rb07 /* "RB\RB07.suf" atr "#01" */
 	}
-	{	mov ( 219.493 0 27.2087 ) rotz ( 90 ) roty ( 0 ) rotx ( -108 )
-		scal ( 0.345431 0.513648 0.64206 ) obj rb07 /* "RB\RB07.suf" atr "#01" */
-	}
-	{	mov ( 199.699 2.56824 219.697 ) rotz ( -90 ) roty ( 0 ) rotx ( 19.5883 )
+	{	mov ( 113.172 2.56824 213.354 ) rotz ( -90 ) roty ( 0 ) rotx ( 13.989 )
 		scal ( 0.117397 0.166612 0.316005 ) obj EG16 /* "EG\EG16.suf" atr "#02" */
 	}
-	{	mov ( 229.618 -2.87476 -101.449 ) rotz ( 180 ) roty ( -74.3956 ) rotx ( 180 )
+	{	mov ( 149.008 -2.87476 -104.278 ) rotz ( 180 ) roty ( -74.3956 ) rotx ( 180 )
 		scal ( 1.7029 0.945433 1.28412 ) obj P106 /* "P1\P106.suf" atr "#02" */
 	}
-	{	mov ( -13.7283 0.757281 56.5444 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
-		scal ( 1.62422 1.60366 1.28412 ) obj P103 /* "P1\P103.suf" atr "#02" */
+	{	mov ( 0 -80 -152 ) rotz ( 0 ) roty ( -90 ) rotx ( 0 )
+		scal ( 0.3 1.1 0.5 ) obj SL01 /* "mecha\sfetc\SL01.suf" atr "noname" */
+	}
+	{	mov ( -11.3137 80 -112.402 ) rotz ( 0 ) roty ( -90 ) rotx ( 0 )
+		scal ( 0.246596 -1.1 0.5 ) obj SL01 /* "mecha\sfetc\SL01.suf" atr "noname" */
+	}
+	{	mov ( 0 0 0 ) rotz ( 180 ) roty ( 0 ) rotx ( 0 )
+		scal ( 0.970555 1 0.799939 ) obj roarm04 /* "roarm\roarm04.suf" atr "noname" */
 	}
 }
