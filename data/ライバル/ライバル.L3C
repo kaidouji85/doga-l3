@@ -11,7 +11,6 @@ Parts:
 	T1\T101.suf
 	T1\T105.suf
 	TK\TK05.suf
-	W1\W103.suf
 	armor\armor03.suf
 	armor\armor04.suf
 	mecha\sfship\S106.suf
@@ -35,7 +34,7 @@ Pose:
 5: "腕組（肩アーマ調整）" ( labelled 17 ( unlabelled move ( 0 0 0 ) rot ( 0 15 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( 0 -30 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( 0 30 0 ) ) ( unlabelled move ( 48.6215 0 -24.2538 ) rot ( 7.29252 -34.7202 -64.189 ) ) ( unlabelled move ( 0 0 0 ) rot ( 43.739 11.8808 73.2156 ) ) ( unlabelled move ( 0 0 0 ) rot ( -8.44484 -78.3657 6.53648 ) ) ( unlabelled move ( 0 0 0 ) rot ( 0 0 0 ) ) ( unlabelled move ( -46.3863 0 12.8071 ) rot ( -18.889 -28.7847 61.435 ) ) ( unlabelled move ( 0 0 0 ) rot ( -29.0024 26.792 -71.3234 ) ) ( unlabelled move ( 0 0 0 ) rot ( 2.85386 -71.4256 -0.444459 ) ) ( unlabelled move ( 0 0 0 ) rot ( 0 0 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( 17.1632 -24.7554 10.8545 ) ) ( unlabelled move ( 0 0 0 ) rot ( 0 0 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( 0 0 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( -14.6262 -19.0547 -21.129 ) ) ( unlabelled move ( 0 0 0 ) rot ( 0 0 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( 0 0 0 ) ) )
 Light: (   32   32  -89 ) ( 1.00 1.00 1.00)
 Info:
-	DisplayOffset: ( -34.485 -51.000 -36.062 )
+	DisplayOffset: ( -100.000 -51.000 -36.062 )
 	DisplayScale: 0.125000000000
 	MeshFlag: 1
 	MeshSpacing: 200
@@ -49,9 +48,9 @@ Info:
 :)*/
 fram
 {
-	light pal( rgb ( 1.00 1.00 1.00 ) -17 -68  70 )
-	{	mov ( 2247.99 1373.17 -240.31 ) eye deg( 45 ) }
-	{	mov ( -56.0157 0.76733 -233.463 ) target }
+	light pal( rgb ( 1.00 1.00 1.00 ) -37 -59 -70 )
+	{	mov ( 2552.16 629.695 -39.9782 ) eye deg( 45 ) }
+	{	mov ( -71.2548 47.9368 -230.288 ) target }
   { mov ( 0 0 0 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
     /* Unit */
     { obj "腰" (: "腰.l3p" :) }

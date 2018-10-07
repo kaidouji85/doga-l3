@@ -9,8 +9,8 @@ Parts:
 	roetc\roetc10.suf
 Light: (   32   32  -89 ) ( 1.00 1.00 1.00)
 Info:
-	DisplayOffset: (  69.296 -79.196 -116.062 )
-	DisplayScale: 0.707106781186
+	DisplayOffset: (  49.000 -56.000 -82.068 )
+	DisplayScale: 0.500000000000
 	MeshFlag: 1
 	MeshSpacing: 200
 	ShowStatus: 0
@@ -35,7 +35,7 @@ fram
 		scal ( 0.445282 1.04998 0.498349 ) obj roetc04 /* "roetc\roetc04.suf" atr "#01" */
 	}
 	{	mov ( -12.6236 0 94.365 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
-		scal ( 0.85349 0.663825 1.13241 ) obj robody08 /* "robody\robody08.suf" atr "#01" */
+		scal ( 0.85349 0.663825 1.20562 ) obj robody08 /* "robody\robody08.suf" atr "#01" */
 	}
 	{	mov ( 83.6228 0 197.933 ) rotz ( 0 ) roty ( 90 ) rotx ( 0 )
 		scal ( 0.568993 0.568993 1.13799 ) obj T105 /* "T1\T105.suf" atr "noname" */

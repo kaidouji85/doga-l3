@@ -4,8 +4,8 @@ Parts:
 	roarm\roarm01.suf
 Light: (   32   32  -89 ) ( 1.00 1.00 1.00)
 Info:
-	DisplayOffset: (   6.125 -22.000  15.118 )
-	DisplayScale: 0.062500000000
+	DisplayOffset: (  34.648 -124.451  85.520 )
+	DisplayScale: 0.353553390593
 	MeshFlag: 1
 	MeshSpacing: 200
 	ShowStatus: 0
@@ -16,9 +16,9 @@ Info:
 	SelectedOnly: 0
 	DispRelative: 0
 Palette:
-	0: atr "#01" { col ( rgb ( 0.130 0.110 0.490 ) ) amb ( 0.200 ) dif ( 0.800 ) ref ( 0.300 ) spc ( 0.900 1.000 0.650 ) }
-	1: atr "#02" { col ( rgb ( 0.900 0.100 0.150 ) ) amb ( 1.000 ) dif ( 0.000 ) opt ( emittion 0.050 4.000 ) }
-	2: atr "#04" { col ( rgb ( 0.400 0.390 0.680 ) ) amb ( 0.200 ) dif ( 0.800 ) ref ( 0.300 ) spc ( 0.900 1.000 0.650 ) }
+	0: atr "#01" { col ( rgb ( 0.300 0.200 0.950 ) ) amb ( 0.200 ) dif ( 0.800 ) ref ( 0.300 ) spc ( 0.900 1.000 0.650 ) }
+	1: atr "#02" { col ( rgb ( 0.000 0.700 0.150 ) ) amb ( 1.000 ) dif ( 0.000 ) opt ( emittion 0.050 4.000 ) }
+	2: atr "#04" { col ( rgb ( 0.850 0.850 0.800 ) ) amb ( 0.200 ) dif ( 0.800 ) ref ( 0.300 ) spc ( 0.900 1.000 0.650 ) }
 	3: atr noname { col ( rgb ( 0.900 0.100 0.150 ) ) amb ( 0.200 ) dif ( 0.800 ) ref ( 0.300 ) spc ( 0.900 1.000 0.650 ) }
 */
 fram
@@ -27,6 +27,6 @@ fram
 	{	mov ( 406.033 -0.3 -35.451 ) eye deg( 45 ) }
 	{	mov ( -2.19618 -0.3 -56.2084 ) target }
 	{	mov ( 0 0 60 ) rotz ( 180 ) roty ( 0 ) rotx ( 0 )
-		scal ( 0.6 0.6 0.3 ) obj roarm01 /* "roarm\roarm01.suf" atr "#01" */
+		scal ( 0.6 0.6 0.4 ) obj roarm01 /* "roarm\roarm01.suf" atr "#01" */
 	}
 }

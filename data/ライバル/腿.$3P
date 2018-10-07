@@ -1,7 +1,6 @@
 /*							Parts Assembler
                                   Version 2.04.100723(:
 Parts: 
-	P2\P214.suf
 	TK\TK05.suf
 	roarm\roarm16.suf
 Light: (   32   32  -89 ) ( 1.00 1.00 1.00)
@@ -30,9 +29,6 @@ fram
 	{	mov ( -132.417 78.9158 -421.624 ) target }
 	{	mov ( 0 -20 -145 ) rotz ( -90 ) roty ( 0 ) rotx ( -180 )
 		scal ( 0.4 0.4 0.3 ) obj roarm16 /* "roarm\roarm16.suf" atr "#01" */
-	}
-	{	mov ( 0 -20 -305 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
-		scal ( 0.7 0.7 0.6 ) obj P214 /* "P2\P214.suf" atr "#01" */
 	}
 	{	mov ( 0 -120 -205 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
 		scal ( 0.2 0.1 0.2 ) obj TK05 /* "TK\TK05.suf" atr "#04" */

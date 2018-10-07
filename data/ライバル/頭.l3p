@@ -30,32 +30,32 @@ Palette:
 */
 fram
 {
-	light pal( rgb ( 1.00 1.00 1.00 )   4 -70  70 )
-	{	mov ( 671.79 838.039 60.9942 ) eye deg( 45 ) }
+	light pal( rgb ( 1.00 1.00 1.00 )   1 -70  70 )
+	{	mov ( 701.748 801.749 -4.28007 ) eye deg( 45 ) }
 	{	mov ( -34.9806 32.7265 134.743 ) target }
 	{	mov ( 19.486 0 -25.9547 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
-		scal ( 0.874304 0.799557 0.874304 ) obj rohead08 /* "rohead\rohead08.suf" atr "#01" */
+		scal ( 0.874304 0.799557 0.874304 ) obj rohead08 /* "rohead\rohead08.suf" atr "#04" */
 	}
 	{	mov ( 161.05 0 170.013 ) rotz ( 0 ) roty ( -0.615814 ) rotx ( 0 )
-		scal ( 0.20295 0.437874 1.0311 ) obj S106 /* "mecha\sfship\S106.suf" atr "#04" */
+		scal ( 0.20295 0.437874 1.0311 ) obj S106 /* "mecha\sfship\S106.suf" atr "#01" */
 	}
 	{	mov ( -18.44 0 160.722 ) rotz ( 90 ) roty ( 0 ) rotx ( -85.5106 )
-		scal ( 0.437151 0.437151 0.437151 ) obj armor04 /* "armor\armor04.suf" atr "#01" */
+		scal ( 0.437151 0.437151 0.437151 ) obj armor04 /* "armor\armor04.suf" atr "#04" */
 	}
 	{	mov ( 8.99441 0 169.889 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
-		scal ( 0.699443 0.524582 0.874304 ) obj P114 /* "P1\P114.suf" atr "#01" */
+		scal ( 0.699443 0.524582 0.874304 ) obj P114 /* "P1\P114.suf" atr "#04" */
 	}
 	{	mov ( -74.9352 114.817 133.244 ) rotz ( -2.04328 ) roty ( -31.4543 ) rotx ( -4.3886 )
-		scal ( 0.566167 0.411203 0.531439 ) obj roetc04 /* "roetc\roetc04.suf" atr "#01" */
+		scal ( 0.566167 0.411203 0.531439 ) obj roetc04 /* "roetc\roetc04.suf" atr "#04" */
 	}
 	{	mov ( 170.503 -0.329383 57.766 ) rotz ( 0 ) roty ( -75.0762 ) rotx ( 180 )
-		scal ( 0.240342 0.233871 0.521254 ) obj F116 /* "F1\F116.suf" atr "#01" */
+		scal ( 0.240342 0.233871 0.521254 ) obj F116 /* "F1\F116.suf" atr "#04" */
 	}
 	{	mov ( -156.423 145.675 166.392 ) rotz ( 157.223 ) roty ( -29.4758 ) rotx ( 103.542 )
 		scal ( 0.262291 -0.17486 0.874304 ) obj S101 /* "S1\S101.suf" atr "#04" */
 	}
 	{	mov ( -74.9352 -114.817 133.244 ) rotz ( 2.04328 ) roty ( -31.4543 ) rotx ( 4.3886 )
-		scal ( 0.566167 -0.411203 0.531439 ) obj roetc04 /* "roetc\roetc04.suf" atr "#01" */
+		scal ( 0.566167 -0.411203 0.531439 ) obj roetc04 /* "roetc\roetc04.suf" atr "#04" */
 	}
 	{	mov ( -156.423 -145.675 166.392 ) rotz ( -157.223 ) roty ( -29.4758 ) rotx ( -103.542 )
 		scal ( 0.262291 0.17486 0.874304 ) obj S101 /* "S1\S101.suf" atr "#04" */
