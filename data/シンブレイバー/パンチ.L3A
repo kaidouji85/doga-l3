@@ -1,6 +1,6 @@
 /*							Motion Editor
                                   Version 2.04.100723 (:
-Frame: 1 100
+Frame: 1 101
 Mechanic:
 	シンブレイバー
 Info:
@@ -26,30 +26,34 @@ Motion: 0
 		  1 0
 Motion: 0
 	Mechanic: TARGET
-	Frame: 1 100
+	Frame: 1 101
 	Bezier:
 		( -70.7951 -17.1399 837.307 )
 	Position:
 Motion: 0
 	Mechanic: "シンブレイバー.l3c"
-	Frame: 1 100
+	Frame: 1 101
 	Bezier:
 		( 0 0 0 )
 		( 0 0 0 )
-		( 0 0 0 )
-		( 0 0 0 )
+		( 1000 0 0 )
+		( 1000 0 0 )
 	Position:
 		  1 0 0 1
-		100 1 0 1
+		 17 160 -1
+		101 1000 0 1
 	Direction:
 		  1 ( 0 0 0 ) 0 Forward
-		100 ( 0 0 0 ) 0 Forward
+		 17 ( 0 0 0 ) 0 Forward
+		101 ( 0 0 0 ) 0 Forward
 	Scale:
 		  1 ( 1 1 1 )
-		100 ( 1 1 1 )
+		 17 ( 1 1 1 )
+		101 ( 1 1 1 )
 	Parameter:
 		  1 ( labelled 19 ( unlabelled move ( 0 0 0 ) rot ( 0 15 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( 0 -30 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( 0 30 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( 33.7074 -0.0545069 -4.82922 ) ) ( unlabelled move ( 0 0 0 ) rot ( 0 0 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( 0 0 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( 0 0 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( -28.8586 -5.47681 -14.142 ) ) ( unlabelled move ( 0 0 0 ) rot ( 0 0 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( 0 0 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( 0 0 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( 26.0491 17.4189 31.3729 ) ) ( unlabelled move ( 0 0 0 ) rot ( 0 0 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( 0 0 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( -43.7483 -10.877 34.0361 ) ) ( unlabelled move ( 0 0 0 ) rot ( -45.9034 -49.3603 18.9972 ) ) ( unlabelled move ( 0 0 0 ) rot ( 1.71403 26.8364 1.54461 ) ) ( unlabelled move ( 0 0 0 ) rot ( -9.48622 28.7461 4.63286 ) ) ( unlabelled move ( 0 0 0 ) rot ( 44.6934 -1.84882 -18.635 ) ) )
-		 50 ( labelled 19 ( unlabelled move ( 0 0 0 ) rot ( 0 5 -45 ) ) ( unlabelled move ( 0 0 0 ) rot ( 0 -30 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( 0 30 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( 48.0203 38.3753 29.2468 ) ) ( unlabelled move ( 0 0 0 ) rot ( -172.414 -79.9976 174.768 ) ) ( unlabelled move ( 0 0 0 ) rot ( 0 0 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( 0 0 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( -53.8586 -5.47681 -14.142 ) ) ( unlabelled move ( 0 0 0.000000000001 ) rot ( -20 -85 20 ) ) ( unlabelled move ( 0 0 0 ) rot ( 0 0 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( 0 0 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( 22.4061 15.6519 29.2053 ) ) ( unlabelled move ( 0 0 0 ) rot ( 0 0 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( 0 0 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( -31.1136 -5.87319 31.1136 ) ) ( unlabelled move ( 0 0 0 ) rot ( -37.0033 -49.8132 16.4762 ) ) ( unlabelled move ( 0 0 0 ) rot ( 1.71403 26.8364 1.54461 ) ) ( unlabelled move ( 0 0 0 ) rot ( -9.48622 28.7461 4.63286 ) ) ( unlabelled move ( 0 0 0 ) rot ( 35.5357 1.28856 -13.6853 ) ) )
-		100 ( labelled 19 ( unlabelled move ( 0 0 0 ) rot ( 0 10 50 ) ) ( unlabelled move ( 0 0 0 ) rot ( 0 -30 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( -12.1314 19.3641 -53.0959 ) ) ( unlabelled move ( 0 0 0 ) rot ( 66.2045 31.1095 44.8687 ) ) ( unlabelled move ( 0 0 0 ) rot ( -179.886 -50.7398 178.935 ) ) ( unlabelled move ( 0 0 0 ) rot ( 0 0 0 ) ) ( unlabelled move ( -14.7537 -57.4148 -18.9758 ) rot ( 0 0 0 ) ) ( unlabelled move ( -10.2759 15 -38.35 ) rot ( -81.632 -6.67273 22.6831 ) ) ( unlabelled move ( 0 0.000000000001 0 ) rot ( 0 0 0 ) ) ( unlabelled move ( 0 -0.000000000001 0 ) rot ( 0 0 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( 65 0 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( 34.0314 16.6952 32.8686 ) ) ( unlabelled move ( 0 0 0 ) rot ( 0 0 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( -2.30906 6.68144 0.0520614 ) ) ( unlabelled move ( 0 0 0 ) rot ( -47.343 -11.7479 31.305 ) ) ( unlabelled move ( 0 0 0 ) rot ( -50.8368 -54.267 24.4634 ) ) ( unlabelled move ( 0 0 0 ) rot ( 1.71403 26.8364 1.54461 ) ) ( unlabelled move ( 0 0 0 ) rot ( -9.48622 28.7461 4.63286 ) ) ( unlabelled move ( 0 0 0 ) rot ( 38.6366 16.2982 -24.9052 ) ) )
+		  9 ( labelled 19 ( unlabelled move ( 0 0 0 ) rot ( 0 5 -45 ) ) ( unlabelled move ( 0 0 0 ) rot ( 0 -30 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( 0 30 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( 48.0203 38.3753 29.2468 ) ) ( unlabelled move ( 0 0 0 ) rot ( -172.414 -79.9976 174.768 ) ) ( unlabelled move ( 0 0 0 ) rot ( 0 0 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( 0 0 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( -53.8586 -5.47681 -14.142 ) ) ( unlabelled move ( 0 0 0.000000000001 ) rot ( -20 -85 20 ) ) ( unlabelled move ( 0 0 0 ) rot ( 0 0 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( 0 0 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( 22.4061 15.6519 29.2053 ) ) ( unlabelled move ( 0 0 0 ) rot ( 0 0 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( 0 0 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( -31.1136 -5.87319 31.1136 ) ) ( unlabelled move ( 0 0 0 ) rot ( -37.0033 -49.8132 16.4762 ) ) ( unlabelled move ( 0 0 0 ) rot ( 1.71403 26.8364 1.54461 ) ) ( unlabelled move ( 0 0 0 ) rot ( -9.48622 28.7461 4.63286 ) ) ( unlabelled move ( 0 0 0 ) rot ( 35.5357 1.28856 -13.6853 ) ) )
+		 16 ( labelled 19 ( unlabelled move ( 0 0 0 ) rot ( 0 10 50 ) ) ( unlabelled move ( 0 0 0 ) rot ( 0 -30 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( -12.1314 19.3641 -53.0959 ) ) ( unlabelled move ( 0 0 0 ) rot ( 66.2045 31.1095 44.8687 ) ) ( unlabelled move ( 0 0 0 ) rot ( -179.886 -50.7398 178.935 ) ) ( unlabelled move ( 0 0 0 ) rot ( 0 0 0 ) ) ( unlabelled move ( -14.7537 -57.4148 -18.9758 ) rot ( 0 0 0 ) ) ( unlabelled move ( -10.2759 15 -38.35 ) rot ( -81.632 -6.67273 22.6831 ) ) ( unlabelled move ( 0 0.000000000001 0 ) rot ( 0 0 0 ) ) ( unlabelled move ( 0 -0.000000000001 0 ) rot ( 0 0 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( 65 0 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( 34.0314 16.6952 32.8686 ) ) ( unlabelled move ( 0 0 0 ) rot ( 0 0 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( -2.30906 6.68144 0.0520614 ) ) ( unlabelled move ( 0 0 0 ) rot ( -47.343 -11.7479 31.305 ) ) ( unlabelled move ( 0 0 0 ) rot ( -50.8368 -54.267 24.4634 ) ) ( unlabelled move ( 0 0 0 ) rot ( 1.71403 26.8364 1.54461 ) ) ( unlabelled move ( 0 0 0 ) rot ( -9.48622 28.7461 4.63286 ) ) ( unlabelled move ( 0 0 0 ) rot ( 38.6366 16.2982 -24.9052 ) ) )
+		101 ( labelled 19 ( unlabelled move ( 0 0 0 ) rot ( 0 10 50 ) ) ( unlabelled move ( 0 0 0 ) rot ( 0 -30 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( -12.1314 19.3641 -53.0959 ) ) ( unlabelled move ( 0 0 0 ) rot ( 66.2045 31.1095 44.8687 ) ) ( unlabelled move ( 0 0 0 ) rot ( -179.886 -50.7398 178.935 ) ) ( unlabelled move ( 0 0 0 ) rot ( 0 0 0 ) ) ( unlabelled move ( -14.7537 -57.4148 -18.9758 ) rot ( 0 0 0 ) ) ( unlabelled move ( -10.2759 15 -38.35 ) rot ( -81.632 -6.67273 22.6831 ) ) ( unlabelled move ( 0 0.000000000001 0 ) rot ( 0 0 0 ) ) ( unlabelled move ( 0 -0.000000000001 0 ) rot ( 0 0 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( 65 0 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( 34.0314 16.6952 32.8686 ) ) ( unlabelled move ( 0 0 0 ) rot ( 0 0 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( -2.30906 6.68144 0.0520614 ) ) ( unlabelled move ( 0 0 0 ) rot ( -47.343 -11.7479 31.305 ) ) ( unlabelled move ( 0 0 0 ) rot ( -50.8368 -54.267 24.4634 ) ) ( unlabelled move ( 0 0 0 ) rot ( 1.71403 26.8364 1.54461 ) ) ( unlabelled move ( 0 0 0 ) rot ( -9.48622 28.7461 4.63286 ) ) ( unlabelled move ( 0 0 0 ) rot ( 38.6366 16.2982 -24.9052 ) ) )
 	TouchDown: ( Z )
 :)*/

@@ -2,7 +2,6 @@
                                   Version 2.04.100723(:
 Parts: 
 	RB\RB09.suf
-	W1\W103.suf
 	armor\armor04.suf
 Light: (   32   32  -89 ) ( 1.00 1.00 1.00)
 Info:
@@ -18,9 +17,9 @@ Info:
 	SelectedOnly: 0
 	DispRelative: 0
 Palette:
-	0: atr "#01" { col ( rgb ( 0.400 0.060 0.070 ) ) amb ( 0.200 ) dif ( 0.800 ) ref ( 0.300 ) spc ( 0.900 1.000 0.650 ) }
+	0: atr "#01" { col ( rgb ( 0.240 0.600 1.000 ) ) amb ( 0.200 ) dif ( 0.800 ) ref ( 0.300 ) spc ( 0.900 1.000 0.650 ) }
 	1: atr "#02" { col ( rgb ( 0.560 0.000 0.020 ) ) amb ( 1.000 ) dif ( 0.000 ) opt ( emittion 0.050 4.000 ) }
-	2: atr "#04" { col ( rgb ( 0.400 0.400 0.450 ) ) amb ( 0.200 ) dif ( 0.800 ) ref ( 0.300 ) spc ( 0.900 1.000 0.650 ) }
+	2: atr "#04" { col ( rgb ( 0.850 0.850 0.800 ) ) amb ( 0.200 ) dif ( 0.800 ) ref ( 0.300 ) spc ( 0.900 1.000 0.650 ) }
 	3: atr noname { col ( rgb ( 0.900 0.100 0.150 ) ) amb ( 0.200 ) dif ( 0.800 ) ref ( 0.300 ) spc ( 0.900 1.000 0.650 ) }
 */
 fram
@@ -31,10 +30,7 @@ fram
 	{	mov ( 0 9.16502 -227.277 ) rotz ( -180 ) roty ( 0 ) rotx ( 100 )
 		scal ( 0.32308 0.589402 0.403851 ) obj armor04 /* "armor\armor04.suf" atr "#01" */
 	}
-	{	mov ( 0 154.551 -17.2755 ) rotz ( 90 ) roty ( -30 ) rotx ( 90 )
-		scal ( 0.186597 0.176234 1.37309 ) obj W103 /* "W1\W103.suf" atr "noname" */
-	}
 	{	mov ( 0 -6.98902 15.0325 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
-		scal ( 0.863295 0.800301 0.450712 ) obj rb09 /* "RB\RB09.suf" atr "#01" */
+		scal ( 0.863295 0.800301 0.450712 ) obj rb09 /* "RB\RB09.suf" atr "#04" */
 	}
 }
