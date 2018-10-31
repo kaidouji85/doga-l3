@@ -36,11 +36,11 @@ Motion: 0
 	Bezier:
 		( 0 0 0 )
 		( 0 0 0 )
-		( 0 0 0 )
-		( 0 0 0 )
+		( 1000 0 0 )
+		( 1000 0 0 )
 	Position:
 		  1 0 0 1
-		100 1 0 1
+		100 1000 0 1
 	Direction:
 		  1 ( 0 0 0 ) 0 Forward
 		100 ( 0 0 0 ) 0 Forward
