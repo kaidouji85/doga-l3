@@ -1,0 +1,54 @@
+/*							Motion Editor
+                                  Version 2.04.100723 (:
+Frame: 1 100
+Mechanic:
+	ネオランドーザ
+Info:
+	DisplayOffset: ( -96.167  26.000   0.000 )
+	DisplayScale: 0.125000000000
+	MeshFlag: 1
+	MeshSpacing: 200
+	ShowStatus: 1
+	ShowAttr: 0
+	GridFlag: 1
+	GridSpacing: 5
+	RotSpacing: 5
+	SelectedOnly: 0
+	DispRelative: 0
+	PersGridFlag: 1
+Motion: 0
+	Mechanic: CAMERA
+	Bezier:
+		( 3459.5 3586.92 821.468 )
+	Angle:
+		  1 45
+	CameraRotation:
+		  1 0
+Motion: 0
+	Mechanic: TARGET
+	Frame: 1 100
+	Bezier:
+		( -95.521 66.5381 837.704 )
+	Position:
+Motion: 0
+	Mechanic: "ネオランドーザ.l3c"
+	Frame: 1 100
+	Bezier:
+		( 0 0 0 )
+		( 0 0 0 )
+		( 1000 0 0 )
+		( 1000 0 0 )
+	Position:
+		  1 0 0 1
+		100 1000 0 1
+	Direction:
+		  1 ( 0 0 0 ) 0 Forward
+		100 ( 0 0 0 ) 0 Forward
+	Scale:
+		  1 ( 1 1 1 )
+		100 ( 1 1 1 )
+	Parameter:
+		  1 ( labelled 17 ( unlabelled move ( 0 -30 895 ) rot ( 0 10 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( -0.922598 -19.9603 5.23939 ) ) ( unlabelled move ( 0 0 0 ) rot ( 0 20 0 ) ) ( unlabelled move ( 2.65106 -32.0168 31.166 ) rot ( 37.576 -0.333892 14.7671 ) ) ( unlabelled move ( 0 0 0 ) rot ( -0.446578 -24.3889 0.975517 ) ) ( unlabelled move ( 0 0 0 ) rot ( 0 0 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( 0 0 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( -23.4637 -10.573 -19.0834 ) ) ( unlabelled move ( 0 0 0 ) rot ( 0.00775777 -21.7545 0.410906 ) ) ( unlabelled move ( 0 0 0 ) rot ( 0 0 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( 0 0 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( 38.5336 -7.64427 40.4325 ) ) ( unlabelled move ( 0 0 0 ) rot ( 0 0 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( -40.8934 20.7048 22.2077 ) ) ( unlabelled move ( 0 0 0 ) rot ( -53.5438 -47.901 40.9495 ) ) ( unlabelled move ( 0 0 0 ) rot ( -2.01936 57.8714 -6.3394 ) ) ( unlabelled move ( 0 0 0 ) rot ( 27.6961 13.0005 -33.1228 ) ) )
+		  5 ( labelled 17 ( unlabelled move ( -5 -145 965 ) rot ( 0 -5 35 ) ) ( unlabelled move ( 0 0 0 ) rot ( 0 10 25 ) ) ( unlabelled move ( 0 0 0 ) rot ( 0.823181 17.9963 -47.9182 ) ) ( unlabelled move ( 0 0 0.000000000001 ) rot ( 30 50 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( 0 -90 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( 0 0 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( 0 0 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( -30 -10 60 ) ) ( unlabelled move ( 0 0 0 ) rot ( 17.7923 -85.2165 -14.8318 ) ) ( unlabelled move ( 0 0 0 ) rot ( 0 0 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( 0 0 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( 35 -35 15 ) ) ( unlabelled move ( 0 0 0 ) rot ( 0.587435 39.6195 -2.1563 ) ) ( unlabelled move ( 0 0 0 ) rot ( -27.1925 3.59608 -1.96081 ) ) ( unlabelled move ( 0 0 0 ) rot ( -30 -45 -10 ) ) ( unlabelled move ( 0 0 0 ) rot ( -0.314867 54.762 -1.44824 ) ) ( unlabelled move ( 0 0 0 ) rot ( 17.1383 -0.816229 -0.406144 ) ) )
+		100 ( labelled 17 ( unlabelled move ( 0 0 0 ) rot ( 0 0 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( 0 0 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( 0 0 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( 0 0 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( 0 0 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( 0 0 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( 0 0 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( 0 0 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( 0 0 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( 0 0 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( 0 0 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( 0 0 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( 0 0 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( 0 0 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( 0 0 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( 0 0 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( 0 0 0 ) ) )
+:)*/
