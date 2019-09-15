@@ -14,7 +14,7 @@ Parts:
 	rohead\rohead08.suf
 Light: (   32   32  -89 ) ( 1.00 1.00 1.00)
 Info:
-	DisplayOffset: ( 222.000 -30.056 -88.000 )
+	DisplayOffset: (  17.752  68.105 -131.947 )
 	DisplayScale: 0.353553390593
 	MeshFlag: 1
 	MeshSpacing: 200
@@ -32,8 +32,8 @@ Palette:
 */
 fram
 {
-	light pal( rgb ( 1.00 1.00 1.00 ) -11 -69  70 )
-	{	mov ( 1185.95 918.528 55.1342 ) eye deg( 45 ) }
+	light pal( rgb ( 1.00 1.00 1.00 )   3 -70  70 )
+	{	mov ( 980.396 1169.02 203.898 ) eye deg( 45 ) }
 	{	mov ( -63.6303 15.846 275.775 ) target }
 	{	mov ( 0 0 0 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
 		scal ( 1 1 1 ) obj rohead08 /* "rohead\rohead08.suf" atr "noname" */
@@ -68,11 +68,8 @@ fram
 	{	mov ( 292 0 130 ) rotz ( 0 ) roty ( -72.5388 ) rotx ( 0 )
 		scal ( 0.230223 0.3 0.4 ) obj P305 /* "P3\P305.suf" atr "#01" */
 	}
-	{	mov ( -50.2104 192.631 373.203 ) rotz ( 59.8056 ) roty ( 4.20704 ) rotx ( 64.0013 )
+	{	mov ( -50.2104 192.631 373.203 ) rotz ( 59.8056 ) roty ( 4.20704 ) rotx ( 45.439 )
 		scal ( 0.128262 0.84526 0.233218 ) obj rb07 /* "RB\RB07.suf" atr "#01" */
-	}
-	{	mov ( -50.2104 -192.631 373.203 ) rotz ( -59.8056 ) roty ( 4.20704 ) rotx ( -64.0013 )
-		scal ( 0.128262 -0.84526 0.233218 ) obj rb07 /* "RB\RB07.suf" atr "#01" */
 	}
 	{	mov ( 158.548 0.158392 -15.883 ) rotz ( 0 ) roty ( -66 ) rotx ( -180 )
 		scal ( 0.5 0.391894 0.439247 ) obj nozzle04 /* "nozzle\nozzle04.suf" atr "noname" */
@@ -85,5 +82,8 @@ fram
 	}
 	{	mov ( -275.168 -60 40 ) rotz ( -7.99031 ) roty ( 41.5295 ) rotx ( -39.2158 )
 		scal ( 0.465297 0.537821 0.122217 ) obj P205 /* "P2\P205.suf" atr "#01" */
+	}
+	{	mov ( -50.2104 -192.631 373.203 ) rotz ( -59.8056 ) roty ( 4.20704 ) rotx ( -45.439 )
+		scal ( 0.128262 -0.84526 0.233218 ) obj rb07 /* "RB\RB07.suf" atr "#01" */
 	}
 }
