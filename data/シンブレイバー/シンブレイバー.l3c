@@ -55,10 +55,11 @@ Pose:
 21: "ダメージ" ( labelled 19 ( unlabelled move ( 0 0 0 ) rot ( -10 -20 40 ) ) ( unlabelled move ( 0 0 0 ) rot ( 0.504461 -17.5239 9.79267 ) ) ( unlabelled move ( 0 0 0 ) rot ( 0 -35 45 ) ) ( unlabelled move ( 0 0 0 ) rot ( 71.5998 14.8426 34.332 ) ) ( unlabelled move ( 0 0 0 ) rot ( -1.01263 -39.4206 -1.98547 ) ) ( unlabelled move ( 0 0 0 ) rot ( 0 0 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( 0 0 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( -58.0442 26.7379 -45.4054 ) ) ( unlabelled move ( 0 0 0 ) rot ( 6.80936 -46.494 -3.68428 ) ) ( unlabelled move ( 0 0 0 ) rot ( 0 0 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( 0 0 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( 71.1271 -59.8218 -68.337 ) ) ( unlabelled move ( 0 0 0 ) rot ( 0 0 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( 175.463 69.0121 177.467 ) ) ( unlabelled move ( 0 0 0 ) rot ( -16.3767 -8.32715 6.9158 ) ) ( unlabelled move ( 0 0 0 ) rot ( -48.9325 42.0189 -35.2969 ) ) ( unlabelled move ( 52.4302 20.3615 79.858 ) rot ( 0 0 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( 0 0 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( 48.1963 4.56847 -31.3103 ) ) )
 22: "ガードA" ( labelled 19 ( unlabelled move ( 0 0 0 ) rot ( 0 0 45 ) ) ( unlabelled move ( 0 0 0 ) rot ( 5 10 25 ) ) ( unlabelled move ( 0 0 0 ) rot ( 2.05775 -2.09112 -44.8203 ) ) ( unlabelled move ( 0 0 0 ) rot ( 46.7349 5.14658 -9.6954 ) ) ( unlabelled move ( 0 0 0 ) rot ( 167.381 -87.0071 179.025 ) ) ( unlabelled move ( 0 0 0 ) rot ( 0 0 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( 0 0 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( -64.4033 -39.325 22.5135 ) ) ( unlabelled move ( 0 0 0 ) rot ( -170.878 -81.3503 -173.345 ) ) ( unlabelled move ( 0 0 0 ) rot ( 0 0 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( 0 0 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( 150 -80 -105 ) ) ( unlabelled move ( 0 0 0 ) rot ( 0 0 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( 175.47 55.9447 176.308 ) ) ( unlabelled move ( 0 0 0 ) rot ( -5.51385 -24.8984 2.3273 ) ) ( unlabelled move ( 0 0 0 ) rot ( -100 -50 65 ) ) ( unlabelled move ( 0 0 0 ) rot ( 0 0 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( 154.72 83.1903 160.28 ) ) ( unlabelled move ( 0 0 0 ) rot ( 47.1863 17.3877 -18.2489 ) ) )
 23: "ダメージB" ( labelled 19 ( unlabelled move ( 0 0 0 ) rot ( 0 -20 -5 ) ) ( unlabelled move ( 0 0 0 ) rot ( 0.504461 -17.5239 9.79267 ) ) ( unlabelled move ( 0 0 0 ) rot ( 0 -35 45 ) ) ( unlabelled move ( 0 0 0 ) rot ( 71.5998 14.8426 34.332 ) ) ( unlabelled move ( 0 0 0 ) rot ( -1.01263 -39.4206 -1.98547 ) ) ( unlabelled move ( 0 0 0 ) rot ( 0 0 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( 0 0 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( -58.0442 26.7379 -45.4054 ) ) ( unlabelled move ( 0 0 0 ) rot ( 6.80936 -46.494 -3.68428 ) ) ( unlabelled move ( 0 0 0 ) rot ( 0 0 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( 0 0 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( 32.8986 -77.5893 -31.3766 ) ) ( unlabelled move ( 0 0 0 ) rot ( 0 0 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( 178.884 24.3953 -178.142 ) ) ( unlabelled move ( 0 0 0 ) rot ( -20.7573 -20.2365 12.0038 ) ) ( unlabelled move ( 0 0 0 ) rot ( -33.2693 16.25 -7.56038 ) ) ( unlabelled move ( 52.4302 20.3615 79.858 ) rot ( 0 0 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( 0 0 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( 29.9991 18.7333 -27.5563 ) ) )
+24: "ダウンA" ( labelled 19 ( unlabelled move ( 0 0 290 ) rot ( 0 -90 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( 0 0 20 ) ) ( unlabelled move ( 0 0 0 ) rot ( -20.7047 -29.784 34.8233 ) ) ( unlabelled move ( 0 0 0 ) rot ( 35 0 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( 1.07996 -15.7026 -14.1383 ) ) ( unlabelled move ( 0 0 0 ) rot ( 0 0 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( 0 0 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( -35 0 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( 0 0 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( 0 0 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( 0 0 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( 21.9905 -12.1991 27.6211 ) ) ( unlabelled move ( 0 0 0 ) rot ( 0 0 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( 0 0 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( 0 0 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( -23.6624 -8.31087 -18.2561 ) ) ( unlabelled move ( 0 0 0 ) rot ( 0 0 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( 0 0 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( 0 0 0 ) ) )
 Light: (   32   32  -89 ) ( 1.00 1.00 1.00)
 Info:
-	DisplayOffset: (  36.000   7.778 -19.445 )
-	DisplayScale: 0.125000000000
+	DisplayOffset: (   0.000   0.000 -38.890 )
+	DisplayScale: 0.250000000000
 	MeshFlag: 1
 	MeshSpacing: 200
 	ShowStatus: 1
@@ -71,8 +72,8 @@ Info:
 :)*/
 fram
 {
-	light pal( rgb ( 1.00 1.00 1.00 ) -14 -69 -70 )
-	{	mov ( 4863.71 3175.13 20.3126 ) eye deg( 45 ) }
+	light pal( rgb ( 1.00 1.00 1.00 )  10 -69 -70 )
+	{	mov ( 1835 2489.32 1054.7 ) eye deg( 45 ) }
 	{	mov ( 15 39.6443 -20 ) target }
   { mov ( 0 0 0 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
     /* Unit */
