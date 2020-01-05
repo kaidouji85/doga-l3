@@ -1,0 +1,56 @@
+/*							Parts Assembler
+                                  Version 2.04.100723(:
+Parts: 
+	P1\P114.suf
+	P2\P210.suf
+	S1\S101.suf
+	armor\armor04.suf
+	nozzle\nozzle10.suf
+	rohead\rohead08.suf
+Light: (   32   32  -89 ) ( 1.00 1.00 1.00)
+Info:
+	DisplayOffset: ( -1485.000 -32.758 -37.992 )
+	DisplayScale: 0.500000000000
+	MeshFlag: 1
+	MeshSpacing: 200
+	ShowStatus: 0
+	ShowAttr: 1
+	GridFlag: 0
+	GridSpacing: 20
+	RotSpacing: 3
+	SelectedOnly: 0
+	DispRelative: 0
+Palette:
+	0: atr accsent { col ( rgb ( 0.850 0.850 0.800 ) ) amb ( 0.200 ) dif ( 0.800 ) ref ( 0.300 ) spc ( 0.900 1.000 0.650 ) }
+	1: atr main { col ( rgb ( 0.900 0.100 0.150 ) ) amb ( 0.200 ) dif ( 0.800 ) ref ( 0.300 ) spc ( 0.900 1.000 0.650 ) }
+*/
+fram
+{
+	light pal( rgb ( 1.00 1.00 1.00 )  28 -64  70 )
+	{	mov ( 554.029 1044.65 147.136 ) eye deg( 45 ) }
+	{	mov ( 140 0 207.993 ) target }
+	{	mov ( 0 0 0 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
+		scal ( 0.9 1 1 ) obj rohead08 /* "rohead\rohead08.suf" atr "main" */
+	}
+	{	mov ( 0 0 247.562 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
+		scal ( 0.871751 0.7 0.848548 ) obj P114 /* "P1\P114.suf" atr "main" */
+	}
+	{	mov ( -40 0 220 ) rotz ( 90 ) roty ( 0 ) rotx ( -66 )
+		scal ( 0.6 0.5 0.5 ) obj armor04 /* "armor\armor04.suf" atr "main" */
+	}
+	{	mov ( -44.4945 140 99.9734 ) rotz ( 168.447 ) roty ( -26.7572 ) rotx ( 95.6171 )
+		scal ( 0.474184 0.703888 0.95779 ) obj nozzle10 /* "nozzle\nozzle10.suf" atr "main" */
+	}
+	{	mov ( -44.4945 -140 99.9734 ) rotz ( -168.447 ) roty ( -26.7572 ) rotx ( -95.6171 )
+		scal ( 0.474184 -0.703888 0.95779 ) obj nozzle10 /* "nozzle\nozzle10.suf" atr "main" */
+	}
+	{	mov ( 117.396 0 78.5407 ) rotz ( 2.07071 ) roty ( -32.5303 ) rotx ( 177.11 )
+		scal ( 0.0855715 0.176146 0.643068 ) obj S101 /* "S1\S101.suf" atr "main" */
+	}
+	{	mov ( 80 93.0078 292.028 ) rotz ( 0 ) roty ( 54 ) rotx ( -33 )
+		scal ( 0.7 0.7 1.1 ) obj P210 /* "P2\P210.suf" atr "main" */
+	}
+	{	mov ( 80 -93.0078 292.028 ) rotz ( 0 ) roty ( 54 ) rotx ( 33 )
+		scal ( 0.7 -0.7 1.1 ) obj P210 /* "P2\P210.suf" atr "main" */
+	}
+}
