@@ -29,13 +29,13 @@ Parts:
 	rohead\rohead08.suf
 Light: (   32   32  -89 ) ( 1.00 1.00 1.00)
 Info:
-	DisplayOffset: (  17.000 -11.000 -12.463 )
-	DisplayScale: 0.088388347648
+	DisplayOffset: ( -174.000 -15.556 -17.626 )
+	DisplayScale: 0.125000000000
 	MeshFlag: 1
 	MeshSpacing: 200
 	ShowStatus: 1
 	ShowAttr: 1
-	GridFlag: 0
+	GridFlag: 1
 	GridSpacing: 20
 	RotSpacing: 3
 	SelectedOnly: 0
@@ -48,9 +48,9 @@ Palette:
 */
 fram
 {
-	light pal( rgb ( 1.00 1.00 1.00 )  42 -56 -70 )
-	{	mov ( 670.763 4431.23 468.694 ) eye deg( 45 ) }
-	{	mov ( -28.4005 -345.372 -725.991 ) target }
+	light pal( rgb ( 1.00 1.00 1.00 ) -3.00 -2.00 -4.00 )
+	{	mov ( 3680 0 40 ) eye deg( 45 ) }
+	{	mov ( 20 0 0 ) target }
 	{	mov ( 0 0 412 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
 		scal ( 0.9 1 1 ) obj rohead08 /* "rohead\rohead08.suf" atr "main" */
 	}
@@ -168,28 +168,55 @@ fram
 	{	mov ( 20 -180 -68 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
 		scal ( 0.781297 -1 0.4 ) obj roarm01 /* "roarm\roarm01.suf" atr "accsent" */
 	}
-	{	mov ( -417.402 -357.906 839.839 ) rotz ( 90 ) roty ( -84.6228 ) rotx ( -90 )
+	{	mov ( -40.4831 416.187 285.858 ) rotz ( 180 ) roty ( 0 ) rotx ( 0 )
+		scal ( 0.789149 0.839716 0.3 ) obj roarm01 /* "roarm\roarm01.suf" atr "accsent" */
+	}
+	{	mov ( -44.1135 420 -225.138 ) rotz ( 0 ) roty ( 0 ) rotx ( 180 )
+		scal ( 1 1 0.6 ) obj rb11 /* "RB\RB11.suf" atr "main" */
+	}
+	{	mov ( -52.9436 420 -248 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
+		scal ( 0.90856 1.2 0.7 ) obj rohand06 /* "rohand\rohand06.suf" atr "accsent" */
+	}
+	{	mov ( -40.4831 411.521 407.513 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
+		scal ( 1.34148 1.34492 1.34492 ) obj P211 /* "P2\P211.suf" atr "accsent" */
+	}
+	{	mov ( -40 296.073 451.806 ) rotz ( 90 ) roty ( 81 ) rotx ( 180 )
+		scal ( 1 1.72398 0.5 ) obj roarm05 /* "roarm\roarm05.suf" atr "main" */
+	}
+	{	mov ( -378.95 -434.715 956.636 ) rotz ( 90 ) roty ( -84.6228 ) rotx ( -90 )
 		scal ( 0.448596 -0.448596 0.897193 ) obj S211 /* "S2\S211.suf" atr "main" */
 	}
-	{	mov ( -391.768 -389.255 506.787 ) rotz ( -180 ) roty ( 0 ) rotx ( 5.3772 )
+	{	mov ( -353.316 -466.064 623.584 ) rotz ( -180 ) roty ( 0 ) rotx ( 5.3772 )
 		scal ( 0.581124 1.15353 1.15353 ) obj EG07 /* "EG\EG07.suf" atr "accsent" */
 	}
-	{	mov ( -417.402 -709.803 383.762 ) rotz ( -90 ) roty ( 39.6228 ) rotx ( 90 )
+	{	mov ( -378.95 -786.612 500.559 ) rotz ( -90 ) roty ( 39.6228 ) rotx ( 90 )
 		scal ( 0.448596 -0.448596 0.897193 ) obj S211 /* "S2\S211.suf" atr "main" */
 	}
-	{	mov ( -391.768 -389.135 508.063 ) rotz ( 0 ) roty ( 0 ) rotx ( -5.3772 )
-		scal ( 0.897193 1.15353 1.15353 ) obj EG07 /* "EG\EG07.suf" atr "accsent" */
+	{	mov ( -353.316 -465.944 624.86 ) rotz ( 0 ) roty ( 0 ) rotx ( -5.3772 )
+		scal ( 0.581124 1.15353 1.15353 ) obj EG07 /* "EG\EG07.suf" atr "accsent" */
 	}
-	{	mov ( -417.402 357.906 839.839 ) rotz ( -90 ) roty ( -84.6228 ) rotx ( 90 )
+	{	mov ( -353.316 -207.064 353.584 ) rotz ( -180 ) roty ( 0 ) rotx ( 0 )
+		scal ( 0.581124 0.9 0.9 ) obj EG07 /* "EG\EG07.suf" atr "accsent" */
+	}
+	{	mov ( -353.316 -206.944 354.86 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
+		scal ( 0.581124 0.9 0.9 ) obj EG07 /* "EG\EG07.suf" atr "accsent" */
+	}
+	{	mov ( -378.95 434.715 956.636 ) rotz ( -90 ) roty ( -84.6228 ) rotx ( 90 )
 		scal ( 0.448596 0.448596 0.897193 ) obj S211 /* "S2\S211.suf" atr "main" */
 	}
-	{	mov ( -391.768 389.255 506.787 ) rotz ( 180 ) roty ( 0 ) rotx ( -5.3772 )
+	{	mov ( -353.316 466.064 623.584 ) rotz ( 180 ) roty ( 0 ) rotx ( -5.3772 )
 		scal ( 0.581124 -1.15353 1.15353 ) obj EG07 /* "EG\EG07.suf" atr "accsent" */
 	}
-	{	mov ( -417.402 709.803 383.762 ) rotz ( 90 ) roty ( 39.6228 ) rotx ( -90 )
+	{	mov ( -378.95 786.612 500.559 ) rotz ( 90 ) roty ( 39.6228 ) rotx ( -90 )
 		scal ( 0.448596 0.448596 0.897193 ) obj S211 /* "S2\S211.suf" atr "main" */
 	}
-	{	mov ( -391.768 389.135 508.063 ) rotz ( 0 ) roty ( 0 ) rotx ( 5.3772 )
-		scal ( 0.897193 -1.15353 1.15353 ) obj EG07 /* "EG\EG07.suf" atr "accsent" */
+	{	mov ( -353.316 465.944 624.86 ) rotz ( 0 ) roty ( 0 ) rotx ( 5.3772 )
+		scal ( 0.581124 -1.15353 1.15353 ) obj EG07 /* "EG\EG07.suf" atr "accsent" */
+	}
+	{	mov ( -353.316 207.064 353.584 ) rotz ( 180 ) roty ( 0 ) rotx ( 0 )
+		scal ( 0.581124 -0.9 0.9 ) obj EG07 /* "EG\EG07.suf" atr "accsent" */
+	}
+	{	mov ( -353.316 206.944 354.86 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
+		scal ( 0.581124 -0.9 0.9 ) obj EG07 /* "EG\EG07.suf" atr "accsent" */
 	}
 }
