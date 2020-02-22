@@ -1,0 +1,36 @@
+/*							Parts Assembler
+                                  Version 2.04.100723(:
+Parts: 
+	P2\P211.suf
+	roarm\roarm01.suf
+Light: (   32   32  -89 ) ( 1.00 1.00 1.00)
+Info:
+	DisplayOffset: ( -174.000 -15.556 -17.626 )
+	DisplayScale: 0.125000000000
+	MeshFlag: 1
+	MeshSpacing: 200
+	ShowStatus: 1
+	ShowAttr: 1
+	GridFlag: 1
+	GridSpacing: 20
+	RotSpacing: 3
+	SelectedOnly: 0
+	DispRelative: 0
+Palette:
+	0: atr accsent { col ( rgb ( 0.400 0.400 0.450 ) ) amb ( 0.200 ) dif ( 0.800 ) ref ( 0.300 ) spc ( 0.900 1.000 0.650 ) }
+	1: atr light { col ( rgb ( 0.000 0.700 0.150 ) ) amb ( 1.000 ) dif ( 0.000 ) opt ( emittion 0.050 4.000 ) }
+	2: atr main { col ( rgb ( 1.000 0.110 0.600 ) ) amb ( 0.200 ) dif ( 0.800 ) ref ( 0.300 ) spc ( 0.900 1.000 0.650 ) }
+	3: atr taiko { col ( rgb ( 0.950 1.000 0.150 ) ) amb ( 0.200 ) dif ( 0.800 ) ref ( 0.300 ) spc ( 0.900 1.000 0.650 ) }
+*/
+fram
+{
+	light pal( rgb ( 1.00 1.00 1.00 ) -55 -44  70 )
+	{	mov ( 3731.17 -422.835 -70.4748 ) eye deg( 45 ) }
+	{	mov ( 20 0 0 ) target }
+	{	mov ( 4.5169 -5.187 -122.142 ) rotz ( -180 ) roty ( 0 ) rotx ( 0 )
+		scal ( 0.789149 -0.839716 0.3 ) obj roarm01 /* "roarm\roarm01.suf" atr "accsent" */
+	}
+	{	mov ( 4.5169 -0.521 -0.487 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
+		scal ( 1.34148 -1.34492 1.34492 ) obj P211 /* "P2\P211.suf" atr "accsent" */
+	}
+}

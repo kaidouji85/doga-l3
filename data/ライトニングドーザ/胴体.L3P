@@ -1,0 +1,47 @@
+/*							Parts Assembler
+                                  Version 2.04.100723(:
+Parts: 
+	S2\S205.suf
+	robody\robody02.suf
+	robody\robody08.suf
+	robody\robody12.suf
+Light: (   32   32  -89 ) ( 1.00 1.00 1.00)
+Info:
+	DisplayOffset: ( -200.000 -62.224 -70.504 )
+	DisplayScale: 0.500000000000
+	MeshFlag: 1
+	MeshSpacing: 200
+	ShowStatus: 1
+	ShowAttr: 1
+	GridFlag: 1
+	GridSpacing: 20
+	RotSpacing: 3
+	SelectedOnly: 0
+	DispRelative: 0
+Palette:
+	0: atr accsent { col ( rgb ( 0.400 0.400 0.450 ) ) amb ( 0.200 ) dif ( 0.800 ) ref ( 0.300 ) spc ( 0.900 1.000 0.650 ) }
+	1: atr light { col ( rgb ( 0.000 0.700 0.150 ) ) amb ( 1.000 ) dif ( 0.000 ) opt ( emittion 0.050 4.000 ) }
+	2: atr main { col ( rgb ( 1.000 0.110 0.600 ) ) amb ( 0.200 ) dif ( 0.800 ) ref ( 0.300 ) spc ( 0.900 1.000 0.650 ) }
+	3: atr taiko { col ( rgb ( 0.950 1.000 0.150 ) ) amb ( 0.200 ) dif ( 0.800 ) ref ( 0.300 ) spc ( 0.900 1.000 0.650 ) }
+*/
+fram
+{
+	light pal( rgb ( 1.00 1.00 1.00 ) -39 -58  70 )
+	{	mov ( 3683.49 712.11 -168.226 ) eye deg( 45 ) }
+	{	mov ( 20 0 0 ) target }
+	{	mov ( -40 0 301 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
+		scal ( 1 0.9 1 ) obj robody02 /* "robody\robody02.suf" atr "main" */
+	}
+	{	mov ( -41.7196 0 101 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
+		scal ( 0.965854 0.983958 0.776507 ) obj robody08 /* "robody\robody08.suf" atr "accsent" */
+	}
+	{	mov ( 180 0 161 ) rotz ( 0 ) roty ( 24 ) rotx ( 0 )
+		scal ( 0.3 0.400356 0.4 ) obj S205 /* "S2\S205.suf" atr "main" */
+	}
+	{	mov ( -34.0139 168.192 298.61 ) rotz ( -92.3953 ) roty ( -58.4662 ) rotx ( 2.6819 )
+		scal ( 0.316891 0.5 0.6 ) obj robody12 /* "robody\robody12.suf" atr "accsent" */
+	}
+	{	mov ( -34.0139 -168.192 298.61 ) rotz ( 92.3953 ) roty ( -58.4662 ) rotx ( -2.6819 )
+		scal ( 0.316891 -0.5 0.6 ) obj robody12 /* "robody\robody12.suf" atr "accsent" */
+	}
+}

@@ -1,0 +1,48 @@
+/*							Parts Assembler
+                                  Version 2.04.100723(:
+Parts: 
+	EG\EG07.suf
+	S2\S211.suf
+Light: (   32   32  -89 ) ( 1.00 1.00 1.00)
+Info:
+	DisplayOffset: ( -174.000 -15.556 -17.626 )
+	DisplayScale: 0.125000000000
+	MeshFlag: 1
+	MeshSpacing: 200
+	ShowStatus: 1
+	ShowAttr: 1
+	GridFlag: 1
+	GridSpacing: 20
+	RotSpacing: 3
+	SelectedOnly: 0
+	DispRelative: 0
+Palette:
+	0: atr accsent { col ( rgb ( 0.400 0.400 0.450 ) ) amb ( 0.200 ) dif ( 0.800 ) ref ( 0.300 ) spc ( 0.900 1.000 0.650 ) }
+	1: atr light { col ( rgb ( 0.000 0.700 0.150 ) ) amb ( 1.000 ) dif ( 0.000 ) opt ( emittion 0.050 4.000 ) }
+	2: atr main { col ( rgb ( 1.000 0.110 0.600 ) ) amb ( 0.200 ) dif ( 0.800 ) ref ( 0.300 ) spc ( 0.900 1.000 0.650 ) }
+	3: atr taiko { col ( rgb ( 0.950 1.000 0.150 ) ) amb ( 0.200 ) dif ( 0.800 ) ref ( 0.300 ) spc ( 0.900 1.000 0.650 ) }
+*/
+fram
+{
+	light pal( rgb ( 1.00 1.00 1.00 ) -50 -49  70 )
+	{	mov ( 2980 -20 -20 ) eye deg( 45 ) }
+	{	mov ( 20 0 0 ) target }
+	{	mov ( -18.95 -254.715 616.636 ) rotz ( 90 ) roty ( -84.6228 ) rotx ( -90 )
+		scal ( 0.448596 -0.448596 0.897193 ) obj S211 /* "S2\S211.suf" atr "main" */
+	}
+	{	mov ( 6.684 -286.064 283.584 ) rotz ( -180 ) roty ( 0 ) rotx ( 5.3772 )
+		scal ( 0.581124 1.15353 1.15353 ) obj EG07 /* "EG\EG07.suf" atr "accsent" */
+	}
+	{	mov ( -18.95 -606.612 160.559 ) rotz ( -90 ) roty ( 39.6228 ) rotx ( 90 )
+		scal ( 0.448596 -0.448596 0.897193 ) obj S211 /* "S2\S211.suf" atr "main" */
+	}
+	{	mov ( 6.684 -285.944 284.86 ) rotz ( 0 ) roty ( 0 ) rotx ( -5.3772 )
+		scal ( 0.581124 1.15353 1.15353 ) obj EG07 /* "EG\EG07.suf" atr "accsent" */
+	}
+	{	mov ( 6.684 -27.064 13.584 ) rotz ( -180 ) roty ( 0 ) rotx ( 0 )
+		scal ( 0.581124 0.9 0.9 ) obj EG07 /* "EG\EG07.suf" atr "accsent" */
+	}
+	{	mov ( 6.684 -26.944 14.86 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
+		scal ( 0.581124 0.9 0.9 ) obj EG07 /* "EG\EG07.suf" atr "accsent" */
+	}
+}

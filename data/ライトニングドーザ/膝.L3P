@@ -1,0 +1,43 @@
+/*							Parts Assembler
+                                  Version 2.04.100723(:
+Parts: 
+	RB\RB07.suf
+	mecha\sfetc\SL01.suf
+	roarm\roarm04.suf
+Light: (   32   32  -89 ) ( 1.00 1.00 1.00)
+Info:
+	DisplayOffset: ( -348.000 -31.112 -35.252 )
+	DisplayScale: 0.250000000000
+	MeshFlag: 1
+	MeshSpacing: 200
+	ShowStatus: 1
+	ShowAttr: 1
+	GridFlag: 1
+	GridSpacing: 20
+	RotSpacing: 3
+	SelectedOnly: 0
+	DispRelative: 0
+Palette:
+	0: atr accsent { col ( rgb ( 0.400 0.400 0.450 ) ) amb ( 0.200 ) dif ( 0.800 ) ref ( 0.300 ) spc ( 0.900 1.000 0.650 ) }
+	1: atr light { col ( rgb ( 0.000 0.700 0.150 ) ) amb ( 1.000 ) dif ( 0.000 ) opt ( emittion 0.050 4.000 ) }
+	2: atr main { col ( rgb ( 1.000 0.110 0.600 ) ) amb ( 0.200 ) dif ( 0.800 ) ref ( 0.300 ) spc ( 0.900 1.000 0.650 ) }
+	3: atr taiko { col ( rgb ( 0.950 1.000 0.150 ) ) amb ( 0.200 ) dif ( 0.800 ) ref ( 0.300 ) spc ( 0.900 1.000 0.650 ) }
+*/
+fram
+{
+	light pal( rgb ( 1.00 1.00 1.00 ) -54 -45  70 )
+	{	mov ( 3729.74 -324.56 -298.371 ) eye deg( 45 ) }
+	{	mov ( 20 0 0 ) target }
+	{	mov ( 21.8309 -17.742 -27.658 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
+		scal ( 1.4117 1.53237 1.169 ) obj roarm04 /* "roarm\roarm04.suf" atr "main" */
+	}
+	{	mov ( 21.8309 -8.642 -211.291 ) rotz ( -180 ) roty ( -90 ) rotx ( 0 )
+		scal ( 0.407123 2.34106 0.766185 ) obj SL01 /* "mecha\sfetc\SL01.suf" atr "main" */
+	}
+	{	mov ( 14.1691 -8.642 -218.953 ) rotz ( 0 ) roty ( -90 ) rotx ( 0 )
+		scal ( 0.407123 1.92691 0.766185 ) obj SL01 /* "mecha\sfetc\SL01.suf" atr "main" */
+	}
+	{	mov ( 160 -1 -152 ) rotz ( -90 ) roty ( 0 ) rotx ( 45 )
+		scal ( 0.6 1.1 1 ) obj rb07 /* "RB\RB07.suf" atr "accsent" */
+	}
+}
