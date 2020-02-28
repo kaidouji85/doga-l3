@@ -2,13 +2,15 @@
                                   Version 2.04.100723(:
 Parts: 
 	S2\S205.suf
+	nozzle\nozzle15.suf
 	robody\robody02.suf
 	robody\robody08.suf
 	robody\robody12.suf
+	roetc\roetc12.suf
 Light: (   32   32  -89 ) ( 1.00 1.00 1.00)
 Info:
-	DisplayOffset: ( -200.000 -62.224 -70.504 )
-	DisplayScale: 0.500000000000
+	DisplayOffset: ( 127.000 -22.000 -24.927 )
+	DisplayScale: 0.176776695297
 	MeshFlag: 1
 	MeshSpacing: 200
 	ShowStatus: 1
@@ -26,16 +28,16 @@ Palette:
 */
 fram
 {
-	light pal( rgb ( 1.00 1.00 1.00 ) -39 -58  70 )
-	{	mov ( 3683.49 712.11 -168.226 ) eye deg( 45 ) }
-	{	mov ( 20 0 0 ) target }
+	light pal( rgb ( 1.00 1.00 1.00 ) -41  57  70 )
+	{	mov ( -296.749 -1747.33 216.646 ) eye deg( 45 ) }
+	{	mov ( -20 0 371.235 ) target }
 	{	mov ( -40 0 301 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
 		scal ( 1 0.9 1 ) obj robody02 /* "robody\robody02.suf" atr "main" */
 	}
 	{	mov ( -41.7196 0 101 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
 		scal ( 0.965854 0.983958 0.776507 ) obj robody08 /* "robody\robody08.suf" atr "accsent" */
 	}
-	{	mov ( 180 0 161 ) rotz ( 0 ) roty ( 24 ) rotx ( 0 )
+	{	mov ( 140 0 160 ) rotz ( 0 ) roty ( 24 ) rotx ( 0 )
 		scal ( 0.3 0.400356 0.4 ) obj S205 /* "S2\S205.suf" atr "main" */
 	}
 	{	mov ( -34.0139 168.192 298.61 ) rotz ( -92.3953 ) roty ( -58.4662 ) rotx ( 2.6819 )
@@ -43,5 +45,11 @@ fram
 	}
 	{	mov ( -34.0139 -168.192 298.61 ) rotz ( 92.3953 ) roty ( -58.4662 ) rotx ( -2.6819 )
 		scal ( 0.316891 -0.5 0.6 ) obj robody12 /* "robody\robody12.suf" atr "accsent" */
+	}
+	{	mov ( -280 -100 300 ) rotz ( -180 ) roty ( -72 ) rotx ( 180 )
+		scal ( 0.8 -1 0.8 ) obj nozzle15 /* "nozzle\nozzle15.suf" atr "accsent" */
+	}
+	{	mov ( -240 -120 240 ) rotz ( 171 ) roty ( 75 ) rotx ( 168 )
+		scal ( 0.7 1.2 0.7 ) obj roetc12 /* "roetc\roetc12.suf" atr "accsent" */
 	}
 }

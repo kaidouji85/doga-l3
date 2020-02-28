@@ -1,6 +1,7 @@
 /*							Parts Assembler
                                   Version 2.04.100723(:
 Parts: 
+	EG\EG07.suf
 	P1\P114.suf
 	P2\P211.suf
 	RB\RB07.suf
@@ -8,12 +9,14 @@ Parts:
 	S1\S101.suf
 	S1\S102.suf
 	S2\S205.suf
+	S2\S211.suf
 	T1\T101.suf
 	armor\armor04.suf
 	armor\armor11.suf
 	armor\armor14.suf
 	mecha\sfetc\SL01.suf
 	nozzle\nozzle10.suf
+	nozzle\nozzle15.suf
 	roarm\roarm01.suf
 	roarm\roarm04.suf
 	roarm\roarm05.suf
@@ -22,14 +25,15 @@ Parts:
 	robody\robody12.suf
 	roetc\roetc04.suf
 	roetc\roetc10.suf
+	roetc\roetc12.suf
 	roetc\roetc16.suf
 	rohand\rohand06.suf
 	rohead\rohead08.suf
 Pose:
 Light: (   32   32  -89 ) ( 1.00 1.00 1.00)
 Info:
-	DisplayOffset: ( 141.000   0.000  88.000 )
-	DisplayScale: 0.176776695297
+	DisplayOffset: (  88.702 -26.000  62.225 )
+	DisplayScale: 0.125000000000
 	MeshFlag: 1
 	MeshSpacing: 200
 	ShowStatus: 1
@@ -42,8 +46,8 @@ Info:
 :)*/
 fram
 {
-	light pal( rgb ( 1.00 1.00 1.00 ) -51 -48 -70 )
-	{	mov ( 3779.09 -114.415 253.771 ) eye deg( 45 ) }
+	light pal( rgb ( 1.00 1.00 1.00 ) -56 -43 -70 )
+	{	mov ( 3777.31 -479.114 -125.563 ) eye deg( 45 ) }
 	{	mov ( 6.18382 15.6435 -218.517 ) target }
   { mov ( 0 0 0 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
     /* Unit */
@@ -90,6 +94,15 @@ fram
           { scal ( 1 -1 1 )
             obj "肩" (: "肩.l3p" :) }
         }
+      }
+      { mov ( -330 -365 285 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
+        /* Unit Moveable */
+        { obj "バリア発生装置" (: "バリア発生装置.l3p" :) }
+      }
+      { mov ( -330 365 285 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
+        /* Unit Moveable */
+        { scal ( 1 -1 1 )
+          obj "バリア発生装置" (: "バリア発生装置.l3p" :) }
       }
     }
     { mov ( 0 165 -210 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
