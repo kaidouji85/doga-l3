@@ -32,6 +32,7 @@ Parts:
 	rohead\rohead08.suf
 Pose:
 0: "óßÇø" ( labelled 19 ( unlabelled move ( 0 0 0 ) rot ( 0 15 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( 0 -25 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( -25.8804 9.96156 -5.07673 ) ) ( unlabelled move ( 0 0 0 ) rot ( 2.77039 -26.7137 -2.30799 ) ) ( unlabelled move ( 0 0 0 ) rot ( 0 0 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( 0 0 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( 0 15 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( 31.7538 9.84655 10.1511 ) ) ( unlabelled move ( 0 0.000000000001 0 ) rot ( -0.508897 -11.1454 0.729499 ) ) ( unlabelled move ( 0 0 0 ) rot ( 0 0 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( 0 0 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( 0.0177636 -1.31282 -29.5072 ) ) ( unlabelled move ( 0 0 0 ) rot ( -0.790916 -0.91805 24.5981 ) ) ( unlabelled move ( 0 0 0 ) rot ( 28.5393 -13.5663 25.7693 ) ) ( unlabelled move ( 0 0 0 ) rot ( 0 0 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( -32.3994 14.0285 20.9057 ) ) ( unlabelled move ( 0 0 0 ) rot ( -11.8647 -34.742 -11.4537 ) ) ( unlabelled move ( 0 0 0 ) rot ( 0 0 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( 8.16418 23.5134 -15.6385 ) ) )
+1: "ñ_óßÇø" ( labelled 19 ( unlabelled move ( 0 0 0 ) rot ( 0 0 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( 0 0 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( -20 0 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( 0 0 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( 0 0 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( 0 0 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( 0 0 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( 25 0 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( 0 0 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( 0 0 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( 0 0 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( 0 0 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( 0 0 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( 15 0 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( 0 0 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( -14.5108 3.84097 14.5108 ) ) ( unlabelled move ( 0 0 0 ) rot ( 0 0 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( -15 0 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( 14.5108 3.84097 -14.5108 ) ) )
 Light: (   32   32  -89 ) ( 1.00 1.00 1.00)
 Info:
 	DisplayOffset: (  12.000 -13.000  31.113 )
@@ -48,9 +49,9 @@ Info:
 :)*/
 fram
 {
-	light pal( rgb ( 1.00 1.00 1.00 ) -18 -68  70 )
-	{	mov ( 3930 2255 -120.721 ) eye deg( 45 ) }
-	{	mov ( -25 15 -25 ) target }
+	light pal( rgb ( 1.00 1.00 1.00 ) -50 -49 -70 )
+	{	mov ( 4450 0 58.3863 ) eye deg( 45 ) }
+	{	mov ( 12.5775 0.0820196 -30.9225 ) target }
   { mov ( 0 0 0 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
     /* Unit */
     { obj "çò" (: "çò.L3P" :) }
