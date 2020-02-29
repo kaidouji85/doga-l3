@@ -1,16 +1,17 @@
 /*							Parts Assembler
                                   Version 2.04.100723(:
 Parts: 
+	EG\EG16.suf
 	roarm\roarm05.suf
 Light: (   32   32  -89 ) ( 1.00 1.00 1.00)
 Info:
-	DisplayOffset: (   0.000 -31.112 -35.252 )
+	DisplayOffset: (  50.000 -31.112 -35.252 )
 	DisplayScale: 0.250000000000
 	MeshFlag: 1
 	MeshSpacing: 200
 	ShowStatus: 1
 	ShowAttr: 1
-	GridFlag: 1
+	GridFlag: 0
 	GridSpacing: 20
 	RotSpacing: 3
 	SelectedOnly: 0
@@ -23,10 +24,13 @@ Palette:
 */
 fram
 {
-	light pal( rgb ( 1.00 1.00 1.00 ) -55 -44  70 )
-	{	mov ( 3731.17 -422.835 -70.4748 ) eye deg( 45 ) }
+	light pal( rgb ( 1.00 1.00 1.00 ) -68 -18 -70 )
+	{	mov ( 836.952 -471.668 15.1333 ) eye deg( 45 ) }
 	{	mov ( 20 0 0 ) target }
 	{	mov ( 0 80 80 ) rotz ( -90 ) roty ( 81 ) rotx ( -180 )
 		scal ( 1 -1.72398 0.5 ) obj roarm05 /* "roarm\roarm05.suf" atr "main" */
+	}
+	{	mov ( 0 -228 36 ) rotz ( 0 ) roty ( 0 ) rotx ( 107.016 )
+		scal ( 0.246189 0.364676 0.880158 ) obj EG16 /* "EG\EG16.suf" atr "accsent" */
 	}
 }

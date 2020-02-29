@@ -2,6 +2,7 @@
                                   Version 2.04.100723(:
 Parts: 
 	EG\EG07.suf
+	EG\EG16.suf
 	P1\P114.suf
 	P2\P211.suf
 	RB\RB07.suf
@@ -17,6 +18,7 @@ Parts:
 	mecha\sfetc\SL01.suf
 	nozzle\nozzle10.suf
 	nozzle\nozzle15.suf
+	nozzle\nozzle16.suf
 	roarm\roarm01.suf
 	roarm\roarm04.suf
 	roarm\roarm05.suf
@@ -26,14 +28,14 @@ Parts:
 	roetc\roetc04.suf
 	roetc\roetc10.suf
 	roetc\roetc12.suf
-	roetc\roetc16.suf
 	rohand\rohand06.suf
 	rohead\rohead08.suf
 Pose:
+0: "立ち" ( labelled 19 ( unlabelled move ( 0 0 0 ) rot ( 0 15 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( 0 -25 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( -25.8804 9.96156 -5.07673 ) ) ( unlabelled move ( 0 0 0 ) rot ( 2.77039 -26.7137 -2.30799 ) ) ( unlabelled move ( 0 0 0 ) rot ( 0 0 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( 0 0 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( 0 15 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( 31.7538 9.84655 10.1511 ) ) ( unlabelled move ( 0 0.000000000001 0 ) rot ( -0.508897 -11.1454 0.729499 ) ) ( unlabelled move ( 0 0 0 ) rot ( 0 0 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( 0 0 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( 0.0177636 -1.31282 -29.5072 ) ) ( unlabelled move ( 0 0 0 ) rot ( -0.790916 -0.91805 24.5981 ) ) ( unlabelled move ( 0 0 0 ) rot ( 28.5393 -13.5663 25.7693 ) ) ( unlabelled move ( 0 0 0 ) rot ( 0 0 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( -32.3994 14.0285 20.9057 ) ) ( unlabelled move ( 0 0 0 ) rot ( -11.8647 -34.742 -11.4537 ) ) ( unlabelled move ( 0 0 0 ) rot ( 0 0 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( 8.16418 23.5134 -15.6385 ) ) )
 Light: (   32   32  -89 ) ( 1.00 1.00 1.00)
 Info:
-	DisplayOffset: (  88.702 -26.000  62.225 )
-	DisplayScale: 0.125000000000
+	DisplayOffset: (  12.000 -13.000  31.113 )
+	DisplayScale: 0.062500000000
 	MeshFlag: 1
 	MeshSpacing: 200
 	ShowStatus: 1
@@ -46,9 +48,9 @@ Info:
 :)*/
 fram
 {
-	light pal( rgb ( 1.00 1.00 1.00 ) -56 -43 -70 )
-	{	mov ( 3777.31 -479.114 -125.563 ) eye deg( 45 ) }
-	{	mov ( 6.18382 15.6435 -218.517 ) target }
+	light pal( rgb ( 1.00 1.00 1.00 ) -18 -68  70 )
+	{	mov ( 3930 2255 -120.721 ) eye deg( 45 ) }
+	{	mov ( -25 15 -25 ) target }
   { mov ( 0 0 0 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
     /* Unit */
     { obj "腰" (: "腰.L3P" :) }
@@ -105,7 +107,7 @@ fram
           obj "バリア発生装置" (: "バリア発生装置.l3p" :) }
       }
     }
-    { mov ( 0 165 -210 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
+    { mov ( 0 215 -180 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
       /* Unit Moveable */
       { obj "腿" (: "腿.l3p" :) }
       { mov ( -10 5 -260 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
@@ -117,7 +119,7 @@ fram
         }
       }
     }
-    { mov ( 0 -165 -210 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
+    { mov ( 0 -215 -180 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
       /* Unit Moveable */
       { scal ( 1 -1 1 )
         obj "腿" (: "腿.l3p" :) }

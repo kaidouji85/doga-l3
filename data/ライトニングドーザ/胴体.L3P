@@ -35,7 +35,7 @@ fram
 		scal ( 1 0.9 1 ) obj robody02 /* "robody\robody02.suf" atr "main" */
 	}
 	{	mov ( -41.7196 0 101 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
-		scal ( 0.965854 0.983958 0.776507 ) obj robody08 /* "robody\robody08.suf" atr "accsent" */
+		scal ( 0.965854 0.983958 1.2 ) obj robody08 /* "robody\robody08.suf" atr "accsent" */
 	}
 	{	mov ( 140 0 160 ) rotz ( 0 ) roty ( 24 ) rotx ( 0 )
 		scal ( 0.3 0.400356 0.4 ) obj S205 /* "S2\S205.suf" atr "main" */

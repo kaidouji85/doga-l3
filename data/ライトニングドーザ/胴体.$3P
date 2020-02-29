@@ -9,7 +9,7 @@ Parts:
 	roetc\roetc12.suf
 Light: (   32   32  -89 ) ( 1.00 1.00 1.00)
 Info:
-	DisplayOffset: ( 127.000 -22.000 -24.927 )
+	DisplayOffset: ( 247.000 -22.000 -24.927 )
 	DisplayScale: 0.176776695297
 	MeshFlag: 1
 	MeshSpacing: 200
@@ -28,8 +28,8 @@ Palette:
 */
 fram
 {
-	light pal( rgb ( 1.00 1.00 1.00 ) -41  57  70 )
-	{	mov ( -296.749 -1747.33 216.646 ) eye deg( 45 ) }
+	light pal( rgb ( 1.00 1.00 1.00 ) -51 -48  70 )
+	{	mov ( 1825.4 -64.4426 111.922 ) eye deg( 45 ) }
 	{	mov ( -20 0 371.235 ) target }
 	{	mov ( -40 0 301 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
 		scal ( 1 0.9 1 ) obj robody02 /* "robody\robody02.suf" atr "main" */
@@ -51,5 +51,11 @@ fram
 	}
 	{	mov ( -240 -120 240 ) rotz ( 171 ) roty ( 75 ) rotx ( 168 )
 		scal ( 0.7 1.2 0.7 ) obj roetc12 /* "roetc\roetc12.suf" atr "accsent" */
+	}
+	{	mov ( -280 100 300 ) rotz ( 180 ) roty ( -72 ) rotx ( -180 )
+		scal ( 0.8 1 0.8 ) obj nozzle15 /* "nozzle\nozzle15.suf" atr "accsent" */
+	}
+	{	mov ( -240 120 240 ) rotz ( -171 ) roty ( 75 ) rotx ( -168 )
+		scal ( 0.7 -1.2 0.7 ) obj roetc12 /* "roetc\roetc12.suf" atr "accsent" */
 	}
 }
