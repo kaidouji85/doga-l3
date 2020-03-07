@@ -54,83 +54,94 @@ fram
 	{	mov ( 12.5775 0.0820196 -30.9225 ) target }
   { mov ( 0 0 0 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
     /* Unit */
-    { obj "çò" (: "çò.L3P" :) }
+    { scal ( 0.8 0.8 0.8 )
+      obj "çò" (: "çò.L3P" :) }
     { mov ( 0 0 0 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
       /* Unit Moveable */
-      { obj "ì∑ëÃ" (: "ì∑ëÃ.l3p" :) }
-      { mov ( 0 -410 455 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
+      { scal ( 0.8 0.8 0.8 )
+        obj "ì∑ëÃ" (: "ì∑ëÃ.l3p" :) }
+      { mov ( 0 -328 364 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
         /* Unit Moveable */
-        { obj "òr1" (: "òr1.l3p" :) }
-        { mov ( 0 0 -325 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
-          /* Unit Moveable */
-          { obj "òr2" (: "òr2.L3P" :) }
-          { mov ( 0 0 -325 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
-            /* Unit Moveable */
-            { obj "éË" (: "éË.l3p" :) }
-          }
-        }
-        { mov ( 0 50 -45 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
-          /* Unit Moveable */
-          { obj "å®" (: "å®.l3p" :) }
-        }
-      }
-      { mov ( 0 0 470 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
-        /* Unit Moveable */
-        { obj "äÁ" (: "äÁ.l3p" :) }
-      }
-      { mov ( 0 410 455 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
-        /* Unit Moveable */
-        { scal ( 1 -1 1 )
+        { scal ( 0.8 0.8 0.8 )
           obj "òr1" (: "òr1.l3p" :) }
-        { mov ( 0 0 -325 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
+        { mov ( 0 0 -260 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
           /* Unit Moveable */
-          { scal ( 1 -1 1 )
+          { scal ( 0.8 0.8 0.8 )
             obj "òr2" (: "òr2.L3P" :) }
-          { mov ( 0 0 -325 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
+          { mov ( 0 0 -260 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
             /* Unit Moveable */
-            { scal ( 1 -1 1 )
+            { scal ( 0.8 0.8 0.8 )
               obj "éË" (: "éË.l3p" :) }
           }
         }
-        { mov ( 0 -50 -45 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
+        { mov ( 0 40 -36 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
           /* Unit Moveable */
-          { scal ( 1 -1 1 )
+          { scal ( 0.8 0.8 0.8 )
             obj "å®" (: "å®.l3p" :) }
         }
       }
-      { mov ( -330 -365 285 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
+      { mov ( 0 0 376 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
         /* Unit Moveable */
-        { obj "ÉoÉäÉAî≠ê∂ëïíu" (: "ÉoÉäÉAî≠ê∂ëïíu.l3p" :) }
+        { scal ( 0.8 0.8 0.8 )
+          obj "äÁ" (: "äÁ.l3p" :) }
       }
-      { mov ( -330 365 285 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
+      { mov ( 0 328 364 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
         /* Unit Moveable */
-        { scal ( 1 -1 1 )
+        { scal ( 0.8 -0.8 0.8 )
+          obj "òr1" (: "òr1.l3p" :) }
+        { mov ( 0 0 -260 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
+          /* Unit Moveable */
+          { scal ( 0.8 -0.8 0.8 )
+            obj "òr2" (: "òr2.L3P" :) }
+          { mov ( 0 0 -260 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
+            /* Unit Moveable */
+            { scal ( 0.8 -0.8 0.8 )
+              obj "éË" (: "éË.l3p" :) }
+          }
+        }
+        { mov ( 0 -40 -36 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
+          /* Unit Moveable */
+          { scal ( 0.8 -0.8 0.8 )
+            obj "å®" (: "å®.l3p" :) }
+        }
+      }
+      { mov ( -264 -292 228 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
+        /* Unit Moveable */
+        { scal ( 0.8 0.8 0.8 )
+          obj "ÉoÉäÉAî≠ê∂ëïíu" (: "ÉoÉäÉAî≠ê∂ëïíu.l3p" :) }
+      }
+      { mov ( -264 292 228 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
+        /* Unit Moveable */
+        { scal ( 0.8 -0.8 0.8 )
           obj "ÉoÉäÉAî≠ê∂ëïíu" (: "ÉoÉäÉAî≠ê∂ëïíu.l3p" :) }
       }
     }
-    { mov ( 0 215 -180 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
+    { mov ( 0 172 -144 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
       /* Unit Moveable */
-      { obj "ë⁄" (: "ë⁄.l3p" :) }
-      { mov ( -10 5 -260 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
+      { scal ( 0.8 0.8 0.8 )
+        obj "ë⁄" (: "ë⁄.l3p" :) }
+      { mov ( -8 4 -208 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
         /* Unit Moveable */
-        { obj "ïG" (: "ïG.l3p" :) }
-        { mov ( -10 0 -455 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
+        { scal ( 0.8 0.8 0.8 )
+          obj "ïG" (: "ïG.l3p" :) }
+        { mov ( -8 0 -364 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
           /* Unit Moveable */
-          { obj "ë´" (: "ë´.l3p" :) }
+          { scal ( 0.8 0.8 0.8 )
+            obj "ë´" (: "ë´.l3p" :) }
         }
       }
     }
-    { mov ( 0 -215 -180 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
+    { mov ( 0 -172 -144 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
       /* Unit Moveable */
-      { scal ( 1 -1 1 )
+      { scal ( 0.8 -0.8 0.8 )
         obj "ë⁄" (: "ë⁄.l3p" :) }
-      { mov ( -10 -5 -260 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
+      { mov ( -8 -4 -208 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
         /* Unit Moveable */
-        { scal ( 1 -1 1 )
+        { scal ( 0.8 -0.8 0.8 )
           obj "ïG" (: "ïG.l3p" :) }
-        { mov ( -10 0 -455 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
+        { mov ( -8 0 -364 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
           /* Unit Moveable */
-          { scal ( 1 -1 1 )
+          { scal ( 0.8 -0.8 0.8 )
             obj "ë´" (: "ë´.l3p" :) }
         }
       }
