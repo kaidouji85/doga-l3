@@ -13,6 +13,7 @@ Parts:
 	S2\S211.suf
 	T1\T101.suf
 	armor\armor04.suf
+	armor\armor08.suf
 	armor\armor11.suf
 	armor\armor14.suf
 	mecha\sfetc\SL01.suf
@@ -20,8 +21,8 @@ Parts:
 	nozzle\nozzle15.suf
 	nozzle\nozzle16.suf
 	roarm\roarm01.suf
-	roarm\roarm04.suf
 	roarm\roarm05.suf
+	roarm\roarm15.suf
 	robody\robody02.suf
 	robody\robody08.suf
 	robody\robody12.suf
@@ -49,8 +50,8 @@ Info:
 :)*/
 fram
 {
-	light pal( rgb ( 1.00 1.00 1.00 ) -51 -48 -70 )
-	{	mov ( 3113.15 -81.1665 780.058 ) eye deg( 45 ) }
+	light pal( rgb ( 1.00 1.00 1.00 ) -50 -49 -70 )
+	{	mov ( 3216.1 -27.9337 89.5168 ) eye deg( 45 ) }
 	{	mov ( 12.5775 0.0820196 -30.9225 ) target }
   { mov ( 0 0 0 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
     /* Unit */
@@ -60,7 +61,7 @@ fram
       /* Unit Moveable */
       { scal ( 0.8 0.8 0.8 )
         obj "“·‘Ì" (: "“·‘Ì.l3p" :) }
-      { mov ( 0 -355 385 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
+      { mov ( 0 -340 385 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
         /* Unit Moveable */
         { scal ( 0.8 0.8 0.8 )
           obj "˜r1" (: "˜r1.l3p" :) }
@@ -84,7 +85,7 @@ fram
         { scal ( 0.9 0.9 0.9 )
           obj "Šç" (: "Šç.l3p" :) }
       }
-      { mov ( 0 355 385 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
+      { mov ( 0 340 385 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
         /* Unit Moveable */
         { scal ( 0.8 -0.8 0.8 )
           obj "˜r1" (: "˜r1.l3p" :) }
