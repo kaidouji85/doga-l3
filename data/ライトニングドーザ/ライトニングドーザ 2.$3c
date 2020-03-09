@@ -13,7 +13,6 @@ Parts:
 	S2\S211.suf
 	T1\T101.suf
 	armor\armor04.suf
-	armor\armor08.suf
 	armor\armor11.suf
 	armor\armor14.suf
 	mecha\sfetc\SL01.suf
@@ -21,8 +20,8 @@ Parts:
 	nozzle\nozzle15.suf
 	nozzle\nozzle16.suf
 	roarm\roarm01.suf
+	roarm\roarm04.suf
 	roarm\roarm05.suf
-	roarm\roarm15.suf
 	robody\robody02.suf
 	robody\robody08.suf
 	robody\robody12.suf
@@ -36,7 +35,7 @@ Pose:
 1: "棒立ち" ( labelled 19 ( unlabelled move ( 0 0 0 ) rot ( 0 0 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( 0 0 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( -20 0 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( 0 0 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( 0 0 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( 0 0 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( 0 0 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( 25 0 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( 0 0 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( 0 0 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( 0 0 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( 0 0 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( 0 0 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( 15 0 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( 0 0 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( -14.5108 3.84097 14.5108 ) ) ( unlabelled move ( 0 0 0 ) rot ( 0 0 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( -15 0 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( 14.5108 3.84097 -14.5108 ) ) )
 Light: (   32   32  -89 ) ( 1.00 1.00 1.00)
 Info:
-	DisplayOffset: ( -100.000 -52.000 124.452 )
+	DisplayOffset: ( -149.000 -52.000 124.452 )
 	DisplayScale: 0.250000000000
 	MeshFlag: 1
 	MeshSpacing: 200
@@ -50,8 +49,8 @@ Info:
 :)*/
 fram
 {
-	light pal( rgb ( 1.00 1.00 1.00 ) -49 -50 -70 )
-	{	mov ( 3209.58 55.827 201.249 ) eye deg( 45 ) }
+	light pal( rgb ( 1.00 1.00 1.00 ) -46 -53 -70 )
+	{	mov ( 3988.2 278.011 14.4999 ) eye deg( 45 ) }
 	{	mov ( 12.5775 0.0820196 -30.9225 ) target }
   { mov ( 0 0 0 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
     /* Unit */
@@ -61,7 +60,7 @@ fram
       /* Unit Moveable */
       { scal ( 0.8 0.8 0.8 )
         obj "胴体" (: "胴体.l3p" :) }
-      { mov ( 0 -355 385 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
+      { mov ( 0 -328 364 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
         /* Unit Moveable */
         { scal ( 0.8 0.8 0.8 )
           obj "腕1" (: "腕1.l3p" :) }
@@ -77,7 +76,8 @@ fram
         }
         { mov ( 0 40 -36 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
           /* Unit Moveable */
-          { obj "肩" (: "肩.l3p" :) }
+          { scal ( 0.8 0.8 0.8 )
+            obj "肩" (: "肩.l3p" :) }
         }
       }
       { mov ( 0 0 425 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
@@ -85,7 +85,7 @@ fram
         { scal ( 0.9 0.9 0.9 )
           obj "顔" (: "顔.l3p" :) }
       }
-      { mov ( 0 355 385 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
+      { mov ( 0 328 364 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
         /* Unit Moveable */
         { scal ( 0.8 -0.8 0.8 )
           obj "腕1" (: "腕1.l3p" :) }
@@ -101,18 +101,18 @@ fram
         }
         { mov ( 0 -40 -36 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
           /* Unit Moveable */
-          { scal ( 1 -1 1 )
+          { scal ( 0.8 -0.8 0.8 )
             obj "肩" (: "肩.l3p" :) }
         }
       }
       { mov ( -264 -292 228 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
         /* Unit Moveable */
-        { scal ( 0.9 0.9 0.9 )
+        { scal ( 0.8 0.8 0.8 )
           obj "バリア発生装置" (: "バリア発生装置.l3p" :) }
       }
       { mov ( -264 292 228 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
         /* Unit Moveable */
-        { scal ( 0.9 -0.9 0.9 )
+        { scal ( 0.8 -0.8 0.8 )
           obj "バリア発生装置" (: "バリア発生装置.l3p" :) }
       }
     }
