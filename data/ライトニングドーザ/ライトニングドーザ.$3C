@@ -15,12 +15,12 @@ Parts:
 	armor\armor08.suf
 	armor\armor11.suf
 	armor\armor14.suf
-	mecha\sfetc\SL01.suf
 	nozzle\nozzle10.suf
 	nozzle\nozzle15.suf
 	nozzle\nozzle16.suf
 	roarm\roarm01.suf
 	roarm\roarm05.suf
+	roarm\roarm10.suf
 	roarm\roarm15.suf
 	robody\robody02.suf
 	robody\robody08.suf
@@ -49,8 +49,8 @@ Info:
 :)*/
 fram
 {
-	light pal( rgb ( 1.00 1.00 1.00 ) -13 -69 -70 )
-	{	mov ( 2667.59 1790.83 117.469 ) eye deg( 45 ) }
+	light pal( rgb ( 1.00 1.00 1.00 ) -50 -49 -70 )
+	{	mov ( 3211.49 -55.8222 173.337 ) eye deg( 45 ) }
 	{	mov ( 12.5775 0.0820196 -30.9225 ) target }
   { mov ( 0 0 0 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
     /* Unit */
@@ -62,21 +62,22 @@ fram
         obj "“·‘Ì" (: "“·‘Ì.l3p" :) }
       { mov ( 0 -340 385 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
         /* Unit Moveable */
-        { scal ( 0.8 0.8 0.8 )
+        { scal ( 0.75 0.75 0.75 )
           obj "˜r1" (: "˜r1.l3p" :) }
-        { mov ( 0 0 -260 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
+        { mov ( 0 0 -243.75 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
           /* Unit Moveable */
-          { scal ( 0.9 0.9 0.9 )
+          { scal ( 0.84375 0.84375 0.84375 )
             obj "˜r2" (: "˜r2.L3P" :) }
-          { mov ( 0 0 -292.5 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
+          { mov ( 0 0 -274.219 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
             /* Unit Moveable */
-            { scal ( 0.9 0.9 0.9 )
+            { scal ( 0.84375 0.84375 0.84375 )
               obj "Žè" (: "Žè.l3p" :) }
           }
         }
-        { mov ( 0 65 -45 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
+        { mov ( 0 60.9375 -42.1875 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
           /* Unit Moveable */
-          { obj "Œ¨" (: "Œ¨.l3p" :) }
+          { scal ( 0.9375 0.9375 0.9375 )
+            obj "Œ¨" (: "Œ¨.l3p" :) }
         }
       }
       { mov ( 0 0 425 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
@@ -86,21 +87,21 @@ fram
       }
       { mov ( 0 340 385 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
         /* Unit Moveable */
-        { scal ( 0.8 -0.8 0.8 )
+        { scal ( 0.75 -0.75 0.75 )
           obj "˜r1" (: "˜r1.l3p" :) }
-        { mov ( 0 0 -260 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
+        { mov ( 0 0 -243.75 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
           /* Unit Moveable */
-          { scal ( 0.9 -0.9 0.9 )
+          { scal ( 0.84375 -0.84375 0.84375 )
             obj "˜r2" (: "˜r2.L3P" :) }
-          { mov ( 0 0 -292.5 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
+          { mov ( 0 0 -274.219 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
             /* Unit Moveable */
-            { scal ( 0.9 -0.9 0.9 )
+            { scal ( 0.84375 -0.84375 0.84375 )
               obj "Žè" (: "Žè.l3p" :) }
           }
         }
-        { mov ( 0 -65 -36 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
+        { mov ( 0 -60.9375 -33.75 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
           /* Unit Moveable */
-          { scal ( 1 -1 1 )
+          { scal ( 0.9375 -0.9375 0.9375 )
             obj "Œ¨" (: "Œ¨.l3p" :) }
         }
       }

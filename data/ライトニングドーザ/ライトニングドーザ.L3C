@@ -15,12 +15,13 @@ Parts:
 	armor\armor08.suf
 	armor\armor11.suf
 	armor\armor14.suf
-	mecha\sfetc\SL01.suf
 	nozzle\nozzle10.suf
 	nozzle\nozzle15.suf
 	nozzle\nozzle16.suf
 	roarm\roarm01.suf
 	roarm\roarm05.suf
+	roarm\roarm10.suf
+	roarm\roarm12.suf
 	roarm\roarm15.suf
 	robody\robody02.suf
 	robody\robody08.suf
@@ -49,8 +50,8 @@ Info:
 :)*/
 fram
 {
-	light pal( rgb ( 1.00 1.00 1.00 ) -48 -51 -70 )
-	{	mov ( 3194.97 111.147 340.501 ) eye deg( 45 ) }
+	light pal( rgb ( 1.00 1.00 1.00 ) -41 -57 -70 )
+	{	mov ( 3129.77 521.654 506.647 ) eye deg( 45 ) }
 	{	mov ( 12.5775 0.0820196 -30.9225 ) target }
   { mov ( 0 0 0 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
     /* Unit */
