@@ -49,8 +49,8 @@ Info:
 :)*/
 fram
 {
-	light pal( rgb ( 1.00 1.00 1.00 ) -41 -57 -70 )
-	{	mov ( 3178.39 501.435 33.587 ) eye deg( 45 ) }
+	light pal( rgb ( 1.00 1.00 1.00 ) -13 -69 -70 )
+	{	mov ( 2667.59 1790.83 117.469 ) eye deg( 45 ) }
 	{	mov ( 12.5775 0.0820196 -30.9225 ) target }
   { mov ( 0 0 0 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
     /* Unit */
@@ -119,7 +119,7 @@ fram
       /* Unit Moveable */
       { scal ( 0.8 0.8 0.8 )
         obj "‘Ú" (: "‘Ú.l3p" :) }
-      { mov ( -8 4 -208 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
+      { mov ( -8 4 -176 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
         /* Unit Moveable */
         { scal ( 0.8 0.8 0.8 )
           obj "•G" (: "•G.l3p" :) }
@@ -134,7 +134,7 @@ fram
       /* Unit Moveable */
       { scal ( 0.8 -0.8 0.8 )
         obj "‘Ú" (: "‘Ú.l3p" :) }
-      { mov ( -8 -4 -208 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
+      { mov ( -8 -3 -176 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
         /* Unit Moveable */
         { scal ( 0.8 -0.8 0.8 )
           obj "•G" (: "•G.l3p" :) }
