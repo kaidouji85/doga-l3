@@ -1,10 +1,10 @@
 /*							Parts Assembler
                                   Version 2.04.100723(:
 Parts: 
-	RB\RB07.suf
 	armor\armor08.suf
 	mecha\sfetc\SL01.suf
 	roarm\roarm15.suf
+	roetc\roetc12.suf
 Light: (   32   32  -89 ) ( 1.00 1.00 1.00)
 Info:
 	DisplayOffset: ( -25.000 -31.112  35.000 )
@@ -19,24 +19,21 @@ Info:
 	SelectedOnly: 0
 	DispRelative: 0
 Palette:
-	0: atr accsent { col ( rgb ( 0.400 0.400 0.450 ) ) amb ( 0.200 ) dif ( 0.800 ) ref ( 0.300 ) spc ( 0.900 1.000 0.650 ) }
-	1: atr light { col ( rgb ( 0.000 0.700 0.150 ) ) amb ( 1.000 ) dif ( 0.000 ) opt ( emittion 0.050 4.000 ) }
-	2: atr main { col ( rgb ( 1.000 0.110 0.600 ) ) amb ( 0.200 ) dif ( 0.800 ) ref ( 0.300 ) spc ( 0.900 1.000 0.650 ) }
+	0: atr accsent { col ( rgb ( 0.650 0.650 0.700 ) ) amb ( 0.200 ) dif ( 0.800 ) ref ( 0.300 ) spc ( 0.900 1.000 0.650 ) }
+	1: atr light { col ( rgb ( 0.900 0.100 0.150 ) ) amb ( 1.000 ) dif ( 0.000 ) opt ( emittion 0.050 4.000 ) }
+	2: atr main { col ( rgb ( 0.050 0.450 0.140 ) ) amb ( 0.200 ) dif ( 0.800 ) ref ( 0.300 ) spc ( 0.900 1.000 0.650 ) }
 	3: atr taiko { col ( rgb ( 0.950 1.000 0.150 ) ) amb ( 0.200 ) dif ( 0.800 ) ref ( 0.300 ) spc ( 0.900 1.000 0.650 ) }
 */
 fram
 {
-	light pal( rgb ( 1.00 1.00 1.00 )  48 -51  70 )
-	{	mov ( 149.96 3721.54 -299.61 ) eye deg( 45 ) }
+	light pal( rgb ( 1.00 1.00 1.00 ) -42 -56 -70 )
+	{	mov ( 3713.71 552.029 91.2759 ) eye deg( 45 ) }
 	{	mov ( 20 0 0 ) target }
 	{	mov ( 21.8309 0 -180 ) rotz ( -180 ) roty ( -90 ) rotx ( 0 )
 		scal ( 0.3 2.4 0.8 ) obj SL01 /* "mecha\sfetc\SL01.suf" atr "main" */
 	}
 	{	mov ( 14.1691 0 -180 ) rotz ( 0 ) roty ( -90 ) rotx ( 0 )
 		scal ( 0.3 2.3 0.766185 ) obj SL01 /* "mecha\sfetc\SL01.suf" atr "main" */
-	}
-	{	mov ( 180 0 -200 ) rotz ( -90 ) roty ( 0 ) rotx ( 57 )
-		scal ( 0.7 1.2 1.2 ) obj rb07 /* "RB\RB07.suf" atr "accsent" */
 	}
 	{	mov ( 60 -60 -380 ) rotz ( 0 ) roty ( 90 ) rotx ( 0 )
 		scal ( 1.4 -1 0.6 ) obj roarm15 /* "roarm\roarm15.suf" atr "accsent" */
@@ -45,9 +42,12 @@ fram
 		scal ( 1.4 1 0.6 ) obj roarm15 /* "roarm\roarm15.suf" atr "accsent" */
 	}
 	{	mov ( 0 0 -80 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
-		scal ( 1.1 1.6 1 ) obj armor08 /* "armor\armor08.suf" atr "main" */
+		scal ( 1.1 1.8 1 ) obj armor08 /* "armor\armor08.suf" atr "main" */
 	}
 	{	mov ( 0 0 -80 ) rotz ( -180 ) roty ( 0 ) rotx ( 0 )
-		scal ( 1.3 1.6 1 ) obj armor08 /* "armor\armor08.suf" atr "accsent" */
+		scal ( 1.3 1.8 1 ) obj armor08 /* "armor\armor08.suf" atr "main" */
+	}
+	{	mov ( 280 0 -120 ) rotz ( 0 ) roty ( -54 ) rotx ( 180 )
+		scal ( 1.2 1.9 0.9 ) obj roetc12 /* "roetc\roetc12.suf" atr "accsent" */
 	}
 }

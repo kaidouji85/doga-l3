@@ -7,8 +7,8 @@ Parts:
 	roetc\roetc10.suf
 Light: (   32   32  -89 ) ( 1.00 1.00 1.00)
 Info:
-	DisplayOffset: ( 141.000 -87.998 -99.708 )
-	DisplayScale: 0.707106781186
+	DisplayOffset: (  99.702 -62.224 -70.504 )
+	DisplayScale: 0.500000000000
 	MeshFlag: 1
 	MeshSpacing: 200
 	ShowStatus: 1
@@ -26,19 +26,19 @@ Palette:
 */
 fram
 {
-	light pal( rgb ( 1.00 1.00 1.00 ) -53 -45 -70 )
-	{	mov ( 3936.32 -308.221 1782.01 ) eye deg( 45 ) }
+	light pal( rgb ( 1.00 1.00 1.00 )  46 -53  70 )
+	{	mov ( 318.915 4274.69 -495.806 ) eye deg( 45 ) }
 	{	mov ( 20 0 0 ) target }
-	{	mov ( 260 0 -407.598 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
+	{	mov ( 240 0 -407.598 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
 		scal ( 1.26399 1.1 2.27519 ) obj armor14 /* "armor\armor14.suf" atr "main" */
 	}
 	{	mov ( -20 0 -440 ) rotz ( -180 ) roty ( 0 ) rotx ( 0 )
 		scal ( 1.26399 1.26399 1.01119 ) obj armor11 /* "armor\armor11.suf" atr "main" */
 	}
 	{	mov ( -80 0 -140 ) rotz ( 0 ) roty ( -90 ) rotx ( 0 )
-		scal ( 1 2.4 1.5 ) obj roetc10 /* "roetc\roetc10.suf" atr "accsent" */
+		scal ( 0.7 2.4 1.3 ) obj roetc10 /* "roetc\roetc10.suf" atr "accsent" */
 	}
-	{	mov ( 60 0 -120 ) rotz ( 0 ) roty ( -54 ) rotx ( 0 )
-		scal ( 1.2 1 1.5 ) obj roetc04 /* "roetc\roetc04.suf" atr "accsent" */
+	{	mov ( 0 0 -200 ) rotz ( 0 ) roty ( -66 ) rotx ( 0 )
+		scal ( 1 1 1.4 ) obj roetc04 /* "roetc\roetc04.suf" atr "accsent" */
 	}
 }

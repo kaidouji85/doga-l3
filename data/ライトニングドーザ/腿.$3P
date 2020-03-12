@@ -1,6 +1,7 @@
 /*							Parts Assembler
                                   Version 2.04.100723(:
 Parts: 
+	P1\P114.suf
 	S2\S205.suf
 	roarm\roarm01.suf
 Light: (   32   32  -89 ) ( 1.00 1.00 1.00)
@@ -17,20 +18,23 @@ Info:
 	SelectedOnly: 0
 	DispRelative: 0
 Palette:
-	0: atr accsent { col ( rgb ( 0.400 0.400 0.450 ) ) amb ( 0.200 ) dif ( 0.800 ) ref ( 0.300 ) spc ( 0.900 1.000 0.650 ) }
-	1: atr light { col ( rgb ( 0.000 0.700 0.150 ) ) amb ( 1.000 ) dif ( 0.000 ) opt ( emittion 0.050 4.000 ) }
-	2: atr main { col ( rgb ( 1.000 0.110 0.600 ) ) amb ( 0.200 ) dif ( 0.800 ) ref ( 0.300 ) spc ( 0.900 1.000 0.650 ) }
+	0: atr accsent { col ( rgb ( 0.650 0.650 0.700 ) ) amb ( 0.200 ) dif ( 0.800 ) ref ( 0.300 ) spc ( 0.900 1.000 0.650 ) }
+	1: atr light { col ( rgb ( 0.900 0.100 0.150 ) ) amb ( 1.000 ) dif ( 0.000 ) opt ( emittion 0.050 4.000 ) }
+	2: atr main { col ( rgb ( 0.050 0.450 0.140 ) ) amb ( 0.200 ) dif ( 0.800 ) ref ( 0.300 ) spc ( 0.900 1.000 0.650 ) }
 	3: atr taiko { col ( rgb ( 0.950 1.000 0.150 ) ) amb ( 0.200 ) dif ( 0.800 ) ref ( 0.300 ) spc ( 0.900 1.000 0.650 ) }
 */
 fram
 {
-	light pal( rgb ( 1.00 1.00 1.00 ) -50 -49 -70 )
-	{	mov ( 910.974 -7.77537 116.023 ) eye deg( 45 ) }
+	light pal( rgb ( 1.00 1.00 1.00 ) -66 -23 -70 )
+	{	mov ( 827.572 -393.879 6.57148 ) eye deg( 45 ) }
 	{	mov ( 20 0 0 ) target }
 	{	mov ( 0 13 13 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
 		scal ( 0.781297 1 0.4 ) obj roarm01 /* "roarm\roarm01.suf" atr "accsent" */
 	}
 	{	mov ( 0 -7 -7 ) rotz ( 90 ) roty ( 57 ) rotx ( 0 )
 		scal ( 0.3 0.3 0.3 ) obj S205 /* "S2\S205.suf" atr "accsent" */
+	}
+	{	mov ( 0 -60 60 ) rotz ( 0 ) roty ( 0 ) rotx ( 33 )
+		scal ( 0.3 0.3 0.3 ) obj P114 /* "P1\P114.suf" atr "accsent" */
 	}
 }

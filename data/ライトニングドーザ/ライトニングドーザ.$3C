@@ -5,7 +5,6 @@ Parts:
 	EG\EG16.suf
 	P1\P114.suf
 	P2\P211.suf
-	RB\RB07.suf
 	RB\RB11.suf
 	S1\S101.suf
 	S1\S102.suf
@@ -33,7 +32,7 @@ Parts:
 	rohead\rohead08.suf
 Pose:
 0: "—§‚¿" ( labelled 19 ( unlabelled move ( 0 0 0 ) rot ( 0 15 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( 0 -25 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( -25.8804 9.96156 -5.07673 ) ) ( unlabelled move ( 0 0 0 ) rot ( 2.77039 -26.7137 -2.30799 ) ) ( unlabelled move ( 0 0 0 ) rot ( 0 0 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( 0 0 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( 0 15 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( 31.7538 9.84655 10.1511 ) ) ( unlabelled move ( 0 0.000000000001 0 ) rot ( -0.508897 -11.1454 0.729499 ) ) ( unlabelled move ( 0 0 0 ) rot ( 0 0 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( 0 0 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( 0.0177636 -1.31282 -29.5072 ) ) ( unlabelled move ( 0 0 0 ) rot ( -0.790916 -0.91805 24.5981 ) ) ( unlabelled move ( 0 0 0 ) rot ( 28.5393 -13.5663 25.7693 ) ) ( unlabelled move ( 0 0 0 ) rot ( 0 0 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( -32.3994 14.0285 20.9057 ) ) ( unlabelled move ( 0 0 0 ) rot ( -11.8647 -34.742 -11.4537 ) ) ( unlabelled move ( 0 0 0 ) rot ( 0 0 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( 8.16418 23.5134 -15.6385 ) ) )
-1: "–_—§‚¿" ( labelled 19 ( unlabelled move ( 0 0 0 ) rot ( 0 0 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( 0 0 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( -20 0 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( 0 0 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( 0 0 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( 0 0 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( 0 0 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( 25 0 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( 0 0 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( 0 0 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( 0 0 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( 0 0 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( 0 0 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( 15 0 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( 0 0 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( -14.5108 3.84097 14.5108 ) ) ( unlabelled move ( 0 0 0 ) rot ( 0 0 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( -15 0 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( 14.5108 3.84097 -14.5108 ) ) )
+1: "–_—§‚¿" ( labelled 19 ( unlabelled move ( 0 0 0 ) rot ( 0 0 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( 0 0 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( -20 0 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( 0 0 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( 0 0 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( 0 0 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( 0 0 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( 25 0 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( 0 0 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( 0 0 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( 0 0 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( 0 0 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( 0 0 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( 25 0 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( 0 0 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( -24.2477 6.27967 13.6497 ) ) ( unlabelled move ( 0 0 0 ) rot ( -10 0 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( -15 0 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( 24.2477 6.27967 -13.6497 ) ) )
 Light: (   32   32  -89 ) ( 1.00 1.00 1.00)
 Info:
 	DisplayOffset: ( -100.000 -52.000 124.452 )
@@ -50,8 +49,8 @@ Info:
 :)*/
 fram
 {
-	light pal( rgb ( 1.00 1.00 1.00 ) -50 -49 -70 )
-	{	mov ( 3216.1 -27.9337 89.5168 ) eye deg( 45 ) }
+	light pal( rgb ( 1.00 1.00 1.00 ) -41 -57 -70 )
+	{	mov ( 3178.39 501.435 33.587 ) eye deg( 45 ) }
 	{	mov ( 12.5775 0.0820196 -30.9225 ) target }
   { mov ( 0 0 0 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
     /* Unit */
@@ -75,7 +74,7 @@ fram
               obj "Žè" (: "Žè.l3p" :) }
           }
         }
-        { mov ( 0 40 -36 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
+        { mov ( 0 65 -45 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
           /* Unit Moveable */
           { obj "Œ¨" (: "Œ¨.l3p" :) }
         }
@@ -99,7 +98,7 @@ fram
               obj "Žè" (: "Žè.l3p" :) }
           }
         }
-        { mov ( 0 -40 -36 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
+        { mov ( 0 -65 -36 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
           /* Unit Moveable */
           { scal ( 1 -1 1 )
             obj "Œ¨" (: "Œ¨.l3p" :) }
@@ -124,7 +123,7 @@ fram
         /* Unit Moveable */
         { scal ( 0.8 0.8 0.8 )
           obj "•G" (: "•G.l3p" :) }
-        { mov ( -8 0 -364 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
+        { mov ( -8 0 -403 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
           /* Unit Moveable */
           { scal ( 0.8 0.8 0.8 )
             obj "‘«" (: "‘«.l3p" :) }
@@ -139,7 +138,7 @@ fram
         /* Unit Moveable */
         { scal ( 0.8 -0.8 0.8 )
           obj "•G" (: "•G.l3p" :) }
-        { mov ( -8 0 -364 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
+        { mov ( -8 1 -403 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
           /* Unit Moveable */
           { scal ( 0.8 -0.8 0.8 )
             obj "‘«" (: "‘«.l3p" :) }
