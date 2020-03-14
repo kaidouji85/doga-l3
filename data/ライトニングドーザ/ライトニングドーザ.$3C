@@ -50,7 +50,7 @@ Info:
 fram
 {
 	light pal( rgb ( 1.00 1.00 1.00 ) -50 -49 -70 )
-	{	mov ( 3211.49 -55.8222 173.337 ) eye deg( 45 ) }
+	{	mov ( 3210.08 0.0199835 201.249 ) eye deg( 45 ) }
 	{	mov ( 12.5775 0.0820196 -30.9225 ) target }
   { mov ( 0 0 0 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
     /* Unit */
@@ -60,7 +60,7 @@ fram
       /* Unit Moveable */
       { scal ( 0.8 0.8 0.8 )
         obj "“·‘Ì" (: "“·‘Ì.l3p" :) }
-      { mov ( 0 -340 385 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
+      { mov ( 0 -380 390 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
         /* Unit Moveable */
         { scal ( 0.75 0.75 0.75 )
           obj "˜r1" (: "˜r1.l3p" :) }
@@ -85,7 +85,7 @@ fram
         { scal ( 0.9 0.9 0.9 )
           obj "Šç" (: "Šç.l3p" :) }
       }
-      { mov ( 0 340 385 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
+      { mov ( 0 380 390 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
         /* Unit Moveable */
         { scal ( 0.75 -0.75 0.75 )
           obj "˜r1" (: "˜r1.l3p" :) }
@@ -118,30 +118,30 @@ fram
     }
     { mov ( 0 172 -144 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
       /* Unit Moveable */
-      { scal ( 0.8 0.8 0.8 )
+      { scal ( 0.9 0.9 0.9 )
         obj "‘Ú" (: "‘Ú.l3p" :) }
-      { mov ( -8 4 -176 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
+      { mov ( -9 8 -221 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
         /* Unit Moveable */
-        { scal ( 0.8 0.8 0.8 )
+        { scal ( 0.9 0.9 0.9 )
           obj "•G" (: "•G.l3p" :) }
-        { mov ( -8 0 -403 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
+        { mov ( -9 0 -453.375 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
           /* Unit Moveable */
-          { scal ( 0.8 0.8 0.8 )
+          { scal ( 0.9 0.9 0.9 )
             obj "‘«" (: "‘«.l3p" :) }
         }
       }
     }
     { mov ( 0 -172 -144 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
       /* Unit Moveable */
-      { scal ( 0.8 -0.8 0.8 )
+      { scal ( 0.9 -0.9 0.9 )
         obj "‘Ú" (: "‘Ú.l3p" :) }
-      { mov ( -8 -3 -176 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
+      { mov ( -9 -8 -221 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
         /* Unit Moveable */
-        { scal ( 0.8 -0.8 0.8 )
+        { scal ( 0.9 -0.9 0.9 )
           obj "•G" (: "•G.l3p" :) }
-        { mov ( -8 1 -403 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
+        { mov ( -9 1.125 -453.375 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
           /* Unit Moveable */
-          { scal ( 0.8 -0.8 0.8 )
+          { scal ( 0.9 -0.9 0.9 )
             obj "‘«" (: "‘«.l3p" :) }
         }
       }
