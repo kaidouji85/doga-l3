@@ -2,8 +2,6 @@
                                   Version 2.04.100723(:
 Parts: 
 	armor\armor08.suf
-	armor\armor11.suf
-	roarm\roarm10.suf
 	roarm\roarm15.suf
 	roetc\roetc12.suf
 Light: (   32   32  -89 ) ( 1.00 1.00 1.00)
@@ -27,29 +25,20 @@ Palette:
 */
 fram
 {
-	light pal( rgb ( 1.00 1.00 1.00 ) -25 -66  70 )
-	{	mov ( 3299.02 1459.91 -1036.01 ) eye deg( 45 ) }
+	light pal( rgb ( 1.00 1.00 1.00 ) -54 -44  70 )
+	{	mov ( 3726.68 -356.916 -299.614 ) eye deg( 45 ) }
 	{	mov ( 20 0 0 ) target }
 	{	mov ( 0 0 -80 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
-		scal ( 1.1 2.1 1 ) obj armor08 /* "armor\armor08.suf" atr "main" */
+		scal ( 1.4 2.1 1 ) obj armor08 /* "armor\armor08.suf" atr "main" */
 	}
 	{	mov ( 0 0 -80 ) rotz ( -180 ) roty ( 0 ) rotx ( 0 )
-		scal ( 1.3 2.1 1 ) obj armor08 /* "armor\armor08.suf" atr "main" */
+		scal ( 1.4 2.1 1 ) obj armor08 /* "armor\armor08.suf" atr "main" */
 	}
-	{	mov ( 280 0 -120 ) rotz ( 0 ) roty ( -54 ) rotx ( 180 )
+	{	mov ( 200 0 -200 ) rotz ( 0 ) roty ( -48 ) rotx ( 180 )
 		scal ( 1.2 1.9 0.9 ) obj roetc12 /* "roetc\roetc12.suf" atr "accsent" */
-	}
-	{	mov ( 0 20 0 ) rotz ( 0 ) roty ( 0 ) rotx ( 180 )
-		scal ( 1 1.3 1 ) obj armor11 /* "armor\armor11.suf" atr "main" */
-	}
-	{	mov ( 0 20 0 ) rotz ( 0 ) roty ( 0 ) rotx ( 180 )
-		scal ( -1 1.3 1 ) obj armor11 /* "armor\armor11.suf" atr "main" */
 	}
 	{	mov ( 100 -40 -180 ) rotz ( -180 ) roty ( -78 ) rotx ( 0 )
 		scal ( 1.3 1.2 0.6 ) obj roarm15 /* "roarm\roarm15.suf" atr "accsent" */
-	}
-	{	mov ( 0 -100 160 ) rotz ( 0 ) roty ( -18 ) rotx ( 0 )
-		scal ( 1 1.3 1 ) obj roarm10 /* "roarm\roarm10.suf" atr "accsent" */
 	}
 	{	mov ( 100 40 -180 ) rotz ( 180 ) roty ( -78 ) rotx ( 0 )
 		scal ( 1.3 -1.2 0.6 ) obj roarm15 /* "roarm\roarm15.suf" atr "accsent" */

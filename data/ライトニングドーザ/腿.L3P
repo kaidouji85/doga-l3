@@ -3,6 +3,7 @@
 Parts: 
 	P1\P114.suf
 	S2\S205.suf
+	TK\TK05.suf
 	roarm\roarm01.suf
 Light: (   32   32  -89 ) ( 1.00 1.00 1.00)
 Info:
@@ -12,7 +13,7 @@ Info:
 	MeshSpacing: 200
 	ShowStatus: 1
 	ShowAttr: 1
-	GridFlag: 1
+	GridFlag: 0
 	GridSpacing: 20
 	RotSpacing: 3
 	SelectedOnly: 0
@@ -25,8 +26,8 @@ Palette:
 */
 fram
 {
-	light pal( rgb ( 1.00 1.00 1.00 ) -57 -41  70 )
-	{	mov ( 906.206 -148.3 -1.26962 ) eye deg( 45 ) }
+	light pal( rgb ( 1.00 1.00 1.00 )  61 -35  70 )
+	{	mov ( -207.822 850.244 -180.382 ) eye deg( 45 ) }
 	{	mov ( 20 0 0 ) target }
 	{	mov ( 0 13 13 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
 		scal ( 0.781297 1 0.3 ) obj roarm01 /* "roarm\roarm01.suf" atr "accsent" */
@@ -36,5 +37,8 @@ fram
 	}
 	{	mov ( 0 -60 60 ) rotz ( 0 ) roty ( 0 ) rotx ( 33 )
 		scal ( 0.3 0.3 0.3 ) obj P114 /* "P1\P114.suf" atr "accsent" */
+	}
+	{	mov ( 0 11.3137 -200 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
+		scal ( 0.3 0.433701 0.3 ) obj TK05 /* "TK\TK05.suf" atr "accsent" */
 	}
 }
