@@ -4,8 +4,8 @@ Frame: 1 102
 Mechanic:
 	ライトニングドーザ
 Info:
-	DisplayOffset: ( 176.000 -36.770  21.000 )
-	DisplayScale: 0.176776695297
+	DisplayOffset: (  31.113  -6.500   3.712 )
+	DisplayScale: 0.031250000000
 	MeshFlag: 1
 	MeshSpacing: 200
 	ShowStatus: 1
@@ -19,7 +19,7 @@ Info:
 Motion: 0
 	Mechanic: CAMERA
 	Bezier:
-		( 4146.69 2790.66 899.498 )
+		( 4351.77 2451.45 896.458 )
 	Angle:
 		  1 45
 	CameraRotation:
