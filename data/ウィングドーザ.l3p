@@ -5,6 +5,8 @@ Parts:
 	P1\P114.suf
 	P4\P405.suf
 	RB\RB03.suf
+	S1\S101.suf
+	S1\S102.suf
 	S1\S106.suf
 	T1\T101.suf
 	T1\T105.suf
@@ -17,13 +19,13 @@ Parts:
 	rohead\rohead08.suf
 Light: (   32   32  -89 ) ( 1.00 1.00 1.00)
 Info:
-	DisplayOffset: (  39.598  -1.816 -170.000 )
-	DisplayScale: 0.500000000001
+	DisplayOffset: ( -33.000  -0.454 -42.500 )
+	DisplayScale: 0.125000000000
 	MeshFlag: 1
 	MeshSpacing: 200
 	ShowStatus: 1
 	ShowAttr: 1
-	GridFlag: 1
+	GridFlag: 0
 	GridSpacing: 20
 	RotSpacing: 3
 	SelectedOnly: 0
@@ -37,9 +39,9 @@ Palette:
 */
 fram
 {
-	light pal( rgb ( 1.00 1.00 1.00 ) -50 -49  70 )
-	{	mov ( 2676.62 -72.1365 -331.38 ) eye deg( 45 ) }
-	{	mov ( 1.5037 -54.8662 145.139 ) target }
+	light pal( rgb ( 1.00 1.00 1.00 )  -1 -70 -70 )
+	{	mov ( 1506.9 1435.88 -4.20139 ) eye deg( 45 ) }
+	{	mov ( 20 0 -164.86 ) target }
 	{	mov ( 0 0 0 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
 		scal ( 0.944844 0.9 1 ) obj rohead08 /* "rohead\rohead08.suf" atr "blue" */
 	}
@@ -88,13 +90,22 @@ fram
 	{	mov ( 140 0 -260 ) rotz ( 180 ) roty ( 84 ) rotx ( 180 )
 		scal ( 0.4 0.7 0.8 ) obj T105 /* "T1\T105.suf" atr "red" */
 	}
-	{	mov ( 63.8412 85.6569 168.932 ) rotz ( -26.5207 ) roty ( 18.1253 ) rotx ( -95.392 )
-		scal ( 0.12978 0.193194 0.508858 ) obj T101 /* "T1\T101.suf" atr "light" */
-	}
-	{	mov ( 63.8412 -85.6569 168.932 ) rotz ( 26.5207 ) roty ( 18.1253 ) rotx ( 95.392 )
-		scal ( 0.12978 -0.193194 0.508858 ) obj T101 /* "T1\T101.suf" atr "light" */
+	{	mov ( 62.8979 85.0757 172.269 ) rotz ( -25.8937 ) roty ( 11.6028 ) rotx ( -95.2309 )
+		scal ( 0.160728 0.29434 0.536317 ) obj T101 /* "T1\T101.suf" atr "light" */
 	}
 	{	mov ( -20 280 -140 ) rotz ( -87 ) roty ( -57 ) rotx ( -3 )
 		scal ( 0.2 0.3 0.7 ) obj robody12 /* "robody\robody12.suf" atr "#01" */
+	}
+	{	mov ( 38.1399 0 396.842 ) rotz ( -179.781 ) roty ( -45.5771 ) rotx ( 0 )
+		scal ( 0.289655 0.226815 0.74773 ) obj S102 /* "S1\S102.suf" atr "blue" */
+	}
+	{	mov ( 0 105.761 300 ) rotz ( 162 ) roty ( -36 ) rotx ( 78 )
+		scal ( 0.205417 0.226141 0.793809 ) obj S101 /* "S1\S101.suf" atr "red" */
+	}
+	{	mov ( 0 -105.761 300 ) rotz ( -162 ) roty ( -36 ) rotx ( -78 )
+		scal ( 0.205417 -0.226141 0.793809 ) obj S101 /* "S1\S101.suf" atr "red" */
+	}
+	{	mov ( 62.8979 -85.0757 172.269 ) rotz ( 25.8937 ) roty ( 11.6028 ) rotx ( 95.2309 )
+		scal ( 0.160728 -0.29434 0.536317 ) obj T101 /* "T1\T101.suf" atr "light" */
 	}
 }
