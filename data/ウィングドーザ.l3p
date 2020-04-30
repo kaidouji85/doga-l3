@@ -22,8 +22,8 @@ Parts:
 	ウィングドーザ羽.SUF
 Light: (   32   32  -89 ) ( 1.00 1.00 1.00)
 Info:
-	DisplayOffset: ( 350.000  -0.908  77.075 )
-	DisplayScale: 0.250000000000
+	DisplayOffset: (  87.500  -0.227  19.269 )
+	DisplayScale: 0.062500000000
 	MeshFlag: 1
 	MeshSpacing: 200
 	ShowStatus: 1
@@ -42,8 +42,8 @@ Palette:
 */
 fram
 {
-	light pal( rgb ( 1.00 1.00 1.00 ) -21 -67  70 )
-	{	mov ( 3207.07 1623.89 -673.932 ) eye deg( 45 ) }
+	light pal( rgb ( 1.00 1.00 1.00 )  -8 -70 -70 )
+	{	mov ( 3253.25 2565.47 -92.3546 ) eye deg( 45 ) }
 	{	mov ( 20 0 -164.86 ) target }
 	{	mov ( 0 0 0 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
 		scal ( 0.944844 0.9 1 ) obj rohead08 /* "rohead\rohead08.suf" atr "blue" */
@@ -129,10 +129,10 @@ fram
 	{	mov ( -120 -164.211 83.1628 ) rotz ( -3 ) roty ( -45 ) rotx ( 12 )
 		scal ( 0.705529 0.48552 0.562459 ) obj roetc04 /* "roetc\roetc04.suf" atr "blue" */
 	}
-	{	mov ( -380 200 -180 ) rotz ( -54 ) roty ( 0 ) rotx ( 0 )
+	{	mov ( -380 200 -180 ) rotz ( -54 ) roty ( 18 ) rotx ( 0 )
 		scal ( 1 1 1 ) obj "ウィングドーザ羽" /* "ウィングドーザ羽.SUF" atr "red" */
 	}
-	{	mov ( -360 -160 -180 ) rotz ( 54 ) roty ( 0 ) rotx ( 0 )
+	{	mov ( -360 -160 -180 ) rotz ( 54 ) roty ( 18 ) rotx ( 0 )
 		scal ( 1 -1 1 ) obj "ウィングドーザ羽" /* "ウィングドーザ羽.SUF" atr "red" */
 	}
 }
