@@ -32,7 +32,7 @@ fram
 	{	mov ( -241.267 2797.12 137.922 ) eye deg( 45 ) }
 	{	mov ( -432.534 61.8137 276.825 ) target }
 	{	mov ( -430 0 9 ) rotz ( 180 ) roty ( 0 ) rotx ( 90 )
-		scal ( 1.3 0.8 0.48 ) obj P305 /* "P3\P305.suf" atr "hounetu-ban" */
+		scal ( 1.3 0.8 0.48 ) obj P305 /* "P3\P305.suf" atr "red" */
 	}
 	{	mov ( -20 0 0 ) rotz ( 180 ) roty ( 0 ) rotx ( 0 )
 		scal ( 1 1 1 ) obj nozzle04 /* "nozzle\nozzle04.suf" atr "blue" */
@@ -59,7 +59,7 @@ fram
 		scal ( 0.5 -0.7 0.5 ) obj nozzle04 /* "nozzle\nozzle04.suf" atr "#01" */
 	}
 	{	mov ( -283.127 0 350.286 ) rotz ( 180 ) roty ( -48 ) rotx ( 90 )
-		scal ( 1.3 0.8 0.48 ) obj P305 /* "P3\P305.suf" atr "hounetu-ban" */
+		scal ( 1.3 0.8 0.48 ) obj P305 /* "P3\P305.suf" atr "red" */
 	}
 	{	mov ( -269.741 40 321.97 ) rotz ( 0 ) roty ( 48 ) rotx ( -90 )
 		scal ( 0.2 0.2 0.5 ) obj S211 /* "S2\S211.suf" atr "blue" */
@@ -83,7 +83,7 @@ fram
 		scal ( 0.5 -0.7 0.5 ) obj nozzle04 /* "nozzle\nozzle04.suf" atr "#01" */
 	}
 	{	mov ( -283.127 0 -350.286 ) rotz ( 180 ) roty ( 48 ) rotx ( -90 )
-		scal ( 1.3 0.8 -0.48 ) obj P305 /* "P3\P305.suf" atr "hounetu-ban" */
+		scal ( 1.3 0.8 -0.48 ) obj P305 /* "P3\P305.suf" atr "red" */
 	}
 	{	mov ( -269.741 40 -321.97 ) rotz ( 0 ) roty ( -48 ) rotx ( 90 )
 		scal ( 0.2 0.2 -0.5 ) obj S211 /* "S2\S211.suf" atr "blue" */

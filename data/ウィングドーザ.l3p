@@ -4,25 +4,32 @@ Parts:
 	EG\EG16.suf
 	P1\P105.suf
 	P1\P114.suf
+	P2\P211.suf
 	P4\P405.suf
 	RB\RB03.suf
+	RB\RB07.suf
+	RB\RB09.suf
 	S1\S101.suf
 	S1\S102.suf
 	S1\S106.suf
+	S2\S205.suf
 	T1\T101.suf
 	T1\T105.suf
 	armor\armor04.suf
 	nozzle\nozzle02.suf
 	nozzle\nozzle15.suf
 	nozzle\nozzle16.suf
+	roarm\roarm01.suf
+	roarm\roarm05.suf
 	robody\robody08.suf
 	robody\robody12.suf
 	roetc\roetc04.suf
+	rohand\rohand06.suf
 	rohead\rohead08.suf
 	ウィングドーザ羽.SUF
 Light: (   32   32  -89 ) ( 1.00 1.00 1.00)
 Info:
-	DisplayOffset: (  87.500  -0.227  19.269 )
+	DisplayOffset: (  12.000 -41.808  19.269 )
 	DisplayScale: 0.062500000000
 	MeshFlag: 1
 	MeshSpacing: 200
@@ -42,8 +49,8 @@ Palette:
 */
 fram
 {
-	light pal( rgb ( 1.00 1.00 1.00 )  -8 -70 -70 )
-	{	mov ( 3253.25 2565.47 -92.3546 ) eye deg( 45 ) }
+	light pal( rgb ( 1.00 1.00 1.00 ) -10 -69  70 )
+	{	mov ( 1832.94 1338.28 -930.332 ) eye deg( 45 ) }
 	{	mov ( 20 0 -164.86 ) target }
 	{	mov ( 0 0 0 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
 		scal ( 0.944844 0.9 1 ) obj rohead08 /* "rohead\rohead08.suf" atr "blue" */
@@ -129,10 +136,40 @@ fram
 	{	mov ( -120 -164.211 83.1628 ) rotz ( -3 ) roty ( -45 ) rotx ( 12 )
 		scal ( 0.705529 0.48552 0.562459 ) obj roetc04 /* "roetc\roetc04.suf" atr "blue" */
 	}
-	{	mov ( -380 200 -180 ) rotz ( -54 ) roty ( 18 ) rotx ( 0 )
+	{	mov ( -360 240 -180 ) rotz ( -54 ) roty ( 0 ) rotx ( 0 )
 		scal ( 1 1 1 ) obj "ウィングドーザ羽" /* "ウィングドーザ羽.SUF" atr "red" */
 	}
-	{	mov ( -360 -160 -180 ) rotz ( 54 ) roty ( 18 ) rotx ( 0 )
+	{	mov ( 0 480 -100 ) rotz ( 180 ) roty ( 0 ) rotx ( 0 )
+		scal ( 0.6 0.6 0.2 ) obj roarm01 /* "roarm\roarm01.suf" atr "blue" */
+	}
+	{	mov ( 0 520 -280 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
+		scal ( 0.9 1 0.5 ) obj rb09 /* "RB\RB09.suf" atr "blue" */
+	}
+	{	mov ( 0 480 -40 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
+		scal ( 1.05 1.05 1.05 ) obj P211 /* "P2\P211.suf" atr "blue" */
+	}
+	{	mov ( 0 520 -520 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
+		scal ( 0.849127 1 0.68254 ) obj rohand06 /* "rohand\rohand06.suf" atr "blue" */
+	}
+	{	mov ( -20 72.5649 -581.278 ) rotz ( 89.3348 ) roty ( -35.103 ) rotx ( -178.003 )
+		scal ( 0.2 0.3 0.451658 ) obj robody12 /* "robody\robody12.suf" atr "#01" */
+	}
+	{	mov ( -1.25661 207.364 -688.725 ) rotz ( 179.591 ) roty ( 0 ) rotx ( 0 )
+		scal ( 0.745567 1 0.427513 ) obj roarm01 /* "roarm\roarm01.suf" atr "blue" */
+	}
+	{	mov ( -360 -240 -180 ) rotz ( 54 ) roty ( 0 ) rotx ( 0 )
 		scal ( 1 -1 1 ) obj "ウィングドーザ羽" /* "ウィングドーザ羽.SUF" atr "red" */
+	}
+	{	mov ( 0 206.7 -685.277 ) rotz ( 90 ) roty ( 45 ) rotx ( 0 )
+		scal ( 0.3 0.3 0.3 ) obj S205 /* "S2\S205.suf" atr "blue" */
+	}
+	{	mov ( 0 360 20 ) rotz ( -90 ) roty ( 90 ) rotx ( 0 )
+		scal ( 1 1.3 0.5 ) obj roarm05 /* "roarm\roarm05.suf" atr "blue" */
+	}
+	{	mov ( 0 680 -60 ) rotz ( 180 ) roty ( 0 ) rotx ( 102 )
+		scal ( 0.2 0.3 1 ) obj EG16 /* "EG\EG16.suf" atr "red" */
+	}
+	{	mov ( 0 600 -400 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
+		scal ( 0.3 0.3 0.8 ) obj rb07 /* "RB\RB07.suf" atr "red" */
 	}
 }
