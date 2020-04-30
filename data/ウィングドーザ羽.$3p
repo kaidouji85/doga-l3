@@ -1,0 +1,49 @@
+/*							Parts Assembler
+                                  Version 2.04.100723(:
+Parts: 
+	P3\P305.suf
+	nozzle\nozzle04.suf
+Light: (   32   32  -89 ) ( 1.00 1.00 1.00)
+Info:
+	DisplayOffset: ( 250.000   0.000  77.075 )
+	DisplayScale: 0.250000000000
+	MeshFlag: 1
+	MeshSpacing: 200
+	ShowStatus: 1
+	ShowAttr: 1
+	GridFlag: 1
+	GridSpacing: 20
+	RotSpacing: 3
+	SelectedOnly: 0
+	DispRelative: 0
+Palette:
+	0: atr "#01" { col ( rgb ( 0.400 0.400 0.450 ) ) amb ( 0.200 ) dif ( 0.800 ) ref ( 0.300 ) spc ( 0.900 1.000 0.650 ) }
+	1: atr blue { col ( rgb ( 0.300 0.200 0.950 ) ) amb ( 0.200 ) dif ( 0.800 ) ref ( 0.300 ) spc ( 0.900 1.000 0.650 ) }
+	2: atr "hounetu-ban" { col ( rgb ( 1.000 0.700 0.150 ) ) amb ( 1.000 ) dif ( 0.000 ) opt ( emittion 0.050 4.000 ) }
+	3: atr light { col ( rgb ( 0.900 0.100 0.150 ) ) amb ( 1.000 ) dif ( 0.000 ) opt ( emittion 0.050 4.000 ) }
+	4: atr red { col ( rgb ( 0.900 0.100 0.150 ) ) amb ( 0.200 ) dif ( 0.800 ) ref ( 0.300 ) spc ( 0.900 1.000 0.650 ) }
+*/
+fram
+{
+	light pal( rgb ( 1.00 1.00 1.00 )  34 -61  70 )
+	{	mov ( 822.26 2892.87 -377.716 ) eye deg( 45 ) }
+	{	mov ( 20 0 -164.86 ) target }
+	{	mov ( 0 0 0 ) rotz ( 180 ) roty ( 0 ) rotx ( 0 )
+		scal ( 2.2 0.5 0.4 ) obj P305 /* "P3\P305.suf" atr "hounetu-ban" */
+	}
+	{	mov ( 0 0 0 ) rotz ( 180 ) roty ( -45 ) rotx ( 0 )
+		scal ( 2.5 0.5 0.4 ) obj P305 /* "P3\P305.suf" atr "hounetu-ban" */
+	}
+	{	mov ( 0 0 0 ) rotz ( 180 ) roty ( 45 ) rotx ( 0 )
+		scal ( 2.2 0.5 -0.4 ) obj P305 /* "P3\P305.suf" atr "hounetu-ban" */
+	}
+	{	mov ( 0 0 0 ) rotz ( 180 ) roty ( -22.5 ) rotx ( 0 )
+		scal ( 2.2 0.5 0.4 ) obj P305 /* "P3\P305.suf" atr "hounetu-ban" */
+	}
+	{	mov ( 0 0 0 ) rotz ( 180 ) roty ( 22.5 ) rotx ( 0 )
+		scal ( 2.2 0.5 0.4 ) obj P305 /* "P3\P305.suf" atr "hounetu-ban" */
+	}
+	{	mov ( -20 0 0 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
+		scal ( 1 1 1 ) obj nozzle04 /* "nozzle\nozzle04.suf" atr "blue" */
+	}
+}

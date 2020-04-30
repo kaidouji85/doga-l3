@@ -13,16 +13,16 @@ Parts:
 	T1\T105.suf
 	armor\armor04.suf
 	nozzle\nozzle02.suf
-	nozzle\nozzle04.suf
 	nozzle\nozzle15.suf
 	nozzle\nozzle16.suf
 	robody\robody08.suf
 	robody\robody12.suf
 	roetc\roetc04.suf
 	rohead\rohead08.suf
+	ウィングドーザ羽.SUF
 Light: (   32   32  -89 ) ( 1.00 1.00 1.00)
 Info:
-	DisplayOffset: ( 262.337  -0.908  77.075 )
+	DisplayOffset: ( 350.000  -0.908  77.075 )
 	DisplayScale: 0.250000000000
 	MeshFlag: 1
 	MeshSpacing: 200
@@ -42,8 +42,8 @@ Palette:
 */
 fram
 {
-	light pal( rgb ( 1.00 1.00 1.00 )  -8 -70  70 )
-	{	mov ( 2636.42 2081.19 -197.285 ) eye deg( 45 ) }
+	light pal( rgb ( 1.00 1.00 1.00 ) -13 -69 -70 )
+	{	mov ( 2999.18 2009.49 209.307 ) eye deg( 45 ) }
 	{	mov ( 20 0 -164.86 ) target }
 	{	mov ( 0 0 0 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
 		scal ( 0.944844 0.9 1 ) obj rohead08 /* "rohead\rohead08.suf" atr "blue" */
@@ -129,22 +129,10 @@ fram
 	{	mov ( -120 -164.211 83.1628 ) rotz ( -3 ) roty ( -45 ) rotx ( 12 )
 		scal ( 0.705529 0.48552 0.562459 ) obj roetc04 /* "roetc\roetc04.suf" atr "blue" */
 	}
-	{	mov ( -508.535 641.629 192.65 ) rotz ( 114 ) roty ( -36 ) rotx ( 0 )
-		scal ( 0.8 0.304535 1.5122 ) obj S102 /* "S1\S102.suf" atr "blue" */
+	{	mov ( -400 200 -180 ) rotz ( -54 ) roty ( 0 ) rotx ( 0 )
+		scal ( 1 1 1 ) obj "ウィングドーザ羽" /* "ウィングドーザ羽.SUF" atr "red" */
 	}
-	{	mov ( -396.589 390.193 -42 ) rotz ( -66 ) roty ( -48 ) rotx ( 180 )
-		scal ( 1.2 1 1.6 ) obj nozzle04 /* "nozzle\nozzle04.suf" atr "blue" */
-	}
-	{	mov ( -521.238 669.668 -30.7626 ) rotz ( 114 ) roty ( -15 ) rotx ( 0 )
-		scal ( 0.64 0.243628 1.20976 ) obj S102 /* "S1\S102.suf" atr "red" */
-	}
-	{	mov ( -410.267 420.423 -127.107 ) rotz ( -66 ) roty ( -69 ) rotx ( 180 )
-		scal ( 0.96 0.8 1.28 ) obj nozzle04 /* "nozzle\nozzle04.suf" atr "red" */
-	}
-	{	mov ( -516.541 658.724 -328.896 ) rotz ( 114 ) roty ( 27 ) rotx ( 0 )
-		scal ( 0.512 0.194902 0.967805 ) obj S102 /* "S1\S102.suf" atr "red" */
-	}
-	{	mov ( -429.59 463.429 -240.126 ) rotz ( 114 ) roty ( -69 ) rotx ( 0 )
-		scal ( 0.768 0.64 1.024 ) obj nozzle04 /* "nozzle\nozzle04.suf" atr "red" */
+	{	mov ( -360 -160 -180 ) rotz ( 54 ) roty ( 0 ) rotx ( 0 )
+		scal ( 1 -1 1 ) obj "ウィングドーザ羽" /* "ウィングドーザ羽.SUF" atr "red" */
 	}
 }
