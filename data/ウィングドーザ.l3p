@@ -7,6 +7,7 @@ Parts:
 	P2\P211.suf
 	P4\P405.suf
 	RB\RB03.suf
+	RB\RB07.suf
 	RB\RB09.suf
 	S1\S101.suf
 	S1\S102.suf
@@ -30,13 +31,13 @@ Parts:
 	ウィングドーザ羽.SUF
 Light: (   32   32  -89 ) ( 1.00 1.00 1.00)
 Info:
-	DisplayOffset: (   0.000 -59.126  27.251 )
-	DisplayScale: 0.088388347649
+	DisplayOffset: ( -1575.000 -155.920  77.077 )
+	DisplayScale: 0.250000000002
 	MeshFlag: 1
 	MeshSpacing: 200
 	ShowStatus: 1
 	ShowAttr: 1
-	GridFlag: 1
+	GridFlag: 0
 	GridSpacing: 20
 	RotSpacing: 3
 	SelectedOnly: 0
@@ -51,7 +52,7 @@ Palette:
 fram
 {
 	light pal( rgb ( 1.00 1.00 1.00 ) -28 -64  70 )
-	{	mov ( 2105.67 833.462 -500.497 ) eye deg( 45 ) }
+	{	mov ( 2760.43 1093.5 -445.397 ) eye deg( 45 ) }
 	{	mov ( -15.5708 -9.00354 -164.86 ) target }
 	{	mov ( 0 0 0 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
 		scal ( 0.944844 0.9 1 ) obj rohead08 /* "rohead\rohead08.suf" atr "#01" */
@@ -173,13 +174,16 @@ fram
 	{	mov ( 0 520 -340 ) rotz ( -90 ) roty ( 0 ) rotx ( 0 )
 		scal ( 1 1 0.4 ) obj roarm06 /* "roarm\roarm06.suf" atr "blue" */
 	}
-	{	mov ( 48.6863 560 -460 ) rotz ( 90 ) roty ( -81 ) rotx ( 180 )
-		scal ( 0.5 0.270033 1 ) obj nozzle03 /* "nozzle\nozzle03.suf" atr "blue" */
+	{	mov ( 47.3137 623.052 -409.684 ) rotz ( -93 ) roty ( -72 ) rotx ( 0 )
+		scal ( 0.33 0.270033 0.7 ) obj nozzle03 /* "nozzle\nozzle03.suf" atr "blue" */
 	}
-	{	mov ( -48.6863 560 -460 ) rotz ( -90 ) roty ( 81 ) rotx ( 180 )
-		scal ( -0.5 0.270033 1 ) obj nozzle03 /* "nozzle\nozzle03.suf" atr "blue" */
+	{	mov ( 47.3137 644 -420 ) rotz ( 180 ) roty ( 0 ) rotx ( -90 )
+		scal ( 0.174643 0.5 0.3 ) obj rb07 /* "RB\RB07.suf" atr "red" */
 	}
-	{	mov ( 60 509.641 -493.781 ) rotz ( 180 ) roty ( -90 ) rotx ( 0 )
-		scal ( 0.358628 0.309637 0.7 ) obj nozzle03 /* "nozzle\nozzle03.suf" atr "blue" */
+	{	mov ( -47.3137 623.052 -409.684 ) rotz ( 93 ) roty ( 72 ) rotx ( 0 )
+		scal ( -0.33 0.270033 0.7 ) obj nozzle03 /* "nozzle\nozzle03.suf" atr "blue" */
+	}
+	{	mov ( -47.3137 644 -420 ) rotz ( -180 ) roty ( 0 ) rotx ( -90 )
+		scal ( -0.174643 0.5 0.3 ) obj rb07 /* "RB\RB07.suf" atr "red" */
 	}
 }

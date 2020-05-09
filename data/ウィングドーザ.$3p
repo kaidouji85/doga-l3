@@ -7,6 +7,7 @@ Parts:
 	P2\P211.suf
 	P4\P405.suf
 	RB\RB03.suf
+	RB\RB07.suf
 	RB\RB09.suf
 	S1\S101.suf
 	S1\S102.suf
@@ -15,7 +16,6 @@ Parts:
 	T1\T101.suf
 	T1\T105.suf
 	armor\armor04.suf
-	fang\fang07.suf
 	nozzle\nozzle02.suf
 	nozzle\nozzle03.suf
 	nozzle\nozzle15.suf
@@ -31,7 +31,7 @@ Parts:
 	ウィングドーザ羽.SUF
 Light: (   32   32  -89 ) ( 1.00 1.00 1.00)
 Info:
-	DisplayOffset: ( -155.500 -59.126  27.251 )
+	DisplayOffset: (   0.000 -55.126  27.251 )
 	DisplayScale: 0.088388347649
 	MeshFlag: 1
 	MeshSpacing: 200
@@ -51,8 +51,8 @@ Palette:
 */
 fram
 {
-	light pal( rgb ( 1.00 1.00 1.00 ) -49 -50 -70 )
-	{	mov ( 3672.38 1.35216 -156.21 ) eye deg( 45 ) }
+	light pal( rgb ( 1.00 1.00 1.00 )  26 -65  70 )
+	{	mov ( 538.944 1276.15 -1397.35 ) eye deg( 45 ) }
 	{	mov ( -15.5708 -9.00354 -164.86 ) target }
 	{	mov ( 0 0 0 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
 		scal ( 0.944844 0.9 1 ) obj rohead08 /* "rohead\rohead08.suf" atr "#01" */
@@ -174,19 +174,19 @@ fram
 	{	mov ( 0 520 -340 ) rotz ( -90 ) roty ( 0 ) rotx ( 0 )
 		scal ( 1 1 0.4 ) obj roarm06 /* "roarm\roarm06.suf" atr "blue" */
 	}
-	{	mov ( 48.6863 560 -460 ) rotz ( 90 ) roty ( -81 ) rotx ( 180 )
-		scal ( 0.5 0.270033 1 ) obj nozzle03 /* "nozzle\nozzle03.suf" atr "blue" */
-	}
-	{	mov ( -48.6863 560 -460 ) rotz ( -90 ) roty ( 81 ) rotx ( 180 )
-		scal ( -0.5 0.270033 1 ) obj nozzle03 /* "nozzle\nozzle03.suf" atr "blue" */
+	{	mov ( 47.3137 623.052 -409.684 ) rotz ( -93 ) roty ( -72 ) rotx ( 0 )
+		scal ( 0.33 0.270033 0.7 ) obj nozzle03 /* "nozzle\nozzle03.suf" atr "blue" */
 	}
 	{	mov ( 60 509.641 -493.781 ) rotz ( 180 ) roty ( -90 ) rotx ( 0 )
 		scal ( 0.358628 0.309637 0.7 ) obj nozzle03 /* "nozzle\nozzle03.suf" atr "blue" */
 	}
-	{	mov ( 48.6863 613.38 -293.067 ) rotz ( 90 ) roty ( 51.8695 ) rotx ( 0 )
-		scal ( 0.200917 0.861382 0.417251 ) obj fang07 /* "fang\fang07.suf" atr "red" */
+	{	mov ( 47.3137 660 -420 ) rotz ( 180 ) roty ( 0 ) rotx ( -90 )
+		scal ( 0.174643 0.5 0.3 ) obj rb07 /* "RB\RB07.suf" atr "red" */
 	}
-	{	mov ( -48.6863 613.38 -293.067 ) rotz ( -90 ) roty ( -51.8695 ) rotx ( 0 )
-		scal ( -0.200917 0.861382 0.417251 ) obj fang07 /* "fang\fang07.suf" atr "red" */
+	{	mov ( -47.3137 623.052 -409.684 ) rotz ( 93 ) roty ( 72 ) rotx ( 0 )
+		scal ( -0.33 0.270033 0.7 ) obj nozzle03 /* "nozzle\nozzle03.suf" atr "blue" */
+	}
+	{	mov ( -47.3137 660 -420 ) rotz ( -180 ) roty ( 0 ) rotx ( -90 )
+		scal ( -0.174643 0.5 0.3 ) obj rb07 /* "RB\RB07.suf" atr "red" */
 	}
 }
