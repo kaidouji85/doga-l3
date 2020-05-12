@@ -2,7 +2,7 @@
                                   Version 2.04.100723(:
 Parts: 
 	EG\EG07.suf
-	EG\EG12.suf
+	EG\EG14.suf
 	EG\EG16.suf
 	P1\P114.suf
 	P2\P211.suf
@@ -10,6 +10,7 @@ Parts:
 	RB\RB03.suf
 	RB\RB07.suf
 	RB\RB09.suf
+	RB\RB16.suf
 	S1\S101.suf
 	S1\S102.suf
 	S1\S106.suf
@@ -22,6 +23,7 @@ Parts:
 	nozzle\nozzle15.suf
 	nozzle\nozzle16.suf
 	roarm\roarm01.suf
+	roarm\roarm04.suf
 	roarm\roarm05.suf
 	roarm\roarm06.suf
 	robody\robody08.suf
@@ -32,13 +34,13 @@ Parts:
 	ウィングドーザ羽.SUF
 Light: (   32   32  -89 ) ( 1.00 1.00 1.00)
 Info:
-	DisplayOffset: ( 182.000 -84.500  59.375 )
-	DisplayScale: 0.125000000001
+	DisplayOffset: ( -10.000 -67.000 230.000 )
+	DisplayScale: 0.250000000002
 	MeshFlag: 1
 	MeshSpacing: 200
 	ShowStatus: 1
 	ShowAttr: 1
-	GridFlag: 0
+	GridFlag: 1
 	GridSpacing: 20
 	RotSpacing: 3
 	SelectedOnly: 0
@@ -52,11 +54,11 @@ Palette:
 */
 fram
 {
-	light pal( rgb ( 1.00 1.00 1.00 ) -56 -42  70 )
-	{	mov ( 1674.9 -222.112 -183.749 ) eye deg( 45 ) }
-	{	mov ( 0 0 0 ) target }
+	light pal( rgb ( 1.00 1.00 1.00 )  -7 -70  70 )
+	{	mov ( 2876.34 2275.12 -811.481 ) eye deg( 45 ) }
+	{	mov ( -13.5275 -60.5448 -655.745 ) target }
 	{	mov ( 0 0 0 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
-		scal ( 0.944844 0.9 1 ) obj rohead08 /* "rohead\rohead08.suf" atr "#01" */
+		scal ( 0.944844 0.9 1 ) obj rohead08 /* "rohead\rohead08.suf" atr "blue" */
 	}
 	{	mov ( 0 0 -240 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
 		scal ( 1 0.7 1 ) obj robody08 /* "robody\robody08.suf" atr "#01" */
@@ -65,25 +67,25 @@ fram
 		scal ( 0.5 0.5 0.437476 ) obj rb03 /* "RB\RB03.suf" atr "blue" */
 	}
 	{	mov ( -20 0 200 ) rotz ( 90 ) roty ( 0 ) rotx ( -68.7342 )
-		scal ( 0.5 0.5 0.5 ) obj armor04 /* "armor\armor04.suf" atr "#01" */
+		scal ( 0.5 0.5 0.5 ) obj armor04 /* "armor\armor04.suf" atr "blue" */
 	}
 	{	mov ( 0 0 280 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
-		scal ( 0.8 0.560384 0.7 ) obj P114 /* "P1\P114.suf" atr "#01" */
+		scal ( 0.8 0.560384 0.7 ) obj P114 /* "P1\P114.suf" atr "blue" */
 	}
 	{	mov ( 40 0 -660 ) rotz ( -180 ) roty ( -90 ) rotx ( 0 )
-		scal ( 1 0.8 0.9 ) obj nozzle16 /* "nozzle\nozzle16.suf" atr "blue" */
+		scal ( 1 0.8 0.9 ) obj nozzle16 /* "nozzle\nozzle16.suf" atr "#01" */
 	}
 	{	mov ( 180 0 200 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
-		scal ( 0.161905 0.399944 1 ) obj S106 /* "S1\S106.suf" atr "#01" */
+		scal ( 0.161905 0.399944 1 ) obj S106 /* "S1\S106.suf" atr "blue" */
 	}
 	{	mov ( -120 164.211 83.1628 ) rotz ( 3 ) roty ( -45 ) rotx ( -12 )
 		scal ( 0.705529 -0.48552 0.562459 ) obj roetc04 /* "roetc\roetc04.suf" atr "blue" */
 	}
-	{	mov ( 120 0 80 ) rotz ( -90 ) roty ( 0 ) rotx ( 0 )
-		scal ( 0.3 0.4 0.388824 ) obj P405 /* "P4\P405.suf" atr "#01" */
+	{	mov ( 121.146 0 109.675 ) rotz ( -90 ) roty ( 0 ) rotx ( -18 )
+		scal ( 0.339185 0.450341 0.388824 ) obj P405 /* "P4\P405.suf" atr "#01" */
 	}
-	{	mov ( 120 0 80 ) rotz ( 90 ) roty ( 0 ) rotx ( 180 )
-		scal ( 0.3 0.4 0.5 ) obj P405 /* "P4\P405.suf" atr "#01" */
+	{	mov ( 122.169 0 109.773 ) rotz ( 90 ) roty ( 0 ) rotx ( -162 )
+		scal ( 0.343798 0.450341 0.5 ) obj P405 /* "P4\P405.suf" atr "#01" */
 	}
 	{	mov ( 140 0 -260 ) rotz ( 180 ) roty ( 84 ) rotx ( 180 )
 		scal ( 0.4 0.7 0.8 ) obj T105 /* "T1\T105.suf" atr "red" */
@@ -94,8 +96,8 @@ fram
 	{	mov ( -20 280 -140 ) rotz ( -87 ) roty ( -57 ) rotx ( -3 )
 		scal ( 0.2 0.3 0.4 ) obj robody12 /* "robody\robody12.suf" atr "#01" */
 	}
-	{	mov ( 38.1399 0 396.842 ) rotz ( -179.781 ) roty ( -45.5771 ) rotx ( 0 )
-		scal ( 0.289655 0.226815 0.74773 ) obj S102 /* "S1\S102.suf" atr "#01" */
+	{	mov ( 60 0 400 ) rotz ( -179.781 ) roty ( -45.5771 ) rotx ( 0 )
+		scal ( 0.289655 0.226815 0.74773 ) obj S102 /* "S1\S102.suf" atr "red" */
 	}
 	{	mov ( 0 105.761 300 ) rotz ( 162 ) roty ( -36 ) rotx ( 78 )
 		scal ( 0.205417 0.226141 0.793809 ) obj S101 /* "S1\S101.suf" atr "red" */
@@ -164,18 +166,39 @@ fram
 		scal ( -0.174643 0.5 0.3 ) obj rb07 /* "RB\RB07.suf" atr "red" */
 	}
 	{	mov ( 0 -140 -180 ) rotz ( 0 ) roty ( 21 ) rotx ( 90 )
-		scal ( 0.8 1 2 ) obj nozzle10 /* "nozzle\nozzle10.suf" atr "#01" */
-	}
-	{	mov ( 168.963 194.758 -186.216 ) rotz ( 18 ) roty ( 84.7944 ) rotx ( 0 )
-		scal ( 0.2 -0.2 0.3 ) obj EG12 /* "EG\EG12.suf" atr "red" */
+		scal ( 0.8 1 2 ) obj nozzle10 /* "nozzle\nozzle10.suf" atr "blue" */
 	}
 	{	mov ( 0 140 -180 ) rotz ( 0 ) roty ( 21 ) rotx ( -90 )
-		scal ( 0.8 -1 2 ) obj nozzle10 /* "nozzle\nozzle10.suf" atr "#01" */
+		scal ( 0.8 -1 2 ) obj nozzle10 /* "nozzle\nozzle10.suf" atr "blue" */
 	}
-	{	mov ( 119.295 197.68 -290.54 ) rotz ( -162 ) roty ( 40.5498 ) rotx ( 173.613 )
-		scal ( 0.2 -0.2 0.3 ) obj EG12 /* "EG\EG12.suf" atr "red" */
-	}
-	{	mov ( 195.722 -192.575 -186.502 ) rotz ( 172.74 ) roty ( 0 ) rotx ( 0 )
+	{	mov ( 173.294 -193.619 -180.72 ) rotz ( 164.782 ) roty ( 12.6825 ) rotx ( 0 )
 		scal ( 0.3 0.3 0.322891 ) obj EG07 /* "EG\EG07.suf" atr "red" */
+	}
+	{	mov ( 127.885 -189.417 -290.489 ) rotz ( 164.782 ) roty ( -48.043 ) rotx ( 0 )
+		scal ( 0.3 0.3 0.322891 ) obj EG07 /* "EG\EG07.suf" atr "red" */
+	}
+	{	mov ( 173.294 193.619 -180.72 ) rotz ( -164.782 ) roty ( 12.6825 ) rotx ( 0 )
+		scal ( 0.3 -0.3 0.322891 ) obj EG07 /* "EG\EG07.suf" atr "red" */
+	}
+	{	mov ( 127.885 189.417 -290.489 ) rotz ( -164.782 ) roty ( -48.043 ) rotx ( 0 )
+		scal ( 0.3 -0.3 0.322891 ) obj EG07 /* "EG\EG07.suf" atr "red" */
+	}
+	{	mov ( -20 -280 -140 ) rotz ( 87 ) roty ( -57 ) rotx ( 3 )
+		scal ( 0.2 -0.3 0.4 ) obj robody12 /* "robody\robody12.suf" atr "#01" */
+	}
+	{	mov ( 0 220 -960 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
+		scal ( 1 1 1 ) obj roarm04 /* "roarm\roarm04.suf" atr "blue" */
+	}
+	{	mov ( -20 240 -1040 ) rotz ( -180 ) roty ( -90 ) rotx ( 90 )
+		scal ( 0.7 1.6 2.8 ) obj nozzle10 /* "nozzle\nozzle10.suf" atr "blue" */
+	}
+	{	mov ( -40 220 -1440 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
+		scal ( 0.8 1 0.8 ) obj rb16 /* "RB\RB16.suf" atr "#01" */
+	}
+	{	mov ( -180 220 -1120 ) rotz ( 0 ) roty ( -81 ) rotx ( 0 )
+		scal ( 0.5 0.4 1 ) obj EG14 /* "EG\EG14.suf" atr "red" */
+	}
+	{	mov ( -20 200 -1040 ) rotz ( 90 ) roty ( -90 ) rotx ( 0 )
+		scal ( 0.7 1.6 2.1 ) obj nozzle10 /* "nozzle\nozzle10.suf" atr "blue" */
 	}
 }
