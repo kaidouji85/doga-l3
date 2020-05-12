@@ -12,7 +12,7 @@ Info:
 	MeshSpacing: 200
 	ShowStatus: 1
 	ShowAttr: 1
-	GridFlag: 1
+	GridFlag: 0
 	GridSpacing: 20
 	RotSpacing: 3
 	SelectedOnly: 0
@@ -26,8 +26,8 @@ Palette:
 */
 fram
 {
-	light pal( rgb ( 1.00 1.00 1.00 )  36 -60  70 )
-	{	mov ( 288.093 968.479 -116.358 ) eye deg( 45 ) }
+	light pal( rgb ( 1.00 1.00 1.00 ) -47 -52 -70 )
+	{	mov ( 1135.17 76.0716 59.095 ) eye deg( 45 ) }
 	{	mov ( 50.7259 20.2646 19.2767 ) target }
 	{	mov ( 0 0 200 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
 		scal ( 1 1 1 ) obj roarm04 /* "roarm\roarm04.suf" atr "blue" */
@@ -38,7 +38,7 @@ fram
 	{	mov ( -21 0 120 ) rotz ( 90 ) roty ( -90 ) rotx ( 0 )
 		scal ( 0.7 1.6 2.3 ) obj nozzle10 /* "nozzle\nozzle10.suf" atr "blue" */
 	}
-	{	mov ( 140 0 220 ) rotz ( 0 ) roty ( -69 ) rotx ( 180 )
-		scal ( 0.6 0.3 0.4 ) obj rb03 /* "RB\RB03.suf" atr "red" */
+	{	mov ( 167.516 0 197.58 ) rotz ( 0 ) roty ( -67.4471 ) rotx ( 180 )
+		scal ( 0.757946 0.395376 0.4 ) obj rb03 /* "RB\RB03.suf" atr "red" */
 	}
 }
