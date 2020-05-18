@@ -1,0 +1,63 @@
+/*							Parts Assembler
+                                  Version 2.04.100723(:
+Parts: 
+	P1\P114.suf
+	T1\T101.suf
+	T1\T107.suf
+	armor\armor04.suf
+	roetc\roetc04.suf
+	rohead\rohead08.suf
+Light: (   32   32  -89 ) ( 1.00 1.00 1.00)
+Info:
+	DisplayOffset: ( -20.000 -85.076 -172.269 )
+	DisplayScale: 1.000000000018
+	MeshFlag: 1
+	MeshSpacing: 200
+	ShowStatus: 1
+	ShowAttr: 1
+	GridFlag: 0
+	GridSpacing: 20
+	RotSpacing: 3
+	SelectedOnly: 0
+	DispRelative: 0
+Palette:
+	0: atr black { col ( rgb ( 0.400 0.400 0.450 ) ) amb ( 0.200 ) dif ( 0.800 ) spc ( 0.700 1.000 0.000 ) }
+	1: atr blue { col ( rgb ( 0.300 0.200 0.950 ) ) amb ( 0.200 ) dif ( 0.800 ) ref ( 0.300 ) spc ( 0.900 1.000 0.650 ) }
+	2: atr "hounetu-ban" { col ( rgb ( 1.000 0.700 0.150 ) ) amb ( 1.000 ) dif ( 0.000 ) opt ( emittion 0.050 4.000 ) }
+	3: atr light { col ( rgb ( 0.900 0.100 0.150 ) ) amb ( 1.000 ) dif ( 0.000 ) opt ( emittion 0.050 4.000 ) }
+	4: atr red { col ( rgb ( 0.900 0.100 0.150 ) ) amb ( 0.200 ) dif ( 0.800 ) ref ( 0.300 ) spc ( 0.900 1.000 0.650 ) }
+	5: atr white { col ( rgb ( 0.850 0.850 0.800 ) ) amb ( 0.200 ) dif ( 0.800 ) ref ( 0.300 ) spc ( 0.900 1.000 0.650 ) }
+*/
+fram
+{
+	light pal( rgb ( 1.00 1.00 1.00 )   8 -70  70 )
+	{	mov ( 930.703 1179.37 21.1842 ) eye deg( 45 ) }
+	{	mov ( 4.38635 -4.15893 61.952 ) target }
+	{	mov ( -38 0 0 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
+		scal ( 0.9 0.9 1 ) obj rohead08 /* "rohead\rohead08.suf" atr "white" */
+	}
+	{	mov ( -58 0 200 ) rotz ( 90 ) roty ( 0 ) rotx ( -68.7342 )
+		scal ( 0.5 0.5 0.5 ) obj armor04 /* "armor\armor04.suf" atr "white" */
+	}
+	{	mov ( -38 0 280 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
+		scal ( 0.8 0.560384 0.7 ) obj P114 /* "P1\P114.suf" atr "white" */
+	}
+	{	mov ( -162 132.211 83.1628 ) rotz ( 19.3874 ) roty ( -41.3083 ) rotx ( -22.6751 )
+		scal ( 0.705529 -0.555082 0.562459 ) obj roetc04 /* "roetc\roetc04.suf" atr "white" */
+	}
+	{	mov ( 24.8979 85.0757 172.269 ) rotz ( -25.8937 ) roty ( 11.6028 ) rotx ( -95.2309 )
+		scal ( 0.160728 0.29434 0.536317 ) obj T101 /* "T1\T101.suf" atr "light" */
+	}
+	{	mov ( 24.8979 -85.0757 172.269 ) rotz ( 25.8937 ) roty ( 11.6028 ) rotx ( 95.2309 )
+		scal ( 0.160728 -0.29434 0.536317 ) obj T101 /* "T1\T101.suf" atr "light" */
+	}
+	{	mov ( 10.2516 0 173.037 ) rotz ( 0 ) roty ( -17.3178 ) rotx ( -180 )
+		scal ( 0.538169 0.56608 0.650863 ) obj T107 /* "T1\T107.suf" atr "white" */
+	}
+	{	mov ( -162 -132.211 83.1628 ) rotz ( -19.3874 ) roty ( -41.3083 ) rotx ( 22.6751 )
+		scal ( 0.705529 0.555082 0.562459 ) obj roetc04 /* "roetc\roetc04.suf" atr "white" */
+	}
+	{	mov ( 6.71052 -0.499567 334.429 ) rotz ( 0 ) roty ( -38.9717 ) rotx ( 0 )
+		scal ( 0.639567 0.678674 0.792505 ) obj roetc04 /* "roetc\roetc04.suf" atr "blue" */
+	}
+}
