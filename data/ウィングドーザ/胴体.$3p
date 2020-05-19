@@ -41,7 +41,7 @@ fram
 		scal ( 0.5 0.5 0.437476 ) obj rb03 /* "RB\RB03.suf" atr "blue" */
 	}
 	{	mov ( 146 20 194 ) rotz ( 180 ) roty ( 84 ) rotx ( 180 )
-		scal ( 0.4 0.7 0.8 ) obj T105 /* "T1\T105.suf" atr "white" */
+		scal ( 0.4 0.7 0.8 ) obj T105 /* "T1\T105.suf" atr "red" */
 	}
 	{	mov ( -14 300 314 ) rotz ( -87 ) roty ( -57 ) rotx ( -3 )
 		scal ( 0.2 0.3 0.4 ) obj robody12 /* "robody\robody12.suf" atr "black" */

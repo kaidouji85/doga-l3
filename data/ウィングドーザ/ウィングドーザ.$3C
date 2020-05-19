@@ -1,0 +1,141 @@
+/*							Parts Assembler
+                                  Version 2.04.100723(:
+Parts: 
+	EG\EG07.suf
+	EG\EG16.suf
+	F1\F116.suf
+	P1\P114.suf
+	P2\P211.suf
+	P3\P305.suf
+	RB\RB03.suf
+	RB\RB07.suf
+	RB\RB09.suf
+	S2\S211.suf
+	SD\SD01.suf
+	T1\T101.suf
+	T1\T105.suf
+	TK\TK05.suf
+	W2\W207.suf
+	armor\armor04.suf
+	armor\armor14.suf
+	nozzle\nozzle03.suf
+	nozzle\nozzle04.suf
+	nozzle\nozzle10.suf
+	nozzle\nozzle15.suf
+	nozzle\nozzle16.suf
+	roarm\roarm01.suf
+	roarm\roarm03.suf
+	roarm\roarm04.suf
+	roarm\roarm05.suf
+	roarm\roarm06.suf
+	robody\robody08.suf
+	robody\robody12.suf
+	roetc\roetc04.suf
+	rohand\rohand06.suf
+	rohead\rohead08.suf
+Pose:
+0: "仮立ち" ( labelled 19 ( unlabelled move ( 0 0 0 ) rot ( 0 20 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( 0 -30 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( 0 20 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( 25 0 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( 0 0 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( 0 0 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( 0 0 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( 0 0 -65 ) ) ( unlabelled move ( 0 0 0 ) rot ( 14.4277 -24.2682 16.429 ) ) ( unlabelled move ( 0 0 0 ) rot ( 0 0 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( -15.0703 4.69776 -1.71394 ) ) ( unlabelled move ( 0 0 0 ) rot ( -20 0 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( 0 0 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( 0 0 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( 0 0 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( -19.4277 -24.2682 -16.429 ) ) ( unlabelled move ( 0 0 0 ) rot ( 0 0 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( 25.0838 4.53051 2.11751 ) ) ( unlabelled move ( 0 0 0 ) rot ( 0 0 50 ) ) )
+Light: (   32   32  -89 ) ( 1.00 1.00 1.00)
+Info:
+	DisplayOffset: (  -0.000  25.000  25.625 )
+	DisplayScale: 0.125000000000
+	MeshFlag: 1
+	MeshSpacing: 200
+	ShowStatus: 1
+	ShowAttr: 1
+	GridFlag: 1
+	GridSpacing: 5
+	RotSpacing: 5
+	SelectedOnly: 0
+	DispRelative: 0
+:)*/
+fram
+{
+	light pal( rgb ( 1.00 1.00 1.00 ) -50 -49  70 )
+	{	mov ( 4503.51 -68.3802 -2.84911 ) eye deg( 45 ) }
+	{	mov ( 0 0 0 ) target }
+  { mov ( 0 0 0 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
+    /* Unit */
+    { obj "腰" (: "腰.l3p" :) }
+    { mov ( 0 0 0 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
+      /* Unit Moveable */
+      { obj "胴体" (: "胴体.l3p" :) }
+      { mov ( 0 0 450 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
+        /* Unit Moveable */
+        { obj "顔" (: "顔.l3p" :) }
+      }
+      { mov ( 0 455 375 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
+        /* Unit Moveable */
+        { obj "腕1" (: "腕1.l3p" :) }
+        { mov ( 0 5 -200 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
+          /* Unit Moveable */
+          { obj "腕2" (: "腕2.l3p" :) }
+          { mov ( 0 -5 -255 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
+            /* Unit Moveable */
+            { obj "手" (: "手.l3p" :) }
+          }
+        }
+        { mov ( 0 -35 -10 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
+          /* Unit Moveable */
+          { obj "肩アーマー" (: "肩アーマー.l3p" :) }
+        }
+      }
+      { mov ( -310 210 280 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
+        /* Unit Moveable */
+        { obj "ウィングドーザ羽" (: "ウィングドーザ羽.l3p" :) }
+      }
+      { mov ( 0 -455 375 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
+        /* Unit Moveable */
+        { scal ( 1 -1 1 )
+          obj "腕1" (: "腕1.l3p" :) }
+        { mov ( 0 -5 -200 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
+          /* Unit Moveable */
+          { scal ( 1 -1 1 )
+            obj "腕2" (: "腕2.l3p" :) }
+          { mov ( 0 5 -255 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
+            /* Unit Moveable */
+            { scal ( 1 -1 1 )
+              obj "手" (: "手.l3p" :) }
+          }
+        }
+        { mov ( 0 35 -10 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
+          /* Unit Moveable */
+          { scal ( 1 -1 1 )
+            obj "肩アーマー" (: "肩アーマー.l3p" :) }
+        }
+      }
+      { mov ( -310 -210 280 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
+        /* Unit Moveable */
+        { scal ( 1 -1 1 )
+          obj "ウィングドーザ羽" (: "ウィングドーザ羽.l3p" :) }
+      }
+    }
+    { mov ( 0 200 -205 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
+      /* Unit Moveable */
+      { obj "腿" (: "腿.l3p" :) }
+      { mov ( 0 -5 -525 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
+        /* Unit Moveable */
+        { obj "足" (: "足.l3p" :) }
+        { mov ( 0 5 -225 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
+          /* Unit Moveable */
+          { obj "つま先" (: "つま先.l3p" :) }
+        }
+      }
+    }
+    { mov ( 0 -200 -205 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
+      /* Unit Moveable */
+      { scal ( 1 -1 1 )
+        obj "腿" (: "腿.l3p" :) }
+      { mov ( 0 5 -525 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
+        /* Unit Moveable */
+        { scal ( 1 -1 1 )
+          obj "足" (: "足.l3p" :) }
+        { mov ( 0 -5 -225 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
+          /* Unit Moveable */
+          { scal ( 1 -1 1 )
+            obj "つま先" (: "つま先.l3p" :) }
+        }
+      }
+    }
+  }
+}
