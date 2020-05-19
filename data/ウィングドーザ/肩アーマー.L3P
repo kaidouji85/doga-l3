@@ -1,0 +1,38 @@
+/*							Parts Assembler
+                                  Version 2.04.100723(:
+Parts: 
+	EG\EG16.suf
+	roarm\roarm05.suf
+Light: (   32   32  -89 ) ( 1.00 1.00 1.00)
+Info:
+	DisplayOffset: (   0.000 -113.138  98.000 )
+	DisplayScale: 0.353553390600
+	MeshFlag: 1
+	MeshSpacing: 200
+	ShowStatus: 1
+	ShowAttr: 1
+	GridFlag: 1
+	GridSpacing: 20
+	RotSpacing: 5
+	SelectedOnly: 0
+	DispRelative: 0
+Palette:
+	0: atr black { col ( rgb ( 0.400 0.400 0.450 ) ) amb ( 0.200 ) dif ( 0.800 ) spc ( 0.700 1.000 0.000 ) }
+	1: atr blue { col ( rgb ( 0.300 0.200 0.950 ) ) amb ( 0.200 ) dif ( 0.800 ) ref ( 0.300 ) spc ( 0.900 1.000 0.650 ) }
+	2: atr "hounetu-ban" { col ( rgb ( 1.000 0.700 0.150 ) ) amb ( 1.000 ) dif ( 0.000 ) opt ( emittion 0.050 4.000 ) }
+	3: atr light { col ( rgb ( 0.900 0.100 0.150 ) ) amb ( 1.000 ) dif ( 0.000 ) opt ( emittion 0.050 4.000 ) }
+	4: atr red { col ( rgb ( 0.900 0.100 0.150 ) ) amb ( 0.200 ) dif ( 0.800 ) ref ( 0.300 ) spc ( 0.900 1.000 0.650 ) }
+	5: atr white { col ( rgb ( 0.850 0.850 0.800 ) ) amb ( 0.200 ) dif ( 0.800 ) ref ( 0.300 ) spc ( 0.900 1.000 0.650 ) }
+*/
+fram
+{
+	light pal( rgb ( 1.00 1.00 1.00 ) -50 -49  70 )
+	{	mov ( 1257.38 72.1015 -184.916 ) eye deg( 45 ) }
+	{	mov ( 4.67306 93.969 56.3551 ) target }
+	{	mov ( 0 -90 71 ) rotz ( -90 ) roty ( 90 ) rotx ( 0 )
+		scal ( 1 1.3 0.5 ) obj roarm05 /* "roarm\roarm05.suf" atr "blue" */
+	}
+	{	mov ( 0 230 -9 ) rotz ( 180 ) roty ( 0 ) rotx ( 102 )
+		scal ( 0.2 0.3 1 ) obj EG16 /* "EG\EG16.suf" atr "red" */
+	}
+}

@@ -1,0 +1,49 @@
+/*							Parts Assembler
+                                  Version 2.04.100723(:
+Parts: 
+	TK\TK05.suf
+	armor\armor14.suf
+	nozzle\nozzle04.suf
+	roarm\roarm03.suf
+Light: (   32   32  -89 ) ( 1.00 1.00 1.00)
+Info:
+	DisplayOffset: (  -6.875 -40.000  56.000 )
+	DisplayScale: 0.125000000002
+	MeshFlag: 1
+	MeshSpacing: 200
+	ShowStatus: 1
+	ShowAttr: 1
+	GridFlag: 1
+	GridSpacing: 20
+	RotSpacing: 5
+	SelectedOnly: 0
+	DispRelative: 0
+Palette:
+	0: atr black { col ( rgb ( 0.400 0.400 0.450 ) ) amb ( 0.200 ) dif ( 0.800 ) spc ( 0.700 1.000 0.000 ) }
+	1: atr blue { col ( rgb ( 0.300 0.200 0.950 ) ) amb ( 0.200 ) dif ( 0.800 ) ref ( 0.300 ) spc ( 0.900 1.000 0.650 ) }
+	2: atr "hounetu-ban" { col ( rgb ( 1.000 0.700 0.150 ) ) amb ( 1.000 ) dif ( 0.000 ) opt ( emittion 0.050 4.000 ) }
+	3: atr light { col ( rgb ( 0.900 0.100 0.150 ) ) amb ( 1.000 ) dif ( 0.000 ) opt ( emittion 0.050 4.000 ) }
+	4: atr red { col ( rgb ( 0.900 0.100 0.150 ) ) amb ( 0.200 ) dif ( 0.800 ) ref ( 0.300 ) spc ( 0.900 1.000 0.650 ) }
+	5: atr white { col ( rgb ( 0.850 0.850 0.800 ) ) amb ( 0.200 ) dif ( 0.800 ) ref ( 0.300 ) spc ( 0.900 1.000 0.650 ) }
+*/
+fram
+{
+	light pal( rgb ( 1.00 1.00 1.00 )  49 -50 -70 )
+	{	mov ( 135.357 884.862 118.706 ) eye deg( 45 ) }
+	{	mov ( 119.438 -27.0974 -215.075 ) target }
+	{	mov ( 55 0 -45 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
+		scal ( 0.3 0.5 0.3 ) obj TK05 /* "TK\TK05.suf" atr "white" */
+	}
+	{	mov ( -130 0 -85 ) rotz ( 180 ) roty ( -40 ) rotx ( 180 )
+		scal ( 1.1 1.3 0.6 ) obj roarm03 /* "roarm\roarm03.suf" atr "white" */
+	}
+	{	mov ( -85 0 -238 ) rotz ( 180 ) roty ( 0 ) rotx ( 0 )
+		scal ( 0.7 1 2.2 ) obj armor14 /* "armor\armor14.suf" atr "blue" */
+	}
+	{	mov ( 215 0 -228 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
+		scal ( 1 1 1.3 ) obj armor14 /* "armor\armor14.suf" atr "blue" */
+	}
+	{	mov ( 215 0 -128 ) rotz ( 180 ) roty ( -90 ) rotx ( 0 )
+		scal ( 1.2 1.6 1.5 ) obj nozzle04 /* "nozzle\nozzle04.suf" atr "white" */
+	}
+}
