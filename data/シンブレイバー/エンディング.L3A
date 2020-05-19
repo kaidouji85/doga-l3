@@ -19,7 +19,7 @@ Info:
 Motion: 0
 	Mechanic: CAMERA
 	Bezier:
-		( 2145.87 1997.93 969.063 )
+		( 1925 1799.79 1070 )
 	Angle:
 		  1 45
 	CameraRotation:
@@ -28,7 +28,7 @@ Motion: 0
 	Mechanic: TARGET
 	Frame: 1 108
 	Bezier:
-		( -67.8382 11.6897 820.194 )
+		( -70 11.6897 775 )
 	Position:
 Motion: 0
 	Mechanic: "シンブレイバー.l3c"
