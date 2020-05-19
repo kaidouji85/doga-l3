@@ -1,20 +1,23 @@
 /*							Parts Assembler
                                   Version 2.04.100723(:
 Parts: 
+	F1\F116.suf
 	P1\P114.suf
+	SD\SD01.suf
 	T1\T101.suf
+	W2\W207.suf
 	armor\armor04.suf
 	roetc\roetc04.suf
 	rohead\rohead08.suf
 Light: (   32   32  -89 ) ( 1.00 1.00 1.00)
 Info:
-	DisplayOffset: ( -20.000 -85.076 -172.269 )
-	DisplayScale: 1.000000000018
+	DisplayOffset: (   3.536 -72.079 -60.906 )
+	DisplayScale: 0.353553390600
 	MeshFlag: 1
 	MeshSpacing: 200
 	ShowStatus: 1
 	ShowAttr: 1
-	GridFlag: 0
+	GridFlag: 1
 	GridSpacing: 20
 	RotSpacing: 3
 	SelectedOnly: 0
@@ -29,20 +32,20 @@ Palette:
 */
 fram
 {
-	light pal( rgb ( 1.00 1.00 1.00 )   7 -70  70 )
-	{	mov ( 606.079 750.939 61.0455 ) eye deg( 45 ) }
+	light pal( rgb ( 1.00 1.00 1.00 )  48 -51 -70 )
+	{	mov ( 44.5849 1119.26 128.738 ) eye deg( 45 ) }
 	{	mov ( 4.38635 -4.15893 61.952 ) target }
 	{	mov ( -38 0 0 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
-		scal ( 0.9 0.9 1 ) obj rohead08 /* "rohead\rohead08.suf" atr "white" */
+		scal ( 0.9 0.9 1 ) obj rohead08 /* "rohead\rohead08.suf" atr "blue" */
 	}
 	{	mov ( -58 0 200 ) rotz ( 90 ) roty ( 0 ) rotx ( -68.7342 )
 		scal ( 0.5 0.5 0.5 ) obj armor04 /* "armor\armor04.suf" atr "blue" */
 	}
 	{	mov ( -38 0 280 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
-		scal ( 0.8 0.560384 0.7 ) obj P114 /* "P1\P114.suf" atr "white" */
+		scal ( 0.8 0.560384 0.7 ) obj P114 /* "P1\P114.suf" atr "blue" */
 	}
-	{	mov ( -162 132.211 83.1628 ) rotz ( 19.3874 ) roty ( -41.3083 ) rotx ( -22.6751 )
-		scal ( 0.705529 -0.555082 0.562459 ) obj roetc04 /* "roetc\roetc04.suf" atr "blue" */
+	{	mov ( 24.8979 85.0757 172.269 ) rotz ( -25.8937 ) roty ( 11.6028 ) rotx ( -95.2309 )
+		scal ( 0.160728 0.29434 0.536317 ) obj T101 /* "T1\T101.suf" atr "light" */
 	}
 	{	mov ( 24.8979 -85.0757 172.269 ) rotz ( 25.8937 ) roty ( 11.6028 ) rotx ( 95.2309 )
 		scal ( 0.160728 -0.29434 0.536317 ) obj T101 /* "T1\T101.suf" atr "light" */
@@ -50,10 +53,19 @@ fram
 	{	mov ( -162 -132.211 83.1628 ) rotz ( -19.3874 ) roty ( -41.3083 ) rotx ( 22.6751 )
 		scal ( 0.705529 0.555082 0.562459 ) obj roetc04 /* "roetc\roetc04.suf" atr "blue" */
 	}
-	{	mov ( 6.71052 -0.499567 334.429 ) rotz ( 0 ) roty ( -38.9717 ) rotx ( 0 )
-		scal ( 0.639567 0.678674 0.792505 ) obj roetc04 /* "roetc\roetc04.suf" atr "blue" */
+	{	mov ( 23.8505 0.223186 267.697 ) rotz ( 0 ) roty ( -82.9122 ) rotx ( 0 )
+		scal ( 1.15216 4.57794 0.358309 ) obj W207 /* "W2\W207.suf" atr "blue" */
 	}
-	{	mov ( 24.8979 85.0757 172.269 ) rotz ( -25.8937 ) roty ( 11.6028 ) rotx ( -95.2309 )
-		scal ( 0.160728 0.29434 0.536317 ) obj T101 /* "T1\T101.suf" atr "light" */
+	{	mov ( -162 132.211 83.1628 ) rotz ( 19.3874 ) roty ( -41.3083 ) rotx ( -22.6751 )
+		scal ( 0.705529 -0.555082 0.562459 ) obj roetc04 /* "roetc\roetc04.suf" atr "blue" */
+	}
+	{	mov ( 130.33 0 85.6261 ) rotz ( 0 ) roty ( -66 ) rotx ( -180 )
+		scal ( 0.318962 0.230769 0.56227 ) obj F116 /* "F1\F116.suf" atr "white" */
+	}
+	{	mov ( -17.3026 -101.219 307.542 ) rotz ( -2.77783 ) roty ( 16.1709 ) rotx ( 146.13 )
+		scal ( 0.122081 -0.221172 0.460055 ) obj SD01 /* "SD\SD01.suf" atr "white" */
+	}
+	{	mov ( -17.3026 101.219 307.542 ) rotz ( 2.77783 ) roty ( 16.1709 ) rotx ( -146.13 )
+		scal ( 0.122081 0.221172 0.460055 ) obj SD01 /* "SD\SD01.suf" atr "white" */
 	}
 }
