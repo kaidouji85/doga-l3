@@ -51,8 +51,8 @@ Info:
 :)*/
 fram
 {
-	light pal( rgb ( 1.00 1.00 1.00 )  -1 -70 -70 )
-	{	mov ( 2968.79 2931.14 324.941 ) eye deg( 45 ) }
+	light pal( rgb ( 1.00 1.00 1.00 )  -6 -70 -70 )
+	{	mov ( 3192.34 2730.47 -123.191 ) eye deg( 45 ) }
 	{	mov ( -120 0 -228.101 ) target }
   { mov ( 0 0 0 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
     /* Unit */
