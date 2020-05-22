@@ -29,13 +29,13 @@ fram
 	light pal( rgb ( 1.00 1.00 1.00 ) -51 -48 -70 )
 	{	mov ( 663.125 -20.7175 -107.828 ) eye deg( 45 ) }
 	{	mov ( 14.1504 -3.72282 -108.961 ) target }
-	{	mov ( 40 0 -220 ) rotz ( -180 ) roty ( -90 ) rotx ( 0 )
-		scal ( 1 0.8 0.9 ) obj nozzle16 /* "nozzle\nozzle16.suf" atr "blue" */
+	{	mov ( 42.5 0 -230 ) rotz ( -180 ) roty ( -90 ) rotx ( 0 )
+		scal ( 1.1 0.88 0.99 ) obj nozzle16 /* "nozzle\nozzle16.suf" atr "blue" */
 	}
-	{	mov ( -20 72.5649 -141.278 ) rotz ( 90 ) roty ( -50 ) rotx ( -180 )
-		scal ( 0.2 0.3 0.451658 ) obj robody12 /* "robody\robody12.suf" atr "black" */
+	{	mov ( -23.5 79.8214 -143.406 ) rotz ( 90 ) roty ( -50 ) rotx ( -180 )
+		scal ( 0.22 0.33 0.496824 ) obj robody12 /* "robody\robody12.suf" atr "black" */
 	}
-	{	mov ( -20 -72.5649 -141.278 ) rotz ( -90 ) roty ( -50 ) rotx ( 180 )
-		scal ( 0.2 -0.3 0.451658 ) obj robody12 /* "robody\robody12.suf" atr "black" */
+	{	mov ( -23.5 -79.8214 -143.406 ) rotz ( -90 ) roty ( -50 ) rotx ( 180 )
+		scal ( 0.22 -0.33 0.496824 ) obj robody12 /* "robody\robody12.suf" atr "black" */
 	}
 }

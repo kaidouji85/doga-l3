@@ -1,0 +1,55 @@
+/*							Parts Assembler
+                                  Version 2.04.100723(:
+Parts: 
+	P1\P114.suf
+	S1\S101.suf
+	S2\S211.suf
+	nozzle\nozzle04.suf
+Light: (   32   32  -89 ) ( 1.00 1.00 1.00)
+Info:
+	DisplayOffset: (  86.974  10.001  -0.000 )
+	DisplayScale: 0.249999999999
+	MeshFlag: 1
+	MeshSpacing: 200
+	ShowStatus: 1
+	ShowAttr: 1
+	GridFlag: 1
+	GridSpacing: 20
+	RotSpacing: 3
+	SelectedOnly: 0
+	DispRelative: 0
+Palette:
+	0: atr black { col ( rgb ( 0.400 0.400 0.450 ) ) amb ( 0.200 ) dif ( 0.800 ) spc ( 0.700 1.000 0.000 ) }
+	1: atr blue { col ( rgb ( 0.300 0.200 0.950 ) ) amb ( 0.200 ) dif ( 0.800 ) ref ( 0.300 ) spc ( 0.900 1.000 0.650 ) }
+	2: atr "hounetu-ban" { col ( rgb ( 1.000 0.700 0.150 ) ) amb ( 1.000 ) dif ( 0.000 ) opt ( emittion 0.050 4.000 ) }
+	3: atr light { col ( rgb ( 0.900 0.100 0.150 ) ) amb ( 1.000 ) dif ( 0.000 ) opt ( emittion 0.050 4.000 ) }
+	4: atr red { col ( rgb ( 0.900 0.100 0.150 ) ) amb ( 0.200 ) dif ( 0.800 ) ref ( 0.300 ) spc ( 0.900 1.000 0.650 ) }
+	5: atr white { col ( rgb ( 0.850 0.850 0.800 ) ) amb ( 0.200 ) dif ( 0.800 ) ref ( 0.300 ) spc ( 0.900 1.000 0.650 ) }
+*/
+fram
+{
+	light pal( rgb ( 1.00 1.00 1.00 ) -58  39  70 )
+	{	mov ( 780.587 -4656.02 -226.889 ) eye deg( 45 ) }
+	{	mov ( -100 0 -20 ) target }
+	{	mov ( -281.8 -42 0.35 ) rotz ( 180 ) roty ( 0 ) rotx ( -90 )
+		scal ( 0.3724 -0.3724 0.539 ) obj S211 /* "S2\S211.suf" atr "blue" */
+	}
+	{	mov ( -281.8 -70 0.35 ) rotz ( -90 ) roty ( 90 ) rotx ( 0 )
+		scal ( 0.2793 -0.2793 0.2793 ) obj P114 /* "P1\P114.suf" atr "red" */
+	}
+	{	mov ( -80 -40 0 ) rotz ( -90 ) roty ( 0 ) rotx ( 90 )
+		scal ( 0.5 -1 0.6 ) obj nozzle04 /* "nozzle\nozzle04.suf" atr "blue" */
+	}
+	{	mov ( -281.8 42 0.35 ) rotz ( 180 ) roty ( 0 ) rotx ( 90 )
+		scal ( 0.3724 0.3724 0.539 ) obj S211 /* "S2\S211.suf" atr "blue" */
+	}
+	{	mov ( -281.8 70 0.35 ) rotz ( 90 ) roty ( 90 ) rotx ( 0 )
+		scal ( 0.2793 0.2793 0.2793 ) obj P114 /* "P1\P114.suf" atr "red" */
+	}
+	{	mov ( -80 40 0 ) rotz ( 90 ) roty ( 0 ) rotx ( -90 )
+		scal ( 0.5 1 0.6 ) obj nozzle04 /* "nozzle\nozzle04.suf" atr "blue" */
+	}
+	{	mov ( -680 0 -440 ) rotz ( -180 ) roty ( 45 ) rotx ( -90 )
+		scal ( 0.6 0.5 0.6 ) obj S101 /* "S1\S101.suf" atr "white" */
+	}
+}

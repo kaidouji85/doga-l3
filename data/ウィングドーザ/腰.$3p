@@ -5,8 +5,8 @@ Parts:
 	robody\robody12.suf
 Light: (   32   32  -89 ) ( 1.00 1.00 1.00)
 Info:
-	DisplayOffset: (  -9.723 -56.569 268.701 )
-	DisplayScale: 0.176776695300
+	DisplayOffset: ( -19.446 -113.138 159.099 )
+	DisplayScale: 0.353553390600
 	MeshFlag: 1
 	MeshSpacing: 200
 	ShowStatus: 1
@@ -26,16 +26,16 @@ Palette:
 */
 fram
 {
-	light pal( rgb ( 1.00 1.00 1.00 ) -51 -48  70 )
-	{	mov ( 885.364 -20.3473 -531.085 ) eye deg( 45 ) }
-	{	mov ( -3.92392 10.7083 -517.106 ) target }
-	{	mov ( 40 0 -660 ) rotz ( -180 ) roty ( -90 ) rotx ( 0 )
+	light pal( rgb ( 1.00 1.00 1.00 ) -51 -48 -70 )
+	{	mov ( 663.125 -20.7175 -107.828 ) eye deg( 45 ) }
+	{	mov ( 14.1504 -3.72282 -108.961 ) target }
+	{	mov ( 40 0 -220 ) rotz ( -180 ) roty ( -90 ) rotx ( 0 )
 		scal ( 1 0.8 0.9 ) obj nozzle16 /* "nozzle\nozzle16.suf" atr "blue" */
 	}
-	{	mov ( -20 72.5649 -581.278 ) rotz ( 90 ) roty ( -50 ) rotx ( -180 )
+	{	mov ( -20 72.5649 -141.278 ) rotz ( 90 ) roty ( -50 ) rotx ( -180 )
 		scal ( 0.2 0.3 0.451658 ) obj robody12 /* "robody\robody12.suf" atr "black" */
 	}
-	{	mov ( -20 -72.5649 -581.278 ) rotz ( -90 ) roty ( -50 ) rotx ( 180 )
+	{	mov ( -20 -72.5649 -141.278 ) rotz ( -90 ) roty ( -50 ) rotx ( 180 )
 		scal ( 0.2 -0.3 0.451658 ) obj robody12 /* "robody\robody12.suf" atr "black" */
 	}
 }

@@ -1,0 +1,33 @@
+/*							Parts Assembler
+                                  Version 2.04.100723(:
+Parts: 
+	SL\SL09.suf
+	roetc\roetc02.suf
+Light: (   32   32  -89 ) ( 1.00 1.00 1.00)
+Info:
+	DisplayOffset: (   0.000   0.000   0.000 )
+	DisplayScale: 0.125000000000
+	MeshFlag: 1
+	MeshSpacing: 200
+	ShowStatus: 1
+	ShowAttr: 1
+	GridFlag: 1
+	GridSpacing: 20
+	RotSpacing: 3
+	SelectedOnly: 0
+	DispRelative: 0
+Palette:
+	0: atr noname { col ( 1.000 ) amb ( 0.200 ) dif ( 0.800 ) spc ( 0.700 1.000 0.000 ) }
+*/
+fram
+{
+	light pal( rgb ( 1.00 1.00 1.00 )  55 -43 -70 )
+	{	mov ( -276.271 2208.59 173.758 ) eye deg( 45 ) }
+	{	mov ( 0 0 0 ) target }
+	{	mov ( -80 -1.8 -240 ) rotz ( -180 ) roty ( 0 ) rotx ( 0 )
+		scal ( 1.5 1.4 1.5 ) obj roetc02 /* "roetc\roetc02.suf" atr "noname" */
+	}
+	{	mov ( -180 0 140 ) rotz ( -180 ) roty ( -30 ) rotx ( -90 )
+		scal ( 0.6 0.6 0.2 ) obj sl09 /* "SL\SL09.suf" atr "noname" */
+	}
+}

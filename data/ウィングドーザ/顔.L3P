@@ -11,7 +11,7 @@ Parts:
 	rohead\rohead08.suf
 Light: (   32   32  -89 ) ( 1.00 1.00 1.00)
 Info:
-	DisplayOffset: (   0.000 -144.158 -121.812 )
+	DisplayOffset: (  12.235  71.573 -217.465 )
 	DisplayScale: 0.707106781200
 	MeshFlag: 1
 	MeshSpacing: 200
@@ -32,8 +32,8 @@ Palette:
 */
 fram
 {
-	light pal( rgb ( 1.00 1.00 1.00 ) -21 -67  70 )
-	{	mov ( 1433.56 738.259 -167.256 ) eye deg( 45 ) }
+	light pal( rgb ( 1.00 1.00 1.00 )   0 -70 -70 )
+	{	mov ( 945.22 918.805 198.151 ) eye deg( 45 ) }
 	{	mov ( 4.38635 -4.15893 61.952 ) target }
 	{	mov ( -38 0 0 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
 		scal ( 0.9 0.9 1 ) obj rohead08 /* "rohead\rohead08.suf" atr "blue" */
@@ -62,10 +62,10 @@ fram
 	{	mov ( 130.33 0 85.6261 ) rotz ( 0 ) roty ( -66 ) rotx ( -180 )
 		scal ( 0.318962 0.230769 0.56227 ) obj F116 /* "F1\F116.suf" atr "white" */
 	}
-	{	mov ( -17.3026 -101.219 307.542 ) rotz ( -2.77783 ) roty ( 16.1709 ) rotx ( 146.13 )
-		scal ( 0.122081 -0.221172 0.460055 ) obj SD01 /* "SD\SD01.suf" atr "white" */
-	}
 	{	mov ( -17.3026 101.219 307.542 ) rotz ( 2.77783 ) roty ( 16.1709 ) rotx ( -146.13 )
-		scal ( 0.122081 0.221172 0.460055 ) obj SD01 /* "SD\SD01.suf" atr "white" */
+		scal ( 0.162167 0.221172 0.609057 ) obj SD01 /* "SD\SD01.suf" atr "white" */
+	}
+	{	mov ( -17.3026 -101.219 307.542 ) rotz ( -2.77783 ) roty ( 16.1709 ) rotx ( 146.13 )
+		scal ( 0.162167 -0.221172 0.609057 ) obj SD01 /* "SD\SD01.suf" atr "white" */
 	}
 }

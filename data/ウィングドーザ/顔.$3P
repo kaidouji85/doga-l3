@@ -11,13 +11,13 @@ Parts:
 	rohead\rohead08.suf
 Light: (   32   32  -89 ) ( 1.00 1.00 1.00)
 Info:
-	DisplayOffset: (   3.536 -72.079 -60.906 )
-	DisplayScale: 0.353553390600
+	DisplayOffset: (   0.000 -144.158 -121.812 )
+	DisplayScale: 0.707106781200
 	MeshFlag: 1
 	MeshSpacing: 200
 	ShowStatus: 1
 	ShowAttr: 1
-	GridFlag: 1
+	GridFlag: 0
 	GridSpacing: 20
 	RotSpacing: 3
 	SelectedOnly: 0
@@ -32,8 +32,8 @@ Palette:
 */
 fram
 {
-	light pal( rgb ( 1.00 1.00 1.00 )  48 -51 -70 )
-	{	mov ( 44.5849 1119.26 128.738 ) eye deg( 45 ) }
+	light pal( rgb ( 1.00 1.00 1.00 ) -21 -67  70 )
+	{	mov ( 1433.56 738.259 -167.256 ) eye deg( 45 ) }
 	{	mov ( 4.38635 -4.15893 61.952 ) target }
 	{	mov ( -38 0 0 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
 		scal ( 0.9 0.9 1 ) obj rohead08 /* "rohead\rohead08.suf" atr "blue" */
