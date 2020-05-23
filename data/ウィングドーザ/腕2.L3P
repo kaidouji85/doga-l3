@@ -4,6 +4,7 @@ Parts:
 	RB\RB07.suf
 	RB\RB09.suf
 	nozzle\nozzle03.suf
+	nozzle\nozzle04.suf
 	roarm\roarm06.suf
 Light: (   32   32  -89 ) ( 1.00 1.00 1.00)
 Info:
@@ -28,8 +29,8 @@ Palette:
 */
 fram
 {
-	light pal( rgb ( 1.00 1.00 1.00 ) -55 -44  70 )
-	{	mov ( 843.905 -59.6995 -256.989 ) eye deg( 45 ) }
+	light pal( rgb ( 1.00 1.00 1.00 )  40 -58 -70 )
+	{	mov ( 172.151 848.011 -220.86 ) eye deg( 45 ) }
 	{	mov ( 21.2866 34.027 -241.091 ) target }
 	{	mov ( 6 -5 -17 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
 		scal ( 0.7 0.8 0.4 ) obj rb09 /* "RB\RB09.suf" atr "white" */
@@ -48,5 +49,8 @@ fram
 	}
 	{	mov ( -41.3137 119 -157 ) rotz ( -180 ) roty ( 0 ) rotx ( -90 )
 		scal ( -0.174643 0.5 0.3 ) obj rb07 /* "RB\RB07.suf" atr "red" */
+	}
+	{	mov ( 140 0 -260 ) rotz ( 0 ) roty ( -10 ) rotx ( 0 )
+		scal ( 0.6 0.7 0.8 ) obj nozzle04 /* "nozzle\nozzle04.suf" atr "blue" */
 	}
 }

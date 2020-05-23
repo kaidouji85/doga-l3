@@ -7,16 +7,17 @@ Parts:
 	nozzle\nozzle10.suf
 	nozzle\nozzle15.suf
 	robody\robody08.suf
+	robody\robody10.suf
 	robody\robody12.suf
 Light: (   32   32  -89 ) ( 1.00 1.00 1.00)
 Info:
-	DisplayOffset: ( -27.504 -160.004 -65.000 )
-	DisplayScale: 0.500000000009
+	DisplayOffset: ( -49.497 -80.002 -32.500 )
+	DisplayScale: 0.250000000005
 	MeshFlag: 1
 	MeshSpacing: 200
 	ShowStatus: 1
 	ShowAttr: 1
-	GridFlag: 0
+	GridFlag: 1
 	GridSpacing: 20
 	RotSpacing: 5
 	SelectedOnly: 0
@@ -31,46 +32,49 @@ Palette:
 */
 fram
 {
-	light pal( rgb ( 1.00 1.00 1.00 ) -49 -50 -70 )
-	{	mov ( 1400 0 200 ) eye deg( 45 ) }
+	light pal( rgb ( 1.00 1.00 1.00 ) -54 -45  70 )
+	{	mov ( 1394.73 -123.071 171.218 ) eye deg( 45 ) }
 	{	mov ( -12.1536 -4.14026 198.328 ) target }
-	{	mov ( 5.6864 0 131.443 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
-		scal ( 0.947733 0.852959 0.947733 ) obj robody08 /* "robody\robody08.suf" atr "white" */
+	{	mov ( 25.6864 0 131.443 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
+		scal ( 0.947733 0.8 1 ) obj robody08 /* "robody\robody08.suf" atr "white" */
 	}
-	{	mov ( 157.324 0 169.352 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
+	{	mov ( 177.324 0 169.352 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
 		scal ( 0.473866 0.473866 0.41461 ) obj rb03 /* "RB\RB03.suf" atr "blue" */
 	}
-	{	mov ( 138.369 0 188.307 ) rotz ( 180 ) roty ( 84 ) rotx ( 180 )
+	{	mov ( 158.369 0 188.307 ) rotz ( 180 ) roty ( 84 ) rotx ( 180 )
 		scal ( 0.379093 0.663413 0.758186 ) obj T105 /* "T1\T105.suf" atr "red" */
 	}
-	{	mov ( -13.2683 265.365 302.035 ) rotz ( -87 ) roty ( -57 ) rotx ( -3 )
+	{	mov ( 6.7317 265.365 302.035 ) rotz ( -87 ) roty ( -57 ) rotx ( -3 )
 		scal ( 0.189547 0.28432 0.379093 ) obj robody12 /* "robody\robody12.suf" atr "black" */
 	}
-	{	mov ( -213.657 83.5426 284.599 ) rotz ( -180 ) roty ( -35.6585 ) rotx ( -180 )
+	{	mov ( -193.657 83.5426 284.599 ) rotz ( -180 ) roty ( -35.6585 ) rotx ( -180 )
 		scal ( 0.518322 -0.679342 0.446845 ) obj nozzle15 /* "nozzle\nozzle15.suf" atr "white" */
 	}
-	{	mov ( -213.657 -83.5424 284.599 ) rotz ( 180 ) roty ( -35.6585 ) rotx ( 180 )
+	{	mov ( -193.657 -83.5424 284.599 ) rotz ( 180 ) roty ( -35.6585 ) rotx ( 180 )
 		scal ( 0.518322 0.679342 0.446845 ) obj nozzle15 /* "nozzle\nozzle15.suf" atr "white" */
 	}
-	{	mov ( 5.6864 -132.683 264.125 ) rotz ( 0 ) roty ( 21 ) rotx ( 90 )
+	{	mov ( 25.6864 -132.683 264.125 ) rotz ( 0 ) roty ( 21 ) rotx ( 90 )
 		scal ( 0.758186 0.947733 1.89547 ) obj nozzle10 /* "nozzle\nozzle10.suf" atr "blue" */
 	}
-	{	mov ( 5.6864 132.683 264.125 ) rotz ( 0 ) roty ( 21 ) rotx ( -90 )
+	{	mov ( 25.6864 132.683 264.125 ) rotz ( 0 ) roty ( 21 ) rotx ( -90 )
 		scal ( 0.758186 -0.947733 1.89547 ) obj nozzle10 /* "nozzle\nozzle10.suf" atr "blue" */
 	}
-	{	mov ( 169.923 -183.499 263.443 ) rotz ( 164.782 ) roty ( 12.6825 ) rotx ( 0 )
+	{	mov ( 189.923 -183.499 263.443 ) rotz ( 164.782 ) roty ( 12.6825 ) rotx ( 0 )
 		scal ( 0.28432 0.28432 0.306014 ) obj EG07 /* "EG\EG07.suf" atr "red" */
 	}
-	{	mov ( 126.887 -179.517 159.411 ) rotz ( 164.782 ) roty ( -48.043 ) rotx ( 0 )
+	{	mov ( 146.887 -179.517 159.411 ) rotz ( 164.782 ) roty ( -48.043 ) rotx ( 0 )
 		scal ( 0.28432 0.28432 0.306014 ) obj EG07 /* "EG\EG07.suf" atr "red" */
 	}
-	{	mov ( 169.923 183.499 263.443 ) rotz ( -164.782 ) roty ( 12.6825 ) rotx ( 0 )
+	{	mov ( 189.923 183.499 263.443 ) rotz ( -164.782 ) roty ( 12.6825 ) rotx ( 0 )
 		scal ( 0.28432 -0.28432 0.306014 ) obj EG07 /* "EG\EG07.suf" atr "red" */
 	}
-	{	mov ( 126.887 179.517 159.411 ) rotz ( -164.782 ) roty ( -48.043 ) rotx ( 0 )
+	{	mov ( 146.887 179.517 159.411 ) rotz ( -164.782 ) roty ( -48.043 ) rotx ( 0 )
 		scal ( 0.28432 -0.28432 0.306014 ) obj EG07 /* "EG\EG07.suf" atr "red" */
 	}
-	{	mov ( -13.2683 -265.365 302.035 ) rotz ( 87 ) roty ( -57 ) rotx ( 3 )
+	{	mov ( 6.7317 -265.365 302.035 ) rotz ( 87 ) roty ( -57 ) rotx ( 3 )
 		scal ( 0.189547 -0.28432 0.379093 ) obj robody12 /* "robody\robody12.suf" atr "black" */
+	}
+	{	mov ( -60 0 280 ) rotz ( 0 ) roty ( 0 ) rotx ( 179.699 )
+		scal ( 0.5 0.4 0.9 ) obj robody10 /* "robody\robody10.suf" atr "black" */
 	}
 }

@@ -5,7 +5,6 @@ Parts:
 	RB\RB09.suf
 	nozzle\nozzle03.suf
 	roarm\roarm06.suf
-	rohand\rohand06.suf
 Light: (   32   32  -89 ) ( 1.00 1.00 1.00)
 Info:
 	DisplayOffset: ( -38.892   7.000 472.000 )
@@ -34,9 +33,6 @@ fram
 	{	mov ( 21.2866 34.027 -241.091 ) target }
 	{	mov ( 6 -5 -17 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
 		scal ( 0.7 0.8 0.4 ) obj rb09 /* "RB\RB09.suf" atr "white" */
-	}
-	{	mov ( 6 -5 -257 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
-		scal ( 0.849127 1 0.8 ) obj rohand06 /* "rohand\rohand06.suf" atr "black" */
 	}
 	{	mov ( 6 -5 -77 ) rotz ( -90 ) roty ( 0 ) rotx ( 0 )
 		scal ( 1 1 0.4 ) obj roarm06 /* "roarm\roarm06.suf" atr "blue" */

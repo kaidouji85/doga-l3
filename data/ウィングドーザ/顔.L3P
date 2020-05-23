@@ -11,8 +11,8 @@ Parts:
 	rohead\rohead08.suf
 Light: (   32   32  -89 ) ( 1.00 1.00 1.00)
 Info:
-	DisplayOffset: (  12.235  71.573 -217.465 )
-	DisplayScale: 0.707106781200
+	DisplayOffset: (  38.000  35.787 -108.733 )
+	DisplayScale: 0.353553390600
 	MeshFlag: 1
 	MeshSpacing: 200
 	ShowStatus: 1
@@ -32,40 +32,40 @@ Palette:
 */
 fram
 {
-	light pal( rgb ( 1.00 1.00 1.00 )   0 -70 -70 )
-	{	mov ( 945.22 918.805 198.151 ) eye deg( 45 ) }
+	light pal( rgb ( 1.00 1.00 1.00 ) -16 -68 -70 )
+	{	mov ( 1087.82 658.487 148.533 ) eye deg( 45 ) }
 	{	mov ( 4.38635 -4.15893 61.952 ) target }
-	{	mov ( -38 0 0 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
-		scal ( 0.9 0.9 1 ) obj rohead08 /* "rohead\rohead08.suf" atr "blue" */
+	{	mov ( -36.5461 0 -16.9187 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
+		scal ( 1.01125 1.01125 1.12362 ) obj rohead08 /* "rohead\rohead08.suf" atr "blue" */
 	}
-	{	mov ( -58 0 200 ) rotz ( 90 ) roty ( 0 ) rotx ( -68.7342 )
-		scal ( 0.5 0.5 0.5 ) obj armor04 /* "armor\armor04.suf" atr "blue" */
+	{	mov ( -59.0184 0 207.805 ) rotz ( 90 ) roty ( 0 ) rotx ( -68.7342 )
+		scal ( 0.561808 0.561808 0.561808 ) obj armor04 /* "armor\armor04.suf" atr "blue" */
 	}
-	{	mov ( -38 0 280 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
-		scal ( 0.8 0.560384 0.7 ) obj P114 /* "P1\P114.suf" atr "blue" */
+	{	mov ( -36.5461 0 297.694 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
+		scal ( 0.898893 0.629657 0.786532 ) obj P114 /* "P1\P114.suf" atr "blue" */
 	}
-	{	mov ( 24.8979 85.0757 172.269 ) rotz ( -25.8937 ) roty ( 11.6028 ) rotx ( -95.2309 )
-		scal ( 0.160728 0.29434 0.536317 ) obj T101 /* "T1\T101.suf" atr "light" */
+	{	mov ( 34.127 95.5925 176.646 ) rotz ( -25.8937 ) roty ( 11.6028 ) rotx ( -95.2309 )
+		scal ( 0.180597 0.330725 0.602615 ) obj T101 /* "T1\T101.suf" atr "light" */
 	}
-	{	mov ( 24.8979 -85.0757 172.269 ) rotz ( 25.8937 ) roty ( 11.6028 ) rotx ( 95.2309 )
-		scal ( 0.160728 -0.29434 0.536317 ) obj T101 /* "T1\T101.suf" atr "light" */
+	{	mov ( 34.127 -95.5925 176.646 ) rotz ( 25.8937 ) roty ( 11.6028 ) rotx ( 95.2309 )
+		scal ( 0.180597 -0.330725 0.602615 ) obj T101 /* "T1\T101.suf" atr "light" */
 	}
-	{	mov ( -162 -132.211 83.1628 ) rotz ( -19.3874 ) roty ( -41.3083 ) rotx ( 22.6751 )
-		scal ( 0.705529 0.555082 0.562459 ) obj roetc04 /* "roetc\roetc04.suf" atr "blue" */
+	{	mov ( -175.875 -148.554 76.5244 ) rotz ( -19.3874 ) roty ( -41.3083 ) rotx ( 22.6751 )
+		scal ( 0.792744 0.623699 0.631988 ) obj roetc04 /* "roetc\roetc04.suf" atr "blue" */
 	}
-	{	mov ( 23.8505 0.223186 267.697 ) rotz ( 0 ) roty ( -82.9122 ) rotx ( 0 )
-		scal ( 1.15216 4.57794 0.358309 ) obj W207 /* "W2\W207.suf" atr "blue" */
+	{	mov ( 32.9501 0.250775 283.87 ) rotz ( 0 ) roty ( -82.9122 ) rotx ( 0 )
+		scal ( 1.29459 5.14385 0.402602 ) obj W207 /* "W2\W207.suf" atr "blue" */
 	}
-	{	mov ( -162 132.211 83.1628 ) rotz ( 19.3874 ) roty ( -41.3083 ) rotx ( -22.6751 )
-		scal ( 0.705529 -0.555082 0.562459 ) obj roetc04 /* "roetc\roetc04.suf" atr "blue" */
+	{	mov ( -175.875 148.554 76.5244 ) rotz ( 19.3874 ) roty ( -41.3083 ) rotx ( -22.6751 )
+		scal ( 0.792744 -0.623699 0.631988 ) obj roetc04 /* "roetc\roetc04.suf" atr "blue" */
 	}
-	{	mov ( 130.33 0 85.6261 ) rotz ( 0 ) roty ( -66 ) rotx ( -180 )
-		scal ( 0.318962 0.230769 0.56227 ) obj F116 /* "F1\F116.suf" atr "white" */
+	{	mov ( 152.592 0 79.2922 ) rotz ( 0 ) roty ( -66 ) rotx ( -180 )
+		scal ( 0.358391 0.259296 0.631776 ) obj F116 /* "F1\F116.suf" atr "white" */
 	}
-	{	mov ( -17.3026 101.219 307.542 ) rotz ( 2.77783 ) roty ( 16.1709 ) rotx ( -146.13 )
-		scal ( 0.162167 0.221172 0.609057 ) obj SD01 /* "SD\SD01.suf" atr "white" */
+	{	mov ( -13.2902 113.731 328.641 ) rotz ( 2.77783 ) roty ( 16.1709 ) rotx ( -146.13 )
+		scal ( 0.182214 0.248513 0.684347 ) obj SD01 /* "SD\SD01.suf" atr "white" */
 	}
-	{	mov ( -17.3026 -101.219 307.542 ) rotz ( -2.77783 ) roty ( 16.1709 ) rotx ( 146.13 )
-		scal ( 0.162167 -0.221172 0.609057 ) obj SD01 /* "SD\SD01.suf" atr "white" */
+	{	mov ( -13.2902 -113.731 328.641 ) rotz ( -2.77783 ) roty ( 16.1709 ) rotx ( 146.13 )
+		scal ( 0.182214 -0.248513 0.684347 ) obj SD01 /* "SD\SD01.suf" atr "white" */
 	}
 }
