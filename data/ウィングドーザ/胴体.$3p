@@ -35,7 +35,7 @@ fram
 	light pal( rgb ( 1.00 1.00 1.00 ) -54 -45  70 )
 	{	mov ( 1394.73 -123.071 171.218 ) eye deg( 45 ) }
 	{	mov ( -12.1536 -4.14026 198.328 ) target }
-	{	mov ( 25.6864 0 131.443 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
+	{	mov ( 25.6864 0 100 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
 		scal ( 0.947733 0.8 1 ) obj robody08 /* "robody\robody08.suf" atr "white" */
 	}
 	{	mov ( 177.324 0 169.352 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )

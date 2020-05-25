@@ -36,7 +36,7 @@ Parts:
 	rohand\rohand06.suf
 	rohead\rohead08.suf
 Pose:
-0: "仮立ち" ( labelled 19 ( unlabelled move ( 0 0 0 ) rot ( 0 15 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( 0 -30 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( 0 25 0 ) ) ( unlabelled move ( -0.000213215 0 0.000090552 ) rot ( 35.3738 19.0547 21.129 ) ) ( unlabelled move ( 0.0000590107 0.00015949 0.00041113 ) rot ( -10.6554 -37.3424 6.60073 ) ) ( unlabelled move ( 0 0 0 ) rot ( 0 0 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( 0 0 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( -11.5995 9.57658 -50.975 ) ) ( unlabelled move ( 0 0 0 ) rot ( -28.1353 34.742 -11.4537 ) ) ( unlabelled move ( 0 0 0 ) rot ( -0.377663 -42.603 0.96856 ) ) ( unlabelled move ( 0 0 0 ) rot ( 0 0 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( 0 0 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( 13.6497 6.27967 65.7523 ) ) ( unlabelled move ( 0 0 0 ) rot ( 33.4033 -54.3307 19.878 ) ) ( unlabelled move ( 0 0 0 ) rot ( 4.46088 43.9346 5.42005 ) ) ( unlabelled move ( -0.000128903 -0.000270999 -0.000175805 ) rot ( -25.2187 -3.23905 -15.4658 ) ) ( unlabelled move ( 0 0 0 ) rot ( -20.1728 -58.7585 -27.7943 ) ) ( unlabelled move ( 0 0 0 ) rot ( -0.434448 38.9597 -1.90935 ) ) ( unlabelled move ( -0.0000442652 0.0000596786 -0.000291002 ) rot ( 20.2836 9.39129 3.45118 ) ) )
+0: "仮立ち" ( labelled 19 ( unlabelled move ( 0 0 0 ) rot ( 0 15 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( 0 -30 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( 0 25 0 ) ) ( unlabelled move ( -0.000239867 0 0.000101871 ) rot ( 35.3738 19.0547 21.129 ) ) ( unlabelled move ( 0.000066387 0.000179426 0.000462521 ) rot ( -10.6554 -37.3424 6.60073 ) ) ( unlabelled move ( 0 0 0 ) rot ( 0 0 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( 0 0 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( -11.5995 9.57658 -50.975 ) ) ( unlabelled move ( 0 0 0 ) rot ( -28.1353 34.742 -11.4537 ) ) ( unlabelled move ( 0 0 0 ) rot ( -0.377663 -42.603 0.96856 ) ) ( unlabelled move ( 0 0 0 ) rot ( 0 0 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( 0 0 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( 13.6497 6.27967 65.7523 ) ) ( unlabelled move ( 0 0 0 ) rot ( 33.4033 -54.3307 19.878 ) ) ( unlabelled move ( 0 0 0 ) rot ( 4.46088 43.9346 5.42005 ) ) ( unlabelled move ( -0.000145016 -0.000304874 -0.000197781 ) rot ( -25.2187 -3.23905 -15.4658 ) ) ( unlabelled move ( 0 0 0 ) rot ( -20.1728 -58.7585 -27.7943 ) ) ( unlabelled move ( 0 0 0 ) rot ( -0.434448 38.9597 -1.90935 ) ) ( unlabelled move ( -0.0000497983 0.0000671384 -0.000327377 ) rot ( 20.2836 9.39129 3.45118 ) ) )
 Light: (   32   32  -89 ) ( 1.00 1.00 1.00)
 Info:
 	DisplayOffset: ( -34.500   0.000  41.189 )
@@ -53,99 +53,99 @@ Info:
 :)*/
 fram
 {
-	light pal( rgb ( 1.00 1.00 1.00 ) -11 -69 -70 )
-	{	mov ( 2388.46 1999.84 47.0259 ) eye deg( 45 ) }
+	light pal( rgb ( 1.00 1.00 1.00 ) -12 -69 -70 )
+	{	mov ( 2424.41 1952.77 17.4314 ) eye deg( 45 ) }
 	{	mov ( -359.728 14.6449 -208.253 ) target }
   { mov ( 0 0 0 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
     /* Unit */
-    { scal ( 0.8 0.8 0.8 )
+    { scal ( 0.9 0.9 0.9 )
       obj "腰" (: "腰.l3p" :) }
     { mov ( 0 0 0 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
       /* Unit Moveable */
-      { scal ( 0.8 0.8 0.8 )
+      { scal ( 0.9 0.9 0.9 )
         obj "胴体" (: "胴体.l3p" :) }
-      { mov ( 0 0 376 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
+      { mov ( 0 0 423 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
         /* Unit Moveable */
-        { scal ( 0.8 0.8 0.8 )
+        { scal ( 0.9 0.9 0.9 )
           obj "顔" (: "顔.l3p" :) }
       }
-      { mov ( 0 340 324 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
+      { mov ( 0 382.5 364.5 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
         /* Unit Moveable */
-        { scal ( 0.8 0.8 0.8 )
+        { scal ( 0.9 0.9 0.9 )
           obj "腕1" (: "腕1.l3p" :) }
-        { mov ( 0 4.00001 -160 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
+        { mov ( 0 4.50001 -180 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
           /* Unit Moveable */
-          { scal ( 0.8 0.8 0.8 )
+          { scal ( 0.9 0.9 0.9 )
             obj "腕2" (: "腕2.l3p" :) }
-          { mov ( 0 -4.00001 -204 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
+          { mov ( 0 -4.50001 -229.5 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
             /* Unit Moveable */
-            { scal ( 0.8 0.8 0.8 )
+            { scal ( 0.9 0.9 0.9 )
               obj "手" (: "手.l3p" :) }
           }
         }
-        { mov ( 0 -28 -8 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
+        { mov ( 0 -31.5 -9 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
           /* Unit Moveable */
-          { scal ( 0.8 0.8 0.8 )
+          { scal ( 0.9 0.9 0.9 )
             obj "肩アーマー" (: "肩アーマー.l3p" :) }
         }
       }
-      { mov ( -248 168 224 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
+      { mov ( -279 189 252 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
         /* Unit Moveable */
-        { scal ( 0.8 0.8 0.8 )
+        { scal ( 0.9 0.9 0.9 )
           obj "ウィングドーザ羽D" (: "ウィングドーザ羽D.l3p" :) }
       }
-      { mov ( 0 -340 324 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
+      { mov ( 0 -382.5 364.5 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
         /* Unit Moveable */
-        { scal ( 0.8 -0.8 0.8 )
+        { scal ( 0.9 -0.9 0.9 )
           obj "腕1" (: "腕1.l3p" :) }
-        { mov ( 0 -4.00001 -160 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
+        { mov ( 0 -4.50001 -180 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
           /* Unit Moveable */
-          { scal ( 0.8 -0.8 0.8 )
+          { scal ( 0.9 -0.9 0.9 )
             obj "腕2" (: "腕2.l3p" :) }
-          { mov ( 0 4.00001 -204 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
+          { mov ( 0 4.50001 -229.5 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
             /* Unit Moveable */
-            { scal ( 0.8 -0.8 0.8 )
+            { scal ( 0.9 -0.9 0.9 )
               obj "手" (: "手.l3p" :) }
           }
         }
-        { mov ( 0 28 -8 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
+        { mov ( 0 31.5 -9 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
           /* Unit Moveable */
-          { scal ( 0.8 -0.8 0.8 )
+          { scal ( 0.9 -0.9 0.9 )
             obj "肩アーマー" (: "肩アーマー.l3p" :) }
         }
       }
-      { mov ( -248 -168 224 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
+      { mov ( -279 -189 252 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
         /* Unit Moveable */
-        { scal ( 0.8 -0.8 0.8 )
+        { scal ( 0.9 -0.9 0.9 )
           obj "ウィングドーザ羽D" (: "ウィングドーザ羽D.l3p" :) }
       }
     }
-    { mov ( 0 160 -164 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
+    { mov ( 0 180 -184.5 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
       /* Unit Moveable */
-      { scal ( 0.8 0.8 0.8 )
+      { scal ( 0.9 0.9 0.9 )
         obj "腿" (: "腿.l3p" :) }
-      { mov ( 0 0 -100 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
+      { mov ( 0 0 -112.5 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
         /* Unit Moveable */
-        { scal ( 0.8 0.8 0.8 )
+        { scal ( 0.9 0.9 0.9 )
           obj "足" (: "足.l3p" :) }
-        { mov ( 0 0 -456.001 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
+        { mov ( 0 0 -513.001 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
           /* Unit Moveable */
-          { scal ( 0.8 0.8 0.8 )
+          { scal ( 0.9 0.9 0.9 )
             obj "つま先" (: "つま先.l3p" :) }
         }
       }
     }
-    { mov ( 0 -160 -164 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
+    { mov ( 0 -180 -184.5 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
       /* Unit Moveable */
-      { scal ( 0.8 -0.8 0.8 )
+      { scal ( 0.9 -0.9 0.9 )
         obj "腿" (: "腿.l3p" :) }
-      { mov ( 0 0 -100 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
+      { mov ( 0 0 -112.5 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
         /* Unit Moveable */
-        { scal ( 0.8 -0.8 0.8 )
+        { scal ( 0.9 -0.9 0.9 )
           obj "足" (: "足.l3p" :) }
-        { mov ( 0 0 -456.001 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
+        { mov ( 0 0 -513.001 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
           /* Unit Moveable */
-          { scal ( 0.8 -0.8 0.8 )
+          { scal ( 0.9 -0.9 0.9 )
             obj "つま先" (: "つま先.l3p" :) }
         }
       }

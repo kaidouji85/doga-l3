@@ -32,8 +32,8 @@ Palette:
 */
 fram
 {
-	light pal( rgb ( 1.00 1.00 1.00 ) -16 -68 -70 )
-	{	mov ( 1087.82 658.487 148.533 ) eye deg( 45 ) }
+	light pal( rgb ( 1.00 1.00 1.00 )  -6 -70 -70 )
+	{	mov ( 980.114 813.142 81.9471 ) eye deg( 45 ) }
 	{	mov ( 4.38635 -4.15893 61.952 ) target }
 	{	mov ( -33.3642 0 0.362889 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
 		scal ( 0.925549 0.925549 1.0284 ) obj rohead08 /* "rohead\rohead08.suf" atr "blue" */
