@@ -32,8 +32,8 @@ Palette:
 */
 fram
 {
-	light pal( rgb ( 1.00 1.00 1.00 ) -54 -45  70 )
-	{	mov ( 1394.73 -123.071 171.218 ) eye deg( 45 ) }
+	light pal( rgb ( 1.00 1.00 1.00 ) -13 -69  70 )
+	{	mov ( 1161.93 777.928 134.268 ) eye deg( 45 ) }
 	{	mov ( -12.1536 -4.14026 198.328 ) target }
 	{	mov ( 25.6864 0 100 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
 		scal ( 0.947733 0.8 1 ) obj robody08 /* "robody\robody08.suf" atr "white" */
@@ -41,7 +41,7 @@ fram
 	{	mov ( 177.324 0 169.352 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
 		scal ( 0.473866 0.473866 0.41461 ) obj rb03 /* "RB\RB03.suf" atr "blue" */
 	}
-	{	mov ( 158.369 0 188.307 ) rotz ( 180 ) roty ( 84 ) rotx ( 180 )
+	{	mov ( 160 0 160 ) rotz ( 180 ) roty ( 90 ) rotx ( 180 )
 		scal ( 0.379093 0.663413 0.758186 ) obj T105 /* "T1\T105.suf" atr "red" */
 	}
 	{	mov ( 6.7317 265.365 302.035 ) rotz ( -87 ) roty ( -57 ) rotx ( -3 )
@@ -54,10 +54,10 @@ fram
 		scal ( 0.518322 0.679342 0.446845 ) obj nozzle15 /* "nozzle\nozzle15.suf" atr "white" */
 	}
 	{	mov ( 25.6864 -132.683 264.125 ) rotz ( 0 ) roty ( 21 ) rotx ( 90 )
-		scal ( 0.758186 0.947733 1.89547 ) obj nozzle10 /* "nozzle\nozzle10.suf" atr "blue" */
+		scal ( 0.758186 0.947733 1.89547 ) obj nozzle10 /* "nozzle\nozzle10.suf" atr "white" */
 	}
 	{	mov ( 25.6864 132.683 264.125 ) rotz ( 0 ) roty ( 21 ) rotx ( -90 )
-		scal ( 0.758186 -0.947733 1.89547 ) obj nozzle10 /* "nozzle\nozzle10.suf" atr "blue" */
+		scal ( 0.758186 -0.947733 1.89547 ) obj nozzle10 /* "nozzle\nozzle10.suf" atr "white" */
 	}
 	{	mov ( 189.923 -183.499 263.443 ) rotz ( 164.782 ) roty ( 12.6825 ) rotx ( 0 )
 		scal ( 0.28432 0.28432 0.306014 ) obj EG07 /* "EG\EG07.suf" atr "red" */

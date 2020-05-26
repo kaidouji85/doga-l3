@@ -33,7 +33,7 @@ fram
 	{	mov ( 829.307 -145.108 -213.637 ) eye deg( 45 ) }
 	{	mov ( 21.2866 34.027 -241.091 ) target }
 	{	mov ( 6 -5 -17 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
-		scal ( 0.7 0.8 0.4 ) obj rb09 /* "RB\RB09.suf" atr "blue" */
+		scal ( 0.7 0.8 0.4 ) obj rb09 /* "RB\RB09.suf" atr "black" */
 	}
 	{	mov ( 6 -5 -77 ) rotz ( -90 ) roty ( 0 ) rotx ( 0 )
 		scal ( 1 1 0.4 ) obj roarm06 /* "roarm\roarm06.suf" atr "white" */
