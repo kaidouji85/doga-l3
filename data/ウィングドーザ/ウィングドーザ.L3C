@@ -6,11 +6,10 @@ Parts:
 	F1\F116.suf
 	P1\P114.suf
 	P2\P211.suf
-	P3\P305.suf
 	RB\RB03.suf
 	RB\RB07.suf
 	RB\RB09.suf
-	S2\S211.suf
+	S1\S101.suf
 	SD\SD01.suf
 	T1\T101.suf
 	T1\T105.suf
@@ -53,8 +52,8 @@ Info:
 :)*/
 fram
 {
-	light pal( rgb ( 1.00 1.00 1.00 )  -8 -70 -70 )
-	{	mov ( 2287.99 2108.92 194.662 ) eye deg( 45 ) }
+	light pal( rgb ( 1.00 1.00 1.00 ) -50 -49 -70 )
+	{	mov ( 3030 -10 -101.096 ) eye deg( 45 ) }
 	{	mov ( -359.728 14.6449 -208.253 ) target }
   { mov ( 0 0 0 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
     /* Unit */
@@ -92,7 +91,7 @@ fram
       { mov ( -279 189 252 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
         /* Unit Moveable */
         { scal ( 0.9 0.9 0.9 )
-          obj "ウィングドーザ羽D" (: "ウィングドーザ羽D.l3p" :) }
+          obj "ウィングドーザ羽F" (: "ウィングドーザ羽F.l3p" :) }
       }
       { mov ( 0 -382.5 364.5 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
         /* Unit Moveable */
@@ -117,7 +116,7 @@ fram
       { mov ( -279 -189 252 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
         /* Unit Moveable */
         { scal ( 0.9 -0.9 0.9 )
-          obj "ウィングドーザ羽D" (: "ウィングドーザ羽D.l3p" :) }
+          obj "ウィングドーザ羽F" (: "ウィングドーザ羽F.l3p" :) }
       }
     }
     { mov ( 0 180 -184.5 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
