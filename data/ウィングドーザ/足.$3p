@@ -30,7 +30,7 @@ fram
 	{	mov ( 1106.73 2001.8 -352.438 ) eye deg( 45 ) }
 	{	mov ( 50.7259 20.2646 19.2767 ) target }
 	{	mov ( 0 0 -100 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
-		scal ( 1 1.2 0.809625 ) obj roarm04 /* "roarm\roarm04.suf" atr "#01" */
+		scal ( 1 1.2 0.809625 ) obj roarm04 /* "roarm\roarm04.suf" atr "blue" */
 	}
 	{	mov ( 0 0 -180 ) rotz ( -90 ) roty ( -90 ) rotx ( 0 )
 		scal ( 0.605804 1.6 3.1 ) obj nozzle10 /* "nozzle\nozzle10.suf" atr "blue" */
