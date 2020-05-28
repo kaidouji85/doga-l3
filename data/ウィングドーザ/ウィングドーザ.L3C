@@ -10,6 +10,7 @@ Parts:
 	RB\RB07.suf
 	RB\RB09.suf
 	S1\S102.suf
+	S2\S205.suf
 	SD\SD01.suf
 	T1\T101.suf
 	T1\T105.suf
@@ -52,8 +53,8 @@ Info:
 :)*/
 fram
 {
-	light pal( rgb ( 1.00 1.00 1.00 ) -46 -53 -70 )
-	{	mov ( 3309.59 266.317 201.677 ) eye deg( 45 ) }
+	light pal( rgb ( 1.00 1.00 1.00 ) -26 -65 -70 )
+	{	mov ( 3035.05 1485.36 -120.436 ) eye deg( 45 ) }
 	{	mov ( -359.728 14.6449 -208.253 ) target }
   { mov ( 0 0 0 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
     /* Unit */
