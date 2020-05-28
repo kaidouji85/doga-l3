@@ -9,6 +9,7 @@ Parts:
 	RB\RB03.suf
 	RB\RB07.suf
 	RB\RB09.suf
+	S1\S102.suf
 	SD\SD01.suf
 	T1\T101.suf
 	T1\T105.suf
@@ -51,8 +52,8 @@ Info:
 :)*/
 fram
 {
-	light pal( rgb ( 1.00 1.00 1.00 ) -17 -68 -70 )
-	{	mov ( 2543.36 1764.76 -101.096 ) eye deg( 45 ) }
+	light pal( rgb ( 1.00 1.00 1.00 )  -5 -70 -70 )
+	{	mov ( 2447.39 2405.69 105.259 ) eye deg( 45 ) }
 	{	mov ( -359.728 14.6449 -208.253 ) target }
   { mov ( 0 0 0 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
     /* Unit */
@@ -90,7 +91,7 @@ fram
       { mov ( -279 189 252 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
         /* Unit Moveable */
         { scal ( 0.9 0.9 0.9 )
-          obj "ウィングドーザ羽G" (: "ウィングドーザ羽G.l3p" :) }
+          obj "ウィングドーザ羽H" (: "ウィングドーザ羽H.l3p" :) }
       }
       { mov ( 0 -382.5 364.5 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
         /* Unit Moveable */
@@ -115,7 +116,7 @@ fram
       { mov ( -279 -189 252 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
         /* Unit Moveable */
         { scal ( 0.9 -0.9 0.9 )
-          obj "ウィングドーザ羽G" (: "ウィングドーザ羽G.l3p" :) }
+          obj "ウィングドーザ羽H" (: "ウィングドーザ羽H.l3p" :) }
       }
     }
     { mov ( 0 180 -184.5 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )

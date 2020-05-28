@@ -2,7 +2,6 @@
                                   Version 2.04.100723(:
 Parts: 
 	S1\S102.suf
-	armor\armor14.suf
 	nozzle\nozzle04.suf
 Light: (   32   32  -89 ) ( 1.00 1.00 1.00)
 Info:
@@ -27,37 +26,28 @@ Palette:
 */
 fram
 {
-	light pal( rgb ( 1.00 1.00 1.00 )  63 -31 -70 )
-	{	mov ( -1168.71 3194.04 150.62 ) eye deg( 45 ) }
+	light pal( rgb ( 1.00 1.00 1.00 )  65 -26 -70 )
+	{	mov ( -1391.71 3043.08 646.582 ) eye deg( 45 ) }
 	{	mov ( -100 0 -20 ) target }
 	{	mov ( -50.8 0 0 ) rotz ( 180 ) roty ( 0 ) rotx ( 0 )
 		scal ( 1.1 1.1 1.1 ) obj nozzle04 /* "nozzle\nozzle04.suf" atr "blue" */
 	}
-	{	mov ( -600 -60.8 0 ) rotz ( 180 ) roty ( 0 ) rotx ( 90 )
-		scal ( 1.3 0.8 0.48 ) obj armor14 /* "armor\armor14.suf" atr "red" */
-	}
 	{	mov ( -415.8 -28.8 0 ) rotz ( -180 ) roty ( 0 ) rotx ( 90 )
 		scal ( 0.5 0.4 0.56 ) obj S102 /* "S1\S102.suf" atr "red" */
 	}
-	{	mov ( -1040 -40 0 ) rotz ( 90 ) roty ( 0 ) rotx ( 90 )
-		scal ( 0.5 1 0.8 ) obj nozzle04 /* "nozzle\nozzle04.suf" atr "red" */
+	{	mov ( -800 -80 0 ) rotz ( 90 ) roty ( 0 ) rotx ( 90 )
+		scal ( 0.7 1.5 1.9 ) obj nozzle04 /* "nozzle\nozzle04.suf" atr "red" */
 	}
-	{	mov ( -448.11 -60.8 449.294 ) rotz ( 180 ) roty ( -42 ) rotx ( 90 )
-		scal ( 1.3 0.8 0.48 ) obj armor14 /* "armor\armor14.suf" atr "red" */
-	}
-	{	mov ( -311.222 -28.8 326.04 ) rotz ( -180 ) roty ( -42 ) rotx ( 90 )
+	{	mov ( -323.914 -28.8 343.914 ) rotz ( -180 ) roty ( -45 ) rotx ( 90 )
 		scal ( 0.5 0.4 0.56 ) obj S102 /* "S1\S102.suf" atr "red" */
 	}
-	{	mov ( -775.093 -40 743.711 ) rotz ( 90 ) roty ( 0 ) rotx ( 132 )
-		scal ( 0.5 1 0.8 ) obj nozzle04 /* "nozzle\nozzle04.suf" atr "red" */
+	{	mov ( -595.584 -80 615.584 ) rotz ( 90 ) roty ( 0 ) rotx ( 135 )
+		scal ( 0.7 1.5 1.9 ) obj nozzle04 /* "nozzle\nozzle04.suf" atr "red" */
 	}
-	{	mov ( -448.11 -60.8 -449.294 ) rotz ( 180 ) roty ( 42 ) rotx ( -90 )
-		scal ( 1.3 0.8 -0.48 ) obj armor14 /* "armor\armor14.suf" atr "red" */
-	}
-	{	mov ( -311.222 -28.8 -326.04 ) rotz ( -180 ) roty ( 42 ) rotx ( -90 )
+	{	mov ( -323.914 -28.8 -343.914 ) rotz ( -180 ) roty ( 45 ) rotx ( -90 )
 		scal ( 0.5 0.4 -0.56 ) obj S102 /* "S1\S102.suf" atr "red" */
 	}
-	{	mov ( -775.093 -40 -743.711 ) rotz ( 90 ) roty ( 0 ) rotx ( -132 )
-		scal ( 0.5 1 -0.8 ) obj nozzle04 /* "nozzle\nozzle04.suf" atr "red" */
+	{	mov ( -595.584 -80 -615.584 ) rotz ( 90 ) roty ( 0 ) rotx ( -135 )
+		scal ( 0.7 1.5 -1.9 ) obj nozzle04 /* "nozzle\nozzle04.suf" atr "red" */
 	}
 }

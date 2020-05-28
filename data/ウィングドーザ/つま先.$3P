@@ -28,8 +28,8 @@ Palette:
 */
 fram
 {
-	light pal( rgb ( 1.00 1.00 1.00 )  49 -50 -70 )
-	{	mov ( 135.357 884.862 118.706 ) eye deg( 45 ) }
+	light pal( rgb ( 1.00 1.00 1.00 )  -4 -70 -70 )
+	{	mov ( 1121.17 859.158 274.381 ) eye deg( 45 ) }
 	{	mov ( 119.438 -27.0974 -215.075 ) target }
 	{	mov ( 55 0 -45 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
 		scal ( 0.3 0.5 0.3 ) obj TK05 /* "TK\TK05.suf" atr "white" */

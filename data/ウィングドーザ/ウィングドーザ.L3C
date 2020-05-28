@@ -52,8 +52,8 @@ Info:
 :)*/
 fram
 {
-	light pal( rgb ( 1.00 1.00 1.00 ) -50 -49 -70 )
-	{	mov ( 3340 -25 -185 ) eye deg( 45 ) }
+	light pal( rgb ( 1.00 1.00 1.00 ) -46 -53 -70 )
+	{	mov ( 3309.59 266.317 201.677 ) eye deg( 45 ) }
 	{	mov ( -359.728 14.6449 -208.253 ) target }
   { mov ( 0 0 0 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
     /* Unit */
@@ -91,7 +91,7 @@ fram
       { mov ( -279 189 252 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
         /* Unit Moveable */
         { scal ( 0.9 0.9 0.9 )
-          obj "ウィングドーザ羽H" (: "ウィングドーザ羽H.l3p" :) }
+          obj "ウィングドーザ羽I" (: "ウィングドーザ羽I.l3p" :) }
       }
       { mov ( 0 -382.5 364.5 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
         /* Unit Moveable */
@@ -116,7 +116,7 @@ fram
       { mov ( -279 -189 252 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
         /* Unit Moveable */
         { scal ( 0.9 -0.9 0.9 )
-          obj "ウィングドーザ羽H" (: "ウィングドーザ羽H.l3p" :) }
+          obj "ウィングドーザ羽I" (: "ウィングドーザ羽I.l3p" :) }
       }
     }
     { mov ( 0 180 -184.5 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
