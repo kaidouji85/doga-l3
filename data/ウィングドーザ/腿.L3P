@@ -1,6 +1,7 @@
 /*							Parts Assembler
                                   Version 2.04.100723(:
 Parts: 
+	S2\S205.suf
 	roarm\roarm01.suf
 Light: (   32   32  -89 ) ( 1.00 1.00 1.00)
 Info:
@@ -25,10 +26,13 @@ Palette:
 */
 fram
 {
-	light pal( rgb ( 1.00 1.00 1.00 ) -33 -62 -70 )
-	{	mov ( 1260 390.383 0 ) eye deg( 45 ) }
+	light pal( rgb ( 1.00 1.00 1.00 ) -52 -47 -70 )
+	{	mov ( 1313.64 -44.8392 -33.8974 ) eye deg( 45 ) }
 	{	mov ( 20 20 -60 ) target }
-	{	mov ( 0 0 79 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
-		scal ( 0.9 1 0.3 ) obj roarm01 /* "roarm\roarm01.suf" atr "white" */
+	{	mov ( 0 0 0 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
+		scal ( 0.7 0.9 0.3 ) obj roarm01 /* "roarm\roarm01.suf" atr "white" */
+	}
+	{	mov ( 0 0 0 ) rotz ( 90 ) roty ( 30 ) rotx ( 180 )
+		scal ( 0.35 0.35 0.35 ) obj S205 /* "S2\S205.suf" atr "white" */
 	}
 }
