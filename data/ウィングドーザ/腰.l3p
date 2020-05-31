@@ -5,8 +5,8 @@ Parts:
 	robody\robody12.suf
 Light: (   32   32  -89 ) ( 1.00 1.00 1.00)
 Info:
-	DisplayOffset: (  -4.862 -28.285  39.775 )
-	DisplayScale: 0.088388347650
+	DisplayOffset: ( -27.504 -160.004 225.001 )
+	DisplayScale: 0.500000000009
 	MeshFlag: 1
 	MeshSpacing: 200
 	ShowStatus: 1
@@ -29,8 +29,8 @@ fram
 	light pal( rgb ( 1.00 1.00 1.00 ) -49 -50 -70 )
 	{	mov ( 1180 0 -46.2273 ) eye deg( 45 ) }
 	{	mov ( 14.1504 -3.72282 -108.961 ) target }
-	{	mov ( 0 0 -190 ) rotz ( -180 ) roty ( -90 ) rotx ( 0 )
-		scal ( 1.1 1 1.2 ) obj nozzle16 /* "nozzle\nozzle16.suf" atr "white" */
+	{	mov ( 40 0 -190 ) rotz ( -180 ) roty ( -90 ) rotx ( 0 )
+		scal ( 1.1 1 1.1 ) obj nozzle16 /* "nozzle\nozzle16.suf" atr "white" */
 	}
 	{	mov ( 0 87.8035 -94.747 ) rotz ( 90 ) roty ( -50 ) rotx ( -180 )
 		scal ( 0.242 0.363 0.546506 ) obj robody12 /* "robody\robody12.suf" atr "black" */
