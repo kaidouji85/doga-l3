@@ -5,6 +5,7 @@ Parts:
 	TK\TK05.suf
 	armor\armor14.suf
 	nozzle\nozzle04.suf
+	nozzle\nozzle12.suf
 	roarm\roarm03.suf
 Light: (   32   32  -89 ) ( 1.00 1.00 1.00)
 Info:
@@ -29,8 +30,8 @@ Palette:
 */
 fram
 {
-	light pal( rgb ( 1.00 1.00 1.00 ) -59  37 -70 )
-	{	mov ( 378.248 -1194.52 418.052 ) eye deg( 45 ) }
+	light pal( rgb ( 1.00 1.00 1.00 )  -3 -70 -70 )
+	{	mov ( 1119.62 873.465 -75.992 ) eye deg( 45 ) }
 	{	mov ( 119.438 -27.0974 -215.075 ) target }
 	{	mov ( 0 140 -45 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
 		scal ( 0.3 0.2 0.3 ) obj TK05 /* "TK\TK05.suf" atr "white" */
@@ -52,5 +53,8 @@ fram
 	}
 	{	mov ( 0 -140 -45 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
 		scal ( 0.3 -0.2 0.3 ) obj TK05 /* "TK\TK05.suf" atr "white" */
+	}
+	{	mov ( 140 0 0 ) rotz ( -180 ) roty ( -5 ) rotx ( 0 )
+		scal ( 0.7 1 1 ) obj nozzle12 /* "nozzle\nozzle12.suf" atr "white" */
 	}
 }

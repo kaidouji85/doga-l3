@@ -32,8 +32,8 @@ Palette:
 */
 fram
 {
-	light pal( rgb ( 1.00 1.00 1.00 ) -56 -42  70 )
-	{	mov ( 1385.4 -196.38 134.268 ) eye deg( 45 ) }
+	light pal( rgb ( 1.00 1.00 1.00 ) -46 -53 -70 )
+	{	mov ( 1396.35 86.15 245.149 ) eye deg( 45 ) }
 	{	mov ( -12.1536 -4.14026 198.328 ) target }
 	{	mov ( 25.6864 0 100 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
 		scal ( 0.947733 0.8 1 ) obj robody08 /* "robody\robody08.suf" atr "white" */
@@ -74,7 +74,7 @@ fram
 	{	mov ( 6.7317 -265.365 302.035 ) rotz ( 87 ) roty ( -57 ) rotx ( 3 )
 		scal ( 0.189547 -0.28432 0.379093 ) obj robody12 /* "robody\robody12.suf" atr "black" */
 	}
-	{	mov ( -60 0 280 ) rotz ( 0 ) roty ( 0 ) rotx ( 179.699 )
-		scal ( 0.5 0.4 0.9 ) obj robody10 /* "robody\robody10.suf" atr "black" */
+	{	mov ( -28 0 280 ) rotz ( 0 ) roty ( 0 ) rotx ( 179.699 )
+		scal ( 0.670871 0.497617 0.9 ) obj robody10 /* "robody\robody10.suf" atr "black" */
 	}
 }

@@ -33,6 +33,6 @@ fram
 		scal ( 0.6 0.6 0.2 ) obj roarm01 /* "roarm\roarm01.suf" atr "white" */
 	}
 	{	mov ( -14 0 -6 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
-		scal ( 1.05 1.05 1.05 ) obj P211 /* "P2\P211.suf" atr "white" */
+		scal ( 1 1 1 ) obj P211 /* "P2\P211.suf" atr "white" */
 	}
 }
