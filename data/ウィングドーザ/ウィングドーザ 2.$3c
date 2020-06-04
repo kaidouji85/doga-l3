@@ -31,7 +31,7 @@ Parts:
 	roarm\roarm06.suf
 	roarm\roarm09.suf
 	robody\robody08.suf
-	robody\robody09.suf
+	robody\robody10.suf
 	robody\robody12.suf
 	roetc\roetc04.suf
 	rohand\rohand06.suf
@@ -44,8 +44,8 @@ Pose:
 4: "ÉAÉbÉpÅ[" ( labelled 19 ( unlabelled move ( 0 0 0 ) rot ( 15 0 30 ) ) ( unlabelled move ( 0 0 0 ) rot ( -17.5894 13.4192 32.9717 ) ) ( unlabelled move ( 0 0 0 ) rot ( 1.9747 -11.7396 -31.5354 ) ) ( unlabelled move ( 0 0 0 ) rot ( 11.9656 17.463 -22.9785 ) ) ( unlabelled move ( 0 0 0 ) rot ( -96.2046 -37.2135 92.4135 ) ) ( unlabelled move ( 0 0 0 ) rot ( 0 0 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( 0 0 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( 0 0 -55 ) ) ( unlabelled move ( 0 0 0 ) rot ( -153.512 -34.0992 144.615 ) ) ( unlabelled move ( 0 0 0 ) rot ( 0 -35 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( 0 0 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( 0 0 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( 0 0 65 ) ) ( unlabelled move ( 0 0 0 ) rot ( 9.09379 -21.5606 16.3237 ) ) ( unlabelled move ( 0 0 0 ) rot ( 129.254 88.8811 129.805 ) ) ( unlabelled move ( 0 0 0 ) rot ( -10.1511 -9.84655 1.75378 ) ) ( unlabelled move ( 0 0 0 ) rot ( -11.5818 -25.3827 2.09854 ) ) ( unlabelled move ( 0 0 0 ) rot ( 0 35 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( -5.02658 -9.67605 2.91498 ) ) )
 Light: (   32   32  -89 ) ( 1.00 1.00 1.00)
 Info:
-	DisplayOffset: (  50.000   0.000  82.378 )
-	DisplayScale: 0.125000000001
+	DisplayOffset: (  53.000   0.000  58.250 )
+	DisplayScale: 0.088388347649
 	MeshFlag: 1
 	MeshSpacing: 200
 	ShowStatus: 1
@@ -58,8 +58,8 @@ Info:
 :)*/
 fram
 {
-	light pal( rgb ( 1.00 1.00 1.00 )  -8 -70 -70 )
-	{	mov ( 2674.15 2426.06 54.4567 ) eye deg( 45 ) }
+	light pal( rgb ( 1.00 1.00 1.00 ) -50 -49 -70 )
+	{	mov ( 2005.19 13.7646 97.9745 ) eye deg( 45 ) }
 	{	mov ( -359.728 14.6449 -208.253 ) target }
   { mov ( 0 0 0 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
     /* Unit */
@@ -103,7 +103,7 @@ fram
         /* Unit Moveable */
         { scal ( 0.9 -0.9 0.9 )
           obj "òr1" (: "òr1.l3p" :) }
-        { mov ( 0 -22.5 -204.5 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
+        { mov ( 0 -4.50001 -180 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
           /* Unit Moveable */
           { scal ( 0.9 -0.9 0.9 )
             obj "òr2" (: "òr2.l3p" :) }
