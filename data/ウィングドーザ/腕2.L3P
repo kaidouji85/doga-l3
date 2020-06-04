@@ -8,8 +8,8 @@ Parts:
 	roarm\roarm06.suf
 Light: (   32   32  -89 ) ( 1.00 1.00 1.00)
 Info:
-	DisplayOffset: ( -141.000   7.000 472.000 )
-	DisplayScale: 0.707106781200
+	DisplayOffset: ( -50.000   9.899 200.000 )
+	DisplayScale: 1.000000000019
 	MeshFlag: 1
 	MeshSpacing: 200
 	ShowStatus: 1
@@ -29,9 +29,9 @@ Palette:
 */
 fram
 {
-	light pal( rgb ( 1.00 1.00 1.00 ) -40 -58 -70 )
-	{	mov ( 831.901 184.264 -163.162 ) eye deg( 45 ) }
-	{	mov ( 21.2866 34.027 -241.091 ) target }
+	light pal( rgb ( 1.00 1.00 1.00 ) -64 -28 -70 )
+	{	mov ( 1286.46 -410.946 -33.0872 ) eye deg( 45 ) }
+	{	mov ( -32.2364 108.504 -293.21 ) target }
 	{	mov ( 6 -5 -17 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
 		scal ( 0.7 0.8 0.4 ) obj rb09 /* "RB\RB09.suf" atr "white" */
 	}
