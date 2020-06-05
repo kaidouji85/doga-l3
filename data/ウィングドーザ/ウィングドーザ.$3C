@@ -31,7 +31,7 @@ Parts:
 	roarm\roarm06.suf
 	roarm\roarm09.suf
 	robody\robody08.suf
-	robody\robody10.suf
+	robody\robody09.suf
 	robody\robody12.suf
 	roetc\roetc04.suf
 	rohand\rohand06.suf
@@ -42,6 +42,7 @@ Pose:
 2: "かがむ" ( labelled 19 ( unlabelled move ( 0 0 0 ) rot ( 0 15 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( -18.4129 -27.8078 33.0943 ) ) ( unlabelled move ( 0 0 0 ) rot ( 0 25 0 ) ) ( unlabelled move ( -0.000239867 0 0.000101871 ) rot ( 91.6036 56.0641 97.0602 ) ) ( unlabelled move ( 0.000066387 0.000179426 0.000462521 ) rot ( -148.191 -74.0066 150.448 ) ) ( unlabelled move ( 0 0 0 ) rot ( 0 0 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( 0 0 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( -3.96713 14.4775 -15.5041 ) ) ( unlabelled move ( 0 0 0 ) rot ( -31.2843 -11.312 36.9302 ) ) ( unlabelled move ( 0 0 0 ) rot ( 179.08 -85.8991 178.816 ) ) ( unlabelled move ( 0 0 0 ) rot ( 0 0 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( 0 0 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( 2.66399 14.7669 10.3453 ) ) ( unlabelled move ( -0.0000681647 0 0.000307796 ) rot ( 34.7214 15.8034 17.9287 ) ) ( unlabelled move ( 0.00010288 0.000110365 -0.0001141 ) rot ( 0 0 0 ) ) ( unlabelled move ( -0.000819055 0.000533168 0.000328773 ) rot ( -45.4418 -18.9984 24.1563 ) ) ( unlabelled move ( 0 0 0 ) rot ( -47.3641 -79.8636 12.0808 ) ) ( unlabelled move ( 0 0 0 ) rot ( -4.12552 75.8454 -5.22809 ) ) ( unlabelled move ( 0.000297628 0.000508975 -0.00026787 ) rot ( 15.4068 -3.5149 -6.13427 ) ) )
 3: "中断" ( labelled 19 ( unlabelled move ( 0 0 0 ) rot ( 0 0 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( 0 0 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( 0 0 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( 0 -60 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( 0 -55 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( 0 0 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( 0 0 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( 0 0 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( 0 90 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( 0 -55 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( 0 0 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( 0 0 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( 0 0 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( 20 35 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( 0 0 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( 0 0 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( -20 -65 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( -4.55107 71.5119 -3.14539 ) ) ( unlabelled move ( 0 0 0 ) rot ( -5 0 0 ) ) )
 4: "アッパー" ( labelled 19 ( unlabelled move ( 0 0 0 ) rot ( 15 0 30 ) ) ( unlabelled move ( 0 0 0 ) rot ( -17.5894 13.4192 32.9717 ) ) ( unlabelled move ( 0 0 0 ) rot ( 1.9747 -11.7396 -31.5354 ) ) ( unlabelled move ( 0 0 0 ) rot ( 11.9656 17.463 -22.9785 ) ) ( unlabelled move ( 0 0 0 ) rot ( -96.2046 -37.2135 92.4135 ) ) ( unlabelled move ( 0 0 0 ) rot ( 0 0 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( 0 0 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( 0 0 -55 ) ) ( unlabelled move ( 0 0 0 ) rot ( -153.512 -34.0992 144.615 ) ) ( unlabelled move ( 0 0 0 ) rot ( 0 -35 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( 0 0 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( 0 0 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( 0 0 65 ) ) ( unlabelled move ( 0 0 0 ) rot ( 9.09379 -21.5606 16.3237 ) ) ( unlabelled move ( 0 0 0 ) rot ( 129.254 88.8811 129.805 ) ) ( unlabelled move ( 0 0 0 ) rot ( -10.1511 -9.84655 1.75378 ) ) ( unlabelled move ( 0 0 0 ) rot ( -11.5818 -25.3827 2.09854 ) ) ( unlabelled move ( 0 0 0 ) rot ( 0 35 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( -5.02658 -9.67605 2.91498 ) ) )
+5: "ダッシュ" ( labelled 19 ( unlabelled move ( 0 0 0 ) rot ( 15 10 5 ) ) ( unlabelled move ( 0 0 0 ) rot ( -2.94164 -0.908177 31.4632 ) ) ( unlabelled move ( 0 0 0 ) rot ( -12.5894 -13.4192 -32.9717 ) ) ( unlabelled move ( 0 0 0 ) rot ( 55.8606 21.3077 -11.2694 ) ) ( unlabelled move ( 0 0 0 ) rot ( 3.59281 -40.5091 -2.31199 ) ) ( unlabelled move ( 0 0 0 ) rot ( 0 0 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( 0 0 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( 0 0 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( 6.40304 -16.7014 1.44145 ) ) ( unlabelled move ( 0 0 0 ) rot ( 10.2856 -60.0549 5.3849 ) ) ( unlabelled move ( 0 0 0 ) rot ( 0 0 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( 0 0 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( 0 0 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( -0.220741 9.65594 -2.61298 ) ) ( unlabelled move ( 0 0 0 ) rot ( 0 0 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( -21.4267 -12.8219 25.0953 ) ) ( unlabelled move ( 0 0 0 ) rot ( -40.5041 -14.4775 3.96713 ) ) ( unlabelled move ( 0 0 0 ) rot ( 22.7665 83.8519 22.5131 ) ) ( unlabelled move ( 0 0 0 ) rot ( 0 0 0 ) ) )
 Light: (   32   32  -89 ) ( 1.00 1.00 1.00)
 Info:
 	DisplayOffset: (  50.000   0.000  82.378 )
@@ -58,8 +59,8 @@ Info:
 :)*/
 fram
 {
-	light pal( rgb ( 1.00 1.00 1.00 )  -5 -70 -70 )
-	{	mov ( 2559.51 2506.03 391.227 ) eye deg( 45 ) }
+	light pal( rgb ( 1.00 1.00 1.00 )   4 -70 -70 )
+	{	mov ( 2168.63 2921.01 290.559 ) eye deg( 45 ) }
 	{	mov ( -359.728 14.6449 -208.253 ) target }
   { mov ( 0 0 0 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
     /* Unit */
