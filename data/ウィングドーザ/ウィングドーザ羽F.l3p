@@ -1,0 +1,53 @@
+/*							Parts Assembler
+                                  Version 2.04.100723(:
+Parts: 
+	S1\S101.suf
+	nozzle\nozzle04.suf
+Light: (   32   32  -89 ) ( 1.00 1.00 1.00)
+Info:
+	DisplayOffset: ( 1793.223 -79.196  -0.000 )
+	DisplayScale: 2.828427124734
+	MeshFlag: 1
+	MeshSpacing: 200
+	ShowStatus: 1
+	ShowAttr: 1
+	GridFlag: 1
+	GridSpacing: 20
+	RotSpacing: 3
+	SelectedOnly: 0
+	DispRelative: 0
+Palette:
+	0: atr black { col ( rgb ( 0.400 0.400 0.450 ) ) amb ( 0.200 ) dif ( 0.800 ) spc ( 0.700 1.000 0.000 ) }
+	1: atr blue { col ( rgb ( 0.300 0.200 0.950 ) ) amb ( 0.200 ) dif ( 0.800 ) ref ( 0.300 ) spc ( 0.900 1.000 0.650 ) }
+	2: atr "hounetu-ban" { col ( rgb ( 1.000 0.700 0.150 ) ) amb ( 1.000 ) dif ( 0.000 ) opt ( emittion 0.050 4.000 ) }
+	3: atr light { col ( rgb ( 0.900 0.100 0.150 ) ) amb ( 1.000 ) dif ( 0.000 ) opt ( emittion 0.050 4.000 ) }
+	4: atr red { col ( rgb ( 0.900 0.100 0.150 ) ) amb ( 0.200 ) dif ( 0.800 ) ref ( 0.300 ) spc ( 0.900 1.000 0.650 ) }
+	5: atr white { col ( rgb ( 0.850 0.850 0.800 ) ) amb ( 0.200 ) dif ( 0.800 ) ref ( 0.300 ) spc ( 0.900 1.000 0.650 ) }
+*/
+fram
+{
+	light pal( rgb ( 1.00 1.00 1.00 )  65 -25  70 )
+	{	mov ( -2008.73 4389.77 -658.694 ) eye deg( 45 ) }
+	{	mov ( -100 0 -20 ) target }
+	{	mov ( -50.8 0 0 ) rotz ( 180 ) roty ( 0 ) rotx ( 0 )
+		scal ( 1.1 1.1 1.1 ) obj nozzle04 /* "nozzle\nozzle04.suf" atr "blue" */
+	}
+	{	mov ( -220 20 0 ) rotz ( 90 ) roty ( 0 ) rotx ( -90 )
+		scal ( 0.7 0.9 0.9 ) obj nozzle04 /* "nozzle\nozzle04.suf" atr "red" */
+	}
+	{	mov ( -640 0 0 ) rotz ( 180 ) roty ( 0 ) rotx ( 90 )
+		scal ( 0.7 0.4 0.5 ) obj S101 /* "S1\S101.suf" atr "red" */
+	}
+	{	mov ( -179.461 20 218.262 ) rotz ( 90 ) roty ( 0 ) rotx ( -39 )
+		scal ( 0.7 0.9 0.9 ) obj nozzle04 /* "nozzle\nozzle04.suf" atr "red" */
+	}
+	{	mov ( -443.776 0 544.663 ) rotz ( 180 ) roty ( -51 ) rotx ( 90 )
+		scal ( 0.7 0.4 0.5 ) obj S101 /* "S1\S101.suf" atr "red" */
+	}
+	{	mov ( -179.461 20 -218.262 ) rotz ( 90 ) roty ( 0 ) rotx ( 39 )
+		scal ( 0.7 0.9 -0.9 ) obj nozzle04 /* "nozzle\nozzle04.suf" atr "red" */
+	}
+	{	mov ( -443.776 0 -544.663 ) rotz ( 180 ) roty ( 51 ) rotx ( -90 )
+		scal ( 0.7 0.4 -0.5 ) obj S101 /* "S1\S101.suf" atr "red" */
+	}
+}

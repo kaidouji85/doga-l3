@@ -4,16 +4,19 @@ Parts:
 	F1\F116.suf
 	P1\P114.suf
 	P2\P214.suf
+	P3\P305.suf
 	RB\RB06.suf
 	RB\RB07.suf
 	RB\RB09.suf
 	S1\S101.suf
+	S2\S211.suf
 	T1\T101.suf
 	T1\T105.suf
 	TK\TK05.suf
 	armor\armor03.suf
 	armor\armor04.suf
 	mecha\sfship\S106.suf
+	nozzle\nozzle04.suf
 	nozzle\nozzle12.suf
 	roarm\roarm01.suf
 	roarm\roarm08.suf
@@ -48,9 +51,9 @@ Info:
 :)*/
 fram
 {
-	light pal( rgb ( 1.00 1.00 1.00 ) -65 -27 -70 )
-	{	mov ( 2348.86 -929.694 69.4544 ) eye deg( 45 ) }
-	{	mov ( -71.2548 47.9368 -230.288 ) target }
+	light pal( rgb ( 1.00 1.00 1.00 )  -6 -70  70 )
+	{	mov ( 1969.77 1663.5 -323.039 ) eye deg( 45 ) }
+	{	mov ( -20 20 -230.288 ) target }
   { mov ( 0 0 0 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
     /* Unit */
     { obj "腰" (: "腰.l3p" :) }
@@ -98,6 +101,15 @@ fram
               obj "手" (: "手.l3p" :) }
           }
         }
+      }
+      { mov ( -300 120 200 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
+        /* Unit Moveable */
+        { obj "ウィングドーザ羽" (: "\\Mac\Home\Documents\doga\data\ウィングドーザ羽.l3p" :) }
+      }
+      { mov ( -300 -120 200 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
+        /* Unit Moveable */
+        { scal ( 1 -1 1 )
+          obj "ウィングドーザ羽" (: "\\Mac\Home\Documents\doga\data\ウィングドーザ羽.l3p" :) }
       }
     }
     { mov ( 0 148.485 -123.029 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )

@@ -4,16 +4,19 @@ Parts:
 	F1\F116.suf
 	P1\P114.suf
 	P2\P214.suf
+	P3\P305.suf
 	RB\RB06.suf
 	RB\RB07.suf
 	RB\RB09.suf
 	S1\S101.suf
+	S2\S211.suf
 	T1\T101.suf
 	T1\T105.suf
 	TK\TK05.suf
 	armor\armor03.suf
 	armor\armor04.suf
 	mecha\sfship\S106.suf
+	nozzle\nozzle04.suf
 	nozzle\nozzle12.suf
 	roarm\roarm01.suf
 	roarm\roarm08.suf
@@ -32,6 +35,7 @@ Pose:
 3: "立ち４" ( labelled 17 ( unlabelled move ( 0 0 0 ) rot ( 0 15 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( 0 -28.9457 0 ) ) ( unlabelled move ( 10.316 0 39.5027 ) rot ( 0 37.4963 0 ) ) ( unlabelled move ( 3.94574 0 9.5256 ) rot ( 47.4671 12.0828 32.6699 ) ) ( unlabelled move ( 0 0 0 ) rot ( -22.9362 0 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( -64.9176 -20.6589 87.2784 ) ) ( unlabelled move ( 0 0 0 ) rot ( 0 0 0 ) ) ( unlabelled move ( -23.2172 0 29.0303 ) rot ( -46.3164 23.8891 -5.3865 ) ) ( unlabelled move ( 0 0 0 ) rot ( 30 0 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( 58.2659 9.92544 -94.9989 ) ) ( unlabelled move ( 0 0 0 ) rot ( 0 0 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( 11.9267 -22.8593 32.3014 ) ) ( unlabelled move ( 0 0 0 ) rot ( 0 0 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( -0.0735908 13.2213 3.09913 ) ) ( unlabelled move ( 0 0 0 ) rot ( -7.46962 -33.4212 -28.412 ) ) ( unlabelled move ( 0 0 0 ) rot ( -1.51261 10.8774 -2.23487 ) ) ( unlabelled move ( 0 0 0 ) rot ( 15.9825 8.31038 7.48848 ) ) )
 4: "腕組" ( labelled 17 ( unlabelled move ( 0 0 0 ) rot ( 0 15 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( 0 -30 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( 0 30 0 ) ) ( unlabelled move ( 48.6215 0 -24.2538 ) rot ( 7.29252 -34.7202 -64.189 ) ) ( unlabelled move ( 0 0 0 ) rot ( 0 0 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( -8.44484 -78.3657 6.53648 ) ) ( unlabelled move ( 0 0 0 ) rot ( 0 0 0 ) ) ( unlabelled move ( -46.3863 0 12.8071 ) rot ( -18.889 -28.7847 61.435 ) ) ( unlabelled move ( 0 0 0 ) rot ( 0 0 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( 2.85386 -71.4256 -0.444459 ) ) ( unlabelled move ( 0 0 0 ) rot ( 0 0 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( 17.1632 -24.7554 10.8545 ) ) ( unlabelled move ( 0 0 0 ) rot ( 0 0 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( 0 0 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( -14.6262 -19.0547 -21.129 ) ) ( unlabelled move ( 0 0 0 ) rot ( 0 0 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( 0 0 0 ) ) )
 5: "腕組（肩アーマ調整）" ( labelled 17 ( unlabelled move ( 0 0 0 ) rot ( 0 15 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( 0 -30 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( 0 30 0 ) ) ( unlabelled move ( 48.6215 0 -24.2538 ) rot ( 7.29252 -34.7202 -64.189 ) ) ( unlabelled move ( 0 0 0 ) rot ( 43.739 11.8808 73.2156 ) ) ( unlabelled move ( 0 0 0 ) rot ( -8.44484 -78.3657 6.53648 ) ) ( unlabelled move ( 0 0 0 ) rot ( 0 0 0 ) ) ( unlabelled move ( -46.3863 0 12.8071 ) rot ( -18.889 -28.7847 61.435 ) ) ( unlabelled move ( 0 0 0 ) rot ( -29.0024 26.792 -71.3234 ) ) ( unlabelled move ( 0 0 0 ) rot ( 2.85386 -71.4256 -0.444459 ) ) ( unlabelled move ( 0 0 0 ) rot ( 0 0 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( 17.1632 -24.7554 10.8545 ) ) ( unlabelled move ( 0 0 0 ) rot ( 0 0 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( 0 0 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( -14.6262 -19.0547 -21.129 ) ) ( unlabelled move ( 0 0 0 ) rot ( 0 0 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( 0 0 0 ) ) )
+6: "立ち5" ( labelled 19 ( unlabelled move ( 0 0 0 ) rot ( 0 15 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( 0 -30 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( 0 20 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( 30 35 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( -35 0 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( 0 0 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( 0 0 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( -38.9671 14.4775 -15.5041 ) ) ( unlabelled move ( 0 0 0 ) rot ( 25 0 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( 0 0 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( 0 0 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( 18.625 -19.9402 5.29946 ) ) ( unlabelled move ( 0 0 0 ) rot ( 0 0 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( 0 0 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( -10.9258 -19.4652 -15.8705 ) ) ( unlabelled move ( 0 0 0 ) rot ( 0 0 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( 0 0 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( -17.9632 -2.30894 -58.6012 ) ) ( unlabelled move ( 0 0 0 ) rot ( 12.9657 2.56376 59.7226 ) ) )
 Light: (   32   32  -89 ) ( 1.00 1.00 1.00)
 Info:
 	DisplayOffset: (   0.000 -51.000 -36.062 )
@@ -48,9 +52,9 @@ Info:
 :)*/
 fram
 {
-	light pal( rgb ( 1.00 1.00 1.00 ) -65 -27 -70 )
-	{	mov ( 2348.86 -929.694 69.4544 ) eye deg( 45 ) }
-	{	mov ( -71.2548 47.9368 -230.288 ) target }
+	light pal( rgb ( 1.00 1.00 1.00 ) -19 -67 -70 )
+	{	mov ( 2237.35 1274.15 -210.38 ) eye deg( 45 ) }
+	{	mov ( -20 20 -230.288 ) target }
   { mov ( 0 0 0 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
     /* Unit */
     { obj "腰" (: "腰.l3p" :) }
@@ -98,6 +102,15 @@ fram
               obj "手" (: "手.l3p" :) }
           }
         }
+      }
+      { mov ( -300 120 200 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
+        /* Unit Moveable */
+        { obj "ウィングドーザ羽" (: "\\Mac\Home\Documents\doga\data\ウィングドーザ羽.l3p" :) }
+      }
+      { mov ( -300 -120 200 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
+        /* Unit Moveable */
+        { scal ( 1 -1 1 )
+          obj "ウィングドーザ羽" (: "\\Mac\Home\Documents\doga\data\ウィングドーザ羽.l3p" :) }
       }
     }
     { mov ( 0 148.485 -123.029 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )

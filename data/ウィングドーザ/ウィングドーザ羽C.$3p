@@ -1,0 +1,39 @@
+/*							Parts Assembler
+                                  Version 2.04.100723(:
+Parts: 
+	SL\SL09.suf
+	roetc\roetc02.suf
+Light: (   32   32  -89 ) ( 1.00 1.00 1.00)
+Info:
+	DisplayOffset: (  86.974  10.001  -0.000 )
+	DisplayScale: 0.249999999999
+	MeshFlag: 1
+	MeshSpacing: 200
+	ShowStatus: 1
+	ShowAttr: 1
+	GridFlag: 1
+	GridSpacing: 20
+	RotSpacing: 3
+	SelectedOnly: 0
+	DispRelative: 0
+Palette:
+	0: atr black { col ( rgb ( 0.400 0.400 0.450 ) ) amb ( 0.200 ) dif ( 0.800 ) spc ( 0.700 1.000 0.000 ) }
+	1: atr blue { col ( rgb ( 0.300 0.200 0.950 ) ) amb ( 0.200 ) dif ( 0.800 ) ref ( 0.300 ) spc ( 0.900 1.000 0.650 ) }
+	2: atr "hounetu-ban" { col ( rgb ( 1.000 0.700 0.150 ) ) amb ( 1.000 ) dif ( 0.000 ) opt ( emittion 0.050 4.000 ) }
+	3: atr light { col ( rgb ( 0.900 0.100 0.150 ) ) amb ( 1.000 ) dif ( 0.000 ) opt ( emittion 0.050 4.000 ) }
+	4: atr noname { col ( 1.000 ) amb ( 0.200 ) dif ( 0.800 ) spc ( 0.700 1.000 0.000 ) }
+	5: atr red { col ( rgb ( 0.900 0.100 0.150 ) ) amb ( 0.200 ) dif ( 0.800 ) ref ( 0.300 ) spc ( 0.900 1.000 0.650 ) }
+	6: atr white { col ( rgb ( 0.850 0.850 0.800 ) ) amb ( 0.200 ) dif ( 0.800 ) ref ( 0.300 ) spc ( 0.900 1.000 0.650 ) }
+*/
+fram
+{
+	light pal( rgb ( 1.00 1.00 1.00 )  45 -54  70 )
+	{	mov ( 294.863 4711.94 -392.136 ) eye deg( 45 ) }
+	{	mov ( -100 0 -20 ) target }
+	{	mov ( -80 -1.8 -240 ) rotz ( -180 ) roty ( 0 ) rotx ( 0 )
+		scal ( 1.5 1.4 1.5 ) obj roetc02 /* "roetc\roetc02.suf" atr "noname" */
+	}
+	{	mov ( -160 0 160 ) rotz ( -180 ) roty ( -45 ) rotx ( -90 )
+		scal ( 0.7 0.7 0.2 ) obj sl09 /* "SL\SL09.suf" atr "noname" */
+	}
+}
