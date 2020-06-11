@@ -6,12 +6,12 @@ Parts:
 	SD\SD01.suf
 	T1\T101.suf
 	W2\W207.suf
-	armor\armor04.suf
+	nozzle\nozzle04.suf
 	roetc\roetc04.suf
 	rohead\rohead08.suf
 Light: (   32   32  -89 ) ( 1.00 1.00 1.00)
 Info:
-	DisplayOffset: ( 1311.000  35.787 -108.733 )
+	DisplayOffset: ( 141.000  35.787 -108.733 )
 	DisplayScale: 0.353553390600
 	MeshFlag: 1
 	MeshSpacing: 200
@@ -32,14 +32,11 @@ Palette:
 */
 fram
 {
-	light pal( rgb ( 1.00 1.00 1.00 ) -15 -69  70 )
-	{	mov ( 2029.56 1283.57 15.872 ) eye deg( 45 ) }
+	light pal( rgb ( 1.00 1.00 1.00 )  -7 -70  70 )
+	{	mov ( 1361.12 1092.57 -63.1004 ) eye deg( 45 ) }
 	{	mov ( 4.38635 -4.15893 61.952 ) target }
 	{	mov ( -33.3642 0 0.362889 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
 		scal ( 0.925549 0.925549 1.0284 ) obj rohead08 /* "rohead\rohead08.suf" atr "blue" */
-	}
-	{	mov ( -111.61 0 229.969 ) rotz ( 90 ) roty ( 0 ) rotx ( -102.377 )
-		scal ( 0.496048 0.409021 0.520418 ) obj armor04 /* "armor\armor04.suf" atr "blue" */
 	}
 	{	mov ( -33.3642 0 288.313 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
 		scal ( 0.822714 0.576295 0.719875 ) obj P114 /* "P1\P114.suf" atr "blue" */
@@ -53,8 +50,8 @@ fram
 	{	mov ( -160.885 -135.964 85.8869 ) rotz ( -19.3874 ) roty ( -41.3083 ) rotx ( 22.6751 )
 		scal ( 0.725561 0.570842 0.578429 ) obj roetc04 /* "roetc\roetc04.suf" atr "blue" */
 	}
-	{	mov ( 30.2424 0.229522 275.661 ) rotz ( 0 ) roty ( -82.9122 ) rotx ( 0 )
-		scal ( 1.18488 4.70792 0.368483 ) obj W207 /* "W2\W207.suf" atr "blue" */
+	{	mov ( 13.8466 0.229522 314.256 ) rotz ( 0 ) roty ( -79.4218 ) rotx ( 0 )
+		scal ( 1.44337 4.70792 0.391783 ) obj W207 /* "W2\W207.suf" atr "blue" */
 	}
 	{	mov ( -160.885 135.964 85.8869 ) rotz ( 19.3874 ) roty ( -41.3083 ) rotx ( -22.6751 )
 		scal ( 0.725561 -0.570842 0.578429 ) obj roetc04 /* "roetc\roetc04.suf" atr "blue" */
@@ -67,5 +64,8 @@ fram
 	}
 	{	mov ( -12.0791 -104.093 316.637 ) rotz ( -2.77783 ) roty ( 16.1709 ) rotx ( 146.13 )
 		scal ( 0.166772 -0.227452 0.62635 ) obj SD01 /* "SD\SD01.suf" atr "white" */
+	}
+	{	mov ( -160 0 140 ) rotz ( 180 ) roty ( 0 ) rotx ( 0 )
+		scal ( 1 1 1 ) obj nozzle04 /* "nozzle\nozzle04.suf" atr "blue" */
 	}
 }

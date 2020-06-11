@@ -50,8 +50,8 @@ Pose:
 10: "ƒ‰ƒt—§‚¿" ( labelled 19 ( unlabelled move ( 0 0 0 ) rot ( 0 0 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( 0 0 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( 0 0 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( 20 -5 10 ) ) ( unlabelled move ( 0 0 0 ) rot ( 0 0 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( 0 0 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( 0 0 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( 0 0 -50 ) ) ( unlabelled move ( 0 0 0 ) rot ( -15 -5 -15 ) ) ( unlabelled move ( 0 0 0 ) rot ( 0 0 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( 0 0 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( 0 0 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( 0 0 45 ) ) ( unlabelled move ( 0 0 0 ) rot ( 20 -5 15 ) ) ( unlabelled move ( 0 0 0 ) rot ( 0 0 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( -20.0703 4.69776 -1.71394 ) ) ( unlabelled move ( 0 0 0 ) rot ( -20 -5 -15 ) ) ( unlabelled move ( 0 0 0 ) rot ( 0 0 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( 20.0703 4.69776 1.71394 ) ) )
 Light: (   32   32  -89 ) ( 1.00 1.00 1.00)
 Info:
-	DisplayOffset: (  11.667   0.000  17.324 )
-	DisplayScale: 0.062500000001
+	DisplayOffset: (   8.250   0.000  12.250 )
+	DisplayScale: 0.044194173825
 	MeshFlag: 1
 	MeshSpacing: 200
 	ShowStatus: 1
@@ -65,7 +65,7 @@ Info:
 fram
 {
 	light pal( rgb ( 1.00 1.00 1.00 ) -50 -49 -70 )
-	{	mov ( 3735 -5 111.195 ) eye deg( 45 ) }
+	{	mov ( 3155 -15 -103.547 ) eye deg( 45 ) }
 	{	mov ( -359.728 14.6449 -208.253 ) target }
   { mov ( 0 0 0 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
     /* Unit */
@@ -75,7 +75,7 @@ fram
       /* Unit Moveable */
       { scal ( 0.9 0.9 0.9 )
         obj "“·‘Ì" (: "“·‘Ì.l3p" :) }
-      { mov ( 0 0 410 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
+      { mov ( 0 0 400 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
         /* Unit Moveable */
         { scal ( 0.9 0.9 0.9 )
           obj "Šç" (: "Šç.l3p" :) }
