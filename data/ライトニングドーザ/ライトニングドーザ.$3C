@@ -11,6 +11,7 @@ Parts:
 	S2\S205.suf
 	S2\S211.suf
 	T1\T101.suf
+	TK\TK05.suf
 	armor\armor04.suf
 	armor\armor08.suf
 	armor\armor11.suf
@@ -20,7 +21,6 @@ Parts:
 	nozzle\nozzle16.suf
 	roarm\roarm01.suf
 	roarm\roarm05.suf
-	roarm\roarm10.suf
 	roarm\roarm15.suf
 	robody\robody02.suf
 	robody\robody08.suf
@@ -49,8 +49,8 @@ Info:
 :)*/
 fram
 {
-	light pal( rgb ( 1.00 1.00 1.00 ) -50 -49 -70 )
-	{	mov ( 3210.08 0.0199835 201.249 ) eye deg( 45 ) }
+	light pal( rgb ( 1.00 1.00 1.00 ) -48 -51 -70 )
+	{	mov ( 3210.89 83.7707 173.337 ) eye deg( 45 ) }
 	{	mov ( 12.5775 0.0820196 -30.9225 ) target }
   { mov ( 0 0 0 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
     /* Unit */

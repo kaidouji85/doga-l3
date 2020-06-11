@@ -33,6 +33,7 @@ Parts:
 Pose:
 0: "立ち" ( labelled 19 ( unlabelled move ( 0 0 0 ) rot ( 0 15 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( 0 -25 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( -25.8804 9.96156 -5.07673 ) ) ( unlabelled move ( 0 0 0 ) rot ( 2.77039 -26.7137 -2.30799 ) ) ( unlabelled move ( 0 0 0 ) rot ( 0 0 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( 0 0 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( 0 15 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( 31.7538 9.84655 10.1511 ) ) ( unlabelled move ( 0 0.000000000001 0 ) rot ( -0.508897 -11.1454 0.729499 ) ) ( unlabelled move ( 0 0 0 ) rot ( 0 0 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( 0 0 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( 0.0177636 -1.31282 -29.5072 ) ) ( unlabelled move ( 0 0 0 ) rot ( -0.790916 -0.91805 24.5981 ) ) ( unlabelled move ( 0 0 0 ) rot ( 28.5393 -13.5663 25.7693 ) ) ( unlabelled move ( 0 0 0 ) rot ( 0 0 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( -32.3994 14.0285 20.9057 ) ) ( unlabelled move ( 0 0 0 ) rot ( -11.8647 -34.742 -11.4537 ) ) ( unlabelled move ( 0 0 0 ) rot ( 0 0 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( 8.16418 23.5134 -15.6385 ) ) )
 1: "棒立ち" ( labelled 19 ( unlabelled move ( 0 0 0 ) rot ( 0 0 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( 0 0 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( -20 0 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( 0 0 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( 0 0 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( 0 0 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( 0 0 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( 25 0 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( 0 0 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( 0 0 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( 0 0 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( 0 0 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( 0 0 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( 25 0 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( 0 0 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( -24.2477 6.27967 13.6497 ) ) ( unlabelled move ( 0 0 0 ) rot ( -10 0 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( -15 0 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( 24.2477 6.27967 -13.6497 ) ) )
+2: "バックステップ" ( labelled 19 ( unlabelled move ( 0 0 0 ) rot ( 0 -25 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( 0 25 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( -50 45 -40 ) ) ( unlabelled move ( 0 0 0 ) rot ( 26.4022 -85.6193 -25.8435 ) ) ( unlabelled move ( 0 0 0 ) rot ( 0 0 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( 0 0 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( 0 0 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( 45 45 40 ) ) ( unlabelled move ( 0 0 0 ) rot ( 176.95 -83.3156 -175.047 ) ) ( unlabelled move ( 0 0 0 ) rot ( 0 0 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( 0 0 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( 0 0 -65 ) ) ( unlabelled move ( 0 0 0 ) rot ( 0 0 55 ) ) ( unlabelled move ( 0 0 0 ) rot ( 20 0 20 ) ) ( unlabelled move ( 0 0 0 ) rot ( 0 0 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( -10.5765 23.5573 -1.36341 ) ) ( unlabelled move ( 0 0 0 ) rot ( -55.2674 -52.9473 17.6818 ) ) ( unlabelled move ( 0 0 0 ) rot ( -171.675 64.463 -173.91 ) ) ( unlabelled move ( 0 0 0 ) rot ( 0 0 0 ) ) )
 Light: (   32   32  -89 ) ( 1.00 1.00 1.00)
 Info:
 	DisplayOffset: ( -100.000 -52.000 124.452 )
@@ -49,8 +50,8 @@ Info:
 :)*/
 fram
 {
-	light pal( rgb ( 1.00 1.00 1.00 ) -48 -51 -70 )
-	{	mov ( 3210.89 83.7707 173.337 ) eye deg( 45 ) }
+	light pal( rgb ( 1.00 1.00 1.00 ) -11 -69 -70 )
+	{	mov ( 2594.75 1876.06 270.781 ) eye deg( 45 ) }
 	{	mov ( 12.5775 0.0820196 -30.9225 ) target }
   { mov ( 0 0 0 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
     /* Unit */
