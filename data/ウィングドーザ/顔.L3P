@@ -11,13 +11,13 @@ Parts:
 	rohead\rohead08.suf
 Light: (   32   32  -89 ) ( 1.00 1.00 1.00)
 Info:
-	DisplayOffset: (   0.000  35.787 -108.733 )
+	DisplayOffset: ( 141.000  35.787 -108.733 )
 	DisplayScale: 0.353553390600
 	MeshFlag: 1
 	MeshSpacing: 200
 	ShowStatus: 1
 	ShowAttr: 1
-	GridFlag: 1
+	GridFlag: 0
 	GridSpacing: 20
 	RotSpacing: 3
 	SelectedOnly: 0
@@ -32,8 +32,8 @@ Palette:
 */
 fram
 {
-	light pal( rgb ( 1.00 1.00 1.00 ) -40  58 -70 )
-	{	mov ( -435.023 -2363.65 99.6557 ) eye deg( 45 ) }
+	light pal( rgb ( 1.00 1.00 1.00 )  -6 -70 -70 )
+	{	mov ( 1019.53 846.157 140.625 ) eye deg( 45 ) }
 	{	mov ( 4.38635 -4.15893 61.952 ) target }
 	{	mov ( -33.3642 0 0.362889 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
 		scal ( 0.925549 0.925549 1.0284 ) obj rohead08 /* "rohead\rohead08.suf" atr "blue" */
@@ -50,8 +50,8 @@ fram
 	{	mov ( -160.885 -135.964 85.8869 ) rotz ( -19.3874 ) roty ( -41.3083 ) rotx ( 22.6751 )
 		scal ( 0.725561 0.570842 0.578429 ) obj roetc04 /* "roetc\roetc04.suf" atr "blue" */
 	}
-	{	mov ( 30.2424 0.229522 275.661 ) rotz ( 0 ) roty ( -82.9122 ) rotx ( 0 )
-		scal ( 1.18488 4.70792 0.368483 ) obj W207 /* "W2\W207.suf" atr "blue" */
+	{	mov ( 22.3319 0.229522 294.457 ) rotz ( 0 ) roty ( -79.4218 ) rotx ( 0 )
+		scal ( 1.44337 4.70792 0.391783 ) obj W207 /* "W2\W207.suf" atr "blue" */
 	}
 	{	mov ( -160.885 135.964 85.8869 ) rotz ( 19.3874 ) roty ( -41.3083 ) rotx ( -22.6751 )
 		scal ( 0.725561 -0.570842 0.578429 ) obj roetc04 /* "roetc\roetc04.suf" atr "blue" */

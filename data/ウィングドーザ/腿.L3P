@@ -1,12 +1,13 @@
 /*							Parts Assembler
                                   Version 2.04.100723(:
 Parts: 
+	P1\P114.suf
 	S2\S205.suf
 	roarm\roarm01.suf
 Light: (   32   32  -89 ) ( 1.00 1.00 1.00)
 Info:
-	DisplayOffset: (  25.000 -40.000  56.000 )
-	DisplayScale: 0.125000000002
+	DisplayOffset: (  -3.000 -113.137  81.000 )
+	DisplayScale: 0.353553390599
 	MeshFlag: 1
 	MeshSpacing: 200
 	ShowStatus: 1
@@ -26,13 +27,16 @@ Palette:
 */
 fram
 {
-	light pal( rgb ( 1.00 1.00 1.00 ) -52 -47 -70 )
-	{	mov ( 1313.64 -44.8392 -33.8974 ) eye deg( 45 ) }
+	light pal( rgb ( 1.00 1.00 1.00 ) -59 -37 -70 )
+	{	mov ( 1281.07 -268.114 11.2908 ) eye deg( 45 ) }
 	{	mov ( 20 20 -60 ) target }
 	{	mov ( 0 0 0 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
 		scal ( 0.7 0.9 0.3 ) obj roarm01 /* "roarm\roarm01.suf" atr "white" */
 	}
 	{	mov ( 0 0 0 ) rotz ( 90 ) roty ( 30 ) rotx ( 180 )
 		scal ( 0.35 0.35 0.35 ) obj S205 /* "S2\S205.suf" atr "white" */
+	}
+	{	mov ( 0 -80 40 ) rotz ( 0 ) roty ( 0 ) rotx ( 60 )
+		scal ( 0.4 0.4 0.4 ) obj P114 /* "P1\P114.suf" atr "black" */
 	}
 }

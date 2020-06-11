@@ -30,7 +30,7 @@ fram
 	{	mov ( 1180 0 -46.2273 ) eye deg( 45 ) }
 	{	mov ( 14.1504 -3.72282 -108.961 ) target }
 	{	mov ( 40 0 -190 ) rotz ( -180 ) roty ( -90 ) rotx ( 0 )
-		scal ( 1.1 1 1.1 ) obj nozzle16 /* "nozzle\nozzle16.suf" atr "white" */
+		scal ( 1.1 0.9 1.1 ) obj nozzle16 /* "nozzle\nozzle16.suf" atr "white" */
 	}
 	{	mov ( 0 87.8035 -94.747 ) rotz ( 90 ) roty ( -50 ) rotx ( -180 )
 		scal ( 0.242 0.363 0.546506 ) obj robody12 /* "robody\robody12.suf" atr "black" */
