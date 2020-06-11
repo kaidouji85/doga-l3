@@ -63,8 +63,8 @@ Info:
 :)*/
 fram
 {
-	light pal( rgb ( 1.00 1.00 1.00 ) -31 -63  70 )
-	{	mov ( 4082 1492.75 -379.905 ) eye deg( 45 ) }
+	light pal( rgb ( 1.00 1.00 1.00 )  -6 -70 -70 )
+	{	mov ( 3214.59 3003.9 273.264 ) eye deg( 45 ) }
 	{	mov ( -359.728 14.6449 -208.253 ) target }
   { mov ( 0 0 0 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
     /* Unit */
