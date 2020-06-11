@@ -47,10 +47,11 @@ Pose:
 7: "ダッシュ反転" ( labelled 19 ( unlabelled move ( 0 0 0 ) rot ( -5 10 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( 2.94164 -0.908189 -31.4632 ) ) ( unlabelled move ( -0.0000418469 0.0000273598 -0.000191075 ) rot ( 3.03483 -12.6708 30.6131 ) ) ( unlabelled move ( -0.0000583165 0.000445068 -0.000447626 ) rot ( -6.40307 -16.7014 -1.44153 ) ) ( unlabelled move ( 0.0000533267 -0.000133524 -0.000323126 ) rot ( -10.2855 -60.0549 -5.38499 ) ) ( unlabelled move ( 0 0 0 ) rot ( 0 0 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( 0 0 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( -0.877977 1.81114 -46.1709 ) ) ( unlabelled move ( -0.000117685 0.000128007 -0.000346685 ) rot ( -55.8606 21.3077 11.2694 ) ) ( unlabelled move ( -0.0000149817 -0.000244696 -0.000240865 ) rot ( -3.59273 -40.5091 2.312 ) ) ( unlabelled move ( 0 0 0 ) rot ( 0 0 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( 0 0 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( 1.78323 -0.552778 33.9593 ) ) ( unlabelled move ( -0.0000817439 0.000161488 0.000321338 ) rot ( 40.5041 -14.4775 -3.96713 ) ) ( unlabelled move ( 0.0000688457 -0.000150409 0.000625864 ) rot ( -22.7661 83.8519 -22.5128 ) ) ( unlabelled move ( -0.000138285 -0.000147926 -0.000172988 ) rot ( 11.846 -7.2272 -3.11237 ) ) ( unlabelled move ( -0.0000102241 0.000286262 -0.0000571248 ) rot ( 18.839 -44.4968 -44.7743 ) ) ( unlabelled move ( 0.000128166 -0.0000468537 0.000181903 ) rot ( 2.82464 35.2071 2.5755 ) ) ( unlabelled move ( 0.000184103 0.000567613 -0.000270247 ) rot ( -4.56614 5.39894 4.56615 ) ) )
 8: "ダメージ" ( labelled 19 ( unlabelled move ( 0 0 0 ) rot ( -15 -15 5 ) ) ( unlabelled move ( 0 0 0 ) rot ( 0 0 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( -16.9543 -21.2021 61.3531 ) ) ( unlabelled move ( 0 0 0 ) rot ( 38.9945 14.7823 20.2901 ) ) ( unlabelled move ( 0 0 0 ) rot ( -0.622977 -25.4289 1.77026 ) ) ( unlabelled move ( 0 0 0 ) rot ( 0 0 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( 0 0 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( 0 0 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( -28.9344 20.2377 -26.9306 ) ) ( unlabelled move ( 0 0 0 ) rot ( 1.25615 -29.006 -2.25015 ) ) ( unlabelled move ( 0 0 0 ) rot ( 0 0 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( 0 0 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( 0 0 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( 89.2019 -76.8927 -99.2594 ) ) ( unlabelled move ( 0 0 0 ) rot ( -173.644 69.8941 -176.616 ) ) ( unlabelled move ( 0 0 0 ) rot ( -10.5802 -11.1942 -7.94031 ) ) ( unlabelled move ( 0 0 0 ) rot ( -12.7809 -14.0045 -38.9501 ) ) ( unlabelled move ( 0 0 0 ) rot ( 0 0 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( 1.34003 36.1967 -1.52908 ) ) )
 9: "ダウン" ( labelled 19 ( unlabelled move ( 0 0 0 ) rot ( -15 -15 5 ) ) ( unlabelled move ( 0 0 0 ) rot ( 0 0 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( -16.9543 -21.2021 61.3531 ) ) ( unlabelled move ( 0 0 0 ) rot ( 30.152 25.4356 1.66401 ) ) ( unlabelled move ( 0 0 0 ) rot ( -0.622977 -25.4289 1.77026 ) ) ( unlabelled move ( 0 0 0 ) rot ( 0 0 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( 0 0 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( 0 0 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( -55.2421 46.2519 -69.79 ) ) ( unlabelled move ( 0 0 0 ) rot ( 180 -85 -180 ) ) ( unlabelled move ( 0 0 0 ) rot ( 0 0 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( 0 0 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( 0 0 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( 89.2019 -76.8927 -99.2594 ) ) ( unlabelled move ( 0 0 0 ) rot ( -173.644 69.8941 -176.616 ) ) ( unlabelled move ( 0 0 0 ) rot ( -10.5802 -11.1942 -7.94031 ) ) ( unlabelled move ( 0 0 0 ) rot ( -12.7809 -14.0045 -38.9501 ) ) ( unlabelled move ( 0 0 0 ) rot ( 0 0 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( 1.34003 36.1967 -1.52908 ) ) )
+10: "ラフ立ち" ( labelled 19 ( unlabelled move ( 0 0 0 ) rot ( 0 0 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( 0 0 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( 0 0 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( 20 -5 10 ) ) ( unlabelled move ( 0 0 0 ) rot ( 0 0 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( 0 0 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( 0 0 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( 0 0 -50 ) ) ( unlabelled move ( 0 0 0 ) rot ( -15 -5 -15 ) ) ( unlabelled move ( 0 0 0 ) rot ( 0 0 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( 0 0 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( 0 0 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( 0 0 45 ) ) ( unlabelled move ( 0 0 0 ) rot ( 20 -5 15 ) ) ( unlabelled move ( 0 0 0 ) rot ( 0 0 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( -20.0703 4.69776 -1.71394 ) ) ( unlabelled move ( 0 0 0 ) rot ( -20 -5 -15 ) ) ( unlabelled move ( 0 0 0 ) rot ( 0 0 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( 20.0703 4.69776 1.71394 ) ) )
 Light: (   32   32  -89 ) ( 1.00 1.00 1.00)
 Info:
-	DisplayOffset: (  67.882   0.000  29.125 )
-	DisplayScale: 0.044194173825
+	DisplayOffset: (  11.667   0.000  17.324 )
+	DisplayScale: 0.062500000001
 	MeshFlag: 1
 	MeshSpacing: 200
 	ShowStatus: 1
@@ -63,8 +64,8 @@ Info:
 :)*/
 fram
 {
-	light pal( rgb ( 1.00 1.00 1.00 )  -6 -70 -70 )
-	{	mov ( 3214.59 3003.9 273.264 ) eye deg( 45 ) }
+	light pal( rgb ( 1.00 1.00 1.00 ) -50 -49 -70 )
+	{	mov ( 3735 -5 111.195 ) eye deg( 45 ) }
 	{	mov ( -359.728 14.6449 -208.253 ) target }
   { mov ( 0 0 0 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
     /* Unit */
@@ -74,7 +75,7 @@ fram
       /* Unit Moveable */
       { scal ( 0.9 0.9 0.9 )
         obj "胴体" (: "胴体.l3p" :) }
-      { mov ( 0 0 423 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
+      { mov ( 0 0 410 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
         /* Unit Moveable */
         { scal ( 0.9 0.9 0.9 )
           obj "顔" (: "顔.l3p" :) }
