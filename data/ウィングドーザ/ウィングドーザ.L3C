@@ -5,7 +5,6 @@ Parts:
 	EG\EG16.suf
 	F1\F116.suf
 	P1\P114.suf
-	P2\P211.suf
 	RB\RB03.suf
 	RB\RB07.suf
 	RB\RB09.suf
@@ -64,8 +63,8 @@ Info:
 :)*/
 fram
 {
-	light pal( rgb ( 1.00 1.00 1.00 ) -50 -49 -70 )
-	{	mov ( 3155 -15 -103.547 ) eye deg( 45 ) }
+	light pal( rgb ( 1.00 1.00 1.00 ) -50 -49  70 )
+	{	mov ( 3490 0 -220 ) eye deg( 45 ) }
 	{	mov ( -359.728 14.6449 -208.253 ) target }
   { mov ( 0 0 0 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
     /* Unit */

@@ -1,12 +1,13 @@
 /*							Parts Assembler
                                   Version 2.04.100723(:
 Parts: 
-	P2\P211.suf
+	P1\P114.suf
+	S2\S205.suf
 	roarm\roarm01.suf
 	roarm\roarm09.suf
 Light: (   32   32  -89 ) ( 1.00 1.00 1.00)
 Info:
-	DisplayOffset: (  35.000 -56.569 118.000 )
+	DisplayOffset: (  35.000 -19.250 118.000 )
 	DisplayScale: 0.176776695300
 	MeshFlag: 1
 	MeshSpacing: 200
@@ -27,16 +28,19 @@ Palette:
 */
 fram
 {
-	light pal( rgb ( 1.00 1.00 1.00 )  -5 -70  70 )
-	{	mov ( 1355.73 1200.79 -481.189 ) eye deg( 45 ) }
+	light pal( rgb ( 1.00 1.00 1.00 )  25  65 -70 )
+	{	mov ( -1663.37 -691.532 -22.869 ) eye deg( 45 ) }
 	{	mov ( -26.6713 20.1165 -382.731 ) target }
-	{	mov ( -14 0 -66 ) rotz ( 180 ) roty ( 0 ) rotx ( 0 )
+	{	mov ( 0 0 -66 ) rotz ( 180 ) roty ( 0 ) rotx ( 0 )
 		scal ( 0.6 0.6 0.2 ) obj roarm01 /* "roarm\roarm01.suf" atr "white" */
-	}
-	{	mov ( -14 0 -6 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
-		scal ( 1 1 1 ) obj P211 /* "P2\P211.suf" atr "white" */
 	}
 	{	mov ( -80 0 -260 ) rotz ( 180 ) roty ( -10 ) rotx ( 180 )
 		scal ( 0.5 0.5 0.6 ) obj roarm09 /* "roarm\roarm09.suf" atr "black" */
+	}
+	{	mov ( 0 0 0 ) rotz ( 90 ) roty ( 0 ) rotx ( 0 )
+		scal ( 0.3 0.3 0.3 ) obj S205 /* "S2\S205.suf" atr "white" */
+	}
+	{	mov ( 0 -100 0 ) rotz ( -90 ) roty ( 90 ) rotx ( 0 )
+		scal ( 0.3 0.3 0.3 ) obj P114 /* "P1\P114.suf" atr "black" */
 	}
 }
