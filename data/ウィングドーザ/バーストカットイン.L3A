@@ -4,8 +4,8 @@ Frame: 1 103
 Mechanic:
 	ウィングドーザ
 Info:
-	DisplayOffset: ( -17.000  17.000 -28.992 )
-	DisplayScale: 0.088388347648
+	DisplayOffset: (  -6.010   6.010 -10.250 )
+	DisplayScale: 0.031250000000
 	MeshFlag: 1
 	MeshSpacing: 200
 	ShowStatus: 1
@@ -19,7 +19,7 @@ Info:
 Motion: 0
 	Mechanic: CAMERA
 	Bezier:
-		( 2744.17 1830.86 870.789 )
+		( 3211.95 2133.48 879.206 )
 	Angle:
 		  1 45
 	CameraRotation:
