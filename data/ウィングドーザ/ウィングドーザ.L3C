@@ -76,7 +76,15 @@ fram
     { mov ( 0 0 0 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
       /* Unit Moveable */
       { scal ( 0.9 0.9 0.9 )
-        obj "胴体" (: "胴体.l3p" :) }
+        (: Selective :)
+#if (pose[(p+0)] == 0)
+        obj "胴体" (: "胴体.l3p" :)
+#endif
+#if (pose[(p+0)] == 1)
+        obj "胴体(バーストアップ用)" (: "胴体(バーストアップ用).l3p" :)
+#endif
+        (: Selective Done :)
+      }
       { mov ( 0 0 400 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
         /* Unit Moveable */
         { scal ( 0.9 0.9 0.9 )
