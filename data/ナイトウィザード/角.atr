@@ -1,0 +1,33 @@
+atr "_BodyD_Šp_sub"
+{
+	col ( rgb ( 0.455 0.065 0.520 ) )
+	amb ( 0.200 )
+	dif ( 0.800 )
+	spc ( 0.700 1.000 0.000 )
+}
+atr "_BodyM_Šp_sub"
+{
+	col ( rgb ( 0.700 0.100 0.800 ) )
+	amb ( 0.200 )
+	dif ( 0.800 )
+	spc ( 0.700 1.000 0.000 )
+}
+atr "_YelLg_Šp_sub"
+{
+	col ( rgb ( 0.950 1.000 0.450 ) )
+	amb ( 1.000 )
+	dif ( 0.000 )
+}
+atr "_GrayG_Šp_sub"
+{
+	col ( rgb ( 0.245 0.035 0.280 ) )
+	amb ( 0.200 )
+	dif ( 0.800 )
+	spc ( 0.700 1.000 0.000 )
+}
+atr "_WhiLg_Šp_sub"
+{
+	col ( 1.000 )
+	amb ( 1.000 )
+	dif ( 0.000 )
+}

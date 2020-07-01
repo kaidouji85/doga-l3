@@ -1,0 +1,41 @@
+/*							Parts Assembler
+                                  Version 2.04.100723(:
+Parts: 
+	BL\BL03.suf
+	P3\P305.suf
+	S2\S211.suf
+Light: (   32   32  -89 ) ( 1.00 1.00 1.00)
+Info:
+	DisplayOffset: (   0.000  70.711 -67.175 )
+	DisplayScale: 0.176776695297
+	MeshFlag: 1
+	MeshSpacing: 200
+	ShowStatus: 1
+	ShowAttr: 1
+	GridFlag: 1
+	GridSpacing: 20
+	RotSpacing: 5
+	SelectedOnly: 0
+	DispRelative: 0
+Palette:
+	0: atr base { col ( 1.000 ) amb ( 0.200 ) dif ( 0.800 ) spc ( 0.700 1.000 0.000 ) }
+	1: atr sub { col ( rgb ( 0.700 0.100 0.800 ) ) amb ( 0.200 ) dif ( 0.800 ) spc ( 0.700 1.000 0.000 ) }
+*/
+fram
+{
+	light pal( rgb ( 1.00 1.00 1.00 )   5  70  70 )
+	{	mov ( -2199.29 -1874 -207.117 ) eye deg( 45 ) }
+	{	mov ( 0 0 0 ) target }
+	{	mov ( 0 0 20 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
+		scal ( 0.5 0.5 0.6 ) obj BL03 /* "BL\BL03.suf" atr "sub" */
+	}
+	{	mov ( -20 0 560 ) rotz ( 0 ) roty ( -90 ) rotx ( 0 )
+		scal ( 0.3 0.3 0.5 ) obj S211 /* "S2\S211.suf" atr "sub" */
+	}
+	{	mov ( 0 0 -20 ) rotz ( -45 ) roty ( 0 ) rotx ( 0 )
+		scal ( 0.7 1.8 0.8 ) obj P305 /* "P3\P305.suf" atr "sub" */
+	}
+	{	mov ( 0 0 -20 ) rotz ( 135 ) roty ( 0 ) rotx ( 0 )
+		scal ( 0.4 1.8 0.8 ) obj P305 /* "P3\P305.suf" atr "sub" */
+	}
+}
