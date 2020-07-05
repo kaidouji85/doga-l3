@@ -2,10 +2,15 @@
                                   Version 2.04.100723(:
 Parts: 
 	EG\EG07.suf
+	P1\P114.suf
+	P4\P405.suf
 	RB\RB03.suf
 	T1\T105.suf
 	armor\armor01.suf
+	armor\armor04.suf
 	armor\armor14.suf
+	fang\fang02.suf
+	mecha\carracing\RLYLT.suf
 	nozzle\nozzle10.suf
 	nozzle\nozzle12.suf
 	nozzle\nozzle16.suf
@@ -21,8 +26,8 @@ Parts:
 	Šp.SUF
 Light: (   32   32  -89 ) ( 1.00 1.00 1.00)
 Info:
-	DisplayOffset: ( -34.000 -24.500 164.000 )
-	DisplayScale: 0.176776695297
+	DisplayOffset: ( -74.953  -0.000  -1.250 )
+	DisplayScale: 0.062500000000
 	MeshFlag: 1
 	MeshSpacing: 200
 	ShowStatus: 1
@@ -37,25 +42,23 @@ Palette:
 	1: atr dark { col ( rgb ( 0.400 0.400 0.450 ) ) amb ( 0.200 ) dif ( 0.800 ) ref ( 0.300 ) spc ( 0.900 1.000 0.650 ) }
 	2: atr light { col ( rgb ( 0.950 1.000 0.150 ) ) amb ( 1.000 ) dif ( 0.000 ) opt ( emittion 0.050 4.000 ) }
 	3: atr sub { col ( rgb ( 0.700 0.100 0.800 ) ) amb ( 0.200 ) dif ( 0.800 ) spc ( 0.700 1.000 0.000 ) }
+	4: atr yellow { col ( rgb ( 0.950 1.000 0.150 ) ) amb ( 0.200 ) dif ( 0.800 ) spc ( 0.700 1.000 0.000 ) }
 */
 fram
 {
-	light pal( rgb ( 1.00 1.00 1.00 ) -48 -51  70 )
-	{	mov ( 4615.02 143.624 -909.008 ) eye deg( 45 ) }
-	{	mov ( 100 0 -249.243 ) target }
+	light pal( rgb ( 1.00 1.00 1.00 ) -50 -49  70 )
+	{	mov ( 4300 120 -1060 ) eye deg( 45 ) }
+	{	mov ( 48.8268 138.783 -743.206 ) target }
 	{	mov ( 0 0 -66 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
-		scal ( 0.9 1 1 ) obj rohead08 /* "rohead\rohead08.suf" atr "base" */
+		scal ( 0.9 1 1 ) obj rohead08 /* "rohead\rohead08.suf" atr "sub" */
 	}
 	{	mov ( -40 120 74 ) rotz ( -90 ) roty ( 0 ) rotx ( 0 )
-		scal ( 0.5 0.5 0.5 ) obj EG07 /* "EG\EG07.suf" atr "base" */
+		scal ( 0.5 0.5 0.5 ) obj EG07 /* "EG\EG07.suf" atr "sub" */
 	}
 	{	mov ( -40 -120 74 ) rotz ( 90 ) roty ( 0 ) rotx ( 0 )
-		scal ( 0.5 -0.5 0.5 ) obj EG07 /* "EG\EG07.suf" atr "base" */
+		scal ( 0.5 -0.5 0.5 ) obj EG07 /* "EG\EG07.suf" atr "sub" */
 	}
-	{	mov ( 20 120 194 ) rotz ( 40 ) roty ( 10 ) rotx ( -30 )
-		scal ( 1 -1 1 ) obj "Šp" /* "Šp.SUF" atr "sub" */
-	}
-	{	mov ( 20 -120 194 ) rotz ( -40 ) roty ( 10 ) rotx ( 30 )
+	{	mov ( -100 -120 240 ) rotz ( -40 ) roty ( 10 ) rotx ( 40 )
 		scal ( 1 1 1 ) obj "Šp" /* "Šp.SUF" atr "sub" */
 	}
 	{	mov ( 80 0 -320 ) rotz ( 0 ) roty ( 15 ) rotx ( 0 )
@@ -80,7 +83,7 @@ fram
 		scal ( 0.484 0.484 0.605 ) obj rb03 /* "RB\RB03.suf" atr "base" */
 	}
 	{	mov ( 20 0 -180 ) rotz ( 0 ) roty ( 0 ) rotx ( -180 )
-		scal ( 0.5 0.4 1 ) obj robody09 /* "robody\robody09.suf" atr "dark" */
+		scal ( 0.428733 0.357895 1 ) obj robody09 /* "robody\robody09.suf" atr "dark" */
 	}
 	{	mov ( 40 0 -760 ) rotz ( -180 ) roty ( -90 ) rotx ( 0 )
 		scal ( 1 0.9 0.8 ) obj nozzle16 /* "nozzle\nozzle16.suf" atr "base" */
@@ -103,16 +106,46 @@ fram
 	{	mov ( 320 220 -900 ) rotz ( -180 ) roty ( -10 ) rotx ( 0 )
 		scal ( 0.7 0.8 0.6 ) obj roarm05 /* "roarm\roarm05.suf" atr "sub" */
 	}
-	{	mov ( 60 220 -1580 ) rotz ( 0 ) roty ( -25 ) rotx ( 0 )
-		scal ( 1 1 1 ) obj roetc04 /* "roetc\roetc04.suf" atr "base" */
+	{	mov ( 60 220 -1580 ) rotz ( 0 ) roty ( -55 ) rotx ( 0 )
+		scal ( 1 1 1.4 ) obj roetc04 /* "roetc\roetc04.suf" atr "base" */
 	}
-	{	mov ( 140 220 -1860 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
-		scal ( 1 1 1.7 ) obj armor14 /* "armor\armor14.suf" atr "sub" */
+	{	mov ( 180 220 -1820 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
+		scal ( 1.4 1 1.7 ) obj armor14 /* "armor\armor14.suf" atr "sub" */
 	}
 	{	mov ( -220 240 -1520 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
 		scal ( 1.2 1 0.4 ) obj roarm06 /* "roarm\roarm06.suf" atr "base" */
 	}
 	{	mov ( -140 220 -1840 ) rotz ( -180 ) roty ( 0 ) rotx ( 0 )
 		scal ( 1 1 3.2 ) obj armor14 /* "armor\armor14.suf" atr "sub" */
+	}
+	{	mov ( -100 120 240 ) rotz ( 40 ) roty ( 10 ) rotx ( -40 )
+		scal ( 1 -1 1 ) obj "Šp" /* "Šp.SUF" atr "sub" */
+	}
+	{	mov ( 0 0 180 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
+		scal ( 1 0.7 0.8 ) obj P114 /* "P1\P114.suf" atr "sub" */
+	}
+	{	mov ( 420 220 -1720 ) rotz ( 180 ) roty ( -60 ) rotx ( 0 )
+		scal ( 0.8 1 0.6 ) obj fang02 /* "fang\fang02.suf" atr "sub" */
+	}
+	{	mov ( 20 0 120 ) rotz ( 90 ) roty ( 0 ) rotx ( -50 )
+		scal ( 0.5 0.4 0.5 ) obj armor04 /* "armor\armor04.suf" atr "sub" */
+	}
+	{	mov ( 109.253 0 52.4747 ) rotz ( -90 ) roty ( 0 ) rotx ( -20 )
+		scal ( 0.3 0.5 0.4 ) obj P405 /* "P4\P405.suf" atr "base" */
+	}
+	{	mov ( 109.253 0 52.4747 ) rotz ( 90 ) roty ( 0 ) rotx ( -160 )
+		scal ( 0.3 0.5 0.6 ) obj P405 /* "P4\P405.suf" atr "base" */
+	}
+	{	mov ( 111.22 99.0535 125.916 ) rotz ( -123.813 ) roty ( 54.2896 ) rotx ( -179.375 )
+		scal ( 0.276537 -0.805502 0.198707 ) obj fang02 /* "fang\fang02.suf" atr "yellow" */
+	}
+	{	mov ( 111.22 -99.0535 125.916 ) rotz ( 123.813 ) roty ( 54.2896 ) rotx ( 179.375 )
+		scal ( 0.276537 0.805502 0.198707 ) obj fang02 /* "fang\fang02.suf" atr "yellow" */
+	}
+	{	mov ( 180 0 100 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
+		scal ( 0.7 1.4 1.5 ) obj RLYLT /* "mecha\carracing\RLYLT.suf" atr "base" */
+	}
+	{	mov ( 260 0 100 ) rotz ( 0 ) roty ( 90 ) rotx ( 0 )
+		scal ( 0.3 0.3 0.2 ) obj P114 /* "P1\P114.suf" atr "light" */
 	}
 }

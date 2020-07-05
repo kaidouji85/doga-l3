@@ -2,12 +2,11 @@
                                   Version 2.04.100723(:
 Parts: 
 	BL\BL03.suf
-	P3\P305.suf
 	S2\S211.suf
 Light: (   32   32  -89 ) ( 1.00 1.00 1.00)
 Info:
-	DisplayOffset: (   0.000  70.711 -67.175 )
-	DisplayScale: 0.176776695297
+	DisplayOffset: (  48.000 100.000 -95.000 )
+	DisplayScale: 0.250000000000
 	MeshFlag: 1
 	MeshSpacing: 200
 	ShowStatus: 1
@@ -23,19 +22,16 @@ Palette:
 */
 fram
 {
-	light pal( rgb ( 1.00 1.00 1.00 )   5  70  70 )
-	{	mov ( -2199.29 -1874 -207.117 ) eye deg( 45 ) }
+	light pal( rgb ( 1.00 1.00 1.00 )  31  63 -70 )
+	{	mov ( -2168.77 -716.942 273.777 ) eye deg( 45 ) }
 	{	mov ( 0 0 0 ) target }
-	{	mov ( 0 0 20 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
+	{	mov ( 0 0 0 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
 		scal ( 0.5 0.5 0.6 ) obj BL03 /* "BL\BL03.suf" atr "sub" */
 	}
-	{	mov ( -20 0 560 ) rotz ( 0 ) roty ( -90 ) rotx ( 0 )
-		scal ( 0.3 0.3 0.5 ) obj S211 /* "S2\S211.suf" atr "sub" */
+	{	mov ( 0 0 540 ) rotz ( -145 ) roty ( -90 ) rotx ( 0 )
+		scal ( 0.2 0.2 0.2 ) obj S211 /* "S2\S211.suf" atr "sub" */
 	}
-	{	mov ( 0 0 -20 ) rotz ( -45 ) roty ( 0 ) rotx ( 0 )
-		scal ( 0.7 1.8 0.8 ) obj P305 /* "P3\P305.suf" atr "sub" */
-	}
-	{	mov ( 0 0 -20 ) rotz ( 135 ) roty ( 0 ) rotx ( 0 )
-		scal ( 0.4 1.8 0.8 ) obj P305 /* "P3\P305.suf" atr "sub" */
+	{	mov ( 0 0 0 ) rotz ( 180 ) roty ( 0 ) rotx ( 180 )
+		scal ( 0.5 0.5 0.3 ) obj BL03 /* "BL\BL03.suf" atr "sub" */
 	}
 }
