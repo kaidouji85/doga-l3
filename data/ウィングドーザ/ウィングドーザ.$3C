@@ -50,9 +50,10 @@ Pose:
 11: "バックステップ" ( labelled 19 ( unlabelled move ( 0 0 0 ) rot ( 0 -35 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( 0 20 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( 0 15 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( 54.8789 54.0003 38.8478 ) ) ( unlabelled move ( 0 0 0 ) rot ( -103.572 -88.0469 102.02 ) ) ( unlabelled move ( 0 0 0 ) rot ( 0 0 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( 0 0 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( 0 0 -50 ) ) ( unlabelled move ( 0 0 0 ) rot ( -44.1645 23.1639 -51.533 ) ) ( unlabelled move ( 0 0 0 ) rot ( 38.1679 -88.2779 -40.2378 ) ) ( unlabelled move ( 0 0 0 ) rot ( 0 0 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( 0 0 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( 0 0 45 ) ) ( unlabelled move ( 0 0 0 ) rot ( 20 -5 15 ) ) ( unlabelled move ( 0 0 0 ) rot ( 0 0 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( -14.7016 37.0264 -12.3726 ) ) ( unlabelled move ( 0 0 0 ) rot ( -78.4812 -70.3069 61.5188 ) ) ( unlabelled move ( 0 0 0 ) rot ( 177.779 59.0799 179.622 ) ) ( unlabelled move ( 0 0 0 ) rot ( 8.74049 -1.19003 -1.0933 ) ) )
 12: "フロントステップ" ( labelled 19 ( unlabelled move ( 0 0 0 ) rot ( 0 20 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( 0 0 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( 0 0 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( 25 30 25 ) ) ( unlabelled move ( 0 0 0 ) rot ( -112.727 -89.2051 116.94 ) ) ( unlabelled move ( 0 0 0 ) rot ( 0 0 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( 0 0 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( 0 0 -50 ) ) ( unlabelled move ( 0 0 0 ) rot ( -25 50 -35 ) ) ( unlabelled move ( 0 0 0 ) rot ( 146.068 -85.5067 -147.359 ) ) ( unlabelled move ( 0 0 0 ) rot ( 0 0 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( 0 0 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( 0 0 45 ) ) ( unlabelled move ( 0 0 0 ) rot ( 20 -5 15 ) ) ( unlabelled move ( 0 0 0 ) rot ( 0 0 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( -25.8556 -13.1095 5.81036 ) ) ( unlabelled move ( 0 0 0 ) rot ( -55 -65 35 ) ) ( unlabelled move ( 0 0 0 ) rot ( -178.801 61.8453 179.496 ) ) ( unlabelled move ( 0 0 0 ) rot ( 20.0703 4.69776 1.71394 ) ) )
 13: "ガード" ( labelled 19 ( unlabelled move ( 0 0 0 ) rot ( 0 0 40 ) ) ( unlabelled move ( 0 0 0 ) rot ( 0 0 35 ) ) ( unlabelled move ( 0 0 0 ) rot ( 0 0 -60 ) ) ( unlabelled move ( 0 0 0 ) rot ( 30 45 35 ) ) ( unlabelled move ( 0 0 0 ) rot ( -170.824 -77.0842 170.235 ) ) ( unlabelled move ( 0 0 0 ) rot ( 0 0 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( 0 0 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( 0 0 -50 ) ) ( unlabelled move ( 0 0 0 ) rot ( -25 -30 45 ) ) ( unlabelled move ( 0 0 0 ) rot ( -5.70899 -87.9223 8.16737 ) ) ( unlabelled move ( 0 0 0 ) rot ( 0 0 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( 0 0 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( 0 0 45 ) ) ( unlabelled move ( 0 0 0 ) rot ( 50 -75 -15 ) ) ( unlabelled move ( 0 0 0 ) rot ( -179.642 74.1086 178.165 ) ) ( unlabelled move ( 0 0 0 ) rot ( -23.1362 -22.5 10.5349 ) ) ( unlabelled move ( 0 0 0 ) rot ( -100 -50 70 ) ) ( unlabelled move ( 0 0 0 ) rot ( -161.641 87.3064 -160.981 ) ) ( unlabelled move ( 0 0 0 ) rot ( 32.6109 25.0481 -25.7435 ) ) )
+14: "アッパーため" ( labelled 19 ( unlabelled move ( 0 0 0 ) rot ( 0 -15 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( 0 15 0 ) selective ( normal 0 2 ) ) ( unlabelled move ( 0 0 0 ) rot ( 0 25 0 ) ) ( unlabelled move ( -0.000239867 0 0.000101871 ) rot ( 35.3738 19.0547 21.129 ) ) ( unlabelled move ( 0.000066387 0.000179426 0.000462521 ) rot ( -72.6987 -82.9966 75.6958 ) ) ( unlabelled move ( 0 0 0 ) rot ( 0 0 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( 0 0 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( -11.5995 9.57658 -50.975 ) ) ( unlabelled move ( 0 0 0 ) rot ( -48.0073 33.4052 -12.2613 ) ) ( unlabelled move ( 0 0 0 ) rot ( -0.377663 -42.603 0.96856 ) ) ( unlabelled move ( 0 0 0 ) rot ( 0 0 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( 0 0 0 ) ) ( unlabelled move ( 0 0 0 ) rot ( 13.6497 6.27967 65.7523 ) ) ( unlabelled move ( 0 0 0 ) rot ( 6.31228 9.94292 5.05707 ) ) ( unlabelled move ( 0 0 0 ) rot ( 22.8794 75.3666 26.3858 ) ) ( unlabelled move ( -0.000145016 -0.000304874 -0.000197781 ) rot ( -1.18069 -29.8527 -5.12828 ) ) ( unlabelled move ( 0 0 0 ) rot ( -16.8368 -73.4021 17.4861 ) ) ( unlabelled move ( 0 0 0 ) rot ( -2.83459 87.5006 -2.16541 ) ) ( unlabelled move ( -0.0000497983 0.0000671384 -0.000327377 ) rot ( 5 0 0 ) ) )
 Light: (   32   32  -89 ) ( 1.00 1.00 1.00)
 Info:
-	DisplayOffset: ( -34.000   0.000  24.500 )
+	DisplayOffset: ( -45.000   0.000  24.500 )
 	DisplayScale: 0.088388347651
 	MeshFlag: 1
 	MeshSpacing: 200
@@ -66,8 +67,8 @@ Info:
 :)*/
 fram
 {
-	light pal( rgb ( 1.00 1.00 1.00 ) -24 -66 -70 )
-	{	mov ( 5448.45 2721.39 906.41 ) eye deg( 45 ) }
+	light pal( rgb ( 1.00 1.00 1.00 )  20 -67  70 )
+	{	mov ( 2847.24 6042.68 -343.178 ) eye deg( 45 ) }
 	{	mov ( -359.728 14.6449 -208.253 ) target }
   { mov ( 0 0 0 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
     /* Unit */
@@ -76,7 +77,15 @@ fram
     { mov ( 0 0 0 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
       /* Unit Moveable */
       { scal ( 0.9 0.9 0.9 )
-        obj "胴体" (: "胴体.l3p" :) }
+        (: Selective :)
+#if (pose[(p+0)] == 0)
+        obj "胴体" (: "胴体.l3p" :)
+#endif
+#if (pose[(p+0)] == 1)
+        obj "胴体(バーストアップ用)" (: "胴体(バーストアップ用).l3p" :)
+#endif
+        (: Selective Done :)
+      }
       { mov ( 0 0 400 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
         /* Unit Moveable */
         { scal ( 0.9 0.9 0.9 )
