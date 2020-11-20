@@ -19,7 +19,7 @@ Info:
 Motion: 0
 	Mechanic: CAMERA
 	Bezier:
-		( 1925 1799.79 1070 )
+		( 1960 1799.79 1140 )
 	Angle:
 		  1 45
 	CameraRotation:
