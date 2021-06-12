@@ -3,6 +3,7 @@
 Parts: 
 	F1\F116.suf
 	P1\P114.suf
+	S1\S102.suf
 	SD\SD06.suf
 	T1\T101.suf
 	TK\TK05.suf
@@ -16,8 +17,8 @@ Parts:
 	rohead\rohead08.suf
 Light: (   32   32  -89 ) ( 1.00 1.00 1.00)
 Info:
-	DisplayOffset: ( -113.000 -35.000 -317.996 )
-	DisplayScale: 0.707106781186
+	DisplayOffset: ( -10.253  10.695 -30.406 )
+	DisplayScale: 0.088388347648
 	MeshFlag: 1
 	MeshSpacing: 200
 	ShowStatus: 1
@@ -30,13 +31,13 @@ Info:
 Palette:
 	0: atr "アクセント1" { col ( rgb ( 0.900 0.100 0.150 ) ) amb ( 0.200 ) dif ( 0.800 ) ref ( 0.300 ) spc ( 0.900 1.000 0.650 ) }
 	1: atr "アクセント2" { col ( rgb ( 1.000 0.840 0.000 ) ) amb ( 0.200 ) dif ( 0.800 ) ref ( 0.300 ) spc ( 0.900 1.000 0.650 ) }
-	2: atr "メイン" { col ( rgb ( 0.650 0.650 0.700 ) ) amb ( 0.200 ) dif ( 0.800 ) ref ( 0.300 ) spc ( 0.900 1.000 0.650 ) }
+	2: atr "メイン" { col ( rgb ( 0.400 0.400 0.450 ) ) amb ( 0.200 ) dif ( 0.800 ) ref ( 0.300 ) spc ( 0.900 1.000 0.650 ) }
 	3: atr "発光" { col ( rgb ( 0.010 0.560 0.120 ) ) amb ( 1.000 ) dif ( 0.000 ) opt ( emittion 0.050 4.000 ) }
 */
 fram
 {
-	light pal( rgb ( 1.00 1.00 1.00 )   1 -70  70 )
-	{	mov ( 1161.27 1205.39 -33.5337 ) eye deg( 45 ) }
+	light pal( rgb ( 1.00 1.00 1.00 )  -9 -70  70 )
+	{	mov ( 1198.89 903.982 -181.068 ) eye deg( 45 ) }
 	{	mov ( 16.2762 9.9315 13.2718 ) target }
 	{	mov ( -16.2 0 16.7 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
 		scal ( 0.817521 0.857742 0.9 ) obj rohead08 /* "rohead\rohead08.suf" atr "メイン" */
@@ -62,11 +63,11 @@ fram
 	{	mov ( 66.2599 -120 -300 ) rotz ( 180 ) roty ( -20 ) rotx ( -90 )
 		scal ( 0.4 0.3 0.3 ) obj robody16 /* "robody\robody16.suf" atr "アクセント2" */
 	}
-	{	mov ( 166.37 87.4476 351.042 ) rotz ( 123.335 ) roty ( -69.9602 ) rotx ( -73.0746 )
+	{	mov ( 206.819 65.9641 357.873 ) rotz ( 115.468 ) roty ( -79.2361 ) rotx ( -63.9078 )
 		scal ( 0.230552 -0.361028 0.436365 ) obj SD06 /* "SD\SD06.suf" atr "アクセント2" */
 	}
-	{	mov ( -141.923 158.788 107.231 ) rotz ( -0.598723 ) roty ( -55.8176 ) rotx ( -11.7481 )
-		scal ( 0.681709 0.536244 0.644178 ) obj roetc04 /* "roetc\roetc04.suf" atr "メイン" */
+	{	mov ( -141.923 170.073 105.016 ) rotz ( -20 ) roty ( -55 ) rotx ( 5 )
+		scal ( 0.681709 0.586517 0.644178 ) obj roetc04 /* "roetc\roetc04.suf" atr "メイン" */
 	}
 	{	mov ( 44.5021 73.6967 171.653 ) rotz ( -29.857 ) roty ( 10.3044 ) rotx ( -96.3252 )
 		scal ( 0.152193 0.194002 0.806537 ) obj T101 /* "T1\T101.suf" atr "発光" */
@@ -77,19 +78,25 @@ fram
 	{	mov ( 140 0 100 ) rotz ( -180 ) roty ( -90 ) rotx ( 0 )
 		scal ( 0.262782 0.3 0.670344 ) obj F116 /* "F1\F116.suf" atr "アクセント1" */
 	}
-	{	mov ( -141.923 -158.788 107.231 ) rotz ( 0.598723 ) roty ( -55.8176 ) rotx ( 11.7481 )
-		scal ( 0.681709 -0.536244 0.644178 ) obj roetc04 /* "roetc\roetc04.suf" atr "メイン" */
-	}
-	{	mov ( 122.091 83.2415 238.114 ) rotz ( -46.0734 ) roty ( -6.68267 ) rotx ( -6.39558 )
+	{	mov ( 127.474 101.032 216.394 ) rotz ( -32.7457 ) roty ( -5.0288 ) rotx ( -7.76157 )
 		scal ( 0.113514 0.139093 0.113514 ) obj TK05 /* "TK\TK05.suf" atr "アクセント2" */
 	}
 	{	mov ( 180 -1.36963 235.048 ) rotz ( -180 ) roty ( -65 ) rotx ( 0 )
 		scal ( 0.338737 0.4 0.8 ) obj nozzle10 /* "nozzle\nozzle10.suf" atr "アクセント2" */
 	}
-	{	mov ( 166.37 -87.4476 351.042 ) rotz ( -123.335 ) roty ( -69.9602 ) rotx ( 73.0746 )
+	{	mov ( 127.474 -101.032 216.394 ) rotz ( 32.7457 ) roty ( -5.0288 ) rotx ( 7.76157 )
+		scal ( 0.113514 -0.139093 0.113514 ) obj TK05 /* "TK\TK05.suf" atr "アクセント2" */
+	}
+	{	mov ( 206.819 -65.9641 357.873 ) rotz ( -115.468 ) roty ( -79.2361 ) rotx ( 63.9078 )
 		scal ( 0.230552 0.361028 0.436365 ) obj SD06 /* "SD\SD06.suf" atr "アクセント2" */
 	}
-	{	mov ( 122.091 -83.2415 238.114 ) rotz ( 46.0734 ) roty ( -6.68267 ) rotx ( 6.39558 )
-		scal ( 0.113514 -0.139093 0.113514 ) obj TK05 /* "TK\TK05.suf" atr "アクセント2" */
+	{	mov ( -40 180 340 ) rotz ( 145 ) roty ( -30 ) rotx ( 90 )
+		scal ( 0.360157 0.2 0.360157 ) obj S102 /* "S1\S102.suf" atr "アクセント2" */
+	}
+	{	mov ( -40 -180 340 ) rotz ( -145 ) roty ( -30 ) rotx ( -90 )
+		scal ( 0.360157 -0.2 0.360157 ) obj S102 /* "S1\S102.suf" atr "アクセント2" */
+	}
+	{	mov ( -141.923 -170.073 105.016 ) rotz ( 20 ) roty ( -55 ) rotx ( -5 )
+		scal ( 0.681709 -0.586517 0.644178 ) obj roetc04 /* "roetc\roetc04.suf" atr "メイン" */
 	}
 }
