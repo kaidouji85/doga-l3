@@ -17,8 +17,8 @@ Parts:
 	rohead\rohead08.suf
 Light: (   32   32  -89 ) ( 1.00 1.00 1.00)
 Info:
-	DisplayOffset: ( -10.253  10.695 -30.406 )
-	DisplayScale: 0.088388347648
+	DisplayOffset: ( -49.000 121.000 -344.005 )
+	DisplayScale: 0.999999999996
 	MeshFlag: 1
 	MeshSpacing: 200
 	ShowStatus: 1
@@ -36,17 +36,17 @@ Palette:
 */
 fram
 {
-	light pal( rgb ( 1.00 1.00 1.00 )  -9 -70  70 )
-	{	mov ( 1198.89 903.982 -181.068 ) eye deg( 45 ) }
+	light pal( rgb ( 1.00 1.00 1.00 ) -11 -69  70 )
+	{	mov ( 1293 923.607 10.5317 ) eye deg( 45 ) }
 	{	mov ( 16.2762 9.9315 13.2718 ) target }
 	{	mov ( -16.2 0 16.7 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
 		scal ( 0.817521 0.857742 0.9 ) obj rohead08 /* "rohead\rohead08.suf" atr "メイン" */
 	}
 	{	mov ( -12.6 0 250.7 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
-		scal ( 0.72 0.63 0.72 ) obj P114 /* "P1\P114.suf" atr "メイン" */
+		scal ( 0.72 0.672607 1.02434 ) obj P114 /* "P1\P114.suf" atr "メイン" */
 	}
 	{	mov ( -30.7885 0 220.957 ) rotz ( 90 ) roty ( 0 ) rotx ( -58.3487 )
-		scal ( 0.501373 0.461644 0.409846 ) obj armor04 /* "armor\armor04.suf" atr "メイン" */
+		scal ( 0.552195 0.461644 0.464732 ) obj armor04 /* "armor\armor04.suf" atr "メイン" */
 	}
 	{	mov ( 146.4 0 -178.4 ) rotz ( -180 ) roty ( -25 ) rotx ( 0 )
 		scal ( 0.7 0.7 0.35 ) obj roarm05 /* "roarm\roarm05.suf" atr "アクセント1" */
