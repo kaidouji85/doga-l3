@@ -4,10 +4,9 @@ Parts:
 	F1\F116.suf
 	P1\P114.suf
 	S1\S102.suf
-	SD\SD06.suf
 	T1\T101.suf
-	TK\TK05.suf
 	armor\armor04.suf
+	armor\armor08.suf
 	nozzle\nozzle10.suf
 	roarm\roarm05.suf
 	robody\robody02.suf
@@ -17,8 +16,8 @@ Parts:
 	rohead\rohead08.suf
 Light: (   32   32  -89 ) ( 1.00 1.00 1.00)
 Info:
-	DisplayOffset: ( -49.000 121.000 -344.005 )
-	DisplayScale: 0.999999999996
+	DisplayOffset: ( 159.000 -107.000  17.000 )
+	DisplayScale: 0.499999999998
 	MeshFlag: 1
 	MeshSpacing: 200
 	ShowStatus: 1
@@ -36,14 +35,14 @@ Palette:
 */
 fram
 {
-	light pal( rgb ( 1.00 1.00 1.00 ) -11 -69  70 )
-	{	mov ( 1293 923.607 10.5317 ) eye deg( 45 ) }
+	light pal( rgb ( 1.00 1.00 1.00 )  -1 -70  70 )
+	{	mov ( 1228.44 1184.16 -137.346 ) eye deg( 45 ) }
 	{	mov ( 16.2762 9.9315 13.2718 ) target }
 	{	mov ( -16.2 0 16.7 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
 		scal ( 0.817521 0.857742 0.9 ) obj rohead08 /* "rohead\rohead08.suf" atr "メイン" */
 	}
 	{	mov ( -12.6 0 250.7 ) rotz ( 0 ) roty ( 0 ) rotx ( 0 )
-		scal ( 0.72 0.672607 1.02434 ) obj P114 /* "P1\P114.suf" atr "メイン" */
+		scal ( 0.72 0.672607 0.962167 ) obj P114 /* "P1\P114.suf" atr "メイン" */
 	}
 	{	mov ( -30.7885 0 220.957 ) rotz ( 90 ) roty ( 0 ) rotx ( -58.3487 )
 		scal ( 0.552195 0.461644 0.464732 ) obj armor04 /* "armor\armor04.suf" atr "メイン" */
@@ -63,9 +62,6 @@ fram
 	{	mov ( 66.2599 -120 -300 ) rotz ( 180 ) roty ( -20 ) rotx ( -90 )
 		scal ( 0.4 0.3 0.3 ) obj robody16 /* "robody\robody16.suf" atr "アクセント2" */
 	}
-	{	mov ( 206.819 65.9641 357.873 ) rotz ( 115.468 ) roty ( -79.2361 ) rotx ( -63.9078 )
-		scal ( 0.230552 -0.361028 0.436365 ) obj SD06 /* "SD\SD06.suf" atr "アクセント2" */
-	}
 	{	mov ( -141.923 170.073 105.016 ) rotz ( -20 ) roty ( -55 ) rotx ( 5 )
 		scal ( 0.681709 0.586517 0.644178 ) obj roetc04 /* "roetc\roetc04.suf" atr "メイン" */
 	}
@@ -78,25 +74,31 @@ fram
 	{	mov ( 140 0 100 ) rotz ( -180 ) roty ( -90 ) rotx ( 0 )
 		scal ( 0.262782 0.3 0.670344 ) obj F116 /* "F1\F116.suf" atr "アクセント1" */
 	}
-	{	mov ( 127.474 101.032 216.394 ) rotz ( -32.7457 ) roty ( -5.0288 ) rotx ( -7.76157 )
-		scal ( 0.113514 0.139093 0.113514 ) obj TK05 /* "TK\TK05.suf" atr "アクセント2" */
-	}
 	{	mov ( 180 -1.36963 235.048 ) rotz ( -180 ) roty ( -65 ) rotx ( 0 )
-		scal ( 0.338737 0.4 0.8 ) obj nozzle10 /* "nozzle\nozzle10.suf" atr "アクセント2" */
+		scal ( 0.338737 0.440924 0.8 ) obj nozzle10 /* "nozzle\nozzle10.suf" atr "アクセント2" */
 	}
-	{	mov ( 127.474 -101.032 216.394 ) rotz ( 32.7457 ) roty ( -5.0288 ) rotx ( 7.76157 )
-		scal ( 0.113514 -0.139093 0.113514 ) obj TK05 /* "TK\TK05.suf" atr "アクセント2" */
-	}
-	{	mov ( 206.819 -65.9641 357.873 ) rotz ( -115.468 ) roty ( -79.2361 ) rotx ( 63.9078 )
-		scal ( 0.230552 0.361028 0.436365 ) obj SD06 /* "SD\SD06.suf" atr "アクセント2" */
-	}
-	{	mov ( -40 180 340 ) rotz ( 145 ) roty ( -30 ) rotx ( 90 )
+	{	mov ( -14.7843 180 313.024 ) rotz ( 145 ) roty ( -26.3645 ) rotx ( 98.3439 )
 		scal ( 0.360157 0.2 0.360157 ) obj S102 /* "S1\S102.suf" atr "アクセント2" */
-	}
-	{	mov ( -40 -180 340 ) rotz ( -145 ) roty ( -30 ) rotx ( -90 )
-		scal ( 0.360157 -0.2 0.360157 ) obj S102 /* "S1\S102.suf" atr "アクセント2" */
 	}
 	{	mov ( -141.923 -170.073 105.016 ) rotz ( 20 ) roty ( -55 ) rotx ( -5 )
 		scal ( 0.681709 -0.586517 0.644178 ) obj roetc04 /* "roetc\roetc04.suf" atr "メイン" */
+	}
+	{	mov ( 0 264.403 31.6252 ) rotz ( 90 ) roty ( -24.5142 ) rotx ( 0 )
+		scal ( 0.904569 1.08811 0.54482 ) obj armor08 /* "armor\armor08.suf" atr "メイン" */
+	}
+	{	mov ( 83.5114 100 379.127 ) rotz ( 138.549 ) roty ( -57.7222 ) rotx ( 83.3693 )
+		scal ( 0.298792 0.153676 0.360157 ) obj S102 /* "S1\S102.suf" atr "アクセント2" */
+	}
+	{	mov ( -14.7843 -180 313.024 ) rotz ( -145 ) roty ( -26.3645 ) rotx ( -98.3439 )
+		scal ( 0.360157 -0.2 0.360157 ) obj S102 /* "S1\S102.suf" atr "アクセント2" */
+	}
+	{	mov ( 83.5114 -100 379.127 ) rotz ( -138.549 ) roty ( -57.7222 ) rotx ( -83.3693 )
+		scal ( 0.298792 -0.153676 0.360157 ) obj S102 /* "S1\S102.suf" atr "アクセント2" */
+	}
+	{	mov ( 0 309.081 -60.1557 ) rotz ( 90 ) roty ( -6.32518 ) rotx ( 0 )
+		scal ( 0.904569 0.946916 0.54482 ) obj armor08 /* "armor\armor08.suf" atr "メイン" */
+	}
+	{	mov ( 0 323.35 -158.682 ) rotz ( 90 ) roty ( -0.86959 ) rotx ( 0 )
+		scal ( 0.904569 0.835457 0.54482 ) obj armor08 /* "armor\armor08.suf" atr "メイン" */
 	}
 }
